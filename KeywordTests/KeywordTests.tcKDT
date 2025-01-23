@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<folder name="Tests">
+			<folder name="HUB">
+				<folder name="Quotations">
+					<child name="TC_1_QWYK_129_HUB_CreateFCLQuote_Open" key="{730FAB02-7835-4E34-880E-645F59C3C6F0}" path="TC_1_QWYK_129_HUB_CreateFCLQuote_Open.tcKDTest" />
+					<child name="TC_2_QWYK_131_HUB_Close_Ground_Open" key="{18AF2D26-47C1-46D3-8713-82D0F1002031}" path="TC_2_QWYK_131_HUB_Close_Ground_Open.tcKDTest" />
+					<child name="TC_3_QWYK_132_HUB_Draft_Air" key="{E8BFA9C1-1E97-4468-91AE-F59B8A11DA4B}" path="TC_3_QWYK_132_HUB_Draft_Air.tcKDTest" />
+					<child name="TC_4_QWYK_133_HUB_Quotation_LCL_Open" key="{8EA8D539-E0BD-45BF-BDDB-99CE870F2A11}" path="TC_4_QWYK_133_HUB_Quotation_LCL_Open.tcKDTest" />
+					<child name="TC_5_QWYK_143_HUB_Quotation_Open_Truck_LTL" key="{A403A995-8EEA-4F08-9F50-64584A951137}" path="TC_5_QWYK_143_HUB_Quotation_Open_Truck_LTL.tcKDTest" />
+					<child name="TC_6_QWYK_HUB_Quotation_DownloadCopyDelete" key="{363C6EFB-1F56-4CB1-A2B0-A44EEFC68844}" path="TC_6_QWYK_HUB_Quotation_DownloadCopyDelete.tcKDTest" />
+					<child name="TC_7_QWYK_139_HUB_QuotationEdit_Offers_Air_Quotation" key="{85DB1E13-9A32-4718-83A9-41246C6176EC}" path="TC_7_QWYK_139_HUB_QuotationEdit_Offers_Air_Quotation.tcKDTest" />
+					<child name="TC_8_QWYK_142_HUB_QuotationCreate_Offer_Ocean_LCL_Quotation" key="{32170393-9904-4363-A43D-F0B938E6D1E2}" path="TC_8_QWYK_142_HUB_QuotationCreate_Offer_Ocean_LCL_Quotation.tcKDTest" />
+					<child name="TC_9_QWYK_158_HUB_Quotation__Download_All_Quotations" key="{AEFFEFB3-EFFC-4F5D-9B24-3A3E7741FDB6}" path="TC_9_QWYK_158_HUB_Quotation__Download_All_Quotations.tcKDTest" />
+					<child name="TC_10_QWYK_162_HUB_Request_ChangeStatus_to_Close" key="{1F57ADB9-C34B-4DD6-A6D0-4D21FF764E12}" path="TC_10_QWYK_162_HUB_Request_ChangeStatus_to_Close.tcKDTest" />
+				</folder>
+				<folder name="Shipments">
+					<child name="TC_16_QWYK_283_Hub_Shipments__no_Magaya_Integration_" key="{472D9703-4AC1-428D-BFCD-54D1CE0AD18A}" path="TC_16_QWYK_283_Hub_Shipments__no_Magaya_Integration_.tcKDTest" />
+				</folder>
+				<folder name="Home">
+					<child name="TC_17_QWYK_280_Hub_Home" key="{C04A8737-EEF7-4268-8B6A-07DB5CF1A687}" path="TC_17_QWYK_280_Hub_Home.tcKDTest" />
+				</folder>
+				<folder name="Radar">
+					<child name="TC__18_QWYK_281_Hub_Radar" key="{0E2B9721-9FF6-4451-9B73-8FB023CA5199}" path="TC__18_QWYK_281_Hub_Radar.tcKDTest" />
+				</folder>
+			</folder>
+			<folder name="Portal">
+				<child name="TC_11_QWYK_145_Portal_QuotationFCL_Buyer_Booked" key="{DB659027-D1EC-4BC7-9C48-F7974326E62C}" path="TC_11_QWYK_145_Portal_QuotationFCL_Buyer_Booked.tcKDTest" />
+				<child name="TC_12_QWYK_146_Portal_QuotationLCL_Requested" key="{2DEFE87B-71D0-4222-A69B-EC1A20902903}" path="TC_12_QWYK_146_Portal_QuotationLCL_Requested.tcKDTest" />
+				<child name="TC_13_QWYK_149_Portal_QuotationTruck_Full_FTLBuyerRequested" key="{B6EB28FE-C7B6-43E3-A08B-5209383F9AD3}" path="TC_13_QWYK_149_Portal_QuotationTruck_Full_FTLBuyerRequested.tcKDTest" />
+				<child name="TC_14_QWYK_150_Portal_QuotationTrucLTL_SellerRequested" key="{330BA411-AB18-4BA7-83D6-FE66D3B2B574}" path="TC_14_QWYK_150_Portal_QuotationTrucLTL_SellerRequested.tcKDTest" />
+				<child name="TC_15_QWYK_152_Portal_QuotationAIR_BuyerRequested" key="{0D85D1AA-1262-4403-BFD8-E4B56FD84B0C}" path="TC_15_QWYK_152_Portal_QuotationAIR_BuyerRequested.tcKDTest" />
+			</folder>
+			<folder name="INTEGRATIONMagayaDFP">
+				<folder name="EXTENSIONAPI">
+					<child name="TC_25_512_API_VerifyMapping" key="{5254CD41-32DB-4BD2-8F6B-B4591ACC5982}" path="TC_25_512_API_VerifyMapping.tcKDTest" />
+				</folder>
+				<folder name="CustomerContact">
+					<child name="TC_22_580_IntAuthentication" key="{60478CEE-BA1C-4091-A4EE-5B23196F560B}" path="TC_22_580_IntAuthentication.tcKDTest" />
+					<child name="TC_23_329_NewMagayaCustomer" key="{98009B64-E1F1-40A9-8423-8DAEB2CB2027}" path="TC_23_329_NewMagayaCustomer.tcKDTest" />
+					<child name="TC_24_1275_PortalNewUser" key="{5D4133C7-D5AF-4C31-B9E5-8E587C823C4E}" path="TC_24_1275_PortalNewUser.tcKDTest" />
+				</folder>
+				<folder name="Shipments">
+					<child name="TC_26_553_DFPJPGToMagaya_ConvertShipment" key="{7E1A95A4-E082-4CC0-B8AE-36BC5FC0C5DC}" path="TC_26_553_DFPJPGToMagaya_ConvertShipment.tcKDTest" />
+					<child name="TC_27_840_858_28DFPToMagaya_UpdateBookingMagaya" key="{B9318F03-93DF-4056-9620-86BF100B90A4}" path="TC_27_840_858_28DFPToMagaya_UpdateBookingMagaya.tcKDTest" />
+				</folder>
+				<folder name="INVOICE">
+					<child name="TC_35_1083_38_1087MagayaToDFP_InvoiceMagayaAttch" key="{525454B4-50FE-4DC5-9E0E-D807136ACC2B}" path="TC_35_1083_38_1087MagayaToDFP_InvoiceMagayaAttch.tcKDTest" />
+					<child name="TC_36_1084_37_1086MagayaToDFP_UpdateInvoiceEventAut" key="{CE50E58C-421E-4736-A618-8CC800D450BA}" path="TC_36_1084_37_1086MagayaToDFP_UpdateInvoiceEventAut.tcKDTest" />
+					<child name="TC_39_1089_DFP_AddAttachments_VerifyMagaya" key="{11677AF1-DAFD-4AF6-8469-90F8ED34E4D3}" path="TC_39_1089_DFP_AddAttachments_VerifyMagaya.tcKDTest" />
+					<child name="TC_40_1107_DFPReportsDownloadExcel" key="{9A5E4429-08F4-4761-9F0D-016BD166B659}" path="TC_40_1107_DFPReportsDownloadExcel.tcKDTest" />
+				</folder>
+			</folder>
+		</folder>
+		<folder name="Utils">
+			<folder name="HUB">
+				<folder name="Quotation">
+					<folder name="Charge">
+						<child name="AddCharge" key="{11BBC002-6EC3-4070-917C-655BC9E6181F}" path="AddCharge.tcKDTest" />
+						<child name="EditCharge" key="{4D39F010-4743-4B71-916F-3CA6C7BC2616}" path="EditCharge.tcKDTest" />
+						<child name="EditSelectedCharge" key="{65344F09-9EA8-4D60-9402-C010620BF767}" path="EditSelectedCharge.tcKDTest" />
+						<child name="DeleteSelectedCharge" key="{48DFC747-889C-4264-AF74-9BD847D82777}" path="DeleteSelectedCharge.tcKDTest" />
+					</folder>
+					<folder name="SearchPanel">
+						<child name="AddDimensions" key="{B55EB04E-9B9A-4F68-9F8A-835D49740D21}" path="AddDimensions.tcKDTest" />
+						<child name="CloseQuote" key="{474A5770-1883-4059-84BB-D8A51218E458}" path="CloseQuote.tcKDTest" />
+						<child name="CopyQuote" key="{9F0F84B3-E8B4-4771-9F03-87DE5407C384}" path="CopyQuote.tcKDTest" />
+						<child name="CreateQuote" key="{E27736A4-15C5-4D08-82C1-117DB45251E9}" path="CreateQuote.tcKDTest" />
+						<child name="CreateQuotePage2" key="{6D7237FE-C140-4F94-BDD2-5F5A501769EE}" path="CreateQuotePage2.tcKDTest" />
+						<child name="DeleteQuoteHUB" key="{AD80298E-EB28-49BC-91BD-211BA7C75824}" path="DeleteQuoteHUB.tcKDTest" />
+						<child name="DownloadQuote" key="{9DC2E921-96C3-4D50-8321-A7F5D0D06776}" path="DownloadQuote.tcKDTest" />
+						<child name="OpenQuoteValues" key="{2F69A298-66E8-4016-96E2-044DD259B1ED}" path="OpenQuoteValues.tcKDTest" />
+						<child name="Origin_Destination" key="{E03D147C-71E5-4506-98B0-BDA6A1D38626}" path="Origin_Destination.tcKDTest" />
+						<child name="PublishQuote" key="{4B72D815-8D13-4AB2-A472-1F935AEA9FF5}" path="PublishQuote.tcKDTest" />
+						<child name="SearchQuoteHUB" key="{375943D3-2B8F-4428-B91C-C8F8FB484C2B}" path="SearchQuoteHUB.tcKDTest" />
+						<child name="SelectFullLoad" key="{18F8600C-B557-47C5-A04C-8874CE32FC6F}" path="SelectFullLoad.tcKDTest" />
+						<child name="SelectPartialLoad" key="{27FE0BC0-7CA0-45BE-9062-F9B55B2C5580}" path="SelectPartialLoad.tcKDTest" />
+						<child name="CreateNewOffer" key="{472D81C5-E525-4035-8FCF-8F7A7896E0EF}" path="CreateNewOffer.tcKDTest" />
+						<child name="SearchQuoteIDHUB" key="{2A8B501E-C2D4-4159-83ED-425A52C6DFB7}" path="SearchQuoteIDHUB.tcKDTest" />
+						<child name="DownloadPDFVerifyNote" key="{81990D2C-AE69-431D-BE54-9072109EC4A6}" path="DownloadPDFVerifyNote.tcKDTest" />
+					</folder>
+					<folder name="Filters">
+						<child name="FilterCompletedStatus" key="{1FA2E623-2625-40B6-8F99-34D054437A9F}" path="FilterCompletedStatus.tcKDTest" />
+						<child name="FilterShipmentReference" key="{D4E50CCE-7410-4452-8E7D-56A065C9428D}" path="FilterShipmentReference.tcKDTest" />
+						<child name="FilterCustomer" key="{E4705944-FA7F-4A68-AE3C-C1E74421F584}" path="FilterCustomer.tcKDTest" />
+						<child name="FilterCustomerReference" key="{0071B182-5663-4194-AE87-C73ED2ED5164}" path="FilterCustomerReference.tcKDTest" />
+						<child name="FilterStatus" key="{FE41C77C-B068-462B-8252-C78F373D464C}" path="FilterStatus.tcKDTest" />
+						<child name="FilterBookingDate" key="{E4ECD0E5-743E-4D1F-94B1-8B8C7606D2CF}" path="FilterBookingDate.tcKDTest" />
+						<child name="FilterMilestoneConfirmed" key="{81E99073-89C8-4469-A4F0-3D86D05F22B5}" path="FilterMilestoneConfirmed.tcKDTest" />
+						<child name="FilterMasterBL" key="{BD7174DF-A382-4F83-85E5-BA4E335D95AE}" path="FilterMasterBL.tcKDTest" />
+						<child name="FilterHouseBL" key="{1AC575E1-CE59-4AC9-AC8A-4480C06B8038}" path="FilterHouseBL.tcKDTest" />
+						<child name="FilterETD" key="{0962CC3C-57DD-4479-88A7-CE3E88A6A324}" path="FilterETD.tcKDTest" />
+						<child name="FilterETA" key="{E5311F0B-3A99-43B9-A270-9663E27CAD56}" path="FilterETA.tcKDTest" />
+						<child name="FilterAccountManager" key="{B4515394-E216-4238-95B3-BD64EDA5816A}" path="FilterAccountManager.tcKDTest" />
+						<child name="FilterProduct" key="{5D23E153-B7AC-4899-BAA1-2F91B66C9F4F}" path="FilterProduct.tcKDTest" />
+						<child name="FilterSort" key="{84F8B4DE-23BF-492E-B398-23C3F573A3D9}" path="FilterSort.tcKDTest" />
+						<child name="FilterVessel" key="{DF52A560-6C2E-4D85-A90D-2D0638791F0C}" path="FilterVessel.tcKDTest" />
+					</folder>
+					<child name="VerifyBookedQuoteHUB" key="{BE5C204D-FD5F-4EA1-A57D-141D56728D68}" path="VerifyBookedQuoteHUB.tcKDTest" />
+					<child name="VerifyRequestedQuoteHUB" key="{F8828B3B-E642-4C6E-81EE-7830D782BEEA}" path="VerifyRequestedQuoteHUB.tcKDTest" />
+				</folder>
+				<folder name="INTEGRATIONHUB">
+					<child name="VerifyNotificationAndAccess" key="{7B59D82B-EF49-4DCA-B3AE-407D8428B6A1}" path="VerifyNotificationAndAccess.tcKDTest" />
+				</folder>
+			</folder>
+			<folder name="Portal">
+				<folder name="Quotation">
+					<child name="SearchQuotePortal" key="{0CA2ECB4-CBF2-43CA-ABB7-9FC612022D00}" path="SearchQuotePortal.tcKDTest" />
+					<child name="VerifyQuotePortal" key="{5F26D8F8-9566-4AB7-B46D-575F32884D86}" path="VerifyQuotePortal.tcKDTest" />
+					<child name="PortalCreateQuotationFirst" key="{E5897E6D-D34B-4C74-B0C7-492FB32B0EE9}" path="PortalCreateQuotationFirst.tcKDTest" />
+					<child name="OriginDestinationPortal" key="{9CA1DE58-D09C-4AA0-B295-76F88936CFEE}" path="OriginDestinationPortal.tcKDTest" />
+					<child name="BookedQuoteAndVerifyShipment" key="{653F8FF5-266E-4F31-8FFA-D5CD77981019}" path="BookedQuoteAndVerifyShipment.tcKDTest" />
+					<child name="VerifyNotifications" key="{645DFD81-9A5F-4EEC-9427-4C94C3716DB1}" path="VerifyNotifications.tcKDTest" />
+					<child name="VerifyBookedQuotePortal" key="{459CCB47-6BEB-4BA8-BE02-3EBBAA98964D}" path="VerifyBookedQuotePortal.tcKDTest" />
+					<child name="SelectOceanFCLPortal" key="{105F379F-5B83-4723-9E31-67DE045EB44F}" path="SelectOceanFCLPortal.tcKDTest" />
+					<child name="CreateQuotePortal" key="{398FC07A-5404-4E86-8F01-46FB309A0CCF}" path="CreateQuotePortal.tcKDTest" />
+					<child name="SelectOceanLCLPortal" key="{BFF0CE63-1EE9-4D4B-B156-C9F4DDEAE76F}" path="SelectOceanLCLPortal.tcKDTest" />
+					<child name="EnterDimensionsPortal" key="{8F238604-6D1F-426B-8434-7082AAA4E047}" path="EnterDimensionsPortal.tcKDTest" />
+					<child name="RequestNewRate" key="{E8342561-4A4F-44EC-8387-9012A14EA042}" path="RequestNewRate.tcKDTest" />
+					<child name="SelectTruckFullFTLPortal" key="{4EB747C7-6C63-4B84-87FA-6C2F34A4A82E}" path="SelectTruckFullFTLPortal.tcKDTest" />
+					<child name="FullOptionsPortal" key="{AE3E34B8-5332-4B13-9EBA-BB78D89E326E}" path="FullOptionsPortal.tcKDTest" />
+					<child name="SelectTruckLTLPortal" key="{FD4C6BA7-53A7-4A5B-B46D-98E3349EF15A}" path="SelectTruckLTLPortal.tcKDTest" />
+					<child name="LTLOptionsPortal" key="{24B996B6-4ECA-48EA-9B89-E9A64B476A84}" path="LTLOptionsPortal.tcKDTest" />
+					<child name="SelectAIRPortal" key="{851EA60D-7BDD-45F7-875B-2AA99DC3A403}" path="SelectAIRPortal.tcKDTest" />
+					<child name="CreateShipmentCompleteData" key="{C495D104-F792-4841-BCF2-DCF55231F519}" path="CreateShipmentCompleteData.tcKDTest" />
+					<child name="CompleteShipmentData" key="{D94D3FA5-FDB7-4B3C-8C88-A3C751C75B2D}" path="CompleteShipmentData.tcKDTest" />
+				</folder>
+				<folder name="INTEGRATION">
+					<folder name="INVOICES">
+						<child name="SearchInvoice" key="{DFC2F59A-7C02-4023-BB0E-64C109BCE3F9}" path="SearchInvoice.tcKDTest" />
+						<child name="VerifyInvoice" key="{86F04BD0-1D95-43C6-AD1C-C63BA1F5B719}" path="VerifyInvoice.tcKDTest" />
+						<child name="VerifyInvoiceUpdated" key="{0C3DDAB5-5E2C-4021-9A15-B4C2914F2CEA}" path="VerifyInvoiceUpdated.tcKDTest" />
+						<child name="VerifyDFPCustomFields" key="{229A122E-727C-4EEB-B65C-71E23585A330}" path="VerifyDFPCustomFields.tcKDTest" />
+						<child name="ReportInvoicesSaved" key="{BFBC57DC-D6AA-4BD3-BD22-35D129DF0938}" path="ReportInvoicesSaved.tcKDTest" />
+						<child name="DownloadReport" key="{7BE26874-D049-465F-B8AE-11BBE051FB2D}" path="DownloadReport.tcKDTest" />
+					</folder>
+					<folder name="Register">
+						<child name="CustomerCompleteAcc" key="{A5A46478-72C3-4E18-AB81-40314D6F6C21}" path="CustomerCompleteAcc.tcKDTest" />
+						<child name="RegisterUser" key="{7B82DF6C-AC52-4B23-90E2-9D07D52B523D}" path="RegisterUser.tcKDTest" />
+					</folder>
+					<folder name="Shipments">
+						<child name="SearchShipment" key="{77C16EA0-F360-4917-A363-27CFCC463715}" path="SearchShipment.tcKDTest" />
+						<child name="VerifyUpdatedShipment" key="{E26CC0F3-55E2-435B-9DF2-B77E4248F240}" path="VerifyUpdatedShipment.tcKDTest" />
+					</folder>
+					<folder name="UploadAttachment">
+						<child name="AddGenericAttachmentDFP" key="{BE765EEA-98FD-4045-B4CF-B56B377D05B4}" path="AddGenericAttachmentDFP.tcKDTest" />
+						<child name="AddAttachmentDFPShipment" key="{F0672EB0-95CC-40C5-84BE-586446818437}" path="AddAttachmentDFPShipment.tcKDTest" />
+					</folder>
+				</folder>
+			</folder>
+			<folder name="Email">
+				<child name="VerifyQuoteEmail" key="{2141D23D-F9D7-42DC-A4C4-1CF16C23B1A2}" path="VerifyQuoteEmail.tcKDTest" />
+				<child name="CreateYopmail" key="{ECA8917A-71CC-4012-AD69-6FB6E43E726A}" path="CreateYopmail.tcKDTest" />
+				<child name="VerifyEmailConfirmation" key="{ACBB1A0A-2975-4EEA-A2F2-4C41155C548F}" path="VerifyEmailConfirmation.tcKDTest" />
+			</folder>
+			<folder name="LoginAndLogout">
+				<child name="LoginHUB" key="{4ED58886-D55E-4D76-A5DC-13B0CF155C59}" path="LoginHUB.tcKDTest" />
+				<child name="LoginPortal" key="{2B350384-F770-4C33-86C7-6D418FB01030}" path="LoginPortal.tcKDTest" />
+				<child name="LogoutHUB" key="{DA46A148-2A02-45A8-856B-04D08BFAA2EB}" path="LogoutHUB.tcKDTest" />
+				<child name="LogoutPOrtal" key="{01D2BD45-4D0E-4889-8568-907B69F0354F}" path="LogoutPOrtal.tcKDTest" />
+				<child name="LogoutHubINT" key="{25D0890C-B454-41D7-B6FC-632037AF3906}" path="LogoutHubINT.tcKDTest" />
+				<child name="LoginHubNoInt" key="{9EE31A61-3C5D-4E09-9C85-092D509FEFE8}" path="LoginHubNoInt.tcKDTest" />
+				<child name="loginPortal38361" key="{8BBFFEE1-C2F0-41BD-B110-76772825E0F8}" path="loginPortal38361.tcKDTest" />
+				<child name="VerifyLoginDFP" key="{1520FDEB-454E-4A56-A3F3-07344FFB3C84}" path="VerifyLoginDFP.tcKDTest" />
+				<child name="LoginHub38361" key="{C654C456-CAFD-4735-A74A-B369706F4D2E}" path="LoginHub38361.tcKDTest" />
+			</folder>
+			<folder name="Magaya">
+				<folder name="Loginlogout">
+					<child name="LoginMagaya" key="{84D4BD85-0590-4194-90CD-10C1FB2D5D75}" path="LoginMagaya.tcKDTest" />
+					<child name="LogoutMagaya" key="{C80C0471-91CA-40BC-814C-CCB6263EFA1B}" path="LogoutMagaya.tcKDTest" />
+				</folder>
+				<folder name="Maintenance">
+					<child name="AddContactNoEmail" key="{A64378D5-8F0C-4DEE-9AF2-C6FFECBEB08C}" path="AddContactNoEmail.tcKDTest" />
+					<child name="DeleteContact" key="{AEA31C19-2DB3-4666-82E2-E902B1089E07}" path="DeleteContact.tcKDTest" />
+					<child name="AddNewCustomer" key="{B0CF686E-B9E0-4D22-9CE4-124428673DB8}" path="AddNewCustomer.tcKDTest" />
+					<child name="DeleteCustomer" key="{4E21B600-5FE2-4463-AD41-4777F75C21F8}" path="DeleteCustomer.tcKDTest" />
+				</folder>
+				<folder name="Filters">
+					<child name="FilterContact" key="{7318B72C-74D6-4B66-80C2-3FC06F1D8DCC}" path="FilterContact.tcKDTest" />
+					<child name="AdvancedFilterBy" key="{E2A6CF1A-9DDB-46BE-9228-3AA8DDAC081D}" path="AdvancedFilterBy.tcKDTest" />
+					<child name="Unfilter" key="{3252532B-A8DD-4C6E-87E7-CB0103FD6CBD}" path="Unfilter.tcKDTest" />
+					<child name="AdvancedFilter" key="{41D67DA6-2A8B-42F5-B276-C220521DDFC4}" path="AdvancedFilter.tcKDTest" />
+				</folder>
+				<folder name="EXTENSIONAPI">
+					<child name="VerifyTestConectionAPI" key="{AB3C1A92-763E-431B-958D-3CA7130DF50C}" path="VerifyTestConectionAPI.tcKDTest" />
+				</folder>
+				<folder name="INVOICES">
+					<child name="CreateInvoice" key="{2506CFDB-944C-43D9-9619-3732189CE569}" path="CreateInvoice.tcKDTest" />
+					<child name="AddNotes" key="{01FB5671-2EBA-4A0F-AFC8-408E39CE8C9D}" path="AddNotes.tcKDTest" />
+					<child name="AddMoreInfoFields" key="{B28DD6E2-368F-4DAB-B7F1-74ADB9A960EF}" path="AddMoreInfoFields.tcKDTest" />
+					<child name="VerifyAutomaticEventMagaya" key="{4D677B0E-C2C4-47F1-88EC-3C21A25C5F7B}" path="VerifyAutomaticEventMagaya.tcKDTest" />
+					<child name="VerifyAttachmentFromDFP" key="{3C33548D-F6D8-4FD4-A93A-2BD481F185B0}" path="VerifyAttachmentFromDFP.tcKDTest" />
+					<child name="CreateInvoiceWihtouAttch" key="{E148B541-8E7F-423C-97A8-4BE0B85FF4EF}" path="CreateInvoiceWihtouAttch.tcKDTest" />
+				</folder>
+				<folder name="UPLOAD">
+					<child name="PathVarAndUploadAtt" key="{19715D24-3226-4A62-98FD-17545788939A}" path="PathVarAndUploadAtt.tcKDTest" />
+					<child name="AddAttachments" key="{1CE4471D-8C2C-485A-855D-0D2D16B9F0EA}" path="AddAttachments.tcKDTest" />
+				</folder>
+				<folder name="LiveTrack">
+					<child name="ApproveInvoice" key="{1586C607-B365-4ABE-AE7E-A73DFF9C239D}" path="ApproveInvoice.tcKDTest" />
+					<child name="LoginLiveTrack" key="{59C0CBB8-63BB-4B6A-B51C-AE7A2B77BB78}" path="LoginLiveTrack.tcKDTest" />
+					<child name="FilterNumber" key="{671CE4A4-85F1-4CA7-981F-E716482396DF}" path="FilterNumber.tcKDTest" />
+				</folder>
+				<folder name="UPDATE">
+					<child name="UpdateAttachment" key="{21F7491F-3850-4968-A8B4-5B54239F20B7}" path="UpdateAttachment.tcKDTest" />
+					<child name="UpdateEvent" key="{F5BE8366-4099-49D9-8E5F-8A4EF00C98FB}" path="UpdateEvent.tcKDTest" />
+					<child name="UpdateINVCharge" key="{C0B7BDDC-5BD4-4F4F-ACED-CFBBF0A07FA1}" path="UpdateINVCharge.tcKDTest" />
+					<child name="UpdateNotes" key="{1FEBB7AB-A526-4713-9780-A5E16D58A840}" path="UpdateNotes.tcKDTest" />
+					<child name="UpdateINVCustomFields" key="{F680A045-0891-4124-938C-D775D83EF49E}" path="UpdateINVCustomFields.tcKDTest" />
+					<child name="UpdateInvoiceNumber" key="{FC3F82A7-7496-43F9-970B-E28E84FD4B67}" path="UpdateInvoiceNumber.tcKDTest" />
+					<child name="UpdateGeneralCommodityRef" key="{9F3EA58F-4F55-4C37-B29B-231C12AB9DCA}" path="UpdateGeneralCommodityRef.tcKDTest" />
+					<child name="UpdateEntities" key="{CD7FC6AA-0C98-4B66-8912-D5C54B826EAA}" path="UpdateEntities.tcKDTest" />
+					<child name="UpdateRouting" key="{EF165CCF-E27F-4733-B323-1A3655170AD1}" path="UpdateRouting.tcKDTest" />
+					<child name="UpdateCommoditiesTab" key="{3ACD4AE5-78BB-462E-8F45-DA64BED93C07}" path="UpdateCommoditiesTab.tcKDTest" />
+					<child name="UpdateChargeTab" key="{8E10845B-8A9D-4D00-9BBC-90505D461B2C}" path="UpdateChargeTab.tcKDTest" />
+					<child name="UpdateMoreInfoShipment" key="{A4E1A212-A35D-48DD-BFBB-CC3D381C2974}" path="UpdateMoreInfoShipment.tcKDTest" />
+				</folder>
+				<folder name="SHIPMENTS">
+					<child name="VerifyShipmentCreated" key="{9171ACD9-41B5-4CF4-A5BA-0BB00CADAEE3}" path="VerifyShipmentCreated.tcKDTest" />
+				</folder>
+				<folder name="BOOKING">
+					<child name="VerifyBookingInfo" key="{FBA58F6C-6FC0-4AFB-9E3B-B41DDF153243}" path="VerifyBookingInfo.tcKDTest" />
+					<child name="CreateShipmentFromBooking" key="{894B27F1-B3F9-4DA9-A975-9AEB879592DE}" path="CreateShipmentFromBooking.tcKDTest" />
+					<child name="VerifyAttachmentDFPParam" key="{B4A619B2-8A02-43ED-8DE6-4F2B75B71689}" path="VerifyAttachmentDFPParam.tcKDTest" />
+					<child name="UpdateBookingMagaya" key="{EC8C3CB2-6CFE-4D57-8E8A-5AA9214803B3}" path="UpdateBookingMagaya.tcKDTest" />
+				</folder>
+			</folder>
+		</folder>
+		<folder name="Hooks">
+			<child name="Hooks_OnLogError" key="{05D776AA-2F6A-494A-B722-0EE236C75E28}" path="Hooks_OnLogError.tcKDTest" />
+		</folder>
+	</children>
+</Root>

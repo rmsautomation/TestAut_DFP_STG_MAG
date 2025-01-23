@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{3252532B-A8DD-4C6E-87E7-CB0103FD6CBD}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45678.6819907407" objectName="Aliases.ExpExpl.wndAfx2.AfxMDIFrame140u.AfxFrameOrView140u.page327702.page32770.toolbar" objectLeft="307" objectTop="140" objectRight="550" objectBottom="170" clickPointX="535" clickPointY="152" imageFileName="tcvi6512265657960.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45678.6820023148" objectName="Aliases.ExpExpl.wndAfx2.AfxMDIFrame140u.AfxFrameOrView140u.page327702.page32770.toolbar" objectLeft="307" objectTop="140" objectRight="1919" objectBottom="171" clickPointX="-1" clickPointY="-1" imageFileName="tcvi6512468757962.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>
