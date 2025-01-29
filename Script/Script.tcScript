@@ -13,5 +13,8 @@
 		<child name="CloseMagaya" key="{B6CEE812-4D41-4571-AC2D-74FCBFDFE049}" path="CloseMagaya.js" />
 		<child name="VerifyUploadDocInDFPListView" key="{1CC1C193-24CA-40AE-8F39-5BF5519C9961}" path="VerifyUploadDocInDFPListView.js" />
 		<child name="DownloadReportXLSX" key="{C0D54A33-FCFB-4BF1-B92D-3095C96EDD28}" path="DownloadReportXLSX.js" />
+		<child name="OpenExtension" key="{EB2B6E85-0796-45C1-9FE7-40A765AB1FB8}" path="OpenExtension.js" />
+		<child name="SaveCharge" key="{DBEB1BA6-0B28-4106-8973-BEF7757C1E0C}" path="SaveCharge.js" />
+		<child name="Charges" key="{36F11C1A-7A30-4C15-9518-581B72D6C4E3}" path="Charges.js" />
 	</children>
 </Root>

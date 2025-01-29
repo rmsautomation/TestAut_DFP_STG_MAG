@@ -5023,6 +5023,9 @@
 										<TypeInfo Item0="{8A34ED57-033C-4E01-B624-E540D7FA56BB}" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=//div[contains(normalize-space(text()), &apos;Cartage Fee&apos;)]" />
+											</Selector>
+											<Selector>
 												<Value Value="//div[contains(text(), &apos;Cartage Fee&apos;)]" />
 											</Selector>
 											<Selector>
@@ -8278,6 +8281,69 @@
 										<Selectors>
 											<Selector>
 												<Value Value="//div[.=&apos;600.00&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelCartageFee" Key="{A6A18292-A8C5-4036-8BDC-070C398BBEC9}">
+										<Image FileName="647849397" Left="385" Top="611" Right="1061" Bottom="633" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Air Cargo Automation (origin)&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[157]/div[contains(@class, &apos;col-6&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelCartageFee2" Key="{D4EF5A74-CC2F-4E1D-B7F6-0BD0A2CF84CF}">
+										<Image FileName="647849397" Left="385" Top="729" Right="1061" Bottom="751" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Advance Charges (origin)&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[161]/div[contains(@class, &apos;col-6&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{40F3F53E-2767-4286-AFFD-C605C158D50D}">
+										<Image FileName="-419964830" Left="385" Top="546" Right="1061" Bottom="568" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[contains(normalize-space(text()), &apos;20 FT PREMIUM&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;20 FT PREMIUM (origin)&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[183]/div[contains(@class, &apos;col-6&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelCartageFee3" Key="{CF6F6C83-B52F-4780-8A9C-A048129D43FF}">
+										<Image FileName="-419964830" Left="385" Top="427" Right="1061" Bottom="449" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Delivery Charge (destination)&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[179]/div[contains(@class, &apos;col-6&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelAgentProfitShare" Key="{BBE7B147-013C-47E5-A889-7815EB3A1381}">
+										<Image FileName="2117985768" Left="385" Top="664" Right="1061" Bottom="686" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[normalize-space(text()) = &apos;Agent profit share&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[191]/div[contains(@class, &apos;col-6&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -12682,6 +12748,43 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodePreInvoice" Key="{CE36AAA6-311D-43B2-ABEC-339AA7DA1BFF}">
+										<Image FileName="-488879444" Left="235" Top="-4987" Right="1333" Bottom="718" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;PRE-INVOICE&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-related-invoices-list/ul[contains(@class, &apos;list-group&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-related-invoices-list/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePreInvoice2" Key="{8350C7EE-9C1B-4C56-AD9C-18FD8F3B522D}">
+										<Image FileName="-488879444" Left="235" Top="-4987" Right="1333" Bottom="718" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;PRE-INVOICE&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-related-invoices-list/ul/li[contains(@class, &apos;list-group-item&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-related-invoices-list/ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelCartageFee" Key="{8A05DC20-BFA3-4C0E-BDCF-45A08C2B11A4}">
+										<Image FileName="-488879444" Left="245" Top="605" Right="784" Bottom="627" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[normalize-space(text()) = &apos;Storage Fee&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{04F3F450-5526-4092-96D2-21C0884F59D5}">
@@ -16668,6 +16771,11 @@
 						<Child Name="textnodeCartageFee" Owner="{360A1029-4C2B-4566-8EA8-8B6604927743}">
 							<Child Name="panel15000" Owner="{8C1941D7-ECAF-4328-B26A-F4BD7E140C25}" />
 							<Child Name="panel60000" Owner="{6A98707A-9D3F-4BE3-90AE-3A61F050EC9C}" />
+							<Child Name="panelCartageFee" Owner="{A6A18292-A8C5-4036-8BDC-070C398BBEC9}" />
+							<Child Name="panelCartageFee2" Owner="{D4EF5A74-CC2F-4E1D-B7F6-0BD0A2CF84CF}" />
+							<Child Name="panel20FT" Owner="{40F3F53E-2767-4286-AFFD-C605C158D50D}" />
+							<Child Name="panelCartageFee3" Owner="{CF6F6C83-B52F-4780-8A9C-A048129D43FF}" />
+							<Child Name="panelAgentProfitShare" Owner="{BBE7B147-013C-47E5-A889-7815EB3A1381}" />
 						</Child>
 					</Child>
 					<Child Name="textnodeName" Owner="{241AFD82-6F94-4E23-B3A3-30AADB891278}">
@@ -17071,6 +17179,11 @@
 					<Child Name="textnodeShipper" Owner="{061A3FD1-43F2-4188-84F1-12E981362EF1}">
 						<Child Name="textnodeShipper2" Owner="{D6ED15A1-6BD4-41EB-81A7-FAF1FC126BA6}">
 							<Child Name="panelUpdated" Owner="{3BE93374-15F7-4A42-947E-562BD2953147}" />
+						</Child>
+					</Child>
+					<Child Name="textnodePreInvoice" Owner="{CE36AAA6-311D-43B2-ABEC-339AA7DA1BFF}">
+						<Child Name="textnodePreInvoice2" Owner="{8350C7EE-9C1B-4C56-AD9C-18FD8F3B522D}">
+							<Child Name="panelStorageFee" Owner="{8A05DC20-BFA3-4C0E-BDCF-45A08C2B11A4}" />
 						</Child>
 					</Child>
 				</Child>
