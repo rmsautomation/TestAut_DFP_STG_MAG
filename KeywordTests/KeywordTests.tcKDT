@@ -51,6 +51,9 @@
 					<child name="TC_39_1089_DFP_AddAttachments_VerifyMagaya" key="{11677AF1-DAFD-4AF6-8469-90F8ED34E4D3}" path="TC_39_1089_DFP_AddAttachments_VerifyMagaya.tcKDTest" />
 					<child name="TC_40_1107_DFPReportsDownloadExcel" key="{9A5E4429-08F4-4761-9F0D-016BD166B659}" path="TC_40_1107_DFPReportsDownloadExcel.tcKDTest" />
 				</folder>
+				<folder name="WR">
+					<child name="TC_32_923_MagayaToQWYK_WarehouseReceipt" key="{20595082-685C-47D2-9299-F8E6C1ACE7BC}" path="TC_32_923_MagayaToQWYK_WarehouseReceipt.tcKDTest" />
+				</folder>
 			</folder>
 		</folder>
 		<folder name="Utils">
@@ -147,6 +150,10 @@
 						<child name="AddGenericAttachmentDFP" key="{BE765EEA-98FD-4045-B4CF-B56B377D05B4}" path="AddGenericAttachmentDFP.tcKDTest" />
 						<child name="AddAttachmentDFPShipment" key="{F0672EB0-95CC-40C5-84BE-586446818437}" path="AddAttachmentDFPShipment.tcKDTest" />
 					</folder>
+					<folder name="WR">
+						<child name="SearchWR" key="{9EAA9378-8908-4A42-AF97-807EDE71CF4A}" path="SearchWR.tcKDTest" />
+						<child name="VerifyCreatedWR" key="{5152CB30-354C-4538-816B-5C911CEDE435}" path="VerifyCreatedWR.tcKDTest" />
+					</folder>
 				</folder>
 			</folder>
 			<folder name="Email">
@@ -183,7 +190,9 @@
 					<child name="AdvancedFilter" key="{41D67DA6-2A8B-42F5-B276-C220521DDFC4}" path="AdvancedFilter.tcKDTest" />
 				</folder>
 				<folder name="EXTENSIONAPI">
-					<child name="VerifyTestConectionAPI" key="{AB3C1A92-763E-431B-958D-3CA7130DF50C}" path="VerifyTestConectionAPI.tcKDTest" />
+					<child name="VerifyExtensionISUp" key="{FB563706-692E-4CD1-AB21-C6F69C0DBCEF}" path="VerifyExtensionISUp.tcKDTest" />
+					<child name="MappingChargeBunker" key="{463F9D4C-56F0-4C86-AE45-F8A00D55D9FA}" path="MappingChargeBunker.tcKDTest" />
+					<child name="VerifyAyli" key="{F3C7E78C-DCAB-4DBE-8817-7EDE8BE9B831}" path="VerifyAyli.tcKDTest" />
 				</folder>
 				<folder name="INVOICES">
 					<child name="CreateInvoice" key="{2506CFDB-944C-43D9-9619-3732189CE569}" path="CreateInvoice.tcKDTest" />
@@ -224,6 +233,9 @@
 					<child name="CreateShipmentFromBooking" key="{894B27F1-B3F9-4DA9-A975-9AEB879592DE}" path="CreateShipmentFromBooking.tcKDTest" />
 					<child name="VerifyAttachmentDFPParam" key="{B4A619B2-8A02-43ED-8DE6-4F2B75B71689}" path="VerifyAttachmentDFPParam.tcKDTest" />
 					<child name="UpdateBookingMagaya" key="{EC8C3CB2-6CFE-4D57-8E8A-5AA9214803B3}" path="UpdateBookingMagaya.tcKDTest" />
+				</folder>
+				<folder name="WR">
+					<child name="CreateWR" key="{06D0D3E6-BAD2-4545-822B-C43C2655AB79}" path="CreateWR.tcKDTest" />
 				</folder>
 			</folder>
 		</folder>
