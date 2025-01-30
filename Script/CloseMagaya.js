@@ -1,15 +1,15 @@
 ﻿function closeExpExpl() {
   try {
     var appName = "ExpExpl";
-    var process = Sys.Process(appName);
+    //var process = Sys.Process(appName);
     
-    if (process.Exists) {
-      process.Terminate(); // Termina el proceso si está activo
-      Log.Message("El proceso '" + appName + "' fue cerrado exitosamente.");
+    if ( Sys.Process(appName).Exists) {
+      process.Terminate(); 
+      Log.Message("Process '" + appName + "' was closed.");
     } else {
-      Log.Message("El proceso '" + appName + "' no está en ejecución.");
+      Log.Message("Process '" + appName + "' is not executed");
     }
   } catch (e) {
-    Log.Warning("No se pudo cerrar el proceso 'ExpExpl.exe': " + e.message);
+    Log.Error("The proccess was not closed'ExpExpl.exe': " + e.message);
   }
 }

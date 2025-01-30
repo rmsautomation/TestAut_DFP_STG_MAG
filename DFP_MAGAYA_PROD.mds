@@ -235,6 +235,9 @@
 				<Variable Name="shipmentName" Type="String" Local="False">
 					<DefValue />
 				</Variable>
+				<Variable Name="wr_id" Type="String" Local="False">
+					<DefValue />
+				</Variable>
 			</Items>
 		</data>
 	</variables>
