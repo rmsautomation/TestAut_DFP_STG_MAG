@@ -8289,7 +8289,10 @@
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[contains(text(), &apos;Air Cargo Automation (origin)&apos;)]" />
+												<Value Value="xpath=//div[contains(normalize-space(text()), &apos;Air Cargo Automation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//div[contains(text(), &apos;Air Cargo Automation&apos;)]" />
 											</Selector>
 											<Selector>
 												<Value Value="//div[157]/div[contains(@class, &apos;col-6&apos;)]" />
@@ -12785,6 +12788,51 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panelHandlingFee" Key="{1BCFCC14-4DC2-4945-B283-8A0236B40BA1}">
+										<Image FileName="-290165994" Left="385" Top="575" Right="1061" Bottom="597" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[contains(normalize-space(text()), &apos;Handling Fee&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[197]/div[contains(@class, &apos;col-6&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelRepackingFee" Key="{4AD8EAFE-7FFF-44B4-A336-CA7E35B19CAF}">
+										<Image FileName="-365995497" Left="385" Top="605" Right="1061" Bottom="627" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[normalize-space(text()) = &apos;Repacking Fee&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Repacking Fee&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[198]/div[contains(@class, &apos;col-6&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel26000" Key="{0C649AD0-6DB0-490F-89ED-F96DEB05A9E3}">
+										<Image FileName="-365995497" Left="1512" Top="575" Right="1737" Bottom="597" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[197]/div[4]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel27000" Key="{48778B95-50FF-42D2-A0C5-652F5BCC7633}">
+										<Image FileName="-365995497" Left="1512" Top="605" Right="1737" Bottom="627" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[198]/div[4]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{04F3F450-5526-4092-96D2-21C0884F59D5}">
@@ -15864,6 +15912,31 @@
 																							</Child>
 																						</Children>
 																					</Child>
+																					<Child Name="pageCharges" Key="{5B651B22-1AB4-42B0-BF1D-5340D278587C}">
+																						<Image FileName="945750983" Left="317" Top="381" Right="1460" Bottom="994" />
+																						<Properties>
+																							<Property Name="WndClass">
+																								<Value Value="#32770" />
+																							</Property>
+																							<Property Name="WndCaption">
+																								<Value Value="Charges" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="btnAdd" Key="{E1BE5D2D-CACF-41F8-ADEE-ECFEC121C305}">
+																								<Image FileName="945750983" Left="1235" Top="851" Right="1303" Bottom="874" />
+																								<TypeInfo Item0="{7B48E6E0-F7F0-4A5E-95A3-23ABB295D0FF}" />
+																								<Properties>
+																									<Property Name="WndClass">
+																										<Value Value="Button" />
+																									</Property>
+																									<Property Name="WndCaption">
+																										<Value Value="&amp;Add..." />
+																									</Property>
+																								</Properties>
+																							</Child>
+																						</Children>
+																					</Child>
 																				</Children>
 																			</Child>
 																		</Children>
@@ -16771,7 +16844,7 @@
 						<Child Name="textnodeCartageFee" Owner="{360A1029-4C2B-4566-8EA8-8B6604927743}">
 							<Child Name="panel15000" Owner="{8C1941D7-ECAF-4328-B26A-F4BD7E140C25}" />
 							<Child Name="panel60000" Owner="{6A98707A-9D3F-4BE3-90AE-3A61F050EC9C}" />
-							<Child Name="panelCartageFee" Owner="{A6A18292-A8C5-4036-8BDC-070C398BBEC9}" />
+							<Child Name="panelAirCargo" Owner="{A6A18292-A8C5-4036-8BDC-070C398BBEC9}" />
 							<Child Name="panelCartageFee2" Owner="{D4EF5A74-CC2F-4E1D-B7F6-0BD0A2CF84CF}" />
 							<Child Name="panel20FT" Owner="{40F3F53E-2767-4286-AFFD-C605C158D50D}" />
 							<Child Name="panelCartageFee3" Owner="{CF6F6C83-B52F-4780-8A9C-A048129D43FF}" />
@@ -17184,6 +17257,10 @@
 					<Child Name="textnodePreInvoice" Owner="{CE36AAA6-311D-43B2-ABEC-339AA7DA1BFF}">
 						<Child Name="textnodePreInvoice2" Owner="{8350C7EE-9C1B-4C56-AD9C-18FD8F3B522D}">
 							<Child Name="panelStorageFee" Owner="{8A05DC20-BFA3-4C0E-BDCF-45A08C2B11A4}" />
+							<Child Name="panelHandlingFee" Owner="{1BCFCC14-4DC2-4945-B283-8A0236B40BA1}" />
+							<Child Name="panelRepackingFee" Owner="{4AD8EAFE-7FFF-44B4-A336-CA7E35B19CAF}" />
+							<Child Name="panel26000" Owner="{0C649AD0-6DB0-490F-89ED-F96DEB05A9E3}" />
+							<Child Name="panel27000" Owner="{48778B95-50FF-42D2-A0C5-652F5BCC7633}" />
 						</Child>
 					</Child>
 				</Child>
@@ -17491,6 +17568,9 @@
 										<Child Name="pageGeneral" Owner="{F0254FA5-409F-4459-B0BF-CDB4512AEEE9}">
 											<Child Name="editShipmentName" Owner="{6D3DBD20-E881-4BCE-B8ED-C5E07344F348}" />
 											<Child Name="editDescriptionOfGoods" Owner="{E88176FA-CBBC-4940-9C0A-39144EE85EBF}" />
+										</Child>
+										<Child Name="pageCharges" Owner="{5B651B22-1AB4-42B0-BF1D-5340D278587C}">
+											<Child Name="btnAdd" Owner="{E1BE5D2D-CACF-41F8-ADEE-ECFEC121C305}" />
 										</Child>
 									</Child>
 								</Child>

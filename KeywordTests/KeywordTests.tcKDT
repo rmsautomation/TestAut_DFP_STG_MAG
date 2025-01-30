@@ -146,6 +146,7 @@
 						<child name="SearchShipment" key="{77C16EA0-F360-4917-A363-27CFCC463715}" path="SearchShipment.tcKDTest" />
 						<child name="VerifyUpdatedShipment" key="{E26CC0F3-55E2-435B-9DF2-B77E4248F240}" path="VerifyUpdatedShipment.tcKDTest" />
 						<child name="VerifyUpdateMappingDFP" key="{D1CBE89E-38AA-4269-A51D-64E8CCB799A8}" path="VerifyUpdateMappingDFP.tcKDTest" />
+						<child name="VerifyChargeAddedInShipment" key="{FA7AF3F1-696A-4B5F-9E5B-0A9434C9D1BA}" path="VerifyChargeAddedInShipment.tcKDTest" />
 					</folder>
 					<folder name="UploadAttachment">
 						<child name="AddGenericAttachmentDFP" key="{BE765EEA-98FD-4045-B4CF-B56B377D05B4}" path="AddGenericAttachmentDFP.tcKDTest" />

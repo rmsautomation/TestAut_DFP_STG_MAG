@@ -46,8 +46,8 @@
 				<Data Description="Clicks the %p1 item of the &apos;%n&apos; toolbar." Action="ClickItemXY">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="Item" DefVarType="12" VarType="3" ValueType="1" ValueValue="33409" />
-						<Parameter Name="X" DefVarType="3" VarType="3" ValueType="1" ValueValue="35" />
-						<Parameter Name="Y" DefVarType="3" VarType="3" ValueType="1" ValueValue="19" />
+						<Parameter Name="X" DefVarType="3" VarType="3" ValueType="1" ValueValue="36" />
+						<Parameter Name="Y" DefVarType="3" VarType="3" ValueType="1" ValueValue="10" />
 						<Parameter Name="ByPosition" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="False" />
 						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
 							<Values IsEnum="True">
@@ -58,7 +58,7 @@
 							</Values>
 						</Parameter>
 					</Parameters>
-					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.ExpExpl.wndAfx2.AfxMDIFrame140u.AfxFrameOrView140u.page327703.page32770.toolbar;" />
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.ExpExpl.wndAfx2.AfxMDIFrame140u.AfxFrameOrView140u.page327702.page32770.toolbar;" />
 				</Data>
 			</Operation>
 			<Operation Type="{CE294ABA-E13B-4B94-AFC8-FA8F4249123D}">
@@ -66,7 +66,7 @@
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="Item" DefVarType="12" VarType="8" ValueType="6" ValueValue="Advanced..." />
 					</Parameters>
-					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.ExpExpl.wndAfx2.AfxMDIFrame140u.AfxFrameOrView140u.page327703.page32770.toolbar;" />
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.ExpExpl.wndAfx2.AfxMDIFrame140u.AfxFrameOrView140u.page327702.page32770.toolbar;" />
 				</Data>
 			</Operation>
 		</Children>
