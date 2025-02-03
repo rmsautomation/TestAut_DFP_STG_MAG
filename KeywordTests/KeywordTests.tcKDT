@@ -53,6 +53,7 @@
 				</folder>
 				<folder name="WR">
 					<child name="TC_32_923_MagayaToQWYK_WarehouseReceipt" key="{20595082-685C-47D2-9299-F8E6C1ACE7BC}" path="TC_32_923_MagayaToQWYK_WarehouseReceipt.tcKDTest" />
+					<child name="TC_33_924_MagayaToQWYK_UpdateWR" key="{42CDDB5D-73C0-4DEA-9731-60A560DE93C4}" path="TC_33_924_MagayaToQWYK_UpdateWR.tcKDTest" />
 				</folder>
 			</folder>
 		</folder>
@@ -155,6 +156,7 @@
 					<folder name="WR">
 						<child name="SearchWR" key="{9EAA9378-8908-4A42-AF97-807EDE71CF4A}" path="SearchWR.tcKDTest" />
 						<child name="VerifyCreatedWR" key="{5152CB30-354C-4538-816B-5C911CEDE435}" path="VerifyCreatedWR.tcKDTest" />
+						<child name="VerifyUpdatedWR" key="{E4D83B61-2390-4391-B762-7DDD06658668}" path="VerifyUpdatedWR.tcKDTest" />
 					</folder>
 				</folder>
 			</folder>
@@ -226,6 +228,12 @@
 					<child name="UpdateCommoditiesTab" key="{3ACD4AE5-78BB-462E-8F45-DA64BED93C07}" path="UpdateCommoditiesTab.tcKDTest" />
 					<child name="UpdateChargeTab" key="{8E10845B-8A9D-4D00-9BBC-90505D461B2C}" path="UpdateChargeTab.tcKDTest" />
 					<child name="UpdateMoreInfoShipment" key="{A4E1A212-A35D-48DD-BFBB-CC3D381C2974}" path="UpdateMoreInfoShipment.tcKDTest" />
+					<child name="UpdateGeneralNumberWR" key="{E351035E-2218-4BCA-B52E-5CBDE98F19A3}" path="UpdateGeneralNumberWR.tcKDTest" />
+					<child name="UpdateShipperConsignee" key="{48F30FFB-C46D-45D1-80C1-D85EF7DD264A}" path="UpdateShipperConsignee.tcKDTest" />
+					<child name="UpdateSupplier" key="{27FA1E04-42AD-4140-ACF4-E1BEFE732A16}" path="UpdateSupplier.tcKDTest" />
+					<child name="UpdateCarrier" key="{B57F666F-9A60-4DE4-87FE-5DADDC47304A}" path="UpdateCarrier.tcKDTest" />
+					<child name="UpdateCommoditiesWRAutomation" key="{8B3BE504-3DFD-4CC8-A31A-DBC2FA730F62}" path="UpdateCommoditiesWRAutomation.tcKDTest" />
+					<child name="UpdateMoreInfoWR" key="{E6BA73EA-F260-4493-9B82-7988D52A743E}" path="UpdateMoreInfoWR.tcKDTest" />
 				</folder>
 				<folder name="SHIPMENTS">
 					<child name="VerifyShipmentCreated" key="{9171ACD9-41B5-4CF4-A5BA-0BB00CADAEE3}" path="VerifyShipmentCreated.tcKDTest" />
@@ -242,6 +250,8 @@
 				</folder>
 				<folder name="WR">
 					<child name="CreateWR" key="{06D0D3E6-BAD2-4545-822B-C43C2655AB79}" path="CreateWR.tcKDTest" />
+					<child name="SearchWRMagaya" key="{DF022064-CBDE-49A7-9F61-727C20BE1297}" path="SearchWRMagaya.tcKDTest" />
+					<child name="UpdateWRMagaya" key="{BF14F826-D12F-40F0-A127-17542F8F5B3A}" path="UpdateWRMagaya.tcKDTest" />
 				</folder>
 			</folder>
 		</folder>
