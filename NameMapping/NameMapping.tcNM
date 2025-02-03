@@ -12533,6 +12533,9 @@
 										<TypeInfo Item0="{8A34ED57-033C-4E01-B624-E540D7FA56BB}" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=//div[contains(normalize-space(text()), &apos;DriverName&apos;)]" />
+											</Selector>
+											<Selector>
 												<Value Value="xpath=//div[normalize-space(text())=&apos;DriverName&apos;]" />
 											</Selector>
 										</Selectors>
