@@ -161,6 +161,10 @@
 						<child name="VerifyCreatedWR" key="{5152CB30-354C-4538-816B-5C911CEDE435}" path="VerifyCreatedWR.tcKDTest" />
 						<child name="VerifyUpdatedWR" key="{E4D83B61-2390-4391-B762-7DDD06658668}" path="VerifyUpdatedWR.tcKDTest" />
 					</folder>
+					<folder name="CR">
+						<child name="SearchCRPortal" key="{552E841D-9B5D-4C0F-AAFD-146A66BE40D6}" path="SearchCRPortal.tcKDTest" />
+						<child name="VerifyCRPortal" key="{A6647989-1A6C-4F0C-8D9C-A9FF17C30A24}" path="VerifyCRPortal.tcKDTest" />
+					</folder>
 				</folder>
 			</folder>
 			<folder name="Email">
@@ -258,6 +262,7 @@
 				</folder>
 				<folder name="CRelease">
 					<child name="CreateCR" key="{D2349511-D014-4D05-86EA-698F01ECFAEA}" path="CreateCR.tcKDTest" />
+					<child name="SearchCR" key="{8D42D966-CCE3-47BD-A609-5708DDF4653A}" path="SearchCR.tcKDTest" />
 				</folder>
 			</folder>
 		</folder>

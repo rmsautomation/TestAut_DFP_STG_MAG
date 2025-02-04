@@ -13037,6 +13037,107 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="linkCargoReleases" Key="{15A6FBF7-337F-4C53-B668-57B12C9AD47E}">
+										<Image FileName="723874821" Left="0" Top="310" Right="219" Bottom="352" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Cargo Releases&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/ul/li[3]/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;navSidebar&apos;]//li[3]/ul/li[3]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/ul/li[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelDriversname" Key="{9CE90E8F-F5A6-499B-8A9A-74BAA9819BC3}">
+										<Image FileName="-32999646" Left="1077" Top="468" Right="1335" Bottom="490" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;DriversName&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelIssuedBy" Key="{68EF067C-45D1-4113-9815-1E07CC78D162}">
+										<Image FileName="2109547104" Left="498" Top="842" Right="1626" Bottom="881" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[3]/div[contains(@class, &apos;d-flex&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeLoaded" Key="{351E0EB7-B644-4506-B561-23EDA82A9EF3}">
+										<Image FileName="1091291060" Left="478" Top="491" Right="1646" Bottom="621" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Loaded&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-cargo-items-index/ul/li[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelLoaded" Key="{42015DCF-F45E-421B-B545-A8473A6B8391}">
+										<Image FileName="1091291060" Left="487" Top="515" Right="679" Bottom="537" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Loaded&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelRcv01" Key="{227545C6-F955-4781-B64E-6522C7104276}">
+										<Image FileName="1091291060" Left="487" Top="537" Right="679" Bottom="572" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;RCV01&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/div/div[contains(@class, &apos;col-2&apos;)][contains(@class, &apos;small&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelUpdatecommodity2" Key="{88B74145-22C3-4BB6-98E7-342924668188}">
+										<Image FileName="1091291060" Left="966" Top="515" Right="1254" Bottom="537" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;UpdateCommodity&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelUpdatecommodity3" Key="{B82ED356-5655-400B-93CF-72D423392D54}">
+										<Image FileName="2098120808" Left="966" Top="646" Right="1254" Bottom="668" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[3]/div/div[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="Confirm" Key="{D580E735-7BEF-4385-9397-40EE4E787E48}">
+										<Image FileName="-2029382542" Left="729" Top="78" Right="1191" Bottom="342" />
+										<TypeInfo Item0="{62A46A2C-5F3E-4530-9CA9-E7BE7ADF46BB}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Confirm" />
+											</Property>
+										</Properties>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{04F3F450-5526-4092-96D2-21C0884F59D5}">
@@ -15344,6 +15445,18 @@
 													</Property>
 												</Properties>
 											</Child>
+											<Child Name="btnUnmarkAll" Key="{25C0681D-BC45-4B19-8643-49B45D11F4D0}">
+												<Image FileName="246150042" Left="439" Top="178" Right="514" Bottom="198" />
+												<TypeInfo Item0="{7B48E6E0-F7F0-4A5E-95A3-23ABB295D0FF}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="Button" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="&amp;Unmark all" />
+													</Property>
+												</Properties>
+											</Child>
 										</Children>
 									</Child>
 									<Child Name="tbcAccountingTransaction" Key="{8E0B9DB8-20F6-4640-9618-B6DE55578D37}">
@@ -15556,6 +15669,30 @@
 											</Property>
 											<Property Name="WndCaption">
 												<Value Value="Configure..." />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="btnBack" Key="{CE5F1B82-3C38-4330-9912-A8C1C491FB55}">
+										<Image FileName="-1010280956" Left="240" Top="445" Right="315" Bottom="468" />
+										<TypeInfo Item0="{7B48E6E0-F7F0-4A5E-95A3-23ABB295D0FF}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Back" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="btnClose" Key="{AC8DD74A-AD59-4C51-B6F7-D8E4A5CEFC0F}">
+										<Image FileName="-2033426533" Left="325" Top="450" Right="400" Bottom="473" />
+										<TypeInfo Item0="{7B48E6E0-F7F0-4A5E-95A3-23ABB295D0FF}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Close" />
 											</Property>
 										</Properties>
 									</Child>
@@ -16197,6 +16334,59 @@
 																<Children>
 																	<Child Name="toolbar" Key="{CCC75C26-4C4E-4C5A-9A82-F0EECE4205B2}">
 																		<Image FileName="1815583296" Left="307" Top="140" Right="541" Bottom="170" />
+																		<TypeInfo Item0="{3AACBFC4-FDEA-43D6-B840-6F46B343C911}" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value Value="ToolbarWindow32" />
+																			</Property>
+																			<Property Name="WndCaption">
+																				<Value Value="" />
+																			</Property>
+																			<Property Name="Index">
+																				<Value Value="1" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="page327704" Key="{B38452B6-5CE3-49BF-A266-32AA3C74745B}">
+														<Image FileName="-774320066" Left="307" Top="137" Right="1920" Bottom="1038" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="#32770" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="Cargo Release List" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="ListView" Key="{A6D84061-1C7C-4677-BE93-96F9D9217737}">
+																<Image FileName="-774320066" Left="307" Top="174" Right="1919" Bottom="1001" />
+																<TypeInfo Item0="{928C8AAB-0B93-48F5-A2F3-4FA094C2BF32}" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="SysListView32" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="page32770" Key="{CF2B4255-EDE3-4F62-9933-CEF30C2C1860}">
+																<Image FileName="1245991625" Left="307" Top="140" Right="1919" Bottom="171" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="#32770" />
+																	</Property>
+																	<Property Name="WndCaption">
+																		<Value Value="" />
+																	</Property>
+																	<Property Name="Index">
+																		<Value Value="2" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="toolbar" Key="{7FDA89DB-1C33-4061-9A07-901718A2C7A3}">
+																		<Image FileName="1245991625" Left="307" Top="140" Right="541" Bottom="170" />
 																		<TypeInfo Item0="{3AACBFC4-FDEA-43D6-B840-6F46B343C911}" />
 																		<Properties>
 																			<Property Name="WndClass">
@@ -17374,6 +17564,7 @@
 						<Child Name="textnodeWarehouseReceipts" Owner="{6C132A6D-24BF-476C-B595-2C9DA8CB93AF}">
 							<Child Name="linkWarehouseReceipts" Owner="{0DD44DD0-FE66-48B8-A003-7357813E5ED4}" />
 						</Child>
+						<Child Name="linkCargoReleases" Owner="{15A6FBF7-337F-4C53-B668-57B12C9AD47E}" />
 					</Child>
 				</Child>
 				<Child Name="formSignInToYourAccount" Owner="{720798BF-2F2C-4541-918C-5048F15094FC}">
@@ -17456,6 +17647,11 @@
 							<Child Name="panelAutomationcommodity" Owner="{0463A415-976B-4D6C-B02F-A4647F64FDA1}" />
 							<Child Name="panelAutomationcommodity2" Owner="{01114432-BD0C-47A4-B969-F66EF32BCB2B}" />
 						</Child>
+						<Child Name="textnodeLoaded" Owner="{351E0EB7-B644-4506-B561-23EDA82A9EF3}">
+							<Child Name="panelLoaded" Owner="{42015DCF-F45E-421B-B545-A8473A6B8391}" />
+							<Child Name="panelRcv01" Owner="{227545C6-F955-4781-B64E-6522C7104276}" />
+							<Child Name="panelUpdatecommodity2" Owner="{88B74145-22C3-4BB6-98E7-342924668188}" />
+						</Child>
 					</Child>
 					<Child Name="panel2ponumber" Owner="{7AAA0410-12D2-4371-98DF-3E236CF6D829}">
 						<Child Name="panelInTransit" Owner="{3BCD4C7E-7EE8-49BC-B7FA-89B1552242E0}" />
@@ -17472,6 +17668,7 @@
 						</Child>
 					</Child>
 					<Child Name="panelWRThis" Owner="{7A1D020A-7645-4432-A830-6A5FA56B74A9}" />
+					<Child Name="panelDriversname" Owner="{9CE90E8F-F5A6-499B-8A9A-74BAA9819BC3}" />
 				</Child>
 				<Child Name="textnodeResults" Owner="{1CF6087C-57FF-4430-B9F1-800D8664F6B3}" />
 				<Child Name="panelRequestADifferentRate" Owner="{F00322FB-BB44-4EBC-A779-77467DCD493F}" />
@@ -17549,7 +17746,11 @@
 					<Child Name="buttonUpload" Owner="{335FAEE2-0CF4-473D-AE9A-B296A7CAE464}" />
 					<Child Name="textareaDescription" Owner="{A391E945-70AA-4B67-9666-6DB1FDFD2C37}" />
 				</Child>
-				<Child Name="textnodeIssuedBy" Owner="{61D714AE-6BC8-4B69-A23E-EE2E8ABD0A84}" />
+				<Child Name="textnodeIssuedBy" Owner="{61D714AE-6BC8-4B69-A23E-EE2E8ABD0A84}">
+					<Child Name="panelIssuedBy" Owner="{68EF067C-45D1-4113-9815-1E07CC78D162}" />
+				</Child>
+				<Child Name="panelUpdatecommodity3" Owner="{B82ED356-5655-400B-93CF-72D423392D54}" />
+				<Child Name="Confirm" Owner="{D580E735-7BEF-4385-9397-40EE4E787E48}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{04F3F450-5526-4092-96D2-21C0884F59D5}" />
 			<Child Name="pageMagayaDigitalFreightPortalHu" Owner="{C7ED2FC9-0D1F-40A0-87DF-C64B4F0237DC}">
@@ -17749,6 +17950,7 @@
 					<Child Name="Edit6" Owner="{4DEF336C-3023-4FA8-8433-0B503EEE46FC}" />
 					<Child Name="editNotes" Owner="{8AEE39BC-6D55-46C7-9551-34741693C4FB}" />
 					<Child Name="btnMarkAll" Owner="{2006A886-EB5A-4F29-8640-0BB98222A188}" />
+					<Child Name="btnUnmarkAll" Owner="{25C0681D-BC45-4B19-8643-49B45D11F4D0}" />
 				</Child>
 				<Child Name="tbcAccountingTransaction" Owner="{8E0B9DB8-20F6-4640-9618-B6DE55578D37}" />
 				<Child Name="pageEvents" Owner="{2A93253C-8A13-41A0-84B7-D986DE5F7558}">
@@ -17773,6 +17975,8 @@
 				<Child Name="btnNext" Owner="{9E6C2BBB-5A6E-4BCD-9B8D-203622381A95}" />
 				<Child Name="btnFinish" Owner="{3B40230F-1A64-4EDD-ABFB-48CB1D8C06CB}" />
 				<Child Name="btnConfigure" Owner="{8CD004ED-4787-48D3-BA82-3C4D1E89EE2D}" />
+				<Child Name="btnBack" Owner="{CE5F1B82-3C38-4330-9912-A8C1C491FB55}" />
+				<Child Name="btnClose" Owner="{AC8DD74A-AD59-4C51-B6F7-D8E4A5CEFC0F}" />
 			</Child>
 			<Child Name="wndAfx" Owner="{77FE39E4-1982-405C-A570-F8A49D2D6421}">
 				<Child Name="AfxMDIFrame140u" Owner="{255BDB80-933F-430A-8CCB-F9C1D9E4BA5F}">
@@ -17857,6 +18061,12 @@
 							<Child Name="ListView" Owner="{AFC6A8E7-35CA-4F68-A3A9-2C25AE8C264B}" />
 							<Child Name="page32770" Owner="{FAD983BB-997A-4830-89DF-E1048F764FA2}">
 								<Child Name="toolbar" Owner="{CCC75C26-4C4E-4C5A-9A82-F0EECE4205B2}" />
+							</Child>
+						</Child>
+						<Child Name="page327704" Owner="{B38452B6-5CE3-49BF-A266-32AA3C74745B}">
+							<Child Name="ListView" Owner="{A6D84061-1C7C-4677-BE93-96F9D9217737}" />
+							<Child Name="page32770" Owner="{CF2B4255-EDE3-4F62-9933-CEF30C2C1860}">
+								<Child Name="toolbar" Owner="{7FDA89DB-1C33-4061-9A07-901718A2C7A3}" />
 							</Child>
 						</Child>
 					</Child>
