@@ -24,6 +24,9 @@
 					<CommonData Disabled="True" />
 				</Data>
 			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="closeExpExplNew" Unit="CloseMagaya" />
+			</Operation>
 		</Children>
 	</TestData>
 	<Parameters Key="{3D18E1FC-8C58-46FC-8C6E-90C0A30BD825}" />
