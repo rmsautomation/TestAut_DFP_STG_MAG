@@ -12503,7 +12503,10 @@
 										<TypeInfo Item0="{8A34ED57-033C-4E01-B624-E540D7FA56BB}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//qwyk-warehouse-receipt-summary/div/div/div" />
+												<Value Value="xpath=(//div[contains(@class, &apos;ng-star-inserted&apos;)])[1]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=(//qwyk-warehouse-receipt-summary/div/div/div)[1]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -13022,6 +13025,15 @@
 										<Selectors>
 											<Selector>
 												<Value Value="//div[contains(text(), &apos;AutomationCommodity&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel25updated" Key="{7A1D020A-7645-4432-A830-6A5FA56B74A9}">
+										<Image FileName="1822374842" Left="260" Top="203" Right="500" Bottom="225" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//qwyk-warehouse-receipt-summary/div/div/div" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -15320,6 +15332,18 @@
 													</Property>
 												</Properties>
 											</Child>
+											<Child Name="btnMarkAll" Key="{2006A886-EB5A-4F29-8640-0BB98222A188}">
+												<Image FileName="-622935061" Left="439" Top="154" Right="514" Bottom="174" />
+												<TypeInfo Item0="{7B48E6E0-F7F0-4A5E-95A3-23ABB295D0FF}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="Button" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="&amp;Mark all" />
+													</Property>
+												</Properties>
+											</Child>
 										</Children>
 									</Child>
 									<Child Name="tbcAccountingTransaction" Key="{8E0B9DB8-20F6-4640-9618-B6DE55578D37}">
@@ -16198,6 +16222,47 @@
 												<Properties>
 													<Property Name="WndClass">
 														<Value Value="SysTreeView32" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="SourceTree" Key="{6D5084A7-EDE9-457F-AE23-A21E49DFD672}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="SourceTree" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="HwndSource_MainWindow" Key="{AE58B615-ECF7-4532-AE2A-1482D2DC6084}">
+								<Image FileName="-359533589" Left="-8" Top="-8" Right="1928" Bottom="1048" />
+								<Properties>
+									<Property Name="RootVisual.ClrClassName">
+										<Value Value="MainWindow" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Sourcetree" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="MainWindow" Key="{3AF755E5-090B-493C-8861-605370CF807A}">
+										<Image FileName="-359533589" Left="-8" Top="-8" Right="1929" Bottom="1049" />
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="SourceTree.MainWindow" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Minimize" Key="{E4723565-D3CA-4625-9137-108BBF7DBA20}" ExtendedFind="True">
+												<Image FileName="-359533589" Left="1784" Top="-1" Right="1830" Bottom="29" />
+												<TypeInfo Item0="{D6546CCB-28A0-417F-8F91-E3ED15252A0B}" />
+												<Properties>
+													<Property Name="WPFControlName">
+														<Value Value="Minimize" />
 													</Property>
 												</Properties>
 											</Child>
@@ -17406,6 +17471,7 @@
 							<Child Name="panelAutomationdetails" Owner="{0BE4FBF8-609E-4AB7-8203-A4D58607BA1C}" />
 						</Child>
 					</Child>
+					<Child Name="panelWRThis" Owner="{7A1D020A-7645-4432-A830-6A5FA56B74A9}" />
 				</Child>
 				<Child Name="textnodeResults" Owner="{1CF6087C-57FF-4430-B9F1-800D8664F6B3}" />
 				<Child Name="panelRequestADifferentRate" Owner="{F00322FB-BB44-4EBC-A779-77467DCD493F}" />
@@ -17682,6 +17748,7 @@
 					<Child Name="Edit5" Owner="{5D152A03-D62D-4167-81ED-CF50E0778748}" />
 					<Child Name="Edit6" Owner="{4DEF336C-3023-4FA8-8433-0B503EEE46FC}" />
 					<Child Name="editNotes" Owner="{8AEE39BC-6D55-46C7-9551-34741693C4FB}" />
+					<Child Name="btnMarkAll" Owner="{2006A886-EB5A-4F29-8640-0BB98222A188}" />
 				</Child>
 				<Child Name="tbcAccountingTransaction" Owner="{8E0B9DB8-20F6-4640-9618-B6DE55578D37}" />
 				<Child Name="pageEvents" Owner="{2A93253C-8A13-41A0-84B7-D986DE5F7558}">
@@ -17794,6 +17861,13 @@
 						</Child>
 					</Child>
 					<Child Name="TreeView" Owner="{77461F1B-93C3-4036-B3C4-050032ACBFE5}" />
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="SourceTree" Owner="{6D5084A7-EDE9-457F-AE23-A21E49DFD672}">
+			<Child Name="HwndSource_MainWindow" Owner="{AE58B615-ECF7-4532-AE2A-1482D2DC6084}">
+				<Child Name="MainWindow" Owner="{3AF755E5-090B-493C-8861-605370CF807A}">
+					<Child Name="Minimize" Owner="{E4723565-D3CA-4625-9137-108BBF7DBA20}" />
 				</Child>
 			</Child>
 		</Child>

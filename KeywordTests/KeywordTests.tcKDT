@@ -55,6 +55,9 @@
 					<child name="TC_32_923_MagayaToQWYK_WarehouseReceipt" key="{20595082-685C-47D2-9299-F8E6C1ACE7BC}" path="TC_32_923_MagayaToQWYK_WarehouseReceipt.tcKDTest" />
 					<child name="TC_33_924_MagayaToQWYK_UpdateWR" key="{42CDDB5D-73C0-4DEA-9731-60A560DE93C4}" path="TC_33_924_MagayaToQWYK_UpdateWR.tcKDTest" />
 				</folder>
+				<folder name="CR">
+					<child name="TC_43_1593_MagayaToQWYK_CargoReleaseWRVerifyQWYK" key="{323C086D-9B51-488F-B37A-9A49AA418098}" path="TC_43_1593_MagayaToQWYK_CargoReleaseWRVerifyQWYK.tcKDTest" />
+				</folder>
 			</folder>
 		</folder>
 		<folder name="Utils">
@@ -252,6 +255,9 @@
 					<child name="CreateWR" key="{06D0D3E6-BAD2-4545-822B-C43C2655AB79}" path="CreateWR.tcKDTest" />
 					<child name="SearchWRMagaya" key="{DF022064-CBDE-49A7-9F61-727C20BE1297}" path="SearchWRMagaya.tcKDTest" />
 					<child name="UpdateWRMagaya" key="{BF14F826-D12F-40F0-A127-17542F8F5B3A}" path="UpdateWRMagaya.tcKDTest" />
+				</folder>
+				<folder name="CRelease">
+					<child name="CreateCR" key="{D2349511-D014-4D05-86EA-698F01ECFAEA}" path="CreateCR.tcKDTest" />
 				</folder>
 			</folder>
 		</folder>

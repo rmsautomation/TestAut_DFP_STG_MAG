@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{152E205E-D71D-4214-941B-0F6A80E8034B}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="LoginMagaya" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="LogoutMagaya" />
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{37138CC6-5A2F-41F0-912A-CC19F8CEAB4F}" />
+</Root>
