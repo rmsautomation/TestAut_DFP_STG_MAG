@@ -18018,59 +18018,59 @@
 					<Child Name="Chrome_RenderWidgetHostHWND" Owner="{6BAC9BB6-2D62-4AC1-8284-D5305F5302AB}" />
 				</Child>
 			</Child>
-			<Child Name="wndAfx2" Owner="{FA800909-3509-429F-9291-86E86C56CDF0}">
+			<Child Name="mainWindow" Owner="{FA800909-3509-429F-9291-86E86C56CDF0}">
 				<Child Name="AfxMDIFrame140u" Owner="{F875501F-514E-4FAB-B9D4-FA59842CD8D2}">
-					<Child Name="AfxFrameOrView140u" Owner="{C9DFA5BE-6887-4F72-A50E-BEE3562FAE70}">
-						<Child Name="page32770" Owner="{5F70D7AF-03D5-4441-AB3B-4E1E9F37ED90}">
-							<Child Name="ListView" Owner="{AF45A746-8D60-47E3-AE0D-E9E2EBFBDFBA}" />
-							<Child Name="page32770" Owner="{8D905B1D-D7D7-4327-A267-03B9090932C4}">
-								<Child Name="toolbar" Owner="{8B85C92C-5DEC-49AA-B724-5184BCDC29E5}" />
-							</Child>
+					<Child Name="TreeView" Owner="{77461F1B-93C3-4036-B3C4-050032ACBFE5}" />
+				</Child>
+				<Child Name="mainFrame" Owner="{C9DFA5BE-6887-4F72-A50E-BEE3562FAE70}">
+					<Child Name="page32770" Owner="{5F70D7AF-03D5-4441-AB3B-4E1E9F37ED90}">
+						<Child Name="ListView" Owner="{AF45A746-8D60-47E3-AE0D-E9E2EBFBDFBA}" />
+						<Child Name="page32770" Owner="{8D905B1D-D7D7-4327-A267-03B9090932C4}">
+							<Child Name="toolbar" Owner="{8B85C92C-5DEC-49AA-B724-5184BCDC29E5}" />
 						</Child>
-						<Child Name="AfxFrameOrView140u" Owner="{333F50B3-95D9-470F-BA06-3423765AD6AE}">
-							<Child Name="page32770" Owner="{9CD6E46F-6075-47A1-8CC3-D57B43C764B0}">
-								<Child Name="toolbar" Owner="{99FA501B-A9E1-4445-A559-D7917D0ABDCD}" />
-							</Child>
+					</Child>
+					<Child Name="AfxFrameOrView140u" Owner="{333F50B3-95D9-470F-BA06-3423765AD6AE}">
+						<Child Name="page32770" Owner="{9CD6E46F-6075-47A1-8CC3-D57B43C764B0}">
+							<Child Name="toolbar" Owner="{99FA501B-A9E1-4445-A559-D7917D0ABDCD}" />
 						</Child>
-						<Child Name="page327702" Owner="{806E32D8-8C15-4F48-99FF-128F83AB35E5}">
-							<Child Name="ListView" Owner="{B241736E-8782-48B5-8F5E-93D67B1A760A}" />
-							<Child Name="page32770" Owner="{3EF37D24-FFBB-4713-88A8-4C2F0DBDD98C}">
-								<Child Name="toolbar" Owner="{49639792-31C1-4776-82E7-5470DC421337}" />
-							</Child>
+					</Child>
+					<Child Name="page327702" Owner="{806E32D8-8C15-4F48-99FF-128F83AB35E5}">
+						<Child Name="ListView" Owner="{B241736E-8782-48B5-8F5E-93D67B1A760A}" />
+						<Child Name="page32770" Owner="{3EF37D24-FFBB-4713-88A8-4C2F0DBDD98C}">
+							<Child Name="toolbar" Owner="{49639792-31C1-4776-82E7-5470DC421337}" />
 						</Child>
-						<Child Name="AfxMDIFrame140u" Owner="{E67DE95E-4234-4A59-883E-DE78C457D077}">
-							<Child Name="AfxFrameOrView140u" Owner="{9FB7E215-79FD-4332-B9B8-DF75B9CC991A}">
-								<Child Name="AfxMDIFrame140u" Owner="{1577DB9D-90F9-4D37-8006-47412D97CDD3}">
-									<Child Name="page32770" Owner="{1670755D-39DC-40D2-87D7-73789979B70F}">
-										<Child Name="tbc" Owner="{5839D0E5-BBA8-46E0-8AFA-82785D9C9A7C}" />
-										<Child Name="pageAttachments" Owner="{130A4A32-83C1-4AF2-A40D-E20CED800A11}">
-											<Child Name="ListView" Owner="{5291C274-7F8E-451D-B99D-D0E0A17D0A25}" />
-										</Child>
-										<Child Name="pageGeneral" Owner="{F0254FA5-409F-4459-B0BF-CDB4512AEEE9}">
-											<Child Name="editShipmentName" Owner="{6D3DBD20-E881-4BCE-B8ED-C5E07344F348}" />
-											<Child Name="editDescriptionOfGoods" Owner="{E88176FA-CBBC-4940-9C0A-39144EE85EBF}" />
-										</Child>
-										<Child Name="pageCharges" Owner="{5B651B22-1AB4-42B0-BF1D-5340D278587C}">
-											<Child Name="btnAdd" Owner="{E1BE5D2D-CACF-41F8-ADEE-ECFEC121C305}" />
-										</Child>
+					</Child>
+					<Child Name="AfxMDIFrame140u" Owner="{E67DE95E-4234-4A59-883E-DE78C457D077}">
+						<Child Name="AfxFrameOrView140u" Owner="{9FB7E215-79FD-4332-B9B8-DF75B9CC991A}">
+							<Child Name="AfxMDIFrame140u" Owner="{1577DB9D-90F9-4D37-8006-47412D97CDD3}">
+								<Child Name="page32770" Owner="{1670755D-39DC-40D2-87D7-73789979B70F}">
+									<Child Name="tbc" Owner="{5839D0E5-BBA8-46E0-8AFA-82785D9C9A7C}" />
+									<Child Name="pageAttachments" Owner="{130A4A32-83C1-4AF2-A40D-E20CED800A11}">
+										<Child Name="ListView" Owner="{5291C274-7F8E-451D-B99D-D0E0A17D0A25}" />
+									</Child>
+									<Child Name="pageGeneral" Owner="{F0254FA5-409F-4459-B0BF-CDB4512AEEE9}">
+										<Child Name="editShipmentName" Owner="{6D3DBD20-E881-4BCE-B8ED-C5E07344F348}" />
+										<Child Name="editDescriptionOfGoods" Owner="{E88176FA-CBBC-4940-9C0A-39144EE85EBF}" />
+									</Child>
+									<Child Name="pageCharges" Owner="{5B651B22-1AB4-42B0-BF1D-5340D278587C}">
+										<Child Name="btnAdd" Owner="{E1BE5D2D-CACF-41F8-ADEE-ECFEC121C305}" />
 									</Child>
 								</Child>
 							</Child>
 						</Child>
-						<Child Name="page327703" Owner="{D76BE3AF-D377-488B-8AA7-ACB5AAE4E132}">
-							<Child Name="ListView" Owner="{AFC6A8E7-35CA-4F68-A3A9-2C25AE8C264B}" />
-							<Child Name="page32770" Owner="{FAD983BB-997A-4830-89DF-E1048F764FA2}">
-								<Child Name="toolbar" Owner="{CCC75C26-4C4E-4C5A-9A82-F0EECE4205B2}" />
-							</Child>
-						</Child>
-						<Child Name="page327704" Owner="{B38452B6-5CE3-49BF-A266-32AA3C74745B}">
-							<Child Name="ListView" Owner="{A6D84061-1C7C-4677-BE93-96F9D9217737}" />
-							<Child Name="page32770" Owner="{CF2B4255-EDE3-4F62-9933-CEF30C2C1860}">
-								<Child Name="toolbar" Owner="{7FDA89DB-1C33-4061-9A07-901718A2C7A3}" />
-							</Child>
+					</Child>
+					<Child Name="page327703" Owner="{D76BE3AF-D377-488B-8AA7-ACB5AAE4E132}">
+						<Child Name="ListView" Owner="{AFC6A8E7-35CA-4F68-A3A9-2C25AE8C264B}" />
+						<Child Name="page32770" Owner="{FAD983BB-997A-4830-89DF-E1048F764FA2}">
+							<Child Name="toolbar" Owner="{CCC75C26-4C4E-4C5A-9A82-F0EECE4205B2}" />
 						</Child>
 					</Child>
-					<Child Name="TreeView" Owner="{77461F1B-93C3-4036-B3C4-050032ACBFE5}" />
+					<Child Name="page327704" Owner="{B38452B6-5CE3-49BF-A266-32AA3C74745B}">
+						<Child Name="ListView" Owner="{A6D84061-1C7C-4677-BE93-96F9D9217737}" />
+						<Child Name="page32770" Owner="{CF2B4255-EDE3-4F62-9933-CEF30C2C1860}">
+							<Child Name="toolbar" Owner="{7FDA89DB-1C33-4061-9A07-901718A2C7A3}" />
+						</Child>
+					</Child>
 				</Child>
 			</Child>
 		</Child>
