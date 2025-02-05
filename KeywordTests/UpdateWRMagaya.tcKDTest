@@ -55,6 +55,7 @@
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs a keyword test." TestName="UpdateAttachment">
+					<CommonData Disabled="True" />
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="attachmentName" DefVarType="8" DefValueType="6" DefValueValue="RoundPriceUpdated.xlsx" VarType="8" ValueType="6" ValueValue="RoundPriceUpdated.xlsx" />
 					</Parameters>
@@ -106,13 +107,13 @@
 							</Values>
 						</Parameter>
 					</Parameters>
-					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.ExpExpl.wndAfx2.AfxMDIFrame140u.AfxFrameOrView140u.page327703.ListView;" />
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.ExpExpl.mainWindow.mainFrame.page327703.ListView;" />
 				</Data>
 			</Operation>
 			<Operation Type="{CDD7459C-6C02-4A5C-B1A2-5BD844F1B61B}">
 				<Data Description="Checks whether the property value matches the specified condition. ">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Property" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.ExpExpl.wndAfx2.AfxMDIFrame140u.AfxFrameOrView140u.page327703.ListView.wItem(0,1)" />
+						<Parameter Name="Property" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.ExpExpl.mainWindow.mainFrame.page327703.ListView.wItem(0, 1)" />
 						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="6" />
 						<Parameter Name="Value" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="Project.Variables.wr_id+ &quot;UPDATED&quot;" />
 						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />

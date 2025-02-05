@@ -238,6 +238,15 @@
 				<Variable Name="wr_id" Type="String" Local="False">
 					<DefValue />
 				</Variable>
+				<Variable Name="cr_id" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="inventoryModel" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="inventoryDescription" Type="String" Local="False">
+					<DefValue />
+				</Variable>
 			</Items>
 		</data>
 	</variables>
