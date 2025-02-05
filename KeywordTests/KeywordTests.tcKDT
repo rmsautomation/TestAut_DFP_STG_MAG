@@ -56,7 +56,8 @@
 					<child name="TC_33_924_MagayaToQWYK_UpdateWR" key="{42CDDB5D-73C0-4DEA-9731-60A560DE93C4}" path="TC_33_924_MagayaToQWYK_UpdateWR.tcKDTest" />
 				</folder>
 				<folder name="CR">
-					<child name="TC_43_1593_MagayaToQWYK_CargoReleaseWRVerifyQWYK" key="{323C086D-9B51-488F-B37A-9A49AA418098}" path="TC_43_1593_MagayaToQWYK_CargoReleaseWRVerifyQWYK.tcKDTest" />
+					<child name="TC_43_1593_MagayaToQWYK_CRWRVerifyQWYK" key="{323C086D-9B51-488F-B37A-9A49AA418098}" path="TC_43_1593_MagayaToQWYK_CRWRVerifyQWYK.tcKDTest" />
+					<child name="TC_44_1594_47_1599MagayaToQWYK_UpdateCR" key="{27E22D25-FAB3-4F08-B991-70BE03D923A3}" path="TC_44_1594_47_1599MagayaToQWYK_UpdateCR.tcKDTest" />
 				</folder>
 			</folder>
 		</folder>
@@ -164,6 +165,7 @@
 					<folder name="CR">
 						<child name="SearchCRPortal" key="{552E841D-9B5D-4C0F-AAFD-146A66BE40D6}" path="SearchCRPortal.tcKDTest" />
 						<child name="VerifyCRPortal" key="{A6647989-1A6C-4F0C-8D9C-A9FF17C30A24}" path="VerifyCRPortal.tcKDTest" />
+						<child name="VerifyCRUpdatedPortal" key="{329622EB-3CD0-4971-899E-7450F52FBF21}" path="VerifyCRUpdatedPortal.tcKDTest" />
 					</folder>
 				</folder>
 			</folder>
@@ -241,6 +243,7 @@
 					<child name="UpdateCarrier" key="{B57F666F-9A60-4DE4-87FE-5DADDC47304A}" path="UpdateCarrier.tcKDTest" />
 					<child name="UpdateCommoditiesWRAutomation" key="{8B3BE504-3DFD-4CC8-A31A-DBC2FA730F62}" path="UpdateCommoditiesWRAutomation.tcKDTest" />
 					<child name="UpdateMoreInfoWR" key="{E6BA73EA-F260-4493-9B82-7988D52A743E}" path="UpdateMoreInfoWR.tcKDTest" />
+					<child name="UpdateCRGeneralInland" key="{EDD9FB12-0518-4D34-B6EF-07DA95E68C0C}" path="UpdateCRGeneralInland.tcKDTest" />
 				</folder>
 				<folder name="SHIPMENTS">
 					<child name="VerifyShipmentCreated" key="{9171ACD9-41B5-4CF4-A5BA-0BB00CADAEE3}" path="VerifyShipmentCreated.tcKDTest" />
@@ -263,6 +266,7 @@
 				<folder name="CRelease">
 					<child name="CreateCR" key="{D2349511-D014-4D05-86EA-698F01ECFAEA}" path="CreateCR.tcKDTest" />
 					<child name="SearchCR" key="{8D42D966-CCE3-47BD-A609-5708DDF4653A}" path="SearchCR.tcKDTest" />
+					<child name="UpdateCRMagaya" key="{5A980669-0514-44DC-A0C9-D5D56290F3AC}" path="UpdateCRMagaya.tcKDTest" />
 				</folder>
 			</folder>
 		</folder>

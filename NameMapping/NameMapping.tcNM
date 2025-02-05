@@ -13138,6 +13138,36 @@
 											</Property>
 										</Properties>
 									</Child>
+									<Child Name="panel12updated" Key="{26E0FC49-FB27-4A41-9F8F-E7AB78E96463}">
+										<Image FileName="1005598700" Left="502" Top="409" Right="760" Bottom="431" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;12UPDATED&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-cargo-releases-summary/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelDriversnameupdated" Key="{6BDD74C5-4787-4ECE-830E-9587CA8CDD8F}">
+										<Image FileName="1005598700" Left="1077" Top="468" Right="1335" Bottom="490" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;DriversNameUpdated&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelCma2" Key="{62AC8F25-93E8-4C18-BB97-CD462DEA8AC9}">
+										<Image FileName="1005598700" Left="634" Top="831" Right="1610" Bottom="853" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//qwyk-detail-card//qwyk-entities-index/ul/li[2]//div[contains(@class, &apos;text-truncate&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{04F3F450-5526-4092-96D2-21C0884F59D5}">
@@ -16865,6 +16895,7 @@
 						<Child Name="textnodeCarrier" Owner="{8E5F87C3-D86D-4DA9-8C87-0395534B3A4E}">
 							<Child Name="panelMsc" Owner="{5237AAAA-8C4C-425B-8608-1E223E2C4F5D}" />
 							<Child Name="panelCma" Owner="{6322E1B1-8EE7-4151-ACB7-5B578E22531D}" />
+							<Child Name="panelCma2" Owner="{62AC8F25-93E8-4C18-BB97-CD462DEA8AC9}" />
 						</Child>
 						<Child Name="textnodeDestinationAgent" Owner="{29DFC9DF-B326-4DBD-A116-31837E7E8E92}">
 							<Child Name="panelAgentdestination" Owner="{EC1AAB79-0D8B-4764-90D9-ABF8484E92D6}" />
@@ -17669,6 +17700,8 @@
 					</Child>
 					<Child Name="panelWRThis" Owner="{7A1D020A-7645-4432-A830-6A5FA56B74A9}" />
 					<Child Name="panelDriversname" Owner="{9CE90E8F-F5A6-499B-8A9A-74BAA9819BC3}" />
+					<Child Name="panel12updated" Owner="{26E0FC49-FB27-4A41-9F8F-E7AB78E96463}" />
+					<Child Name="panelDriversnameupdated" Owner="{6BDD74C5-4787-4ECE-830E-9587CA8CDD8F}" />
 				</Child>
 				<Child Name="textnodeResults" Owner="{1CF6087C-57FF-4430-B9F1-800D8664F6B3}" />
 				<Child Name="panelRequestADifferentRate" Owner="{F00322FB-BB44-4EBC-A779-77467DCD493F}" />
