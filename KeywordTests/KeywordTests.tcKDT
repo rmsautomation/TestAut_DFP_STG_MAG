@@ -59,6 +59,9 @@
 					<child name="TC_43_1593_MagayaToQWYK_CRWRVerifyQWYK" key="{323C086D-9B51-488F-B37A-9A49AA418098}" path="TC_43_1593_MagayaToQWYK_CRWRVerifyQWYK.tcKDTest" />
 					<child name="TC_44_1594_47_1599MagayaToQWYK_UpdateCR" key="{27E22D25-FAB3-4F08-B991-70BE03D923A3}" path="TC_44_1594_47_1599MagayaToQWYK_UpdateCR.tcKDTest" />
 				</folder>
+				<folder name="InventoryItem">
+					<child name="TC_41_1307_MagayaToQWYK_InventoryItem" key="{6A1B620C-2623-4E5B-98F3-2C4B2DDE8561}" path="TC_41_1307_MagayaToQWYK_InventoryItem.tcKDTest" />
+				</folder>
 			</folder>
 		</folder>
 		<folder name="Utils">
@@ -167,6 +170,10 @@
 						<child name="VerifyCRPortal" key="{A6647989-1A6C-4F0C-8D9C-A9FF17C30A24}" path="VerifyCRPortal.tcKDTest" />
 						<child name="VerifyCRUpdatedPortal" key="{329622EB-3CD0-4971-899E-7450F52FBF21}" path="VerifyCRUpdatedPortal.tcKDTest" />
 					</folder>
+					<folder name="InventoryItem">
+						<child name="SearchInventoryItem" key="{BF827A8D-5C87-49BE-930B-1E61F1E31FEC}" path="SearchInventoryItem.tcKDTest" />
+						<child name="VerfyInventoryPortal" key="{C6E789A7-6D83-45E2-9CCA-087179CDED9A}" path="VerfyInventoryPortal.tcKDTest" />
+					</folder>
 				</folder>
 			</folder>
 			<folder name="Email">
@@ -267,6 +274,10 @@
 					<child name="CreateCR" key="{D2349511-D014-4D05-86EA-698F01ECFAEA}" path="CreateCR.tcKDTest" />
 					<child name="SearchCR" key="{8D42D966-CCE3-47BD-A609-5708DDF4653A}" path="SearchCR.tcKDTest" />
 					<child name="UpdateCRMagaya" key="{5A980669-0514-44DC-A0C9-D5D56290F3AC}" path="UpdateCRMagaya.tcKDTest" />
+				</folder>
+				<folder name="InventoryItem">
+					<child name="CreateInventoryItem" key="{FA7C7F65-7004-46DD-993C-4FC2F297B704}" path="CreateInventoryItem.tcKDTest" />
+					<child name="VerifyInventoryCreatedMagaya" key="{CBF42E1B-6E09-479D-B415-FEB393DBAEB5}" path="VerifyInventoryCreatedMagaya.tcKDTest" />
 				</folder>
 			</folder>
 		</folder>
