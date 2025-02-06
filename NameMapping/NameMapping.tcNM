@@ -13398,6 +13398,77 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeYourCargoReleases" Key="{679D407E-76DB-400C-9E4B-BFB2BD0ED4D4}">
+										<Image FileName="-1449065546" Left="477" Top="191" Right="735" Bottom="225" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//h3[normalize-space(.)=&apos;Your Cargo Releases&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3[.=&apos;Your Cargo Releases&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3[contains(@class, &apos;font-weight-normal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeNumber2" Key="{2989A247-51D2-41C5-B136-A80E7BBF53F9}">
+										<Image FileName="-1449065546" Left="477" Top="350" Right="1647" Bottom="390" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Number&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-cargo-releases-index-list/ul/li[contains(@class, &apos;d-none&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-cargo-releases-index-list/ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelNumber" Key="{6E9863AA-44A9-4FCF-B990-0DB930F96813}">
+										<Image FileName="-1449065546" Left="483" Top="359" Right="644" Bottom="381" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Number&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/div/div[contains(@class, &apos;col&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelReleasedTo" Key="{D522FE1D-A4AC-4AFE-8ABD-C09790233A9B}">
+										<Image FileName="-1449065546" Left="804" Top="359" Right="1094" Bottom="381" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Released to&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;col-3&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelTotalItems" Key="{6469915B-A624-4074-A5CF-6A9B881D9472}">
+										<Image FileName="-1449065546" Left="1094" Top="359" Right="1480" Bottom="381" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Total items&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;col-4&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{04F3F450-5526-4092-96D2-21C0884F59D5}">
@@ -16730,6 +16801,59 @@
 															</Child>
 														</Children>
 													</Child>
+													<Child Name="pageContacts" Key="{D9D608D5-3033-424A-9C31-851B8055ABB6}">
+														<Image FileName="629181435" Left="307" Top="137" Right="1920" Bottom="1038" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="#32770" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="Contacts" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="ListView" Key="{6D2866CA-C73D-4689-BB62-5AD4196849F1}">
+																<Image FileName="629181435" Left="307" Top="174" Right="1919" Bottom="1001" />
+																<TypeInfo Item0="{928C8AAB-0B93-48F5-A2F3-4FA094C2BF32}" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="SysListView32" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="page32770" Key="{1B7BB3DF-BB06-47FE-802D-579E797C7195}">
+																<Image FileName="-1211075288" Left="334" Top="140" Right="1919" Bottom="171" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="#32770" />
+																	</Property>
+																	<Property Name="WndCaption">
+																		<Value Value="" />
+																	</Property>
+																	<Property Name="Index">
+																		<Value Value="2" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="toolbar" Key="{02A62CC7-5CDF-4C8F-9EA0-9F09A7A9DC38}">
+																		<Image FileName="-1211075288" Left="334" Top="140" Right="529" Bottom="170" />
+																		<TypeInfo Item0="{3AACBFC4-FDEA-43D6-B840-6F46B343C911}" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value Value="ToolbarWindow32" />
+																			</Property>
+																			<Property Name="WndCaption">
+																				<Value Value="" />
+																			</Property>
+																			<Property Name="Index">
+																				<Value Value="1" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
 												</Children>
 											</Child>
 											<Child Name="TreeView" Key="{77461F1B-93C3-4036-B3C4-050032ACBFE5}">
@@ -17905,6 +18029,11 @@
 						<Child Name="textnodeQuo01067" Owner="{458DA36C-E41F-482E-92D7-8AA038EB7E3E}">
 							<Child Name="textnodeCreated" Owner="{7C0C2EFF-2C74-4937-8075-420D0024A9E1}" />
 						</Child>
+						<Child Name="textnodeNumber2" Owner="{2989A247-51D2-41C5-B136-A80E7BBF53F9}">
+							<Child Name="panelNumber" Owner="{6E9863AA-44A9-4FCF-B990-0DB930F96813}" />
+							<Child Name="panelReleasedTo" Owner="{D522FE1D-A4AC-4AFE-8ABD-C09790233A9B}" />
+							<Child Name="panelTotalItems" Owner="{6469915B-A624-4074-A5CF-6A9B881D9472}" />
+						</Child>
 					</Child>
 					<Child Name="navSummary" Owner="{C8696F25-3634-4C15-A892-C03649DF7443}">
 						<Child Name="linkOffers" Owner="{088EEB6E-7896-419C-8AFC-D8E8F863286B}" />
@@ -18017,6 +18146,7 @@
 					<Child Name="panelInventoryitemupdated" Owner="{5BA2C1EF-F412-4FF9-BF7A-C35D17AAB689}" />
 					<Child Name="panelPackage" Owner="{33EF065D-44AB-4F83-9CFF-4D1DF3EC693A}" />
 					<Child Name="panel500" Owner="{B38D03E2-CA2C-412F-923D-D62CF3777123}" />
+					<Child Name="textnodeYourCargoReleases" Owner="{679D407E-76DB-400C-9E4B-BFB2BD0ED4D4}" />
 				</Child>
 				<Child Name="textnodeResults" Owner="{1CF6087C-57FF-4430-B9F1-800D8664F6B3}" />
 				<Child Name="panelRequestADifferentRate" Owner="{F00322FB-BB44-4EBC-A779-77467DCD493F}" />
@@ -18424,6 +18554,12 @@
 						<Child Name="ListView" Owner="{F357EA42-6540-4CDC-AB13-A009FAD581DA}" />
 						<Child Name="page32770" Owner="{D8B0AE34-1640-4827-9578-528FD0EFE843}">
 							<Child Name="toolbar" Owner="{098466BD-9B05-43B1-B7B8-78ED1D8F832E}" />
+						</Child>
+					</Child>
+					<Child Name="pageContacts" Owner="{D9D608D5-3033-424A-9C31-851B8055ABB6}">
+						<Child Name="ListView" Owner="{6D2866CA-C73D-4689-BB62-5AD4196849F1}" />
+						<Child Name="page32770" Owner="{1B7BB3DF-BB06-47FE-802D-579E797C7195}">
+							<Child Name="toolbar" Owner="{02A62CC7-5CDF-4C8F-9EA0-9F09A7A9DC38}" />
 						</Child>
 					</Child>
 				</Child>
