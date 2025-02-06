@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="" Key="{6F7C15C1-8238-41E3-A5B8-66DDEEFAB96B}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="" Key="{80765431-75B1-4BB8-81AE-D1E7E6E0453D}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps />
@@ -8,13 +8,24 @@
 		</Data>
 		<Children>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="TC_41_1307_MagayaToQWYK_InventoryItem" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs a keyword test." TestName="LoginMagaya" />
 			</Operation>
-			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="CreateInventoryItem" />
+			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+				<Data Description="Delays the test execution for the specified time period.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="1000" />
+						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+					</Parameters>
+				</Data>
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="VerifyInventoryCreatedMagaya" />
+				<Data Description="Runs a keyword test." TestName="SearchInventoryMagaya" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="UpdateInventoryItem" />
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs a keyword test." TestName="LogoutMagaya" />
@@ -42,12 +53,12 @@
 				</Data>
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="VerfyInventoryPortal" />
+				<Data Description="Runs a keyword test." TestName="VerifyUpdatePortalInv" />
 			</Operation>
 			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
 				<Data Description="Posts an information message to the test log." MessageType="0">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="InventoryItem exists in DFP!!!" />
+						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="InventoryItem was updated correctly" />
 						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
 						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
 							<Values IsEnum="True">
@@ -74,5 +85,5 @@
 			</Operation>
 		</Children>
 	</TestData>
-	<Parameters Key="{2A9AB80F-7780-4B17-9F2C-AA92F4F7B581}" />
+	<Parameters Key="{5EB6ADE0-4A06-47B1-B6AE-B178AA613DF3}" />
 </Root>

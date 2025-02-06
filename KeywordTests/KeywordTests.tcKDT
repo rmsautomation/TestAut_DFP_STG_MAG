@@ -61,6 +61,7 @@
 				</folder>
 				<folder name="InventoryItem">
 					<child name="TC_41_1307_MagayaToQWYK_InventoryItem" key="{6A1B620C-2623-4E5B-98F3-2C4B2DDE8561}" path="TC_41_1307_MagayaToQWYK_InventoryItem.tcKDTest" />
+					<child name="TC_42_1308_MagayaToQWYK_UpdateInvItem" key="{E4292F16-885D-4EA2-9504-EB064987E1BC}" path="TC_42_1308_MagayaToQWYK_UpdateInvItem.tcKDTest" />
 				</folder>
 			</folder>
 		</folder>
@@ -171,8 +172,9 @@
 						<child name="VerifyCRUpdatedPortal" key="{329622EB-3CD0-4971-899E-7450F52FBF21}" path="VerifyCRUpdatedPortal.tcKDTest" />
 					</folder>
 					<folder name="InventoryItem">
-						<child name="SearchInventoryItem" key="{BF827A8D-5C87-49BE-930B-1E61F1E31FEC}" path="SearchInventoryItem.tcKDTest" />
+						<child name="SearchInventoryItemDFP" key="{BF827A8D-5C87-49BE-930B-1E61F1E31FEC}" path="SearchInventoryItemDFP.tcKDTest" />
 						<child name="VerfyInventoryPortal" key="{C6E789A7-6D83-45E2-9CCA-087179CDED9A}" path="VerfyInventoryPortal.tcKDTest" />
+						<child name="VerifyUpdatePortalInv" key="{1ECC864F-53E0-452C-9296-825366AE897E}" path="VerifyUpdatePortalInv.tcKDTest" />
 					</folder>
 				</folder>
 			</folder>
@@ -251,6 +253,7 @@
 					<child name="UpdateCommoditiesWRAutomation" key="{8B3BE504-3DFD-4CC8-A31A-DBC2FA730F62}" path="UpdateCommoditiesWRAutomation.tcKDTest" />
 					<child name="UpdateMoreInfoWR" key="{E6BA73EA-F260-4493-9B82-7988D52A743E}" path="UpdateMoreInfoWR.tcKDTest" />
 					<child name="UpdateCRGeneralInland" key="{EDD9FB12-0518-4D34-B6EF-07DA95E68C0C}" path="UpdateCRGeneralInland.tcKDTest" />
+					<child name="UpdateInventoryItem" key="{A48B5CDB-EF60-41EF-8922-44C3206D69D8}" path="UpdateInventoryItem.tcKDTest" />
 				</folder>
 				<folder name="SHIPMENTS">
 					<child name="VerifyShipmentCreated" key="{9171ACD9-41B5-4CF4-A5BA-0BB00CADAEE3}" path="VerifyShipmentCreated.tcKDTest" />
@@ -278,6 +281,7 @@
 				<folder name="InventoryItem">
 					<child name="CreateInventoryItem" key="{FA7C7F65-7004-46DD-993C-4FC2F297B704}" path="CreateInventoryItem.tcKDTest" />
 					<child name="VerifyInventoryCreatedMagaya" key="{CBF42E1B-6E09-479D-B415-FEB393DBAEB5}" path="VerifyInventoryCreatedMagaya.tcKDTest" />
+					<child name="SearchInventoryMagaya" key="{8B93CF0E-2121-4843-A7BD-7ABFA66F1A9E}" path="SearchInventoryMagaya.tcKDTest" />
 				</folder>
 			</folder>
 		</folder>

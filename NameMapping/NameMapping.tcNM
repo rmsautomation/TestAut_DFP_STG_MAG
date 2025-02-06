@@ -13359,6 +13359,45 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panelInventoryitemupdated" Key="{5BA2C1EF-F412-4FF9-BF7A-C35D17AAB689}">
+										<Image FileName="232320441" Left="502" Top="599" Right="1622" Bottom="621" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=(//div[contains(normalize-space(.), &apos;NotesInventoryItem&apos;)])[8]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//div[contains(normalize-space(.), &apos;NotesInventoryItem&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//div[.=&apos;NotesInventoryItemUpdated&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelPackage" Key="{33EF065D-44AB-4F83-9CFF-4D1DF3EC693A}">
+										<Image FileName="232320441" Left="693" Top="691" Right="855" Bottom="713" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[normalize-space(.)=&apos;Package&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[.=&apos;Package&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel500" Key="{B38D03E2-CA2C-412F-923D-D62CF3777123}">
+										<Image FileName="232320441" Left="502" Top="691" Right="664" Bottom="713" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[normalize-space(.)=&apos;500&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[.=&apos;500&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{04F3F450-5526-4092-96D2-21C0884F59D5}">
@@ -17975,6 +18014,9 @@
 					<Child Name="panelAutomation5" Owner="{B4E01A1F-D5CA-4FDD-A50A-24684A021548}" />
 					<Child Name="panelIinvItem" Owner="{5346BE60-4541-466B-8ACB-F1D06CD64280}" />
 					<Child Name="panelInvModel" Owner="{067D3C76-70B9-4227-8C04-040F3CD12399}" />
+					<Child Name="panelInventoryitemupdated" Owner="{5BA2C1EF-F412-4FF9-BF7A-C35D17AAB689}" />
+					<Child Name="panelPackage" Owner="{33EF065D-44AB-4F83-9CFF-4D1DF3EC693A}" />
+					<Child Name="panel500" Owner="{B38D03E2-CA2C-412F-923D-D62CF3777123}" />
 				</Child>
 				<Child Name="textnodeResults" Owner="{1CF6087C-57FF-4430-B9F1-800D8664F6B3}" />
 				<Child Name="panelRequestADifferentRate" Owner="{F00322FB-BB44-4EBC-A779-77467DCD493F}" />

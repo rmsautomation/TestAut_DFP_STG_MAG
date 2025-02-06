@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="" Key="{F436106D-9D2C-4ED3-9730-29199E0B169F}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="" Key="{990A177C-EE31-4B30-BB8D-2F9C20D55E36}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps>
@@ -13,7 +13,7 @@
 		<Children>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 				<Data Description="Clicks the &apos;%n&apos; control." Action="Click">
-					<CommonData WaitTimeout="40000" />
+					<CommonData WaitTimeout="60000" />
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
 						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
@@ -43,34 +43,6 @@
 							</Values>
 						</Parameter>
 					</Parameters>
-					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.chrome2.pageMagayaQaDfp.sectionMyPortal.panelIinvItem;" />
-				</Data>
-			</Operation>
-			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
-				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.chrome2.pageMagayaQaDfp.sectionMyPortal.panelIinvItem" />
-						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="contentText" />
-						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="6" />
-						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="INVITEM" />
-						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
-					</Parameters>
-				</Data>
-			</Operation>
-			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-				<Data Description="Clicks the &apos;%n&apos; control." Action="Click">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
-						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
-						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
-							<Values IsEnum="True">
-								<Value Type="1" Value="0" Text="skNoShift" />
-								<Value Type="1" Value="8192" Text="skShift" />
-								<Value Type="1" Value="32768" Text="skAlt" />
-								<Value Type="1" Value="16384" Text="skCtrl" />
-							</Values>
-						</Parameter>
-					</Parameters>
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.chrome2.pageMagayaQaDfp.sectionMyPortal.panelInvModel;" />
 				</Data>
 			</Operation>
@@ -80,7 +52,7 @@
 						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.chrome2.pageMagayaQaDfp.sectionMyPortal.panelInvModel" />
 						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="contentText" />
 						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="6" />
-						<Parameter Name="Value" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="inventoryModel" />
+						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="Updated" />
 						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
 					</Parameters>
 				</Data>
@@ -108,7 +80,7 @@
 						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.chrome2.pageMagayaQaDfp.sectionMyPortal.panelInvDescript" />
 						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="contentText" />
 						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="6" />
-						<Parameter Name="Value" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="inventoryDescription" />
+						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="Updated" />
 						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
 					</Parameters>
 				</Data>
@@ -127,33 +99,16 @@
 							</Values>
 						</Parameter>
 					</Parameters>
-					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.chrome2.pageMagayaQaDfp.sectionMyPortal.panelAutomation;" />
-				</Data>
-			</Operation>
-			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-				<Data Description="Clicks the &apos;%n&apos; control." Action="Click">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
-						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
-						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
-							<Values IsEnum="True">
-								<Value Type="1" Value="0" Text="skNoShift" />
-								<Value Type="1" Value="8192" Text="skShift" />
-								<Value Type="1" Value="32768" Text="skAlt" />
-								<Value Type="1" Value="16384" Text="skCtrl" />
-							</Values>
-						</Parameter>
-					</Parameters>
-					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.chrome2.pageMagayaQaDfp.sectionMyPortal.panelFreightAllKinds;" />
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.chrome2.pageMagayaQaDfp.sectionMyPortal.panelInventoryitemupdated;" />
 				</Data>
 			</Operation>
 			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
 				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.chrome2.pageMagayaQaDfp.sectionMyPortal.panelFreightAllKinds" />
+						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.chrome2.pageMagayaQaDfp.sectionMyPortal.panelInventoryitemupdated" />
 						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="contentText" />
-						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
-						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="Freight All Kinds" />
+						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="6" />
+						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="Updated" />
 						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
 					</Parameters>
 				</Data>
@@ -172,21 +127,49 @@
 							</Values>
 						</Parameter>
 					</Parameters>
-					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.chrome2.pageMagayaQaDfp.sectionMyPortal.panelPallet;" />
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.chrome2.pageMagayaQaDfp.sectionMyPortal.panelPackage;" />
 				</Data>
 			</Operation>
 			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
 				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.chrome2.pageMagayaQaDfp.sectionMyPortal.panelPallet" />
+						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.chrome2.pageMagayaQaDfp.sectionMyPortal.panelPackage" />
 						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="contentText" />
 						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
-						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="Pallet" />
+						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="Package" />
+						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; control." Action="Click">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.chrome2.pageMagayaQaDfp.sectionMyPortal.panel500;" />
+				</Data>
+			</Operation>
+			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.chrome2.pageMagayaQaDfp.sectionMyPortal.panel500" />
+						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="contentText" />
+						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="500" />
 						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
 					</Parameters>
 				</Data>
 			</Operation>
 		</Children>
 	</TestData>
-	<Parameters Key="{2CEF428F-E1A4-43DB-84F7-E8055C3788BB}" />
+	<Parameters Key="{24194BAA-DF8D-41E1-B256-8769EFE94F48}" />
 </Root>
