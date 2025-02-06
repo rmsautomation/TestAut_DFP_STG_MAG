@@ -13044,15 +13044,6 @@
 											<Selector>
 												<Value Value="//a[contains(text(), &apos;Cargo Releases&apos;)]" />
 											</Selector>
-											<Selector>
-												<Value Value="//li[3]/ul/li[3]/a[contains(@class, &apos;nav-link&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[@id=&apos;navSidebar&apos;]//li[3]/ul/li[3]/a" />
-											</Selector>
-											<Selector>
-												<Value Value="//li[3]/ul/li[3]/a" />
-											</Selector>
 										</Selectors>
 									</Child>
 									<Child Name="panelDriversname" Key="{9CE90E8F-F5A6-499B-8A9A-74BAA9819BC3}">
