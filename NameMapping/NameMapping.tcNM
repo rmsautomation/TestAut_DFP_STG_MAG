@@ -16466,9 +16466,6 @@
 															<Property Name="WndClass">
 																<Value Value="#32770" />
 															</Property>
-															<Property Name="WndCaption">
-																<Value Value="Booking List" />
-															</Property>
 														</Properties>
 														<Children>
 															<Child Name="ListView" Key="{B241736E-8782-48B5-8F5E-93D67B1A760A}">

@@ -217,6 +217,8 @@
 					<child name="AdvancedFilterBy" key="{E2A6CF1A-9DDB-46BE-9228-3AA8DDAC081D}" path="AdvancedFilterBy.tcKDTest" />
 					<child name="Unfilter" key="{3252532B-A8DD-4C6E-87E7-CB0103FD6CBD}" path="Unfilter.tcKDTest" />
 					<child name="AdvancedFilter" key="{41D67DA6-2A8B-42F5-B276-C220521DDFC4}" path="AdvancedFilter.tcKDTest" />
+					<child name="AdvancedFilter5Maintenance" key="{66A9D3B8-BD69-43BA-9E63-41F0A33FA0E8}" path="AdvancedFilter5Maintenance.tcKDTest" />
+					<child name="Unfilter5Maintenance" key="{A5ACE6E3-FE70-4F40-A1A5-B2C88EDFFDD4}" path="Unfilter5Maintenance.tcKDTest" />
 				</folder>
 				<folder name="EXTENSIONAPI">
 					<child name="VerifyExtensionISUp" key="{FB563706-692E-4CD1-AB21-C6F69C0DBCEF}" path="VerifyExtensionISUp.tcKDTest" />
