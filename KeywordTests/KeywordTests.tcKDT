@@ -46,6 +46,7 @@
 				<folder name="Shipments">
 					<child name="TC_26_553_DFPJPGToMagaya_ConvertShipment" key="{7E1A95A4-E082-4CC0-B8AE-36BC5FC0C5DC}" path="TC_26_553_DFPJPGToMagaya_ConvertShipment.tcKDTest" />
 					<child name="TC_27_840_858_28DFPToMagaya_UpdateBookingMagaya" key="{B9318F03-93DF-4056-9620-86BF100B90A4}" path="TC_27_840_858_28DFPToMagaya_UpdateBookingMagaya.tcKDTest" />
+					<child name="TC_29_841_QWYKToMagayaShipmentSendAttcahment" key="{60527640-D17D-4B51-ADF2-BE473FE7FD0C}" path="TC_29_841_QWYKToMagayaShipmentSendAttcahment.tcKDTest" />
 				</folder>
 				<folder name="INVOICE">
 					<child name="TC_35_1083_38_1087MagayaToDFP_InvoiceMagayaAttch" key="{525454B4-50FE-4DC5-9E0E-D807136ACC2B}" path="TC_35_1083_38_1087MagayaToDFP_InvoiceMagayaAttch.tcKDTest" />
