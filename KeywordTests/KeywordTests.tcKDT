@@ -40,6 +40,8 @@
 					<child name="TC_22_580_IntAuthentication" key="{60478CEE-BA1C-4091-A4EE-5B23196F560B}" path="TC_22_580_IntAuthentication.tcKDTest" />
 					<child name="TC_23_329_NewMagayaCustomer" key="{98009B64-E1F1-40A9-8423-8DAEB2CB2027}" path="TC_23_329_NewMagayaCustomer.tcKDTest" />
 					<child name="TC_24_1275_PortalNewUser" key="{5D4133C7-D5AF-4C31-B9E5-8E587C823C4E}" path="TC_24_1275_PortalNewUser.tcKDTest" />
+					<child name="TC_49_1967_SCS_DisableViewCRelease" key="{03B6608A-814B-4CD7-9937-2156409FB7F4}" path="TC_49_1967_SCS_DisableViewCRelease.tcKDTest" />
+					<child name="TC_50_1978_SCSDisableCanSendAttachments" key="{2177A2E6-C6EC-477A-BE6A-04E500DBCD0C}" path="TC_50_1978_SCSDisableCanSendAttachments.tcKDTest" />
 				</folder>
 				<folder name="Shipments">
 					<child name="TC_26_553_DFPJPGToMagaya_ConvertShipment" key="{7E1A95A4-E082-4CC0-B8AE-36BC5FC0C5DC}" path="TC_26_553_DFPJPGToMagaya_ConvertShipment.tcKDTest" />
@@ -58,7 +60,6 @@
 				<folder name="CR">
 					<child name="TC_43_1593_MagayaToQWYK_CRWRVerifyQWYK" key="{323C086D-9B51-488F-B37A-9A49AA418098}" path="TC_43_1593_MagayaToQWYK_CRWRVerifyQWYK.tcKDTest" />
 					<child name="TC_44_1594_47_1599MagayaToQWYK_UpdateCR" key="{27E22D25-FAB3-4F08-B991-70BE03D923A3}" path="TC_44_1594_47_1599MagayaToQWYK_UpdateCR.tcKDTest" />
-					<child name="TC_49_1967_SCS_DisableViewCRelease" key="{03B6608A-814B-4CD7-9937-2156409FB7F4}" path="TC_49_1967_SCS_DisableViewCRelease.tcKDTest" />
 				</folder>
 				<folder name="InventoryItem">
 					<child name="TC_41_1307_MagayaToQWYK_InventoryItem" key="{6A1B620C-2623-4E5B-98F3-2C4B2DDE8561}" path="TC_41_1307_MagayaToQWYK_InventoryItem.tcKDTest" />
@@ -166,6 +167,7 @@
 						<child name="SearchWR" key="{9EAA9378-8908-4A42-AF97-807EDE71CF4A}" path="SearchWR.tcKDTest" />
 						<child name="VerifyCreatedWR" key="{5152CB30-354C-4538-816B-5C911CEDE435}" path="VerifyCreatedWR.tcKDTest" />
 						<child name="VerifyUpdatedWR" key="{E4D83B61-2390-4391-B762-7DDD06658668}" path="VerifyUpdatedWR.tcKDTest" />
+						<child name="VerifyUploadEnabled" key="{E406FF34-90C6-463C-9780-272A112E017F}" path="VerifyUploadEnabled.tcKDTest" />
 					</folder>
 					<folder name="CR">
 						<child name="SearchCRPortal" key="{552E841D-9B5D-4C0F-AAFD-146A66BE40D6}" path="SearchCRPortal.tcKDTest" />
@@ -205,6 +207,10 @@
 					<child name="DeleteContact" key="{AEA31C19-2DB3-4666-82E2-E902B1089E07}" path="DeleteContact.tcKDTest" />
 					<child name="AddNewCustomer" key="{B0CF686E-B9E0-4D22-9CE4-124428673DB8}" path="AddNewCustomer.tcKDTest" />
 					<child name="DeleteCustomer" key="{4E21B600-5FE2-4463-AD41-4777F75C21F8}" path="DeleteCustomer.tcKDTest" />
+					<child name="DisableViewCRContact" key="{46B5113B-C8A1-48D8-8F00-51BC138BE96B}" path="DisableViewCRContact.tcKDTest" />
+					<child name="EnableViewCRContact" key="{B33C137D-B3A3-441A-A7B5-7ECACAA81FFE}" path="EnableViewCRContact.tcKDTest" />
+					<child name="DisabledUploadAttch" key="{1C026E62-62E8-40B9-B529-32C161E2215D}" path="DisabledUploadAttch.tcKDTest" />
+					<child name="EnabledUploadAttach" key="{14C24261-BD38-43F6-A1B3-8CB20151022E}" path="EnabledUploadAttach.tcKDTest" />
 				</folder>
 				<folder name="Filters">
 					<child name="FilterContact" key="{7318B72C-74D6-4B66-80C2-3FC06F1D8DCC}" path="FilterContact.tcKDTest" />
@@ -278,8 +284,6 @@
 					<child name="CreateCR" key="{D2349511-D014-4D05-86EA-698F01ECFAEA}" path="CreateCR.tcKDTest" />
 					<child name="SearchCR" key="{8D42D966-CCE3-47BD-A609-5708DDF4653A}" path="SearchCR.tcKDTest" />
 					<child name="UpdateCRMagaya" key="{5A980669-0514-44DC-A0C9-D5D56290F3AC}" path="UpdateCRMagaya.tcKDTest" />
-					<child name="DisableViewCRContact" key="{46B5113B-C8A1-48D8-8F00-51BC138BE96B}" path="DisableViewCRContact.tcKDTest" />
-					<child name="EnableViewCRContact" key="{B33C137D-B3A3-441A-A7B5-7ECACAA81FFE}" path="EnableViewCRContact.tcKDTest" />
 				</folder>
 				<folder name="InventoryItem">
 					<child name="CreateInventoryItem" key="{FA7C7F65-7004-46DD-993C-4FC2F297B704}" path="CreateInventoryItem.tcKDTest" />

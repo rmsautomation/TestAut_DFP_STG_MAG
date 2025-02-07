@@ -13460,6 +13460,24 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="buttonCancel" Key="{E4B9769F-FF5C-4D30-AA73-F287F92FA4D3}">
+										<Image FileName="950857182" Left="1018" Top="768" Right="1093" Bottom="806" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Cancel&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@type=&apos;reset&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div/button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{04F3F450-5526-4092-96D2-21C0884F59D5}">
@@ -18214,6 +18232,7 @@
 					<Child Name="fileFiledropref" Owner="{419CAF12-B200-4DE0-83C0-DA6E8F08A5BD}" />
 					<Child Name="buttonUpload" Owner="{335FAEE2-0CF4-473D-AE9A-B296A7CAE464}" />
 					<Child Name="textareaDescription" Owner="{A391E945-70AA-4B67-9666-6DB1FDFD2C37}" />
+					<Child Name="buttonCancel" Owner="{E4B9769F-FF5C-4D30-AA73-F287F92FA4D3}" />
 				</Child>
 				<Child Name="textnodeIssuedBy" Owner="{61D714AE-6BC8-4B69-A23E-EE2E8ABD0A84}">
 					<Child Name="panelIssuedBy" Owner="{68EF067C-45D1-4113-9815-1E07CC78D162}" />
