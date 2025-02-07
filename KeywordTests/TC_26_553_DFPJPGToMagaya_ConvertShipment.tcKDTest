@@ -272,7 +272,7 @@
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs a keyword test." TestName="VerifyAttachmentDFPParam">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="attachment1" DefVarType="8" DefValueType="6" DefValueValue="test.jpg" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="attachmentName" />
+						<Parameter Name="attachment1" DefVarType="8" DefValueType="6" DefValueValue="test.jpg" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="attachmentMagaya" />
 					</Parameters>
 				</Data>
 			</Operation>
@@ -368,6 +368,9 @@
 				<DefValue StrValue="Shanghai" />
 			</Variable>
 			<Variable Name="attachmentName" Type="String" Local="False">
+				<DefValue StrValue="test.jpg" />
+			</Variable>
+			<Variable Name="attachmentMagaya" Type="String" Local="False">
 				<DefValue StrValue="test" />
 			</Variable>
 		</Items>
