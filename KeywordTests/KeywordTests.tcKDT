@@ -47,6 +47,7 @@
 					<child name="TC_26_553_DFPJPGToMagaya_ConvertShipment" key="{7E1A95A4-E082-4CC0-B8AE-36BC5FC0C5DC}" path="TC_26_553_DFPJPGToMagaya_ConvertShipment.tcKDTest" />
 					<child name="TC_27_840_858_28DFPToMagaya_UpdateBookingMagaya" key="{B9318F03-93DF-4056-9620-86BF100B90A4}" path="TC_27_840_858_28DFPToMagaya_UpdateBookingMagaya.tcKDTest" />
 					<child name="TC_29_841_QWYKToMagayaShipmentSendAttcahment" key="{60527640-D17D-4B51-ADF2-BE473FE7FD0C}" path="TC_29_841_QWYKToMagayaShipmentSendAttcahment.tcKDTest" />
+					<child name="TC_31_859_MagayaToQWYKAddAutomaticEvent" key="{4122FF95-EB70-476C-B487-F5A1C4C7EC8F}" path="TC_31_859_MagayaToQWYKAddAutomaticEvent.tcKDTest" />
 				</folder>
 				<folder name="INVOICE">
 					<child name="TC_35_1083_38_1087MagayaToDFP_InvoiceMagayaAttch" key="{525454B4-50FE-4DC5-9E0E-D807136ACC2B}" path="TC_35_1083_38_1087MagayaToDFP_InvoiceMagayaAttch.tcKDTest" />
@@ -159,6 +160,8 @@
 						<child name="VerifyUpdatedShipment" key="{E26CC0F3-55E2-435B-9DF2-B77E4248F240}" path="VerifyUpdatedShipment.tcKDTest" />
 						<child name="VerifyUpdateMappingDFP" key="{D1CBE89E-38AA-4269-A51D-64E8CCB799A8}" path="VerifyUpdateMappingDFP.tcKDTest" />
 						<child name="VerifyChargeAddedInShipment" key="{FA7AF3F1-696A-4B5F-9E5B-0A9434C9D1BA}" path="VerifyChargeAddedInShipment.tcKDTest" />
+						<child name="VerifyShipmentCreatedInMagaya" key="{EBCFFD61-5F69-4C7B-9A3B-3FC1DEC4E903}" path="VerifyShipmentCreatedInMagaya.tcKDTest" />
+						<child name="VerifyShipmentAutomaticEvent" key="{18183E8C-057F-4F2D-BD2F-2B5F36315803}" path="VerifyShipmentAutomaticEvent.tcKDTest" />
 					</folder>
 					<folder name="UploadAttachment">
 						<child name="AddGenericAttachmentDFP" key="{BE765EEA-98FD-4045-B4CF-B56B377D05B4}" path="AddGenericAttachmentDFP.tcKDTest" />
@@ -237,6 +240,7 @@
 				<folder name="UPLOAD">
 					<child name="PathVarAndUploadAtt" key="{19715D24-3226-4A62-98FD-17545788939A}" path="PathVarAndUploadAtt.tcKDTest" />
 					<child name="AddAttachments" key="{1CE4471D-8C2C-485A-855D-0D2D16B9F0EA}" path="AddAttachments.tcKDTest" />
+					<child name="AddAttachmentShipment" key="{4019B9A7-8F1E-4944-8F84-F834D09F9C7F}" path="AddAttachmentShipment.tcKDTest" />
 				</folder>
 				<folder name="LiveTrack">
 					<child name="ApproveInvoice" key="{1586C607-B365-4ABE-AE7E-A73DFF9C239D}" path="ApproveInvoice.tcKDTest" />
@@ -269,6 +273,8 @@
 					<child name="VerifyShipmentCreated" key="{9171ACD9-41B5-4CF4-A5BA-0BB00CADAEE3}" path="VerifyShipmentCreated.tcKDTest" />
 					<child name="SearchShipmentMagaya" key="{D899D0CE-9553-466C-9AFD-14FE2F00E9D6}" path="SearchShipmentMagaya.tcKDTest" />
 					<child name="AddChargeShipmentMagaya" key="{4F1C21D8-F8AE-4127-AF21-96B11951D01C}" path="AddChargeShipmentMagaya.tcKDTest" />
+					<child name="CreateAIRShipment" key="{9F4CA809-228A-4DFE-967F-0D368E11E847}" path="CreateAIRShipment.tcKDTest" />
+					<child name="SetShipInTransitAutomaticEvent" key="{173AE905-AA4A-420D-AB9B-ED18BF5B6C0E}" path="SetShipInTransitAutomaticEvent.tcKDTest" />
 				</folder>
 				<folder name="BOOKING">
 					<child name="VerifyBookingInfo" key="{FBA58F6C-6FC0-4AFB-9E3B-B41DDF153243}" path="VerifyBookingInfo.tcKDTest" />
