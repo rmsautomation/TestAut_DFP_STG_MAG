@@ -48,6 +48,7 @@
 					<child name="TC_27_840_858_28DFPToMagaya_UpdateBookingMagaya" key="{B9318F03-93DF-4056-9620-86BF100B90A4}" path="TC_27_840_858_28DFPToMagaya_UpdateBookingMagaya.tcKDTest" />
 					<child name="TC_29_841_QWYKToMagayaShipmentSendAttcahment" key="{60527640-D17D-4B51-ADF2-BE473FE7FD0C}" path="TC_29_841_QWYKToMagayaShipmentSendAttcahment.tcKDTest" />
 					<child name="TC_31_859_MagayaToQWYKAddAutomaticEvent" key="{4122FF95-EB70-476C-B487-F5A1C4C7EC8F}" path="TC_31_859_MagayaToQWYKAddAutomaticEvent.tcKDTest" />
+					<child name="TC_30_2244_AirShipment_UpdateMasterHouse" key="{A1E43289-1377-4413-BF9E-E994AF6EFB62}" path="TC_30_2244_AirShipment_UpdateMasterHouse.tcKDTest" />
 				</folder>
 				<folder name="INVOICE">
 					<child name="TC_35_1083_38_1087MagayaToDFP_InvoiceMagayaAttch" key="{525454B4-50FE-4DC5-9E0E-D807136ACC2B}" path="TC_35_1083_38_1087MagayaToDFP_InvoiceMagayaAttch.tcKDTest" />
@@ -162,6 +163,10 @@
 						<child name="VerifyChargeAddedInShipment" key="{FA7AF3F1-696A-4B5F-9E5B-0A9434C9D1BA}" path="VerifyChargeAddedInShipment.tcKDTest" />
 						<child name="VerifyShipmentCreatedInMagaya" key="{EBCFFD61-5F69-4C7B-9A3B-3FC1DEC4E903}" path="VerifyShipmentCreatedInMagaya.tcKDTest" />
 						<child name="VerifyShipmentAutomaticEvent" key="{18183E8C-057F-4F2D-BD2F-2B5F36315803}" path="VerifyShipmentAutomaticEvent.tcKDTest" />
+						<child name="VerifyRelatonshipMasterHouseWR" key="{9AB86876-190E-4C99-97B6-102208645355}" path="VerifyRelatonshipMasterHouseWR.tcKDTest" />
+						<child name="SearchHouseShipment" key="{76A1B6F3-FF7F-497D-AAD6-AC4CBEB417B9}" path="SearchHouseShipment.tcKDTest" />
+						<child name="VerifyUpdatedMasterShipment" key="{AB2D6D6E-D5BD-47D2-982C-EF0FA68B8016}" path="VerifyUpdatedMasterShipment.tcKDTest" />
+						<child name="VerifyUpdatedHouse" key="{90D5E416-92BC-40C0-94FA-AB809EE971B6}" path="VerifyUpdatedHouse.tcKDTest" />
 					</folder>
 					<folder name="UploadAttachment">
 						<child name="AddGenericAttachmentDFP" key="{BE765EEA-98FD-4045-B4CF-B56B377D05B4}" path="AddGenericAttachmentDFP.tcKDTest" />
@@ -268,6 +273,13 @@
 					<child name="UpdateMoreInfoWR" key="{E6BA73EA-F260-4493-9B82-7988D52A743E}" path="UpdateMoreInfoWR.tcKDTest" />
 					<child name="UpdateCRGeneralInland" key="{EDD9FB12-0518-4D34-B6EF-07DA95E68C0C}" path="UpdateCRGeneralInland.tcKDTest" />
 					<child name="UpdateInventoryItem" key="{A48B5CDB-EF60-41EF-8922-44C3206D69D8}" path="UpdateInventoryItem.tcKDTest" />
+					<child name="UpdateOriginDestShipment" key="{5394BEC6-D82C-4E36-8E34-E76F608411C0}" path="UpdateOriginDestShipment.tcKDTest" />
+					<child name="UpdateGeneralTabShipment" key="{157D444F-44CE-49CA-A533-8E641C4F7D37}" path="UpdateGeneralTabShipment.tcKDTest" />
+					<child name="UpdateChargeShipment" key="{1E9F3B53-6E64-4390-8243-D44D4CD5DC75}" path="UpdateChargeShipment.tcKDTest" />
+					<child name="UpdateEventTabShipment" key="{89AA7FCC-F0A9-4B50-BEEB-0E490EE0436F}" path="UpdateEventTabShipment.tcKDTest" />
+					<child name="UpdateAttachmentShipment" key="{45D9E931-66D7-47F1-A48D-4D6364971441}" path="UpdateAttachmentShipment.tcKDTest" />
+					<child name="UpdateMoreShipment" key="{E36862E6-584E-4E76-ACB6-1B133BC731F0}" path="UpdateMoreShipment.tcKDTest" />
+					<child name="UpdateCommoditiesShipment" key="{DF85AEAB-842F-46EB-A60D-772112156CF3}" path="UpdateCommoditiesShipment.tcKDTest" />
 				</folder>
 				<folder name="SHIPMENTS">
 					<child name="VerifyShipmentCreated" key="{9171ACD9-41B5-4CF4-A5BA-0BB00CADAEE3}" path="VerifyShipmentCreated.tcKDTest" />
@@ -275,6 +287,8 @@
 					<child name="AddChargeShipmentMagaya" key="{4F1C21D8-F8AE-4127-AF21-96B11951D01C}" path="AddChargeShipmentMagaya.tcKDTest" />
 					<child name="CreateAIRShipment" key="{9F4CA809-228A-4DFE-967F-0D368E11E847}" path="CreateAIRShipment.tcKDTest" />
 					<child name="SetShipInTransitAutomaticEvent" key="{173AE905-AA4A-420D-AB9B-ED18BF5B6C0E}" path="SetShipInTransitAutomaticEvent.tcKDTest" />
+					<child name="CreateHouseForShipment" key="{1A3CE373-B0B3-4547-A756-E72EFFDCD888}" path="CreateHouseForShipment.tcKDTest" />
+					<child name="UpdateMasterShipment" key="{40E1DF77-3F2F-44E2-8EC0-960108E83445}" path="UpdateMasterShipment.tcKDTest" />
 				</folder>
 				<folder name="BOOKING">
 					<child name="VerifyBookingInfo" key="{FBA58F6C-6FC0-4AFB-9E3B-B41DDF153243}" path="VerifyBookingInfo.tcKDTest" />

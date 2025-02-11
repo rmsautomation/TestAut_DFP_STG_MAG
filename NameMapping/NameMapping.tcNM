@@ -13656,7 +13656,7 @@
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//span[contains(text(), &apos;HAWB4&apos;)]" />
+												<Value Value="xpath=//span[contains(text(), &apos;HAWB&apos;)]" />
 											</Selector>
 											<Selector>
 												<Value Value="//h3/span" />
@@ -13750,6 +13750,82 @@
 											</Selector>
 											<Selector>
 												<Value Value="//div[4]/div[contains(@class, &apos;text-truncate&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelHouseBsL" Key="{E236824D-E894-453F-9208-46852838B5B5}">
+										<Image FileName="-1530752972" Left="614" Top="310" Right="713" Bottom="332" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;House Bs/L&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[3]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHouseBillsOfLading" Key="{6ED641E2-7ECB-46B5-815C-E861B0329445}">
+										<Image FileName="1749031007" Left="400" Top="392" Right="1722" Bottom="416" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h5[.=&apos;House Bills of Lading&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h5[contains(@class, &apos;font-weight-normal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h5" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHawb42" Key="{19EAC997-5C1C-4EB1-8D1D-66DB846FC079}">
+										<Image FileName="1520327011" Left="376" Top="440" Right="1746" Bottom="512" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;HAWB4&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;list-group&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-shipment-house-bsl-view/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHawb43" Key="{224449F1-B201-4692-B610-28D396278917}">
+										<Image FileName="1520327011" Left="376" Top="440" Right="1746" Bottom="512" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;HAWB4&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;list-group-item&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-shipment-house-bsl-view/ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelHawb42" Key="{F312D553-99B0-46B2-A64C-F480EAD04EF2}">
+										<Image FileName="1520327011" Left="400" Top="465" Right="591" Bottom="487" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[contains(text(), &apos;CustRef&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelBooked" Key="{B5D1E285-9F71-4EDC-922F-BAE348EC784B}">
+										<Image FileName="57323982" Left="1648" Top="452" Right="1723" Bottom="500" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;badge&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -17021,6 +17097,21 @@
 																									</Property>
 																								</Properties>
 																							</Child>
+																							<Child Name="editDescriptionOfGoods2" Key="{2AEAF42A-61ED-4A59-8E93-DA7C4D68FDA1}">
+																								<Image FileName="196602833" Left="476" Top="766" Right="1548" Bottom="921" />
+																								<TypeInfo Item0="{2E16C6CB-A939-402A-B9C0-EFA2BB284158}" />
+																								<Properties>
+																									<Property Name="WndClass">
+																										<Value Value="Edit" />
+																									</Property>
+																									<Property Name="WndCaption">
+																										<Value Value="" />
+																									</Property>
+																									<Property Name="Index">
+																										<Value Value="13" Type="0" />
+																									</Property>
+																								</Properties>
+																							</Child>
 																						</Children>
 																					</Child>
 																					<Child Name="pageCharges" Key="{5B651B22-1AB4-42B0-BF1D-5340D278587C}">
@@ -17466,6 +17557,18 @@
 																									</Property>
 																									<Property Name="WndCaption">
 																										<Value Value="List1" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																							<Child Name="btnAdd" Key="{C6551156-E294-4799-98EC-6A8A11AC1119}">
+																								<Image FileName="-1098352265" Left="1313" Top="966" Right="1388" Bottom="989" />
+																								<TypeInfo Item0="{7B48E6E0-F7F0-4A5E-95A3-23ABB295D0FF}" />
+																								<Properties>
+																									<Property Name="WndClass">
+																										<Value Value="Button" />
+																									</Property>
+																									<Property Name="WndCaption">
+																										<Value Value="&amp;Add..." />
 																									</Property>
 																								</Properties>
 																							</Child>
@@ -18912,6 +19015,7 @@
 						<Child Name="linkCharges2" Owner="{F41431FF-5549-4F0E-96CD-0863EFEA3D92}" />
 						<Child Name="linkPayments" Owner="{E4DB370A-5A88-43C2-93BA-469AD8B5785B}">
 							<Child Name="panelAttachments" Owner="{D2F573BA-CC05-4794-8C4B-89D05F0F2DDC}" />
+							<Child Name="panelHouseBsL" Owner="{E236824D-E894-453F-9208-46852838B5B5}" />
 						</Child>
 						<Child Name="linkAttachments" Owner="{E60248DF-4837-4F09-8805-6A34D7A1BB88}" />
 						<Child Name="linkTracking" Owner="{39C07A78-D455-4A5D-A4C4-64FFACD8A7E2}" />
@@ -19110,6 +19214,13 @@
 					<Child Name="panelShipper" Owner="{57192E75-AD51-4205-8B03-4F927F15CC0D}" />
 					<Child Name="panelConsignee" Owner="{30C5BB51-67AF-4FD6-8554-8AA0FCB565D0}" />
 					<Child Name="panelPrepaid" Owner="{CE98952B-D89F-45DA-A8E8-DFA91AEDCDE6}" />
+					<Child Name="textnodeHouseBillsOfLading" Owner="{6ED641E2-7ECB-46B5-815C-E861B0329445}" />
+					<Child Name="textnodeHawb42" Owner="{19EAC997-5C1C-4EB1-8D1D-66DB846FC079}">
+						<Child Name="textnodeHawb43" Owner="{224449F1-B201-4692-B610-28D396278917}">
+							<Child Name="panelHawb42" Owner="{F312D553-99B0-46B2-A64C-F480EAD04EF2}" />
+							<Child Name="panelBooked" Owner="{B5D1E285-9F71-4EDC-922F-BAE348EC784B}" />
+						</Child>
+					</Child>
 				</Child>
 				<Child Name="textboxName2" Owner="{CDAB938D-4DD1-41CB-BE32-3BC186A96F94}" />
 				<Child Name="buttonSearch2" Owner="{E66DF359-B41B-4093-8EE5-35E706916CBA}" />
@@ -19438,6 +19549,7 @@
 										<Child Name="editBookingNumber" Owner="{B74B84D4-4C18-469E-AE46-5AB74CA88CA7}" />
 										<Child Name="editCustomerReferenceNo" Owner="{6F73D4F2-0264-4C8F-98FE-CF2023DB56BC}" />
 										<Child Name="Edit" Owner="{3AD67D8C-85A7-4B5A-8240-EFA72366BFFA}" />
+										<Child Name="editDescriptionOfGoods2" Owner="{2AEAF42A-61ED-4A59-8E93-DA7C4D68FDA1}" />
 									</Child>
 									<Child Name="pageCharges" Owner="{5B651B22-1AB4-42B0-BF1D-5340D278587C}">
 										<Child Name="btnAdd" Owner="{E1BE5D2D-CACF-41F8-ADEE-ECFEC121C305}" />
@@ -19480,6 +19592,7 @@
 									</Child>
 									<Child Name="pageEvents" Owner="{1F5AFEE1-A373-432D-B61D-5F2721F5A1EE}">
 										<Child Name="List1" Owner="{53CF0F17-E654-4D4B-A3B8-DAF180B3B952}" />
+										<Child Name="btnAdd" Owner="{C6551156-E294-4799-98EC-6A8A11AC1119}" />
 									</Child>
 									<Child Name="pageCommodities" Owner="{51FF909F-E443-4A0D-B54C-8C40A703A619}">
 										<Child Name="List1" Owner="{41B6A409-72C6-4969-88ED-734C4C25AB28}" />
