@@ -8356,6 +8356,27 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panelHawb4" Key="{02BCB183-E509-4237-BF82-DE27A920A97B}">
+										<Image FileName="1898378525" Left="601" Top="735" Right="771" Bottom="757" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;HAWB4&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelShipment8airwaynumber" Key="{37BA9CB5-1DAC-4636-BBB2-B76BF9A5CA55}">
+										<Image FileName="1898378525" Left="400" Top="735" Right="570" Bottom="778" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;SHIPMENT8AIrWayNumber&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-shipment-summary-card/div/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageMagaya9" Key="{86480E91-9864-47C9-B9DF-E3A336A0E37E}">
@@ -13607,6 +13628,131 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panelHawb4" Key="{C5105C14-04DD-4B7C-9482-3A050FEAC793}">
+										<Image FileName="-632918535" Left="601" Top="835" Right="771" Bottom="857" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[contains(text(), &apos;HAWB&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeShipment" Key="{BF354311-8BFB-4461-9840-AAED44823AEB}">
+										<Image FileName="1217580278" Left="375" Top="244" Right="921" Bottom="282" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h3[contains(text(), &apos;Shipment&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3[contains(@class, &apos;font-weight-normal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHawb4" Key="{053ED3AF-3B3F-445F-8850-4A3A8460C63C}">
+										<Image FileName="1217580278" Left="501" Top="244" Right="604" Bottom="278" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;HAWB4&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeShipment8custref" Key="{07ECD18A-0DC6-4CC0-AD83-CA571FDB72FB}">
+										<Image FileName="1217580278" Left="617" Top="244" Right="921" Bottom="278" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//span[contains(text(), &apos;CustRef&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkWarehouseReceipt43" Key="{851E5509-754D-48DC-BF9B-4B02181756B7}">
+										<Image FileName="1127721980" Left="400" Top="805" Right="528" Bottom="819" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//a[contains(text(), &apos;Warehouse receipt:&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-shipment-packages-list/ul/li//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeWarehouseReceipt43" Key="{A5ECC639-B8D9-4BF4-9A1D-49629A46301E}">
+										<Image FileName="-361523982" Left="477" Top="244" Right="1647" Bottom="278" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//h3[.=&apos;Warehouse receipt&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3[contains(@class, &apos;font-weight-normal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkShipments2" Key="{D2484804-A9CF-4E68-B67A-FF16C814F376}">
+										<Image FileName="1883274376" Left="502" Top="580" Right="675" Bottom="594" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//a[contains(text(), &apos;CustRef&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-cargo-items-index/ul/li//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeShipment8" Key="{8F52042F-F3BB-4281-8D9C-54F62EB1AC53}">
+										<Image FileName="-1837298286" Left="501" Top="244" Right="662" Bottom="278" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//span[contains(text(), &apos;SHIPMENT&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelShipper14" Key="{57192E75-AD51-4205-8B03-4F927F15CC0D}">
+										<Image FileName="-1027443985" Left="801" Top="527" Right="971" Bottom="549" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[contains(text(), &apos;SHIPPER&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelConsgnee14" Key="{30C5BB51-67AF-4FD6-8554-8AA0FCB565D0}">
+										<Image FileName="-1027443985" Left="1001" Top="527" Right="1171" Bottom="549" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[contains(text(), &apos;CONSIGNEE&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelPrepaid" Key="{CE98952B-D89F-45DA-A8E8-DFA91AEDCDE6}">
+										<Image FileName="808155309" Left="1212" Top="683" Right="1453" Bottom="705" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;PREPAID&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/div[contains(@class, &apos;text-truncate&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{04F3F450-5526-4092-96D2-21C0884F59D5}">
@@ -15085,6 +15231,26 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="wndChrome_WidgetWin_0" Key="{70ECFEB0-24A7-4734-BA83-D610C71EA36D}">
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Chrome_WidgetWin_0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Chrome_RenderWidgetHostHWND" Key="{E2FF1B6E-FD72-4158-8F31-C202800795A8}">
+										<TypeInfo Item0="{A1E47FF5-621A-4AAA-8039-A8B50C40D0A8}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Chrome_RenderWidgetHostHWND" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Chrome Legacy Window" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="ExpExpl" Key="{CD3C85FD-FE23-49C1-9507-BC799CFA2850}">
@@ -15938,6 +16104,30 @@
 													</Property>
 													<Property Name="Index">
 														<Value Value="13" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="check2" Key="{E5712288-1DF1-4A08-9CDB-60A21689063E}">
+												<Image FileName="1223457084" Left="30" Top="156" Right="441" Bottom="172" />
+												<TypeInfo Item0="{9AAA4EAE-06CB-4939-82D0-5D78EF8D468B}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="Button" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="&amp;Yes, I would like to repack the cargo." />
+													</Property>
+													<Property Name="Index">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="RICHEDIT" Key="{E2AA9D2E-691B-41E7-AB4D-9593844BBD9B}">
+												<Image FileName="-2059252347" Left="30" Top="126" Right="618" Bottom="536" />
+												<TypeInfo Item0="{2E16C6CB-A939-402A-B9C0-EFA2BB284158}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="RICHEDIT" />
 													</Property>
 												</Properties>
 											</Child>
@@ -17164,6 +17354,96 @@
 																									</Property>
 																								</Properties>
 																							</Child>
+																							<Child Name="editDFPForwarder" Key="{23835414-83FD-42F4-AF13-5515C930020B}">
+																								<Image FileName="-487310725" Left="325" Top="609" Right="562" Bottom="632" />
+																								<TypeInfo Item0="{2E16C6CB-A939-402A-B9C0-EFA2BB284158}" />
+																								<Properties>
+																									<Property Name="WndClass">
+																										<Value Value="Edit" />
+																									</Property>
+																									<Property Name="WndCaption">
+																										<Value Value="" />
+																									</Property>
+																									<Property Name="Index">
+																										<Value Value="5" Type="0" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																							<Child Name="cbxDFPPaymentTerms" Key="{965A1687-CAB5-4D1B-B2E9-EEEC70F9018C}">
+																								<Image FileName="-1343629647" Left="325" Top="650" Right="562" Bottom="671" />
+																								<TypeInfo Item0="{3AE26E27-5D22-4EA8-84EA-CB266809D7FA}" />
+																								<Properties>
+																									<Property Name="WndClass">
+																										<Value Value="ComboBox" />
+																									</Property>
+																									<Property Name="WndCaption">
+																										<Value Value="" />
+																									</Property>
+																									<Property Name="Index">
+																										<Value Value="3" Type="0" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																							<Child Name="cbxDFPINCOTerms" Key="{241A7D5C-097D-478F-8359-E7D91D8E162F}">
+																								<Image FileName="63225117" Left="325" Top="691" Right="562" Bottom="712" />
+																								<TypeInfo Item0="{3AE26E27-5D22-4EA8-84EA-CB266809D7FA}" />
+																								<Properties>
+																									<Property Name="WndClass">
+																										<Value Value="ComboBox" />
+																									</Property>
+																									<Property Name="WndCaption">
+																										<Value Value="" />
+																									</Property>
+																									<Property Name="Index">
+																										<Value Value="4" Type="0" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																							<Child Name="editDFPCargoReady" Key="{8A86AB20-4DD0-4B77-80C3-6BC6CDE8974A}">
+																								<Image FileName="-218920374" Left="325" Top="732" Right="562" Bottom="755" />
+																								<TypeInfo Item0="{2E16C6CB-A939-402A-B9C0-EFA2BB284158}" />
+																								<Properties>
+																									<Property Name="WndClass">
+																										<Value Value="Edit" />
+																									</Property>
+																									<Property Name="WndCaption">
+																										<Value Value="" />
+																									</Property>
+																									<Property Name="Index">
+																										<Value Value="6" Type="0" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																							<Child Name="editShipperReference" Key="{FBC8AC14-6316-496C-A202-C82EB14A5E58}">
+																								<Image FileName="-831026020" Left="325" Top="773" Right="562" Bottom="796" />
+																								<TypeInfo Item0="{2E16C6CB-A939-402A-B9C0-EFA2BB284158}" />
+																								<Properties>
+																									<Property Name="WndClass">
+																										<Value Value="Edit" />
+																									</Property>
+																									<Property Name="WndCaption">
+																										<Value Value="" />
+																									</Property>
+																									<Property Name="Index">
+																										<Value Value="7" Type="0" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																							<Child Name="editShipmentGuid2" Key="{FC76975D-6B12-402A-AED2-F1A50D81961B}">
+																								<Image FileName="1942493151" Left="325" Top="814" Right="562" Bottom="837" />
+																								<TypeInfo Item0="{2E16C6CB-A939-402A-B9C0-EFA2BB284158}" />
+																								<Properties>
+																									<Property Name="WndClass">
+																										<Value Value="Edit" />
+																									</Property>
+																									<Property Name="WndCaption">
+																										<Value Value="" />
+																									</Property>
+																									<Property Name="Index">
+																										<Value Value="8" Type="0" />
+																									</Property>
+																								</Properties>
+																							</Child>
 																						</Children>
 																					</Child>
 																					<Child Name="pageEvents" Key="{1F5AFEE1-A373-432D-B61D-5F2721F5A1EE}">
@@ -17960,6 +18240,7 @@
 					<Child Name="textnode1xContainerNos" Owner="{8AA27A34-FDF3-4EC5-8B32-98EF9F8FC0C1}">
 						<Child Name="textnode1xOther" Owner="{D509E8B3-CF23-47CF-B06C-BB29B5E6B390}">
 							<Child Name="panelUpdatecommodity" Owner="{7B99EA5E-ADD0-4CF4-AA6B-9D5BE74B33C7}" />
+							<Child Name="linkWarehouseReceipt43" Owner="{851E5509-754D-48DC-BF9B-4B02181756B7}" />
 						</Child>
 					</Child>
 					<Child Name="panelFAKUP" Owner="{8DD1203F-C0A4-4394-B153-4A2EB5F148DE}" />
@@ -18348,6 +18629,8 @@
 							<Child Name="panelAutomationdetails" Owner="{456F7EA7-B5E9-4E0D-874D-C6C468504F3C}" />
 						</Child>
 					</Child>
+					<Child Name="panelHawb4" Owner="{02BCB183-E509-4237-BF82-DE27A920A97B}" />
+					<Child Name="panelShipment8airwaynumber" Owner="{37BA9CB5-1DAC-4636-BBB2-B76BF9A5CA55}" />
 				</Child>
 				<Child Name="navDashboard" Owner="{A7A0574D-C40C-4FF1-9DD2-0A240712F5C3}">
 					<Child Name="textnodeShipments" Owner="{81EF3BC1-6296-4BD3-9962-04A64D0A202D}">
@@ -18698,6 +18981,7 @@
 							<Child Name="panelLoaded" Owner="{42015DCF-F45E-421B-B545-A8473A6B8391}" />
 							<Child Name="panelRcv01" Owner="{227545C6-F955-4781-B64E-6522C7104276}" />
 							<Child Name="panelUpdatecommodity2" Owner="{88B74145-22C3-4BB6-98E7-342924668188}" />
+							<Child Name="linkShipments2" Owner="{D2484804-A9CF-4E68-B67A-FF16C814F376}" />
 						</Child>
 						<Child Name="textnodeTest2Pdf" Owner="{30EF2002-3A6E-4468-9690-18F9249A2D17}">
 							<Child Name="panelTest2Pdf" Owner="{10E38149-E3E6-4458-9DCA-6965BDEB476C}" />
@@ -18816,6 +19100,16 @@
 					<Child Name="panelExworks" Owner="{0DD13721-5443-4078-9800-46FF661ADB86}" />
 					<Child Name="panelShipmentguid" Owner="{7EC3443A-32F0-492B-A4E4-72A4CAA6BBBB}" />
 					<Child Name="panelPortPort" Owner="{9E040502-DFA9-435E-A888-3F7E6E5F5F38}" />
+					<Child Name="panelHouse" Owner="{C5105C14-04DD-4B7C-9482-3A050FEAC793}" />
+					<Child Name="textnodeShipment" Owner="{BF354311-8BFB-4461-9840-AAED44823AEB}">
+						<Child Name="textnodeHawb4" Owner="{053ED3AF-3B3F-445F-8850-4A3A8460C63C}" />
+						<Child Name="textnodeShipment8custref" Owner="{07ECD18A-0DC6-4CC0-AD83-CA571FDB72FB}" />
+						<Child Name="textnodeShipment8" Owner="{8F52042F-F3BB-4281-8D9C-54F62EB1AC53}" />
+					</Child>
+					<Child Name="textnodeWarehouseReceipt43" Owner="{A5ECC639-B8D9-4BF4-9A1D-49629A46301E}" />
+					<Child Name="panelShipper" Owner="{57192E75-AD51-4205-8B03-4F927F15CC0D}" />
+					<Child Name="panelConsignee" Owner="{30C5BB51-67AF-4FD6-8554-8AA0FCB565D0}" />
+					<Child Name="panelPrepaid" Owner="{CE98952B-D89F-45DA-A8E8-DFA91AEDCDE6}" />
 				</Child>
 				<Child Name="textboxName2" Owner="{CDAB938D-4DD1-41CB-BE32-3BC186A96F94}" />
 				<Child Name="buttonSearch2" Owner="{E66DF359-B41B-4093-8EE5-35E706916CBA}" />
@@ -18965,6 +19259,9 @@
 					</Child>
 				</Child>
 			</Child>
+			<Child Name="wndChrome_WidgetWin_0" Owner="{70ECFEB0-24A7-4734-BA83-D610C71EA36D}">
+				<Child Name="Chrome_RenderWidgetHostHWND" Owner="{E2FF1B6E-FD72-4158-8F31-C202800795A8}" />
+			</Child>
 		</Child>
 		<Child Name="ExpExpl" Owner="{CD3C85FD-FE23-49C1-9507-BC799CFA2850}">
 			<Child Name="dlg" Owner="{AB8C7EDE-89C5-4475-8B4F-0C7D609AB6A1}">
@@ -19033,6 +19330,8 @@
 					<Child Name="btnMarkAll" Owner="{2006A886-EB5A-4F29-8640-0BB98222A188}" />
 					<Child Name="btnUnmarkAll" Owner="{25C0681D-BC45-4B19-8643-49B45D11F4D0}" />
 					<Child Name="editCustomer" Owner="{17844BB3-7DEE-4A2A-8F3F-DEB6CF023D0D}" />
+					<Child Name="check2" Owner="{E5712288-1DF1-4A08-9CDB-60A21689063E}" />
+					<Child Name="RICHEDIT" Owner="{E2AA9D2E-691B-41E7-AB4D-9593844BBD9B}" />
 				</Child>
 				<Child Name="tbcAccountingTransaction" Owner="{8E0B9DB8-20F6-4640-9618-B6DE55578D37}" />
 				<Child Name="pageEvents" Owner="{2A93253C-8A13-41A0-84B7-D986DE5F7558}">
@@ -19172,6 +19471,12 @@
 										<Child Name="cbxINCOTerms" Owner="{E68F432F-9C5D-4C3D-AE3C-799C72D5872E}" />
 										<Child Name="cbxBoolean" Owner="{492C107A-CC7B-445E-BB35-391AA3F45287}" />
 										<Child Name="editShipmentguid" Owner="{592582A1-1DB7-4B8F-B4E0-3C6029B64D2C}" />
+										<Child Name="editDFPForwarder" Owner="{23835414-83FD-42F4-AF13-5515C930020B}" />
+										<Child Name="cbxDFPPaymentTerms" Owner="{965A1687-CAB5-4D1B-B2E9-EEEC70F9018C}" />
+										<Child Name="cbxDFPINCOTerms" Owner="{241A7D5C-097D-478F-8359-E7D91D8E162F}" />
+										<Child Name="editDFPCargoReady" Owner="{8A86AB20-4DD0-4B77-80C3-6BC6CDE8974A}" />
+										<Child Name="editShipperReference" Owner="{FBC8AC14-6316-496C-A202-C82EB14A5E58}" />
+										<Child Name="editShipmentGuid2" Owner="{FC76975D-6B12-402A-AED2-F1A50D81961B}" />
 									</Child>
 									<Child Name="pageEvents" Owner="{1F5AFEE1-A373-432D-B61D-5F2721F5A1EE}">
 										<Child Name="List1" Owner="{53CF0F17-E654-4D4B-A3B8-DAF180B3B952}" />
