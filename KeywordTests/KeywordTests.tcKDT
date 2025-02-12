@@ -57,7 +57,7 @@
 					<child name="TC_40_1107_DFPReportsDownloadExcel" key="{9A5E4429-08F4-4761-9F0D-016BD166B659}" path="TC_40_1107_DFPReportsDownloadExcel.tcKDTest" />
 				</folder>
 				<folder name="WR">
-					<child name="TC_32_923_MagayaToQWYK_WarehouseReceipt" key="{20595082-685C-47D2-9299-F8E6C1ACE7BC}" path="TC_32_923_MagayaToQWYK_WarehouseReceipt.tcKDTest" />
+					<child name="TC_32_923_34_3373MagayaToQWYK_WarehouseReceipt" key="{20595082-685C-47D2-9299-F8E6C1ACE7BC}" path="TC_32_923_34_3373MagayaToQWYK_WarehouseReceipt.tcKDTest" />
 					<child name="TC_33_924_MagayaToQWYK_UpdateWR" key="{42CDDB5D-73C0-4DEA-9731-60A560DE93C4}" path="TC_33_924_MagayaToQWYK_UpdateWR.tcKDTest" />
 				</folder>
 				<folder name="CR">

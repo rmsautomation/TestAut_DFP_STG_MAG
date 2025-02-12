@@ -8,7 +8,7 @@
 		</Data>
 		<Children>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="TC_32_923_MagayaToQWYK_WarehouseReceipt" />
+				<Data Description="Runs a keyword test." TestName="TC_32_923_34_3373MagayaToQWYK_WarehouseReceipt" />
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs a keyword test." TestName="LoginMagaya" />
