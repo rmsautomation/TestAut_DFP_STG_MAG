@@ -13829,6 +13829,63 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeLosAngeles" Key="{0417E0D0-CD4A-4012-A0B0-41D848F083F0}">
+										<Image FileName="560097014" Left="451" Top="479" Right="620" Bottom="498" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h6[contains(text(), &apos;LOS ANGELES&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-shipment-summary-card//qwyk-shipment-transport-view//div//h6[contains(@class, &apos;font-weight-normal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-shipment-summary-card//qwyk-shipment-transport-view//div//h6" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeShanghaiHongqiaoInternat" Key="{60E3903E-B143-40D3-87C6-6BA1AF7447AB}">
+										<Image FileName="560097014" Left="1152" Top="479" Right="1321" Bottom="498" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h6[contains(text(), &apos;SHANGHAI HONGQIAO INTERNATIONAL APT, 31&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-shipment-summary-card//qwyk-shipment-transport-view//div[3]//h6[contains(@class, &apos;font-weight-normal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-shipment-summary-card//qwyk-shipment-transport-view//div[3]//h6" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelUslax" Key="{79099C39-5876-43B4-9485-2D11F97AB5EA}">
+										<Image FileName="-1983687170" Left="636" Top="503" Right="697" Bottom="520" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@aria-describedby=(//ngb-tooltip-window[.=&apos;Los Angeles, CA&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;USLAX&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelCnsha" Key="{47DA6135-8FC1-414E-913C-9821FB17CE74}">
+										<Image FileName="437403916" Left="1075" Top="503" Right="1136" Bottom="520" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@aria-describedby=(//ngb-tooltip-window[.=&apos;Shanghai Hongqiao International Apt, 31&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;CNSHA&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{04F3F450-5526-4092-96D2-21C0884F59D5}">
@@ -19221,6 +19278,10 @@
 							<Child Name="panelBooked" Owner="{B5D1E285-9F71-4EDC-922F-BAE348EC784B}" />
 						</Child>
 					</Child>
+					<Child Name="textnodeLosAngeles" Owner="{0417E0D0-CD4A-4012-A0B0-41D848F083F0}" />
+					<Child Name="textnodeShanghaiHongqiaoInternat" Owner="{60E3903E-B143-40D3-87C6-6BA1AF7447AB}" />
+					<Child Name="panelUslax" Owner="{79099C39-5876-43B4-9485-2D11F97AB5EA}" />
+					<Child Name="panelCnsha" Owner="{47DA6135-8FC1-414E-913C-9821FB17CE74}" />
 				</Child>
 				<Child Name="textboxName2" Owner="{CDAB938D-4DD1-41CB-BE32-3BC186A96F94}" />
 				<Child Name="buttonSearch2" Owner="{E66DF359-B41B-4093-8EE5-35E706916CBA}" />

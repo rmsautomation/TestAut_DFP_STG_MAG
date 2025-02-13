@@ -167,6 +167,7 @@
 						<child name="SearchHouseShipment" key="{76A1B6F3-FF7F-497D-AAD6-AC4CBEB417B9}" path="SearchHouseShipment.tcKDTest" />
 						<child name="VerifyUpdatedMasterShipment" key="{AB2D6D6E-D5BD-47D2-982C-EF0FA68B8016}" path="VerifyUpdatedMasterShipment.tcKDTest" />
 						<child name="VerifyUpdatedHouse" key="{90D5E416-92BC-40C0-94FA-AB809EE971B6}" path="VerifyUpdatedHouse.tcKDTest" />
+						<child name="VerifyHouseCreatedInMagaya" key="{7CAEDED4-E0FC-4823-A6F1-D4BB8E5C4848}" path="VerifyHouseCreatedInMagaya.tcKDTest" />
 					</folder>
 					<folder name="UploadAttachment">
 						<child name="AddGenericAttachmentDFP" key="{BE765EEA-98FD-4045-B4CF-B56B377D05B4}" path="AddGenericAttachmentDFP.tcKDTest" />
