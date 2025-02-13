@@ -8377,6 +8377,40 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeBillingClient" Key="{86993456-21E8-4F92-8B67-CDE0ACA38B4C}">
+										<Image FileName="-1846909095" Left="376" Top="715" Right="1746" Bottom="1097" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Billing Client&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-entities-index/ul[contains(@class, &apos;list-group&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-entities-index/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCarrier" Key="{78F07D0D-A0B5-4FB1-9207-14A276678B31}">
+										<Image FileName="-1846909095" Left="376" Top="779" Right="1746" Bottom="843" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Carrier&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelAirupdated" Key="{5ED07A97-5040-4FEF-B6A0-0EC096425B4C}">
+										<Image FileName="-1846909095" Left="532" Top="800" Right="1710" Bottom="822" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;AIRUpdated&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]//qwyk-entities-index/ul/li[2]//div[contains(@class, &apos;text-truncate&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageMagaya9" Key="{86480E91-9864-47C9-B9DF-E3A336A0E37E}">
@@ -12240,10 +12274,10 @@
 										<TypeInfo Item0="{8A34ED57-033C-4E01-B624-E540D7FA56BB}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[.=&apos;Freight All Kinds (FAK)UPDATED&apos;]" />
+												<Value Value="//div[6]/div[contains(@class, &apos;text-truncate&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//div[6]/div[contains(@class, &apos;text-truncate&apos;)]" />
+												<Value Value="//div[.=&apos;Freight All Kinds (FAK)UPDATED&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -13883,6 +13917,161 @@
 											</Selector>
 											<Selector>
 												<Value Value="//div[contains(text(), &apos;CNSHA&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelNewYorkNy" Key="{4F1D6C5C-9AC8-4EBF-96FF-F1730F819CCF}">
+										<Image FileName="-249717237" Left="636" Top="303" Right="697" Bottom="320" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;USNYC&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@aria-describedby=(//ngb-tooltip-window[.=&apos;New York, NY&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelRotterdamZh" Key="{D3B2CB76-9FD2-4647-A52C-E42C89F74E25}">
+										<Image FileName="-1853457930" Left="1075" Top="303" Right="1136" Bottom="320" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;NLRTM&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@aria-describedby=(//ngb-tooltip-window[.=&apos;Rotterdam, ZH&apos;]/@id)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeRoundpriceupdatedXlsx" Key="{5B1C48E4-6D4F-41BD-BFB6-760FBF5EC03A}">
+										<Image FileName="980520134" Left="376" Top="508" Right="1746" Bottom="601" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;RoundPriceUpdated.xlsx&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-shipment-attachments-view/qwyk-shipment-attachments-list//ul/li[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelRoundpriceupdatedXlsx2" Key="{03EBF538-1BF7-4CAA-BCD8-EDC36F15A499}">
+										<Image FileName="980520134" Left="400" Top="554" Right="821" Bottom="576" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//li[.//div[@class=&apos;font-weight-bold&apos; and normalize-space(text())=&apos;RoundPriceUpdated.xlsx&apos;]]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode1xOther2" Key="{A84CF3FC-B566-4897-A350-9B42B877DA95}">
+										<Image FileName="-906504520" Left="376" Top="267" Right="1746" Bottom="1012" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;1x Other&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-shipment-packages-list/ul[contains(@class, &apos;list-group&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-shipment-packages-list/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode1xOther3" Key="{642A80B8-61CD-4F5E-837F-4A8E4DAAB5AB}">
+										<Image FileName="-906504520" Left="376" Top="447" Right="1746" Bottom="518" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;0.00 cm x 0.00 cm x 0.00 cm&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelUpdatecommodity4" Key="{FAC0BF6C-437A-4AC3-A1DF-4A215E74BA87}">
+										<Image FileName="-906504520" Left="626" Top="471" Right="934" Bottom="493" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[contains(@class, &apos;text-truncate&apos;) and normalize-space(text())=&apos;houseUpdatedDescription&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelDescriptionOfGoodsUpdated" Key="{A7730AB5-47D1-4F87-9E0D-79DC8135DD9F}">
+										<Image FileName="1874055592" Left="400" Top="397" Right="1722" Bottom="419" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[normalize-space(text())=&apos;Description of Goods UPDATED&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[6]/div[contains(@class, &apos;text-truncate&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelCollect" Key="{F2D2EA4F-25C9-4CCD-A092-E49C270A55F4}">
+										<Image FileName="1874055592" Left="1212" Top="331" Right="1453" Bottom="353" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;COLLECT&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/div[contains(@class, &apos;text-truncate&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelTest" Key="{3D7DDFC8-B51F-4BAA-839C-8B28EDBDC96D}">
+										<Image FileName="1874055592" Left="738" Top="456" Right="1046" Bottom="478" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Test&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelShipmentguidupdated" Key="{B3EDE0BB-F899-478B-89CB-08C8310C1727}">
+										<Image FileName="1874055592" Left="1077" Top="456" Right="1385" Bottom="478" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[contains(normalize-space(text()), &apos;ShipmentGuidUPDATED&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelAirupdated" Key="{871DAD4D-F686-41A6-81BD-A8646997905C}">
+										<Image FileName="1874055592" Left="532" Top="636" Right="1710" Bottom="658" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;AIRUpdated&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]//qwyk-entities-index/ul/li//div[contains(@class, &apos;text-truncate&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAttachcommodityPdf" Key="{A1E97E66-21E5-4BE3-9095-6F7E44FFD192}">
+										<Image FileName="-1036643277" Left="236" Top="947" Right="1332" Bottom="1040" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;attachCommodity.pdf&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelAttachcommodityPdf" Key="{A51B132D-CFC8-4EC4-A0D4-7F03E1153F66}">
+										<Image FileName="-1036643277" Left="260" Top="972" Right="589" Bottom="994" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;attachCommodity.pdf&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-shipment-attachments-view/qwyk-shipment-attachments-list//ul/li[6]//div[contains(@class, &apos;font-weight-bold&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[6]/div/div/div" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -17896,6 +18085,14 @@
 											</Child>
 										</Children>
 									</Child>
+									<Child Name="toolbar" Key="{FCB9C945-C2EE-43FC-B451-F0B14354FA8E}">
+										<TypeInfo Item0="{3AACBFC4-FDEA-43D6-B840-6F46B343C911}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ToolbarWindow32" />
+											</Property>
+										</Properties>
+									</Child>
 								</Children>
 							</Child>
 						</Children>
@@ -18345,6 +18542,7 @@
 							<Child Name="panelMsc" Owner="{5237AAAA-8C4C-425B-8608-1E223E2C4F5D}" />
 							<Child Name="panelCma" Owner="{6322E1B1-8EE7-4151-ACB7-5B578E22531D}" />
 							<Child Name="panelCma2" Owner="{62AC8F25-93E8-4C18-BB97-CD462DEA8AC9}" />
+							<Child Name="panelAirupdated" Owner="{871DAD4D-F686-41A6-81BD-A8646997905C}" />
 						</Child>
 						<Child Name="textnodeDestinationAgent" Owner="{29DFC9DF-B326-4DBD-A116-31837E7E8E92}">
 							<Child Name="panelAgentdestination" Owner="{EC1AAB79-0D8B-4764-90D9-ABF8484E92D6}" />
@@ -18791,6 +18989,11 @@
 					</Child>
 					<Child Name="panelHawb4" Owner="{02BCB183-E509-4237-BF82-DE27A920A97B}" />
 					<Child Name="panelShipment8airwaynumber" Owner="{37BA9CB5-1DAC-4636-BBB2-B76BF9A5CA55}" />
+					<Child Name="textnodeBillingClient" Owner="{86993456-21E8-4F92-8B67-CDE0ACA38B4C}">
+						<Child Name="textnodeCarrier" Owner="{78F07D0D-A0B5-4FB1-9207-14A276678B31}">
+							<Child Name="panelAirupdated" Owner="{5ED07A97-5040-4FEF-B6A0-0EC096425B4C}" />
+						</Child>
+					</Child>
 				</Child>
 				<Child Name="navDashboard" Owner="{A7A0574D-C40C-4FF1-9DD2-0A240712F5C3}">
 					<Child Name="textnodeShipments" Owner="{81EF3BC1-6296-4BD3-9962-04A64D0A202D}">
@@ -19150,6 +19353,12 @@
 						<Child Name="textnodeTestJpg" Owner="{A52F6FC8-8847-43A9-A757-1B1955FD9DD5}">
 							<Child Name="panelTestJpg" Owner="{A74F1DF9-0683-4F6A-A75D-A2B55670B860}" />
 						</Child>
+						<Child Name="textnodeRoundpriceupdatedXlsx" Owner="{5B1C48E4-6D4F-41BD-BFB6-760FBF5EC03A}">
+							<Child Name="panelRoundpriceupdatedXlsx2" Owner="{03EBF538-1BF7-4CAA-BCD8-EDC36F15A499}" />
+						</Child>
+						<Child Name="textnodeAttachcommodityPdf" Owner="{A1E97E66-21E5-4BE3-9095-6F7E44FFD192}">
+							<Child Name="panelAttachcommodityPdf" Owner="{A51B132D-CFC8-4EC4-A0D4-7F03E1153F66}" />
+						</Child>
 					</Child>
 					<Child Name="panel2ponumber" Owner="{7AAA0410-12D2-4371-98DF-3E236CF6D829}" />
 					<Child Name="panelPronumberupdated" Owner="{9CD43A7A-E7DB-491E-A6C3-F037294E06F5}" />
@@ -19282,6 +19491,17 @@
 					<Child Name="textnodeShanghaiHongqiaoInternat" Owner="{60E3903E-B143-40D3-87C6-6BA1AF7447AB}" />
 					<Child Name="panelUslax" Owner="{79099C39-5876-43B4-9485-2D11F97AB5EA}" />
 					<Child Name="panelCnsha" Owner="{47DA6135-8FC1-414E-913C-9821FB17CE74}" />
+					<Child Name="panelNewYorkNy" Owner="{4F1D6C5C-9AC8-4EBF-96FF-F1730F819CCF}" />
+					<Child Name="panelRotterdamZh" Owner="{D3B2CB76-9FD2-4647-A52C-E42C89F74E25}" />
+					<Child Name="textnode1xOther2" Owner="{A84CF3FC-B566-4897-A350-9B42B877DA95}">
+						<Child Name="textnode1xOther3" Owner="{642A80B8-61CD-4F5E-837F-4A8E4DAAB5AB}">
+							<Child Name="panelUpdatecommodity4" Owner="{FAC0BF6C-437A-4AC3-A1DF-4A215E74BA87}" />
+						</Child>
+					</Child>
+					<Child Name="panelDescriptionOfGoodsUpdated" Owner="{A7730AB5-47D1-4F87-9E0D-79DC8135DD9F}" />
+					<Child Name="panelCollect" Owner="{F2D2EA4F-25C9-4CCD-A092-E49C270A55F4}" />
+					<Child Name="panelTest" Owner="{3D7DDFC8-B51F-4BAA-839C-8B28EDBDC96D}" />
+					<Child Name="panelShipmentguidupdated" Owner="{B3EDE0BB-F899-478B-89CB-08C8310C1727}" />
 				</Child>
 				<Child Name="textboxName2" Owner="{CDAB938D-4DD1-41CB-BE32-3BC186A96F94}" />
 				<Child Name="buttonSearch2" Owner="{E66DF359-B41B-4093-8EE5-35E706916CBA}" />
@@ -19688,6 +19908,7 @@
 						</Child>
 					</Child>
 				</Child>
+				<Child Name="toolbar" Owner="{FCB9C945-C2EE-43FC-B451-F0B14354FA8E}" />
 			</Child>
 		</Child>
 		<Child Name="SourceTree" Owner="{6D5084A7-EDE9-457F-AE23-A21E49DFD672}">
