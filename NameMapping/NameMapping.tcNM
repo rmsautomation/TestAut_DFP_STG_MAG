@@ -4324,10 +4324,10 @@
 										<TypeInfo Item0="{0FA95922-5259-4B01-B64E-97A6A4C4FF60}" />
 										<Selectors>
 											<Selector>
-												<Value Value="" />
+												<Value Value="xpath=//a[contains(@class, &apos;nav-link&apos;) and contains(@class, &apos;btn&apos;) and contains(@class, &apos;btn-outline-secondary&apos;) and contains(@class, &apos;text-white&apos;) and text() = &apos;Sign in&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="xpath=//a[contains(@class, &apos;nav-link&apos;) and contains(@class, &apos;btn&apos;) and contains(@class, &apos;btn-outline-secondary&apos;) and contains(@class, &apos;text-white&apos;) and text() = &apos;Sign in&apos;]" />
+												<Value Value="" />
 											</Selector>
 											<Selector>
 												<Value Value="" />
@@ -10608,12 +10608,15 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="linkCharges" Key="{F52A3D37-886E-45BD-BBF1-00142CBA7CDA}">
+									<Child Name="masterShipment" Key="{F52A3D37-886E-45BD-BBF1-00142CBA7CDA}">
 										<Image FileName="-376980303" Left="587" Top="771" Right="658" Bottom="793" />
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[2]/qwyk-quotation-offer-card[2]//a" />
+												<Value Value="xpath=//span[contains(text(), &apos;Master&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=(//div[contains(@class, &apos;h4&apos;) and contains(@class, &apos;text-truncate&apos;)])[2]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -12909,12 +12912,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="panel26000" Key="{0C649AD0-6DB0-490F-89ED-F96DEB05A9E3}">
+									<Child Name="panelSummary" Key="{0C649AD0-6DB0-490F-89ED-F96DEB05A9E3}">
 										<Image FileName="-365995497" Left="1512" Top="575" Right="1737" Bottom="597" />
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[197]/div[4]" />
+												<Value Value="xpath=//div[fa-icon[contains(@class, &apos;ng-fa-icon&apos;)] and contains(text(), &apos;Summary&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -13792,6 +13795,9 @@
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=//div[normalize-space(text()) = &apos;House Bs/L&apos;]" />
+											</Selector>
+											<Selector>
 												<Value Value="//div[contains(text(), &apos;House Bs/L&apos;)]" />
 											</Selector>
 											<Selector>
@@ -13898,10 +13904,10 @@
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[@aria-describedby=(//ngb-tooltip-window[.=&apos;Los Angeles, CA&apos;]/@id)]" />
+												<Value Value="//div[contains(text(), &apos;USLAX&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//div[contains(text(), &apos;USLAX&apos;)]" />
+												<Value Value="//div[@aria-describedby=(//ngb-tooltip-window[.=&apos;Los Angeles, CA&apos;]/@id)]" />
 											</Selector>
 											<Selector>
 												<Value Value="//div/div/div/div/div/div" />
@@ -13913,10 +13919,10 @@
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[@aria-describedby=(//ngb-tooltip-window[.=&apos;Shanghai Hongqiao International Apt, 31&apos;]/@id)]" />
+												<Value Value="//div[contains(text(), &apos;CNSHA&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//div[contains(text(), &apos;CNSHA&apos;)]" />
+												<Value Value="//div[@aria-describedby=(//ngb-tooltip-window[.=&apos;Shanghai Hongqiao International Apt, 31&apos;]/@id)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -13925,13 +13931,10 @@
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=//div[contains(@class, &apos;small&apos;)]/div[normalize-space()=&apos;USNYC&apos;]" />
+											</Selector>
+											<Selector>
 												<Value Value="//div[contains(text(), &apos;USNYC&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[@aria-describedby=(//ngb-tooltip-window[.=&apos;New York, NY&apos;]/@id)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div/div/div/div/div/div" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -13939,6 +13942,9 @@
 										<Image FileName="-1853457930" Left="1075" Top="303" Right="1136" Bottom="320" />
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[contains(@class, &apos;small&apos;)]/div[normalize-space()=&apos;NLRTM&apos;]" />
+											</Selector>
 											<Selector>
 												<Value Value="//div[contains(text(), &apos;NLRTM&apos;)]" />
 											</Selector>
@@ -17845,6 +17851,18 @@
 																							</Child>
 																						</Children>
 																					</Child>
+																					<Child Name="Tree1" Key="{51B23BF7-55C0-4A29-8746-5F63B917E38C}">
+																						<Image FileName="1662337209" Left="1508" Top="412" Right="1910" Bottom="953" />
+																						<TypeInfo Item0="{0FF1297C-23C3-4736-B17C-F093BBC9548C}" />
+																						<Properties>
+																							<Property Name="WndClass">
+																								<Value Value="SysTreeView32" />
+																							</Property>
+																							<Property Name="WndCaption">
+																								<Value Value="Tree1" />
+																							</Property>
+																						</Properties>
+																					</Child>
 																				</Children>
 																			</Child>
 																		</Children>
@@ -19269,6 +19287,7 @@
 							<Child Name="panelReleasedTo" Owner="{D522FE1D-A4AC-4AFE-8ABD-C09790233A9B}" />
 							<Child Name="panelTotalItems" Owner="{6469915B-A624-4074-A5CF-6A9B881D9472}" />
 						</Child>
+						<Child Name="masterShipment" Owner="{F52A3D37-886E-45BD-BBF1-00142CBA7CDA}" />
 					</Child>
 					<Child Name="navSummary" Owner="{C8696F25-3634-4C15-A892-C03649DF7443}">
 						<Child Name="linkOffers" Owner="{088EEB6E-7896-419C-8AFC-D8E8F863286B}" />
@@ -19402,7 +19421,7 @@
 				<Child Name="panelRequestADifferentRate" Owner="{F00322FB-BB44-4EBC-A779-77467DCD493F}" />
 				<Child Name="offersNumber" Owner="{671ACCBB-BC3B-40B7-916F-9CB1CFE00A26}" />
 				<Child Name="buttonBookNow" Owner="{D4BB7059-4955-42ED-BAC1-052696A89D4F}" />
-				<Child Name="linkCharges" Owner="{F52A3D37-886E-45BD-BBF1-00142CBA7CDA}" />
+				<Child Name="masterShipment" Owner="{F52A3D37-886E-45BD-BBF1-00142CBA7CDA}" />
 				<Child Name="textnodeModalBasicTitle" Owner="{26BD6FC3-E3CE-4BD9-9A38-CB05489286A8}" />
 				<Child Name="textnodeTermsAndRemarks" Owner="{6293BB77-9C56-4159-93A9-9B4E5F61C850}" />
 				<Child Name="buttonConfirm" Owner="{D4F57F1D-EDB4-4C8A-94EE-D6A7979E2979}" />
@@ -19460,7 +19479,7 @@
 							<Child Name="panelStorageFee" Owner="{8A05DC20-BFA3-4C0E-BDCF-45A08C2B11A4}" />
 							<Child Name="panelHandlingFee" Owner="{1BCFCC14-4DC2-4945-B283-8A0236B40BA1}" />
 							<Child Name="panelRepackingFee" Owner="{4AD8EAFE-7FFF-44B4-A336-CA7E35B19CAF}" />
-							<Child Name="panel26000" Owner="{0C649AD0-6DB0-490F-89ED-F96DEB05A9E3}" />
+							<Child Name="panelSummary" Owner="{0C649AD0-6DB0-490F-89ED-F96DEB05A9E3}" />
 							<Child Name="panel27000" Owner="{48778B95-50FF-42D2-A0C5-652F5BCC7633}" />
 							<Child Name="panelCratingFee" Owner="{52DC960F-98A7-432A-AC08-438226D66DDC}" />
 						</Child>
@@ -19878,6 +19897,7 @@
 									<Child Name="pageCommodities" Owner="{51FF909F-E443-4A0D-B54C-8C40A703A619}">
 										<Child Name="List1" Owner="{41B6A409-72C6-4969-88ED-734C4C25AB28}" />
 									</Child>
+									<Child Name="Tree1" Owner="{51B23BF7-55C0-4A29-8746-5F63B917E38C}" />
 								</Child>
 							</Child>
 							<Child Name="toolbar" Owner="{D37DA624-5AFD-4A37-9881-C1630089ADA7}" />

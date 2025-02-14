@@ -169,6 +169,8 @@
 						<child name="VerifyUpdatedHouse" key="{90D5E416-92BC-40C0-94FA-AB809EE971B6}" path="VerifyUpdatedHouse.tcKDTest" />
 						<child name="VerifyHouseCreatedInMagaya" key="{7CAEDED4-E0FC-4823-A6F1-D4BB8E5C4848}" path="VerifyHouseCreatedInMagaya.tcKDTest" />
 						<child name="VerifyUpdateOnlyHouse" key="{80EB6386-88E1-4642-9881-9B375B6B1092}" path="VerifyUpdateOnlyHouse.tcKDTest" />
+						<child name="SearchMasterGoToHouse" key="{CA7D5D78-4BA2-4798-86A3-D175D5052962}" path="SearchMasterGoToHouse.tcKDTest" />
+						<child name="SearchMasterShipment" key="{85BDCF80-636A-4BA8-B3CB-E939E5270A10}" path="SearchMasterShipment.tcKDTest" />
 					</folder>
 					<folder name="UploadAttachment">
 						<child name="AddGenericAttachmentDFP" key="{BE765EEA-98FD-4045-B4CF-B56B377D05B4}" path="AddGenericAttachmentDFP.tcKDTest" />
@@ -295,6 +297,7 @@
 					<child name="CreateHouseForShipment" key="{1A3CE373-B0B3-4547-A756-E72EFFDCD888}" path="CreateHouseForShipment.tcKDTest" />
 					<child name="UpdateMasterShipment" key="{40E1DF77-3F2F-44E2-8EC0-960108E83445}" path="UpdateMasterShipment.tcKDTest" />
 					<child name="UpdateHouseShipment" key="{BE1D8D65-1DCA-40F4-8EC6-B47CDB3BD8D5}" path="UpdateHouseShipment.tcKDTest" />
+					<child name="SearchHouseShipmentMagaya" key="{7BBD7264-F1ED-4029-BC49-A23F9D70D742}" path="SearchHouseShipmentMagaya.tcKDTest" />
 				</folder>
 				<folder name="BOOKING">
 					<child name="VerifyBookingInfo" key="{FBA58F6C-6FC0-4AFB-9E3B-B41DDF153243}" path="VerifyBookingInfo.tcKDTest" />
