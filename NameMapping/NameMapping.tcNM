@@ -8411,6 +8411,41 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeCargoHasBeenCreatedAutom" Key="{5E172213-33B0-4CAD-A109-D65D16CD855F}">
+										<Image FileName="1484848417" Left="478" Top="525" Right="1646" Bottom="612" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Cargo has been created automatic Event Magaya&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;p-4&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelCargoHasBeenCreatedAutomati" Key="{46197D80-EB4E-4734-8F6E-E59FBF4E078F}">
+										<Image FileName="1484848417" Left="502" Top="549" Right="855" Bottom="571" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[normalize-space()=&apos;Cargo has been created automatic Event Magaya&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[.=&apos;Cargo has been created automatic Event Magaya&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelCargoHasBeenCreatedAutomati2" Key="{2EC57276-BF43-4DEA-90C1-B34B9240A637}">
+										<Image FileName="1484848417" Left="502" Top="571" Right="855" Bottom="588" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//qwyk-detail-card//qwyk-events-index/ul/li[2]//div[contains(@class, &apos;small&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageMagaya9" Key="{86480E91-9864-47C9-B9DF-E3A336A0E37E}">
@@ -19001,6 +19036,10 @@
 						</Child>
 						<Child Name="textnodeInTransit" Owner="{D1414B5A-C2CF-477C-9DC6-4F3B18FDE8EE}">
 							<Child Name="panelAutomationdetails" Owner="{456F7EA7-B5E9-4E0D-874D-C6C468504F3C}" />
+						</Child>
+						<Child Name="textnodeCargoHasBeenCreatedAutom" Owner="{5E172213-33B0-4CAD-A109-D65D16CD855F}">
+							<Child Name="panelCargoHasBeenCreatedAutomati" Owner="{46197D80-EB4E-4734-8F6E-E59FBF4E078F}" />
+							<Child Name="panelCargoHasBeenCreatedAutomati2" Owner="{2EC57276-BF43-4DEA-90C1-B34B9240A637}" />
 						</Child>
 					</Child>
 					<Child Name="panelHawb4" Owner="{02BCB183-E509-4237-BF82-DE27A920A97B}" />

@@ -61,7 +61,7 @@
 					<child name="TC_33_924_MagayaToQWYK_UpdateWR" key="{42CDDB5D-73C0-4DEA-9731-60A560DE93C4}" path="TC_33_924_MagayaToQWYK_UpdateWR.tcKDTest" />
 				</folder>
 				<folder name="CR">
-					<child name="TC_43_1593_MagayaToQWYK_CRWRVerifyQWYK" key="{323C086D-9B51-488F-B37A-9A49AA418098}" path="TC_43_1593_MagayaToQWYK_CRWRVerifyQWYK.tcKDTest" />
+					<child name="TC_43_1593_46_1614_CRWithWRAutomaticEv" key="{323C086D-9B51-488F-B37A-9A49AA418098}" path="TC_43_1593_46_1614_CRWithWRAutomaticEv.tcKDTest" />
 					<child name="TC_44_1594_47_1599MagayaToQWYK_UpdateCR" key="{27E22D25-FAB3-4F08-B991-70BE03D923A3}" path="TC_44_1594_47_1599MagayaToQWYK_UpdateCR.tcKDTest" />
 					<child name="TC_45_1612_QWYKToMagayaCR_Attachments" key="{B7CC1575-30AD-4515-BA18-ECDBD3A3B05F}" path="TC_45_1612_QWYKToMagayaCR_Attachments.tcKDTest" />
 				</folder>
@@ -187,6 +187,7 @@
 						<child name="SearchCRPortal" key="{552E841D-9B5D-4C0F-AAFD-146A66BE40D6}" path="SearchCRPortal.tcKDTest" />
 						<child name="VerifyCRPortal" key="{A6647989-1A6C-4F0C-8D9C-A9FF17C30A24}" path="VerifyCRPortal.tcKDTest" />
 						<child name="VerifyCRUpdatedPortal" key="{329622EB-3CD0-4971-899E-7450F52FBF21}" path="VerifyCRUpdatedPortal.tcKDTest" />
+						<child name="VerifyAutomaticEventCreatedCRPortal" key="{C1550A0D-648E-4115-93AA-5F226BD457A3}" path="VerifyAutomaticEventCreatedCRPortal.tcKDTest" />
 					</folder>
 					<folder name="InventoryItem">
 						<child name="SearchInventoryItemDFP" key="{BF827A8D-5C87-49BE-930B-1E61F1E31FEC}" path="SearchInventoryItemDFP.tcKDTest" />
@@ -318,6 +319,7 @@
 					<child name="SearchCR" key="{8D42D966-CCE3-47BD-A609-5708DDF4653A}" path="SearchCR.tcKDTest" />
 					<child name="UpdateCRMagaya" key="{5A980669-0514-44DC-A0C9-D5D56290F3AC}" path="UpdateCRMagaya.tcKDTest" />
 					<child name="VerifyAttachmentCRFromDFP" key="{7129002A-CBD8-4E4B-9047-72D5CC14659C}" path="VerifyAttachmentCRFromDFP.tcKDTest" />
+					<child name="VerifyAutomaticEventCRCreated" key="{619158EC-B1A6-4562-B125-7B6F848F7C03}" path="VerifyAutomaticEventCRCreated.tcKDTest" />
 				</folder>
 				<folder name="InventoryItem">
 					<child name="CreateInventoryItem" key="{FA7C7F65-7004-46DD-993C-4FC2F297B704}" path="CreateInventoryItem.tcKDTest" />
