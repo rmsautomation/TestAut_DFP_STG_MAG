@@ -125,6 +125,6 @@
 		</Children>
 	</TestData>
 	<Parameters Key="{AA3B77A9-D089-4359-A884-11C7DF322523}">
-		<Parameter0 Name="shipmentName" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter0 Name="houseID" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
 	</Parameters>
 </Root>
