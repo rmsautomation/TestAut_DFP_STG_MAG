@@ -18969,9 +18969,7 @@
 						<Child Name="linkTracking" Owner="{9F3482BA-910A-4F9A-8919-8C34248A7D60}">
 							<Child Name="panelTracking" Owner="{9B2825AD-BAF5-4AB3-93E1-AE50C7DD83EA}" />
 						</Child>
-						<Child Name="linkAttachments" Owner="{CF6F8A29-344A-47DB-B1AC-0DFEE016BF93}">
-							<Child Name="panelAttachments" Owner="{AAE58638-FBB1-4895-AF83-615ED6947CB2}" />
-						</Child>
+						<Child Name="linkAttachments" Owner="{CF6F8A29-344A-47DB-B1AC-0DFEE016BF93}" />
 						<Child Name="linkCargo" Owner="{D2E01EAD-0E5D-4564-AD84-959FC46B4D6F}" />
 					</Child>
 					<Child Name="textnodeDescription" Owner="{0DEC9E87-E0C6-4736-B1D0-31919833CFC6}">
@@ -19025,6 +19023,7 @@
 					<Child Name="textareaDescription" Owner="{BECAD555-7560-4928-B5EA-C52D5AEAFCAB}" />
 					<Child Name="buttonUpload" Owner="{34480C3E-585E-4B50-8F5B-81DF6D4D75E6}" />
 				</Child>
+				<Child Name="panelAttachments" Owner="{AAE58638-FBB1-4895-AF83-615ED6947CB2}" />
 			</Child>
 			<Child Name="pageMagaya9" Owner="{86480E91-9864-47C9-B9DF-E3A336A0E37E}" />
 			<Child Name="pageMagaya10" Owner="{A1AF1ACC-2F72-438F-9EA2-887E61CB0504}">
