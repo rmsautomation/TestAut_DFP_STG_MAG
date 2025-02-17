@@ -16,5 +16,6 @@
 		<child name="OpenExtension" key="{EB2B6E85-0796-45C1-9FE7-40A765AB1FB8}" path="OpenExtension.js" />
 		<child name="SaveCharge" key="{DBEB1BA6-0B28-4106-8973-BEF7757C1E0C}" path="SaveCharge.js" />
 		<child name="Charges" key="{36F11C1A-7A30-4C15-9518-581B72D6C4E3}" path="Charges.js" />
+		<child name="FilterDropdown" key="{972B9A53-D1A3-43A3-9776-1D4443C9C61A}" path="FilterDropdown.js" />
 	</children>
 </Root>
