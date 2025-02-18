@@ -14116,6 +14116,269 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="buttonDropdownbasic1" Key="{0F07E515-0442-4096-85EC-5CFAC34CBE66}">
+										<Image FileName="1145026730" Left="1562" Top="223" Right="1647" Bottom="261" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Create&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-cargo-releases-index//qwyk-cargo-releases-index-header//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/button[contains(@class, &apos;dropdown-toggle&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonDropdownbasic12" Key="{A5DF5F83-0DCC-4656-82DF-D7054A9233E3}">
+										<Image FileName="-269712192" Left="1411" Top="223" Right="1554" Bottom="261" />
+										<Selectors>
+											<Selector>
+												<Value Value="#dropdownBasic1" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;Learn more&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-cargo-releases-index-header//qwyk-module-info-button//button[contains(@class, &apos;dropdown-toggle&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-cargo-releases-index-header//qwyk-module-info-button//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonNewCargoRelease" Key="{C6F9459A-9080-48D1-9ED5-EE3FC1B4BDD7}">
+										<Image FileName="-269712192" Left="1563" Top="272" Right="1750" Bottom="304" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;New Cargo Release&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/button[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel2" Key="{EF36500D-03F5-45F1-95CA-1BBD2A8A1E47}">
+										<Image FileName="714671818" Left="489" Top="637" Right="509" Bottom="657" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tr/td/p-tablecheckbox//div[contains(@class, &apos;p-checkbox-box&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formWarehouseReceipt" Key="{C82BB9A8-AB35-4314-9032-C67898DE41E2}">
+										<Image FileName="199600076" Left="501" Top="508" Right="1639" Bottom="546" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Warehouse receipt&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;form-row&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonReset" Key="{8F4027C6-108B-439E-B2B9-BA97D6D571A6}">
+										<Image FileName="199600076" Left="1568" Top="508" Right="1634" Bottom="546" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Reset&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;btn-outline-primary&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonLoadSelectedItems" Key="{1F35EDDA-FD7A-4156-8338-4D439D044635}">
+										<Image FileName="-889748186" Left="491" Top="929" Right="651" Bottom="960" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Load selected items&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-create-cargo-release-cargo//qwyk-cargo-loader/p-table//button[contains(@class, &apos;btn-secondary&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonNext" Key="{1FF6A245-A2C0-49E1-A296-569A2B9DE7A2}">
+										<Image FileName="-580466851" Left="498" Top="965" Right="579" Bottom="1003" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Next&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-create-cargo-release-cargo//div/qwyk-create-cargo-release-buttons//button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-create-cargo-release-cargo//div/qwyk-create-cargo-release-buttons//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formReleaseAt" Key="{2C6E357E-69EE-4EED-9362-4ABEBB98D984}">
+										<Image FileName="-1575475355" Left="498" Top="450" Right="1626" Bottom="924" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Release at&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;form&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonNow" Key="{1795C441-806C-4ADA-873D-C715F4F3BEF8}">
+										<Image FileName="-1575475355" Left="718" Top="499" Right="765" Bottom="530" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Now&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/form//button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxUndefined" Key="{699168DF-C521-4E7F-B223-BCEB0761E726}">
+										<Image FileName="1654254514" Left="498" Top="624" Right="1114" Bottom="661" />
+										<TypeInfo Item0="{FE3BBF2D-62CE-4222-9079-8A4579DCFAC4}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;undefined&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/input[@role=&apos;combobox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]//p-autocomplete//input[contains(@class, &apos;p-element&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-autocomplete[@id=&apos;release_to_name&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]//p-autocomplete//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelStreet" Key="{13A6A1E0-AD96-4A24-90AC-C52016C103FE}">
+										<Image FileName="-901011362" Left="498" Top="677" Right="1152" Bottom="743" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//qwyk-create-cargo-release-to//form/div[3]//div[contains(@class, &apos;form-group&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSelectACountry" Key="{7F974247-48DF-4864-B827-757585A6742C}">
+										<Image FileName="-723032581" Left="499" Top="872" Right="1113" Bottom="907" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Select a Country&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[@role=&apos;combobox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;p-element&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;release_to_country&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[5]//p-dropdown//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeParaguay" Key="{7BF07E8D-7DC8-452B-936B-EAA301DA0CD9}">
+										<Image FileName="1753296105" Left="500" Top="810" Right="1135" Bottom="845" />
+										<Selectors>
+											<Selector>
+												<Value Value="#release_to_country_172" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[.=&apos;Paraguay&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@aria-label=&apos;Paraguay&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[173]/li[@role=&apos;option&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[173]/li[contains(@class, &apos;p-ripple&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;release_to_country&apos;]//p-dropdownitem[173]/li" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[173]/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeParaguay2" Key="{5BA66AAA-7C89-4E1D-9778-01F14CCFE22E}">
+										<Image FileName="1753296105" Left="513" Top="817" Right="570" Bottom="836" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Paraguay&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[173]/li/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;release_to_country_172&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[173]/li/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonNext2" Key="{D86A8713-4B53-464B-A2E9-88027DFD38A4}">
+										<Image FileName="716448863" Left="619" Top="965" Right="700" Bottom="1003" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Next&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-create-cargo-release-to//qwyk-create-cargo-release-buttons//button[contains(@class, &apos;btn-primary&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSendCargoRelease" Key="{2836E06E-37D9-4D27-8296-9E0793945D52}">
+										<Image FileName="1283415133" Left="628" Top="960" Right="820" Bottom="998" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Send Cargo Release&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-create-cargo-release-confirmation//qwyk-create-cargo-release-buttons//button[contains(@class, &apos;btn-primary&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{04F3F450-5526-4092-96D2-21C0884F59D5}">
@@ -17913,6 +18176,15 @@
 																	</Child>
 																</Children>
 															</Child>
+															<Child Name="ListView" Key="{8E9F3D77-F9A7-4567-856A-7C8B5C017490}">
+																<Image FileName="-1104639076" Left="307" Top="139" Right="1920" Bottom="1038" />
+																<TypeInfo Item0="{928C8AAB-0B93-48F5-A2F3-4FA094C2BF32}" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="SysListView32" />
+																	</Property>
+																</Properties>
+															</Child>
 														</Children>
 													</Child>
 													<Child Name="page327703" Key="{D76BE3AF-D377-488B-8AA7-ACB5AAE4E132}">
@@ -19454,6 +19726,27 @@
 					<Child Name="textnodeYourCargoReleases" Owner="{679D407E-76DB-400C-9E4B-BFB2BD0ED4D4}" />
 					<Child Name="panelTracking" Owner="{E92CBB2E-8E6F-4C61-AA0A-4C9660AC401B}" />
 					<Child Name="panelInTransit" Owner="{3BCD4C7E-7EE8-49BC-B7FA-89B1552242E0}" />
+					<Child Name="buttonDropdownbasic1" Owner="{0F07E515-0442-4096-85EC-5CFAC34CBE66}" />
+					<Child Name="buttonDropdownbasic12" Owner="{A5DF5F83-0DCC-4656-82DF-D7054A9233E3}">
+						<Child Name="buttonNewCargoRelease" Owner="{C6F9459A-9080-48D1-9ED5-EE3FC1B4BDD7}" />
+					</Child>
+					<Child Name="panel2" Owner="{EF36500D-03F5-45F1-95CA-1BBD2A8A1E47}" />
+					<Child Name="formWarehouseReceipt" Owner="{C82BB9A8-AB35-4314-9032-C67898DE41E2}">
+						<Child Name="buttonReset" Owner="{8F4027C6-108B-439E-B2B9-BA97D6D571A6}" />
+					</Child>
+					<Child Name="buttonLoadSelectedItems" Owner="{1F35EDDA-FD7A-4156-8338-4D439D044635}" />
+					<Child Name="buttonNext" Owner="{1FF6A245-A2C0-49E1-A296-569A2B9DE7A2}" />
+					<Child Name="formReleaseAt" Owner="{2C6E357E-69EE-4EED-9362-4ABEBB98D984}">
+						<Child Name="buttonNow" Owner="{1795C441-806C-4ADA-873D-C715F4F3BEF8}" />
+						<Child Name="textboxUndefined" Owner="{699168DF-C521-4E7F-B223-BCEB0761E726}" />
+						<Child Name="panelStreet" Owner="{13A6A1E0-AD96-4A24-90AC-C52016C103FE}" />
+						<Child Name="textnodeSelectACountry" Owner="{7F974247-48DF-4864-B827-757585A6742C}" />
+						<Child Name="textnodeParaguay" Owner="{7BF07E8D-7DC8-452B-936B-EAA301DA0CD9}">
+							<Child Name="textnodeParaguay2" Owner="{5BA66AAA-7C89-4E1D-9778-01F14CCFE22E}" />
+						</Child>
+					</Child>
+					<Child Name="buttonNext2" Owner="{D86A8713-4B53-464B-A2E9-88027DFD38A4}" />
+					<Child Name="buttonSendCargoRelease" Owner="{2836E06E-37D9-4D27-8296-9E0793945D52}" />
 				</Child>
 				<Child Name="textnodeResults" Owner="{1CF6087C-57FF-4430-B9F1-800D8664F6B3}" />
 				<Child Name="panelRequestADifferentRate" Owner="{F00322FB-BB44-4EBC-A779-77467DCD493F}" />
@@ -19940,6 +20233,7 @@
 							</Child>
 							<Child Name="toolbar" Owner="{D37DA624-5AFD-4A37-9881-C1630089ADA7}" />
 						</Child>
+						<Child Name="ListView" Owner="{8E9F3D77-F9A7-4567-856A-7C8B5C017490}" />
 					</Child>
 					<Child Name="page327703" Owner="{D76BE3AF-D377-488B-8AA7-ACB5AAE4E132}">
 						<Child Name="ListView" Owner="{AFC6A8E7-35CA-4F68-A3A9-2C25AE8C264B}" />
