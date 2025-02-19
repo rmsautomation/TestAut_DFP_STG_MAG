@@ -14379,6 +14379,80 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textboxParentNumber" Key="{2F0E7635-EE53-4FF6-82F3-4D1CD5DDFA18}">
+										<Image FileName="1925368694" Left="1067" Top="508" Right="1342" Bottom="545" />
+										<TypeInfo Item0="{FE3BBF2D-62CE-4222-9079-8A4579DCFAC4}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#parent_number" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;parent_number&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/input[contains(@class, &apos;p-inputtext&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel3" Key="{38603C53-C307-4821-B5B2-8EC2C23139E3}">
+										<Image FileName="-1317670328" Left="489" Top="692" Right="509" Bottom="712" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tr[2]/td/p-tablecheckbox//div[contains(@class, &apos;p-checkbox-box&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAlgeria" Key="{DB9DB5B2-CE04-4EC7-94B1-2B98B8E5B389}">
+										<Image FileName="1074172406" Left="500" Top="792" Right="1135" Bottom="827" />
+										<Selectors>
+											<Selector>
+												<Value Value="#release_to_country_3" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[.=&apos;Algeria&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@aria-label=&apos;Algeria&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[4]/li[@role=&apos;option&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[4]/li[contains(@class, &apos;p-ripple&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;release_to_country&apos;]//p-dropdownitem[4]/li" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[4]/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAlgeria2" Key="{6C07BD6F-5D6F-46A0-972F-2E347073DBE2}">
+										<Image FileName="1074172406" Left="513" Top="800" Right="556" Bottom="819" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Algeria&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[4]/li/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;release_to_country_3&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[4]/li/span" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{04F3F450-5526-4092-96D2-21C0884F59D5}">
@@ -19733,6 +19807,7 @@
 					<Child Name="panel2" Owner="{EF36500D-03F5-45F1-95CA-1BBD2A8A1E47}" />
 					<Child Name="formWarehouseReceipt" Owner="{C82BB9A8-AB35-4314-9032-C67898DE41E2}">
 						<Child Name="buttonReset" Owner="{8F4027C6-108B-439E-B2B9-BA97D6D571A6}" />
+						<Child Name="textboxParentNumber" Owner="{2F0E7635-EE53-4FF6-82F3-4D1CD5DDFA18}" />
 					</Child>
 					<Child Name="buttonLoadSelectedItems" Owner="{1F35EDDA-FD7A-4156-8338-4D439D044635}" />
 					<Child Name="buttonNext" Owner="{1FF6A245-A2C0-49E1-A296-569A2B9DE7A2}" />
@@ -19744,9 +19819,13 @@
 						<Child Name="textnodeParaguay" Owner="{7BF07E8D-7DC8-452B-936B-EAA301DA0CD9}">
 							<Child Name="textnodeParaguay2" Owner="{5BA66AAA-7C89-4E1D-9778-01F14CCFE22E}" />
 						</Child>
+						<Child Name="textnodeAlgeria" Owner="{DB9DB5B2-CE04-4EC7-94B1-2B98B8E5B389}">
+							<Child Name="textnodeAlgeria2" Owner="{6C07BD6F-5D6F-46A0-972F-2E347073DBE2}" />
+						</Child>
 					</Child>
 					<Child Name="buttonNext2" Owner="{D86A8713-4B53-464B-A2E9-88027DFD38A4}" />
 					<Child Name="buttonSendCargoRelease" Owner="{2836E06E-37D9-4D27-8296-9E0793945D52}" />
+					<Child Name="panel3" Owner="{38603C53-C307-4821-B5B2-8EC2C23139E3}" />
 				</Child>
 				<Child Name="textnodeResults" Owner="{1CF6087C-57FF-4430-B9F1-800D8664F6B3}" />
 				<Child Name="panelRequestADifferentRate" Owner="{F00322FB-BB44-4EBC-A779-77467DCD493F}" />

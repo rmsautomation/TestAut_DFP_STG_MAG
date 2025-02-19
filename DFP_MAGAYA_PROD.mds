@@ -365,6 +365,9 @@
 				<Variable Name="houseID" Type="String" Local="False">
 					<DefValue />
 				</Variable>
+				<Variable Name="poID" Type="String" Local="False">
+					<DefValue />
+				</Variable>
 			</Items>
 		</data>
 	</variables>
