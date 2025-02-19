@@ -201,6 +201,11 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
+			<testItem name="TC_48_2210_QWYKMagayaCRCargoLinked" key="{F9CC3709-4F03-4FCE-9320-CBE8822E9B5D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0FD148A1-3151-45E5-89A2-66E71D170DEB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
 			<testItem name="TC_49_1967_SCS_DisableViewCRelease" key="{3CDD80AE-759B-4938-AC29-926BB51C6485}" group="False" parallel="False" enabled="True" testMoniker="KDT\{03B6608A-814B-4CD7-9937-2156409FB7F4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="CBT" />
@@ -655,13 +660,13 @@
 			</data>
 		</setting>
 		<setting name="OpenApps_MethodInvokeTimeout" type="2" value="3000" />
-		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="11" colIndex="1">
+		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="1" enabled="True" />
 				<column type="5" enabled="True" />
 			</columns>
 			<data>
-				<row val0="False" val1="*" />
+				<row val0="True" val1="*" />
 				<row val0="True" val1="MsoCommandBar*" />
 				<row val0="True" val1="_Ww*" />
 				<row val0="True" val1="OpusApp" />
