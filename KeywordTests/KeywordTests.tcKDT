@@ -71,6 +71,9 @@
 					<child name="TC_42_1308_MagayaToQWYK_UpdateInvItem" key="{E4292F16-885D-4EA2-9504-EB064987E1BC}" path="TC_42_1308_MagayaToQWYK_UpdateInvItem.tcKDTest" />
 				</folder>
 				<folder name="PO" />
+				<folder name="Payment">
+					<child name="TC_51_1790_MagayaQWYK_CreatePayment" key="{E27EFBFE-CE5B-4DA3-B1AA-67961F637237}" path="TC_51_1790_MagayaQWYK_CreatePayment.tcKDTest" />
+				</folder>
 			</folder>
 		</folder>
 		<folder name="Utils">
@@ -196,6 +199,10 @@
 						<child name="SearchInventoryItemDFP" key="{BF827A8D-5C87-49BE-930B-1E61F1E31FEC}" path="SearchInventoryItemDFP.tcKDTest" />
 						<child name="VerfyInventoryPortal" key="{C6E789A7-6D83-45E2-9CCA-087179CDED9A}" path="VerfyInventoryPortal.tcKDTest" />
 						<child name="VerifyUpdatePortalInv" key="{1ECC864F-53E0-452C-9296-825366AE897E}" path="VerifyUpdatePortalInv.tcKDTest" />
+					</folder>
+					<folder name="PAYMENT">
+						<child name="SearchPaymentPortal" key="{8E83F816-3A01-4DA9-8859-CF041D312280}" path="SearchPaymentPortal.tcKDTest" />
+						<child name="VerifyPaymentPortal" key="{3488F086-AE8F-4513-A56A-C5F7295D7E2E}" path="VerifyPaymentPortal.tcKDTest" />
 					</folder>
 				</folder>
 			</folder>
@@ -334,6 +341,10 @@
 					<child name="CreatePOMagaya" key="{2059582F-A882-4851-AD20-F0FC98EA3BA2}" path="CreatePOMagaya.tcKDTest" />
 					<child name="SearchPOMagaya" key="{D4EA65EA-478A-40CF-9B79-A81841F73905}" path="SearchPOMagaya.tcKDTest" />
 					<child name="CreateWRFromPO" key="{6E7299D2-2F61-47E8-9A26-D6B93B94D2F6}" path="CreateWRFromPO.tcKDTest" />
+				</folder>
+				<folder name="PAYMENT">
+					<child name="CreatePaymentMagaya" key="{76C8A581-A01B-42E0-96B8-D6A978E22C52}" path="CreatePaymentMagaya.tcKDTest" />
+					<child name="SearchPaymentMagaya" key="{F73144BE-EB20-4AA9-89ED-DB397CC4BD84}" path="SearchPaymentMagaya.tcKDTest" />
 				</folder>
 			</folder>
 		</folder>

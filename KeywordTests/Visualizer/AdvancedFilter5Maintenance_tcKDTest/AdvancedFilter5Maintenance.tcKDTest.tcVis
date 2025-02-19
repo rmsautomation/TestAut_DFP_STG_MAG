@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{66A9D3B8-BD69-43BA-9E63-41F0A33FA0E8}" />
+	<data key="{66A9D3B8-BD69-43BA-9E63-41F0A33FA0E8}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45707.7788425926" objectName="Aliases.ExpExpl.mainWindow.mainFrame.page327702.page32770.toolbar.splitbuttonFilter.dropdownbuttonOpen" objectLeft="527" objectTop="140" objectRight="542" objectBottom="170" clickPointX="539" clickPointY="155" imageFileName="tcvi603962046162641.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45707.7788541667" objectName="Aliases.ExpExpl.wnd.menuitemAdvanced" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi603963453162643.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
 </Root>
