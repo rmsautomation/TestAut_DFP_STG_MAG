@@ -91,6 +91,7 @@
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 				<Data Description="Selects the %p1 tab of the &apos;%n&apos; tab control." Action="ClickTab">
+					<CommonData Disabled="True" />
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="Item" DefVarType="12" VarType="8" ValueType="6" ValueValue="Commodities" />
 					</Parameters>
@@ -99,11 +100,13 @@
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
+					<CommonData Disabled="True" />
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.ExpExpl.dlg.page327702.btnAdd2;" />
 				</Data>
 			</Operation>
 			<Operation Type="{CE294ABA-E13B-4B94-AFC8-FA8F4249123D}">
 				<Data Description="Moves the mouse cursor to the menu item specified and then simulates a single click." Action="Click" MenuType="2" PreferredMenu="PopupMenu">
+					<CommonData Disabled="True" />
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="Item" DefVarType="12" VarType="8" ValueType="6" ValueValue="Add Commodity..." />
 					</Parameters>
@@ -112,6 +115,7 @@
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 				<Data Description="Simulates one or several keypresses." Action="Keys">
+					<CommonData Disabled="True" />
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="100" />
 					</Parameters>
@@ -120,6 +124,7 @@
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 				<Data Description="Clicks the %p2 subitem of the %p1 item of the &apos;%n&apos; list view." Action="ClickItem">
+					<CommonData Disabled="True" />
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="Item" DefVarType="12" VarType="8" ValueType="6" ValueValue="100" />
 						<Parameter Name="SubItem" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="8" ValueType="6" ValueValue="UpdateCommodity" />
@@ -137,6 +142,7 @@
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 				<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
+					<CommonData Disabled="True" />
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="27" />
 						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="6" />
@@ -154,6 +160,7 @@
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 				<Data Description="Simulates one or several keypresses." Action="Keys">
+					<CommonData Disabled="True" />
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="RCV01" />
 					</Parameters>
@@ -162,6 +169,7 @@
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 				<Data Description="Clicks the %p2 subitem of the %p1 item of the &apos;%n&apos; list view." Action="ClickItem">
+					<CommonData Disabled="True" />
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="Item" DefVarType="12" VarType="8" ValueType="6" ValueValue="RCV01" />
 						<Parameter Name="SubItem" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0" />
@@ -179,6 +187,7 @@
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 				<Data Description="Enters %p1 in the &apos;%n&apos; object." Action="Keys">
+					<CommonData Disabled="True" />
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="[Enter]" />
 					</Parameters>

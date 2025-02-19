@@ -14189,15 +14189,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="buttonReset" Key="{8F4027C6-108B-439E-B2B9-BA97D6D571A6}">
+									<Child Name="cargoNumber" Key="{8F4027C6-108B-439E-B2B9-BA97D6D571A6}">
 										<Image FileName="199600076" Left="1568" Top="508" Right="1634" Bottom="546" />
 										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//button[contains(text(), &apos;Reset&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//button[contains(@class, &apos;btn-outline-primary&apos;)]" />
+												<Value Value="xpath=//p[contains(text(), &apos;Cargo Release Number&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -14355,15 +14352,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="buttonNext2" Key="{D86A8713-4B53-464B-A2E9-88027DFD38A4}">
+									<Child Name="cargoLink" Key="{D86A8713-4B53-464B-A2E9-88027DFD38A4}">
 										<Image FileName="716448863" Left="619" Top="965" Right="700" Bottom="1003" />
 										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//button[.=&apos;Next&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//qwyk-create-cargo-release-to//qwyk-create-cargo-release-buttons//button[contains(@class, &apos;btn-primary&apos;)]" />
+												<Value Value="xpath=(//a[contains(@class, &apos;nav-link&apos;) and contains(text(), &apos;Cargo&apos;)and contains(@href, &apos;/my-portal/cargo-releases&apos;)])[2]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -14450,6 +14444,93 @@
 											</Selector>
 											<Selector>
 												<Value Value="//p-dropdownitem[4]/li/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeYourCargoReleaseWasRecei" Key="{570E6CCF-AAE5-4E49-98EA-56C07BC42F0B}">
+										<Image FileName="-1513600852" Left="534" Top="495" Right="1606" Bottom="589" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//h4[normalize-space()=&apos;Your cargo release was received!&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h4[contains(text(), &apos;Your cargo release was received!&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h4[contains(@class, &apos;font-weight-normal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h4" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkContinueToCargoRelease" Key="{20DA253C-F60B-44D8-8317-F9548B023318}">
+										<Image FileName="-805845111" Left="953" Top="696" Right="1187" Bottom="734" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Continue to cargo release&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-create-cargo-release-page//qwyk-create-cargo-release-send//a[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-create-cargo-release-page//qwyk-create-cargo-release-send//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCargoRelease23" Key="{9DF3310A-0798-4E9D-B687-7BC9A1FF66A4}">
+										<Image FileName="1465381892" Left="477" Top="278" Right="1647" Bottom="312" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//h3[normalize-space()=&apos;Cargo Release&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//h3[contains(text(), &apos;Cargo Release&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3[contains(@class, &apos;font-weight-normal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel23" Key="{FA62FD72-2DC6-4B5B-AD0C-B56B9D02BD84}">
+										<Image FileName="1465381892" Left="502" Top="443" Right="760" Bottom="465" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//qwyk-cargo-releases-summary/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkWarehouseReceipt89" Key="{030197B5-A106-4BB6-AAC4-9E6FABB7ACCB}">
+										<Image FileName="-1367540024" Left="502" Top="614" Right="634" Bottom="628" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//a[starts-with(normalize-space(), &apos;Warehouse Receipt:&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-cargo-items-index/ul/li//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkPickupOrder7" Key="{02DD07C6-CDC7-4AB5-BF00-4CA2F5D90D63}">
+										<Image FileName="2022825129" Left="502" Top="632" Right="594" Bottom="646" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//a[starts-with(normalize-space(text()), &apos;Pickup Order:&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//a[contains(text(), &apos;Pickup Order:&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/a" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -19749,6 +19830,8 @@
 							<Child Name="panelRcv01" Owner="{227545C6-F955-4781-B64E-6522C7104276}" />
 							<Child Name="panelUpdatecommodity2" Owner="{88B74145-22C3-4BB6-98E7-342924668188}" />
 							<Child Name="linkShipments2" Owner="{D2484804-A9CF-4E68-B67A-FF16C814F376}" />
+							<Child Name="linkWarehouseReceipt" Owner="{030197B5-A106-4BB6-AAC4-9E6FABB7ACCB}" />
+							<Child Name="linkPickupOrder" Owner="{02DD07C6-CDC7-4AB5-BF00-4CA2F5D90D63}" />
 						</Child>
 						<Child Name="textnodeTest2Pdf" Owner="{30EF2002-3A6E-4468-9690-18F9249A2D17}">
 							<Child Name="panelTest2Pdf" Owner="{10E38149-E3E6-4458-9DCA-6965BDEB476C}" />
@@ -19806,7 +19889,7 @@
 					</Child>
 					<Child Name="panel2" Owner="{EF36500D-03F5-45F1-95CA-1BBD2A8A1E47}" />
 					<Child Name="formWarehouseReceipt" Owner="{C82BB9A8-AB35-4314-9032-C67898DE41E2}">
-						<Child Name="buttonReset" Owner="{8F4027C6-108B-439E-B2B9-BA97D6D571A6}" />
+						<Child Name="cargoNumber" Owner="{8F4027C6-108B-439E-B2B9-BA97D6D571A6}" />
 						<Child Name="textboxParentNumber" Owner="{2F0E7635-EE53-4FF6-82F3-4D1CD5DDFA18}" />
 					</Child>
 					<Child Name="buttonLoadSelectedItems" Owner="{1F35EDDA-FD7A-4156-8338-4D439D044635}" />
@@ -19823,9 +19906,15 @@
 							<Child Name="textnodeAlgeria2" Owner="{6C07BD6F-5D6F-46A0-972F-2E347073DBE2}" />
 						</Child>
 					</Child>
-					<Child Name="buttonNext2" Owner="{D86A8713-4B53-464B-A2E9-88027DFD38A4}" />
+					<Child Name="cargoLink" Owner="{D86A8713-4B53-464B-A2E9-88027DFD38A4}" />
 					<Child Name="buttonSendCargoRelease" Owner="{2836E06E-37D9-4D27-8296-9E0793945D52}" />
 					<Child Name="panel3" Owner="{38603C53-C307-4821-B5B2-8EC2C23139E3}" />
+					<Child Name="textnodeYourCargoReleaseWasRecei" Owner="{570E6CCF-AAE5-4E49-98EA-56C07BC42F0B}" />
+					<Child Name="linkContinueToCargoRelease" Owner="{20DA253C-F60B-44D8-8317-F9548B023318}" />
+					<Child Name="textnodeCargoRelease23" Owner="{9DF3310A-0798-4E9D-B687-7BC9A1FF66A4}" />
+					<Child Name="panel23" Owner="{FA62FD72-2DC6-4B5B-AD0C-B56B9D02BD84}" />
+					<Child Name="cargoNumber" Owner="{8F4027C6-108B-439E-B2B9-BA97D6D571A6}" />
+					<Child Name="cargoLink2" Owner="{D86A8713-4B53-464B-A2E9-88027DFD38A4}" />
 				</Child>
 				<Child Name="textnodeResults" Owner="{1CF6087C-57FF-4430-B9F1-800D8664F6B3}" />
 				<Child Name="panelRequestADifferentRate" Owner="{F00322FB-BB44-4EBC-A779-77467DCD493F}" />
