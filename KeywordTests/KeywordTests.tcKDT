@@ -73,6 +73,7 @@
 				<folder name="PO" />
 				<folder name="Payment">
 					<child name="TC_51_1790_MagayaQWYK_CreatePayment" key="{E27EFBFE-CE5B-4DA3-B1AA-67961F637237}" path="TC_51_1790_MagayaQWYK_CreatePayment.tcKDTest" />
+					<child name="TC_52_1792_MagayaQWYKUpdatePayment" key="{49470BAE-20EF-404F-B836-DF9C4D46B6BD}" path="TC_52_1792_MagayaQWYKUpdatePayment.tcKDTest" />
 				</folder>
 			</folder>
 		</folder>
@@ -203,6 +204,7 @@
 					<folder name="PAYMENT">
 						<child name="SearchPaymentPortal" key="{8E83F816-3A01-4DA9-8859-CF041D312280}" path="SearchPaymentPortal.tcKDTest" />
 						<child name="VerifyPaymentPortal" key="{3488F086-AE8F-4513-A56A-C5F7295D7E2E}" path="VerifyPaymentPortal.tcKDTest" />
+						<child name="VerifyUpdatePaymentPortal" key="{3674D220-5C7A-45C0-8DB2-DEBC3C66BCF2}" path="VerifyUpdatePaymentPortal.tcKDTest" />
 					</folder>
 				</folder>
 			</folder>
@@ -299,6 +301,7 @@
 					<child name="UpdateCommoditiesShipment" key="{DF85AEAB-842F-46EB-A60D-772112156CF3}" path="UpdateCommoditiesShipment.tcKDTest" />
 					<child name="UpdateGeneralTabHouse" key="{853A20A1-7658-4C09-8BD4-B47B1976DAA6}" path="UpdateGeneralTabHouse.tcKDTest" />
 					<child name="UpdateCommodityHouse" key="{8F45D725-9EB0-45CD-BD2E-2770A9062FD3}" path="UpdateCommodityHouse.tcKDTest" />
+					<child name="UpdateCustomerPaymTab" key="{5BF0467E-4CD2-41F7-AB2D-59B70DEE2DA0}" path="UpdateCustomerPaymTab.tcKDTest" />
 				</folder>
 				<folder name="SHIPMENTS">
 					<child name="VerifyShipmentCreated" key="{9171ACD9-41B5-4CF4-A5BA-0BB00CADAEE3}" path="VerifyShipmentCreated.tcKDTest" />
@@ -345,6 +348,7 @@
 				<folder name="PAYMENT">
 					<child name="CreatePaymentMagaya" key="{76C8A581-A01B-42E0-96B8-D6A978E22C52}" path="CreatePaymentMagaya.tcKDTest" />
 					<child name="SearchPaymentMagaya" key="{F73144BE-EB20-4AA9-89ED-DB397CC4BD84}" path="SearchPaymentMagaya.tcKDTest" />
+					<child name="UpdatePaymementMagaya" key="{160AC216-E0B7-4D9D-8696-0A4AA6B3AB39}" path="UpdatePaymementMagaya.tcKDTest" />
 				</folder>
 			</folder>
 		</folder>

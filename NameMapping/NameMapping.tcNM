@@ -12144,20 +12144,11 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="linkShipments" Key="{B3E29D1C-FF40-4921-837E-634ACE0E6923}">
+									<Child Name="paymentMoney" Key="{B3E29D1C-FF40-4921-837E-634ACE0E6923}">
 										<Image FileName="1625974406" Left="0" Top="269" Right="219" Bottom="315" />
 										<Selectors>
 											<Selector>
-												<Value Value="//a[.=&apos;Shipments&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//nav/li[4]/a[contains(@class, &apos;nav-link&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[@id=&apos;navSidebar&apos;]//nav/li[4]/a" />
-											</Selector>
-											<Selector>
-												<Value Value="//nav/li[4]/a" />
+												<Value Value="xpath=//div[@class=&apos;col-12 col-md-2 mb-2 mb-md-0 text-right&apos; and normalize-space(text())=&apos;$200.00&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -14576,7 +14567,10 @@
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//div[normalize-space(text())=&apos;$100.00&apos;]" />
+												<Value Value="xpath=//div[contains(text(), &apos;$&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//div[normalize-space(text())=&apos;$&apos;]" />
 											</Selector>
 											<Selector>
 												<Value Value="//div[contains(text(), &apos;$100.00&apos;)]" />
@@ -14673,6 +14667,81 @@
 										<Selectors>
 											<Selector>
 												<Value Value="//h3[contains(text(), &apos;Invoice 45&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3[contains(@class, &apos;font-weight-normal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode20000" Key="{1DB51813-9C06-49FA-B154-AD071F2C271E}">
+										<Image FileName="-1261413617" Left="502" Top="475" Right="855" Bottom="499" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//h5[normalize-space(text())=&apos;$200.00&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h5[contains(text(), &apos;$200.00&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/h5[contains(@class, &apos;font-weight-light&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/h5" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel47" Key="{F1ABF485-F45B-4D49-9CE0-99B6CCF633E2}">
+										<Image FileName="-1261413617" Left="885" Top="578" Right="1238" Bottom="600" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;47&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelPaymentCreatedIn" Key="{CF6DDDDC-971D-4C51-AE4E-AD78D6280669}">
+										<Image FileName="-1261413617" Left="502" Top="637" Right="1622" Bottom="659" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[normalize-space(.)=&apos;Payment created in Magaya-Updated&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[.=&apos;Payment created in Magaya-Updated&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel20000" Key="{D26A0953-2483-40D4-81F3-906EF68FAF92}">
+										<Image FileName="-1908720700" Left="1157" Top="549" Right="1349" Bottom="571" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;$200.00&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeInvoice48" Key="{FB4AAE0A-66CC-474B-A162-63F1FD9B4CEB}">
+										<Image FileName="-674688678" Left="477" Top="278" Right="604" Bottom="312" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//h3[contains(text(), &apos;Invoice&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePayment48updated" Key="{69558192-58D0-4F8E-B828-EE4C6CB47699}">
+										<Image FileName="1294885456" Left="477" Top="278" Right="747" Bottom="312" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//h3[contains(text(), &apos;Payment&apos;)]" />
 											</Selector>
 											<Selector>
 												<Value Value="//h3[contains(@class, &apos;font-weight-normal&apos;)]" />
@@ -19941,7 +20010,7 @@
 						</Child>
 					</Child>
 					<Child Name="textnodeShipments" Owner="{38223AAC-A94F-4051-8299-99C672BB27B3}">
-						<Child Name="linkShipments" Owner="{B3E29D1C-FF40-4921-837E-634ACE0E6923}">
+						<Child Name="paymentMoney" Owner="{B3E29D1C-FF40-4921-837E-634ACE0E6923}">
 							<Child Name="textnodeShipments2" Owner="{220BE4F4-F2C3-4AB5-BD4F-875BF37C3677}" />
 						</Child>
 					</Child>
@@ -19998,7 +20067,9 @@
 					</Child>
 					<Child Name="textnodeDate" Owner="{7438D11F-22CC-4FE1-BBF9-1E517B408888}">
 						<Child Name="textnode01162025" Owner="{3285DA3C-1EFE-4FC7-8E5D-6B6F653656B8}" />
-						<Child Name="textnode02192025" Owner="{644665AF-0285-4043-BF32-FAEDC2A40FA2}" />
+						<Child Name="textnode02192025" Owner="{644665AF-0285-4043-BF32-FAEDC2A40FA2}">
+							<Child Name="panel20000" Owner="{D26A0953-2483-40D4-81F3-906EF68FAF92}" />
+						</Child>
 					</Child>
 					<Child Name="panelPayment" Owner="{6CD77A5F-CAA2-4120-B308-C5B73D578448}" />
 					<Child Name="panelNotesNow" Owner="{5383DCB3-092A-4069-B8BA-56828E26637D}" />
@@ -20139,6 +20210,7 @@
 					<Child Name="cargoLink2" Owner="{D86A8713-4B53-464B-A2E9-88027DFD38A4}" />
 					<Child Name="panelMoney" Owner="{616BF916-9C8F-4EA5-B9A7-8CB9E50BC0AE}" />
 					<Child Name="invoiceNumber" Owner="{23E69437-4195-46B7-84C3-2CC1FC6D052D}" />
+					<Child Name="paymentMoney" Owner="{B3E29D1C-FF40-4921-837E-634ACE0E6923}" />
 				</Child>
 				<Child Name="textnodeResults" Owner="{1CF6087C-57FF-4430-B9F1-800D8664F6B3}" />
 				<Child Name="panelRequestADifferentRate" Owner="{F00322FB-BB44-4EBC-A779-77467DCD493F}" />
@@ -20248,6 +20320,11 @@
 					<Child Name="panel50" Owner="{809B0B25-5512-4AB5-A696-DDBE6E819656}" />
 					<Child Name="panelQaAutomation" Owner="{6934485F-681B-4B08-AB55-8620BB14065D}" />
 					<Child Name="textnodeInvoice45" Owner="{2B58A626-30CA-4B95-A446-DEFB4798075C}" />
+					<Child Name="textnode200" Owner="{1DB51813-9C06-49FA-B154-AD071F2C271E}" />
+					<Child Name="panel47" Owner="{F1ABF485-F45B-4D49-9CE0-99B6CCF633E2}" />
+					<Child Name="panelPaymentCreatedIn" Owner="{CF6DDDDC-971D-4C51-AE4E-AD78D6280669}" />
+					<Child Name="textnodeInvoice" Owner="{FB4AAE0A-66CC-474B-A162-63F1FD9B4CEB}" />
+					<Child Name="textnodePayment" Owner="{69558192-58D0-4F8E-B828-EE4C6CB47699}" />
 				</Child>
 				<Child Name="textboxName2" Owner="{CDAB938D-4DD1-41CB-BE32-3BC186A96F94}" />
 				<Child Name="buttonSearch2" Owner="{E66DF359-B41B-4093-8EE5-35E706916CBA}" />
