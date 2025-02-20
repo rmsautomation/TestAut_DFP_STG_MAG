@@ -93,7 +93,7 @@
 							</Values>
 						</Parameter>
 					</Parameters>
-					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.ExpExpl.wnd32768;" />
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.ExpExpl.wnd;" />
 				</Data>
 			</Operation>
 			<Operation Type="{CE294ABA-E13B-4B94-AFC8-FA8F4249123D}">

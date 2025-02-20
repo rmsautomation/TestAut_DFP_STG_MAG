@@ -64,10 +64,15 @@
 					<child name="TC_43_1593_46_1614_CRWithWRAutomaticEv" key="{323C086D-9B51-488F-B37A-9A49AA418098}" path="TC_43_1593_46_1614_CRWithWRAutomaticEv.tcKDTest" />
 					<child name="TC_44_1594_47_1599MagayaToQWYK_UpdateCR" key="{27E22D25-FAB3-4F08-B991-70BE03D923A3}" path="TC_44_1594_47_1599MagayaToQWYK_UpdateCR.tcKDTest" />
 					<child name="TC_45_1612_QWYKToMagayaCR_Attachments" key="{B7CC1575-30AD-4515-BA18-ECDBD3A3B05F}" path="TC_45_1612_QWYKToMagayaCR_Attachments.tcKDTest" />
+					<child name="TC_48_2210_QWYKMagayaCRCargoLinked" key="{0FD148A1-3151-45E5-89A2-66E71D170DEB}" path="TC_48_2210_QWYKMagayaCRCargoLinked.tcKDTest" />
 				</folder>
 				<folder name="InventoryItem">
 					<child name="TC_41_1307_MagayaToQWYK_InventoryItem" key="{6A1B620C-2623-4E5B-98F3-2C4B2DDE8561}" path="TC_41_1307_MagayaToQWYK_InventoryItem.tcKDTest" />
 					<child name="TC_42_1308_MagayaToQWYK_UpdateInvItem" key="{E4292F16-885D-4EA2-9504-EB064987E1BC}" path="TC_42_1308_MagayaToQWYK_UpdateInvItem.tcKDTest" />
+				</folder>
+				<folder name="PO" />
+				<folder name="Payment">
+					<child name="TC_51_1790_MagayaQWYK_CreatePayment" key="{E27EFBFE-CE5B-4DA3-B1AA-67961F637237}" path="TC_51_1790_MagayaQWYK_CreatePayment.tcKDTest" />
 				</folder>
 			</folder>
 		</folder>
@@ -188,11 +193,16 @@
 						<child name="VerifyCRPortal" key="{A6647989-1A6C-4F0C-8D9C-A9FF17C30A24}" path="VerifyCRPortal.tcKDTest" />
 						<child name="VerifyCRUpdatedPortal" key="{329622EB-3CD0-4971-899E-7450F52FBF21}" path="VerifyCRUpdatedPortal.tcKDTest" />
 						<child name="VerifyAutomaticEventCreatedCRPortal" key="{C1550A0D-648E-4115-93AA-5F226BD457A3}" path="VerifyAutomaticEventCreatedCRPortal.tcKDTest" />
+						<child name="CreateCRPortal" key="{2E00B9C0-E740-456B-A7F9-6322BE953319}" path="CreateCRPortal.tcKDTest" />
 					</folder>
 					<folder name="InventoryItem">
 						<child name="SearchInventoryItemDFP" key="{BF827A8D-5C87-49BE-930B-1E61F1E31FEC}" path="SearchInventoryItemDFP.tcKDTest" />
 						<child name="VerfyInventoryPortal" key="{C6E789A7-6D83-45E2-9CCA-087179CDED9A}" path="VerfyInventoryPortal.tcKDTest" />
 						<child name="VerifyUpdatePortalInv" key="{1ECC864F-53E0-452C-9296-825366AE897E}" path="VerifyUpdatePortalInv.tcKDTest" />
+					</folder>
+					<folder name="PAYMENT">
+						<child name="SearchPaymentPortal" key="{8E83F816-3A01-4DA9-8859-CF041D312280}" path="SearchPaymentPortal.tcKDTest" />
+						<child name="VerifyPaymentPortal" key="{3488F086-AE8F-4513-A56A-C5F7295D7E2E}" path="VerifyPaymentPortal.tcKDTest" />
 					</folder>
 				</folder>
 			</folder>
@@ -300,6 +310,7 @@
 					<child name="UpdateMasterShipment" key="{40E1DF77-3F2F-44E2-8EC0-960108E83445}" path="UpdateMasterShipment.tcKDTest" />
 					<child name="UpdateHouseShipment" key="{BE1D8D65-1DCA-40F4-8EC6-B47CDB3BD8D5}" path="UpdateHouseShipment.tcKDTest" />
 					<child name="SearchHouseShipmentMagaya" key="{7BBD7264-F1ED-4029-BC49-A23F9D70D742}" path="SearchHouseShipmentMagaya.tcKDTest" />
+					<child name="CleanUpShipmentsMagaya" key="{808A3F47-1342-47A1-AE03-E6EE6CB25EE2}" path="CleanUpShipmentsMagaya.tcKDTest" />
 				</folder>
 				<folder name="BOOKING">
 					<child name="VerifyBookingInfo" key="{FBA58F6C-6FC0-4AFB-9E3B-B41DDF153243}" path="VerifyBookingInfo.tcKDTest" />
@@ -325,6 +336,15 @@
 					<child name="CreateInventoryItem" key="{FA7C7F65-7004-46DD-993C-4FC2F297B704}" path="CreateInventoryItem.tcKDTest" />
 					<child name="VerifyInventoryCreatedMagaya" key="{CBF42E1B-6E09-479D-B415-FEB393DBAEB5}" path="VerifyInventoryCreatedMagaya.tcKDTest" />
 					<child name="SearchInventoryMagaya" key="{8B93CF0E-2121-4843-A7BD-7ABFA66F1A9E}" path="SearchInventoryMagaya.tcKDTest" />
+				</folder>
+				<folder name="POMagaya">
+					<child name="CreatePOMagaya" key="{2059582F-A882-4851-AD20-F0FC98EA3BA2}" path="CreatePOMagaya.tcKDTest" />
+					<child name="SearchPOMagaya" key="{D4EA65EA-478A-40CF-9B79-A81841F73905}" path="SearchPOMagaya.tcKDTest" />
+					<child name="CreateWRFromPO" key="{6E7299D2-2F61-47E8-9A26-D6B93B94D2F6}" path="CreateWRFromPO.tcKDTest" />
+				</folder>
+				<folder name="PAYMENT">
+					<child name="CreatePaymentMagaya" key="{76C8A581-A01B-42E0-96B8-D6A978E22C52}" path="CreatePaymentMagaya.tcKDTest" />
+					<child name="SearchPaymentMagaya" key="{F73144BE-EB20-4AA9-89ED-DB397CC4BD84}" path="SearchPaymentMagaya.tcKDTest" />
 				</folder>
 			</folder>
 		</folder>

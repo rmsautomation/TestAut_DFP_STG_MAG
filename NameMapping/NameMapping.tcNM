@@ -14116,6 +14116,572 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="buttonDropdownbasic1" Key="{0F07E515-0442-4096-85EC-5CFAC34CBE66}">
+										<Image FileName="1145026730" Left="1562" Top="223" Right="1647" Bottom="261" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Create&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-cargo-releases-index//qwyk-cargo-releases-index-header//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/button[contains(@class, &apos;dropdown-toggle&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonDropdownbasic12" Key="{A5DF5F83-0DCC-4656-82DF-D7054A9233E3}">
+										<Image FileName="-269712192" Left="1411" Top="223" Right="1554" Bottom="261" />
+										<Selectors>
+											<Selector>
+												<Value Value="#dropdownBasic1" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;Learn more&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-cargo-releases-index-header//qwyk-module-info-button//button[contains(@class, &apos;dropdown-toggle&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-cargo-releases-index-header//qwyk-module-info-button//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonNewCargoRelease" Key="{C6F9459A-9080-48D1-9ED5-EE3FC1B4BDD7}">
+										<Image FileName="-269712192" Left="1563" Top="272" Right="1750" Bottom="304" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;New Cargo Release&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/button[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel2" Key="{EF36500D-03F5-45F1-95CA-1BBD2A8A1E47}">
+										<Image FileName="714671818" Left="489" Top="637" Right="509" Bottom="657" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tr/td/p-tablecheckbox//div[contains(@class, &apos;p-checkbox-box&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formWarehouseReceipt" Key="{C82BB9A8-AB35-4314-9032-C67898DE41E2}">
+										<Image FileName="199600076" Left="501" Top="508" Right="1639" Bottom="546" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Warehouse receipt&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;form-row&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cargoNumber" Key="{8F4027C6-108B-439E-B2B9-BA97D6D571A6}">
+										<Image FileName="199600076" Left="1568" Top="508" Right="1634" Bottom="546" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//p[contains(text(), &apos;Cargo Release Number&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonLoadSelectedItems" Key="{1F35EDDA-FD7A-4156-8338-4D439D044635}">
+										<Image FileName="-889748186" Left="491" Top="929" Right="651" Bottom="960" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Load selected items&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-create-cargo-release-cargo//qwyk-cargo-loader/p-table//button[contains(@class, &apos;btn-secondary&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonNext" Key="{1FF6A245-A2C0-49E1-A296-569A2B9DE7A2}">
+										<Image FileName="-580466851" Left="498" Top="965" Right="579" Bottom="1003" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Next&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-create-cargo-release-cargo//div/qwyk-create-cargo-release-buttons//button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-create-cargo-release-cargo//div/qwyk-create-cargo-release-buttons//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formReleaseAt" Key="{2C6E357E-69EE-4EED-9362-4ABEBB98D984}">
+										<Image FileName="-1575475355" Left="498" Top="450" Right="1626" Bottom="924" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Release at&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;form&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonNow" Key="{1795C441-806C-4ADA-873D-C715F4F3BEF8}">
+										<Image FileName="-1575475355" Left="718" Top="499" Right="765" Bottom="530" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Now&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/form//button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxUndefined" Key="{699168DF-C521-4E7F-B223-BCEB0761E726}">
+										<Image FileName="1654254514" Left="498" Top="624" Right="1114" Bottom="661" />
+										<TypeInfo Item0="{FE3BBF2D-62CE-4222-9079-8A4579DCFAC4}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;undefined&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/input[@role=&apos;combobox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]//p-autocomplete//input[contains(@class, &apos;p-element&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-autocomplete[@id=&apos;release_to_name&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]//p-autocomplete//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelStreet" Key="{13A6A1E0-AD96-4A24-90AC-C52016C103FE}">
+										<Image FileName="-901011362" Left="498" Top="677" Right="1152" Bottom="743" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//qwyk-create-cargo-release-to//form/div[3]//div[contains(@class, &apos;form-group&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSelectACountry" Key="{7F974247-48DF-4864-B827-757585A6742C}">
+										<Image FileName="-723032581" Left="499" Top="872" Right="1113" Bottom="907" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Select a Country&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[@role=&apos;combobox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;p-element&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;release_to_country&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[5]//p-dropdown//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeParaguay" Key="{7BF07E8D-7DC8-452B-936B-EAA301DA0CD9}">
+										<Image FileName="1753296105" Left="500" Top="810" Right="1135" Bottom="845" />
+										<Selectors>
+											<Selector>
+												<Value Value="#release_to_country_172" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[.=&apos;Paraguay&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@aria-label=&apos;Paraguay&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[173]/li[@role=&apos;option&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[173]/li[contains(@class, &apos;p-ripple&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;release_to_country&apos;]//p-dropdownitem[173]/li" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[173]/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeParaguay2" Key="{5BA66AAA-7C89-4E1D-9778-01F14CCFE22E}">
+										<Image FileName="1753296105" Left="513" Top="817" Right="570" Bottom="836" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Paraguay&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[173]/li/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;release_to_country_172&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[173]/li/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cargoLink" Key="{D86A8713-4B53-464B-A2E9-88027DFD38A4}">
+										<Image FileName="716448863" Left="619" Top="965" Right="700" Bottom="1003" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=(//a[contains(@class, &apos;nav-link&apos;) and contains(text(), &apos;Cargo&apos;)and contains(@href, &apos;/my-portal/cargo-releases&apos;)])[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSendCargoRelease" Key="{2836E06E-37D9-4D27-8296-9E0793945D52}">
+										<Image FileName="1283415133" Left="628" Top="960" Right="820" Bottom="998" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Send Cargo Release&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-create-cargo-release-confirmation//qwyk-create-cargo-release-buttons//button[contains(@class, &apos;btn-primary&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxParentNumber" Key="{2F0E7635-EE53-4FF6-82F3-4D1CD5DDFA18}">
+										<Image FileName="1925368694" Left="1067" Top="508" Right="1342" Bottom="545" />
+										<TypeInfo Item0="{FE3BBF2D-62CE-4222-9079-8A4579DCFAC4}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#parent_number" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;parent_number&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/input[contains(@class, &apos;p-inputtext&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel3" Key="{38603C53-C307-4821-B5B2-8EC2C23139E3}">
+										<Image FileName="-1317670328" Left="489" Top="692" Right="509" Bottom="712" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tr[2]/td/p-tablecheckbox//div[contains(@class, &apos;p-checkbox-box&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAlgeria" Key="{DB9DB5B2-CE04-4EC7-94B1-2B98B8E5B389}">
+										<Image FileName="1074172406" Left="500" Top="792" Right="1135" Bottom="827" />
+										<Selectors>
+											<Selector>
+												<Value Value="#release_to_country_3" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[.=&apos;Algeria&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@aria-label=&apos;Algeria&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[4]/li[@role=&apos;option&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[4]/li[contains(@class, &apos;p-ripple&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;release_to_country&apos;]//p-dropdownitem[4]/li" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[4]/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAlgeria2" Key="{6C07BD6F-5D6F-46A0-972F-2E347073DBE2}">
+										<Image FileName="1074172406" Left="513" Top="800" Right="556" Bottom="819" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Algeria&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[4]/li/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;release_to_country_3&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[4]/li/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeYourCargoReleaseWasRecei" Key="{570E6CCF-AAE5-4E49-98EA-56C07BC42F0B}">
+										<Image FileName="-1513600852" Left="534" Top="495" Right="1606" Bottom="589" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//h4[normalize-space()=&apos;Your cargo release was received!&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h4[contains(text(), &apos;Your cargo release was received!&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h4[contains(@class, &apos;font-weight-normal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h4" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkContinueToCargoRelease" Key="{20DA253C-F60B-44D8-8317-F9548B023318}">
+										<Image FileName="-805845111" Left="953" Top="696" Right="1187" Bottom="734" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Continue to cargo release&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-create-cargo-release-page//qwyk-create-cargo-release-send//a[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-create-cargo-release-page//qwyk-create-cargo-release-send//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCargoRelease23" Key="{9DF3310A-0798-4E9D-B687-7BC9A1FF66A4}">
+										<Image FileName="1465381892" Left="477" Top="278" Right="1647" Bottom="312" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//h3[normalize-space()=&apos;Cargo Release&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//h3[contains(text(), &apos;Cargo Release&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3[contains(@class, &apos;font-weight-normal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel23" Key="{FA62FD72-2DC6-4B5B-AD0C-B56B9D02BD84}">
+										<Image FileName="1465381892" Left="502" Top="443" Right="760" Bottom="465" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//qwyk-cargo-releases-summary/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkWarehouseReceipt89" Key="{030197B5-A106-4BB6-AAC4-9E6FABB7ACCB}">
+										<Image FileName="-1367540024" Left="502" Top="614" Right="634" Bottom="628" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//a[starts-with(normalize-space(), &apos;Warehouse Receipt:&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-cargo-items-index/ul/li//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkPickupOrder7" Key="{02DD07C6-CDC7-4AB5-BF00-4CA2F5D90D63}">
+										<Image FileName="2022825129" Left="502" Top="632" Right="594" Bottom="646" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//a[starts-with(normalize-space(text()), &apos;Pickup Order:&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//a[contains(text(), &apos;Pickup Order:&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePayments" Key="{14371669-C779-4E6E-8B61-A66D41F95002}">
+										<Image FileName="-490415060" Left="0" Top="482" Right="219" Bottom="524" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[6]/ul/li[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkPayments2" Key="{C1A422AD-9212-43C4-AFE4-092E959D957E}">
+										<Image FileName="-490415060" Left="0" Top="482" Right="219" Bottom="524" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Payments&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[6]/ul/li[3]/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;navSidebar&apos;]//li[6]/ul/li[3]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[6]/ul/li[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode02192025" Key="{644665AF-0285-4043-BF32-FAEDC2A40FA2}">
+										<Image FileName="-183107830" Left="576" Top="419" Right="1546" Bottom="488" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;02/19/2025&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;list-group-item-action&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel10000" Key="{616BF916-9C8F-4EA5-B9A7-8CB9E50BC0AE}">
+										<Image FileName="-183107830" Left="1381" Top="443" Right="1541" Bottom="465" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[normalize-space(text())=&apos;$100.00&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;$100.00&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode10000" Key="{31FE088D-79C9-4AD5-A906-5EE7701CE76F}">
+										<Image FileName="-1589829673" Left="502" Top="475" Right="855" Bottom="499" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//h5[normalize-space(text())=&apos;$100.00&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h5[contains(text(), &apos;$100.00&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h5[contains(@class, &apos;font-weight-light&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/h5" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel50" Key="{809B0B25-5512-4AB5-A696-DDBE6E819656}">
+										<Image FileName="-1589829673" Left="502" Top="696" Right="760" Bottom="718" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;50&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-custom-fields-view/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelQaAutomation" Key="{6934485F-681B-4B08-AB55-8620BB14065D}">
+										<Image FileName="-1589829673" Left="789" Top="696" Right="1047" Bottom="718" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[contains(text(), &apos;QA&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[.=&apos;QA Automation&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeNoEventsFound" Key="{D295F700-2D55-4482-90D9-3A51F7E301DE}">
+										<Image FileName="-1610822000" Left="478" Top="830" Right="1646" Bottom="929" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;No events found&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;nothing-found&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelTransactionsAreBeingLoaded" Key="{F6D65E4A-FD02-4AA3-9B25-8CCD182FB509}">
+										<Image FileName="-738973974" Left="502" Top="816" Right="1222" Bottom="867" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;transactions are being loaded&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-invoice-transactions-list/ul/li/div[contains(@class, &apos;d-flex&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSummary" Key="{990270B1-5D63-41D0-8B4F-F947C4020B7B}">
+										<Image FileName="1379427874" Left="477" Top="332" Right="591" Bottom="372" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Summary&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeInvoice45" Key="{2B58A626-30CA-4B95-A446-DEFB4798075C}">
+										<Image FileName="698238882" Left="477" Top="278" Right="604" Bottom="312" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h3[contains(text(), &apos;Invoice 45&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3[contains(@class, &apos;font-weight-normal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{04F3F450-5526-4092-96D2-21C0884F59D5}">
@@ -16987,9 +17553,26 @@
 								<TypeInfo Item0="{A97AA19E-4C10-481F-A4F0-35AE1C017215}" />
 								<Properties>
 									<Property Name="WndClass">
-										<Value Value="#32768" />
+										<Value Value="#*" />
 									</Property>
 								</Properties>
+								<Children>
+									<Child Name="menuitemAdvanced" Key="{87BF35D4-7988-43E2-8433-322112F9953B}">
+										<Image FileName="682504391" Left="3" Top="25" Right="149" Bottom="47" />
+										<TypeInfo Item0="{049BB2C9-00D5-42FA-B7FF-C6D6251FE249}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="MenuItem" />
+											</Property>
+											<Property Name="Caption">
+												<Value Value="Advanced..." />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
 							</Child>
 							<Child Name="wndCefBrowserWindow" Key="{A8DDB9A1-DB0D-4E12-BC5B-C4A93FE9B21E}">
 								<Image FileName="-1064148481" Left="0" Top="0" Right="1440" Bottom="759" />
@@ -17158,6 +17741,26 @@
 																		<Value Value="SysListView32" />
 																	</Property>
 																</Properties>
+																<Children>
+																	<Child Name="listitem46" Key="{83A7094F-544D-48C8-B5E1-D06ED67BFAC9}">
+																		<Image FileName="1761304910" Left="307" Top="198" Right="1337" Bottom="215" />
+																		<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="ListItem" />
+																			</Property>
+																			<Property Name="ObjectGroupIndex">
+																				<Value Value="1" Type="0" />
+																			</Property>
+																			<Property Name="ControlIndexInGroup">
+																				<Value Value="0" Type="0" />
+																			</Property>
+																			<Property Name="ChildCount">
+																				<Value Value="0" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
 															</Child>
 															<Child Name="page32770" Key="{3EF37D24-FFBB-4713-88A8-4C2F0DBDD98C}">
 																<Image FileName="-1783701992" Left="315" Top="148" Right="1927" Bottom="179" />
@@ -17182,6 +17785,39 @@
 																				<Value Value="1" Type="0" />
 																			</Property>
 																		</Properties>
+																		<Children>
+																			<Child Name="splitbuttonFilter" Key="{87669AA5-9237-4E64-9B44-B0BA30572B31}">
+																				<Image FileName="1003031315" Left="496" Top="140" Right="542" Bottom="170" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="SplitButton" />
+																					</Property>
+																					<Property Name="Caption">
+																						<Value Value="Filter" />
+																					</Property>
+																					<Property Name="ObjectGroupIndex">
+																						<Value Value="1" Type="0" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="dropdownbuttonOpen" Key="{A17717B8-3FB7-4E86-8AC3-371D97525CE6}">
+																						<Image FileName="1003031315" Left="527" Top="140" Right="542" Bottom="170" />
+																						<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+																						<Properties>
+																							<Property Name="ObjectType">
+																								<Value Value="DropDownButton" />
+																							</Property>
+																							<Property Name="Caption">
+																								<Value Value="Open" />
+																							</Property>
+																							<Property Name="ObjectGroupIndex">
+																								<Value Value="1" Type="0" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
 																	</Child>
 																</Children>
 															</Child>
@@ -17912,6 +18548,15 @@
 																		</Properties>
 																	</Child>
 																</Children>
+															</Child>
+															<Child Name="ListView" Key="{8E9F3D77-F9A7-4567-856A-7C8B5C017490}">
+																<Image FileName="-1104639076" Left="307" Top="139" Right="1920" Bottom="1038" />
+																<TypeInfo Item0="{928C8AAB-0B93-48F5-A2F3-4FA094C2BF32}" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="SysListView32" />
+																	</Property>
+																</Properties>
 															</Child>
 														</Children>
 													</Child>
@@ -19281,6 +19926,9 @@
 					</Child>
 					<Child Name="textnodeInvoices" Owner="{808EFCA3-1AAC-4016-A24D-A045A7DEF4AB}">
 						<Child Name="linkInvoices" Owner="{952967F3-0618-49D7-B7AA-A507E981B035}" />
+						<Child Name="textnodePayments" Owner="{14371669-C779-4E6E-8B61-A66D41F95002}">
+							<Child Name="linkPayments2" Owner="{C1A422AD-9212-43C4-AFE4-092E959D957E}" />
+						</Child>
 					</Child>
 					<Child Name="textnodeReports" Owner="{4DE62848-02F4-48E7-88E0-E68D1783B1E8}">
 						<Child Name="linkReports" Owner="{38EC4E2C-218D-486E-845E-7C0FE2082454}">
@@ -19342,15 +19990,15 @@
 						<Child Name="linkChargesInvoices" Owner="{0B65E99C-2C56-4F28-98E3-B459C949FA8F}">
 							<Child Name="panelChargesInvoices" Owner="{B7F0ED12-1520-45B8-A637-B627FA9FBF0C}" />
 						</Child>
+						<Child Name="linkSummary" Owner="{990270B1-5D63-41D0-8B4F-F947C4020B7B}" />
 					</Child>
 					<Child Name="textnodeHereIsASnapshotOfWhatS" Owner="{A4629E19-0E9C-4E78-8688-CD7881EB46AE}" />
 					<Child Name="formType" Owner="{6736ADE0-0761-487C-9600-5EE375FF4937}">
 						<Child Name="textboxNumber" Owner="{B482837E-C3B4-44EE-B8B4-22122F6F95DD}" />
 					</Child>
 					<Child Name="textnodeDate" Owner="{7438D11F-22CC-4FE1-BBF9-1E517B408888}">
-						<Child Name="textnode01162025" Owner="{3285DA3C-1EFE-4FC7-8E5D-6B6F653656B8}">
-							<Child Name="invoiceNumber" Owner="{23E69437-4195-46B7-84C3-2CC1FC6D052D}" />
-						</Child>
+						<Child Name="textnode01162025" Owner="{3285DA3C-1EFE-4FC7-8E5D-6B6F653656B8}" />
+						<Child Name="textnode02192025" Owner="{644665AF-0285-4043-BF32-FAEDC2A40FA2}" />
 					</Child>
 					<Child Name="panelPayment" Owner="{6CD77A5F-CAA2-4120-B308-C5B73D578448}" />
 					<Child Name="panelNotesNow" Owner="{5383DCB3-092A-4069-B8BA-56828E26637D}" />
@@ -19403,6 +20051,8 @@
 							<Child Name="panelRcv01" Owner="{227545C6-F955-4781-B64E-6522C7104276}" />
 							<Child Name="panelUpdatecommodity2" Owner="{88B74145-22C3-4BB6-98E7-342924668188}" />
 							<Child Name="linkShipments2" Owner="{D2484804-A9CF-4E68-B67A-FF16C814F376}" />
+							<Child Name="linkWarehouseReceipt" Owner="{030197B5-A106-4BB6-AAC4-9E6FABB7ACCB}" />
+							<Child Name="linkPickupOrder" Owner="{02DD07C6-CDC7-4AB5-BF00-4CA2F5D90D63}" />
 						</Child>
 						<Child Name="textnodeTest2Pdf" Owner="{30EF2002-3A6E-4468-9690-18F9249A2D17}">
 							<Child Name="panelTest2Pdf" Owner="{10E38149-E3E6-4458-9DCA-6965BDEB476C}" />
@@ -19428,6 +20078,7 @@
 						<Child Name="textnodeInTransit" Owner="{C317C693-4F1A-4835-9C42-66E3374AC6A8}">
 							<Child Name="panelAutomationdetails" Owner="{0BE4FBF8-609E-4AB7-8203-A4D58607BA1C}" />
 						</Child>
+						<Child Name="textnodeNoEventsFound" Owner="{D295F700-2D55-4482-90D9-3A51F7E301DE}" />
 					</Child>
 					<Child Name="panelWRThis" Owner="{7A1D020A-7645-4432-A830-6A5FA56B74A9}" />
 					<Child Name="panelDriversname" Owner="{9CE90E8F-F5A6-499B-8A9A-74BAA9819BC3}" />
@@ -19454,6 +20105,40 @@
 					<Child Name="textnodeYourCargoReleases" Owner="{679D407E-76DB-400C-9E4B-BFB2BD0ED4D4}" />
 					<Child Name="panelTracking" Owner="{E92CBB2E-8E6F-4C61-AA0A-4C9660AC401B}" />
 					<Child Name="panelInTransit" Owner="{3BCD4C7E-7EE8-49BC-B7FA-89B1552242E0}" />
+					<Child Name="buttonDropdownbasic1" Owner="{0F07E515-0442-4096-85EC-5CFAC34CBE66}" />
+					<Child Name="buttonDropdownbasic12" Owner="{A5DF5F83-0DCC-4656-82DF-D7054A9233E3}">
+						<Child Name="buttonNewCargoRelease" Owner="{C6F9459A-9080-48D1-9ED5-EE3FC1B4BDD7}" />
+					</Child>
+					<Child Name="panel2" Owner="{EF36500D-03F5-45F1-95CA-1BBD2A8A1E47}" />
+					<Child Name="formWarehouseReceipt" Owner="{C82BB9A8-AB35-4314-9032-C67898DE41E2}">
+						<Child Name="cargoNumber" Owner="{8F4027C6-108B-439E-B2B9-BA97D6D571A6}" />
+						<Child Name="textboxParentNumber" Owner="{2F0E7635-EE53-4FF6-82F3-4D1CD5DDFA18}" />
+					</Child>
+					<Child Name="buttonLoadSelectedItems" Owner="{1F35EDDA-FD7A-4156-8338-4D439D044635}" />
+					<Child Name="buttonNext" Owner="{1FF6A245-A2C0-49E1-A296-569A2B9DE7A2}" />
+					<Child Name="formReleaseAt" Owner="{2C6E357E-69EE-4EED-9362-4ABEBB98D984}">
+						<Child Name="buttonNow" Owner="{1795C441-806C-4ADA-873D-C715F4F3BEF8}" />
+						<Child Name="textboxUndefined" Owner="{699168DF-C521-4E7F-B223-BCEB0761E726}" />
+						<Child Name="panelStreet" Owner="{13A6A1E0-AD96-4A24-90AC-C52016C103FE}" />
+						<Child Name="textnodeSelectACountry" Owner="{7F974247-48DF-4864-B827-757585A6742C}" />
+						<Child Name="textnodeParaguay" Owner="{7BF07E8D-7DC8-452B-936B-EAA301DA0CD9}">
+							<Child Name="textnodeParaguay2" Owner="{5BA66AAA-7C89-4E1D-9778-01F14CCFE22E}" />
+						</Child>
+						<Child Name="textnodeAlgeria" Owner="{DB9DB5B2-CE04-4EC7-94B1-2B98B8E5B389}">
+							<Child Name="textnodeAlgeria2" Owner="{6C07BD6F-5D6F-46A0-972F-2E347073DBE2}" />
+						</Child>
+					</Child>
+					<Child Name="cargoLink" Owner="{D86A8713-4B53-464B-A2E9-88027DFD38A4}" />
+					<Child Name="buttonSendCargoRelease" Owner="{2836E06E-37D9-4D27-8296-9E0793945D52}" />
+					<Child Name="panel3" Owner="{38603C53-C307-4821-B5B2-8EC2C23139E3}" />
+					<Child Name="textnodeYourCargoReleaseWasRecei" Owner="{570E6CCF-AAE5-4E49-98EA-56C07BC42F0B}" />
+					<Child Name="linkContinueToCargoRelease" Owner="{20DA253C-F60B-44D8-8317-F9548B023318}" />
+					<Child Name="textnodeCargoRelease23" Owner="{9DF3310A-0798-4E9D-B687-7BC9A1FF66A4}" />
+					<Child Name="panel23" Owner="{FA62FD72-2DC6-4B5B-AD0C-B56B9D02BD84}" />
+					<Child Name="cargoNumber" Owner="{8F4027C6-108B-439E-B2B9-BA97D6D571A6}" />
+					<Child Name="cargoLink2" Owner="{D86A8713-4B53-464B-A2E9-88027DFD38A4}" />
+					<Child Name="panelMoney" Owner="{616BF916-9C8F-4EA5-B9A7-8CB9E50BC0AE}" />
+					<Child Name="invoiceNumber" Owner="{23E69437-4195-46B7-84C3-2CC1FC6D052D}" />
 				</Child>
 				<Child Name="textnodeResults" Owner="{1CF6087C-57FF-4430-B9F1-800D8664F6B3}" />
 				<Child Name="panelRequestADifferentRate" Owner="{F00322FB-BB44-4EBC-A779-77467DCD493F}" />
@@ -19559,6 +20244,10 @@
 					<Child Name="panelCollect" Owner="{F2D2EA4F-25C9-4CCD-A092-E49C270A55F4}" />
 					<Child Name="panelTest" Owner="{3D7DDFC8-B51F-4BAA-839C-8B28EDBDC96D}" />
 					<Child Name="panelShipmentguidupdated" Owner="{B3EDE0BB-F899-478B-89CB-08C8310C1727}" />
+					<Child Name="textnode100" Owner="{31FE088D-79C9-4AD5-A906-5EE7701CE76F}" />
+					<Child Name="panel50" Owner="{809B0B25-5512-4AB5-A696-DDBE6E819656}" />
+					<Child Name="panelQaAutomation" Owner="{6934485F-681B-4B08-AB55-8620BB14065D}" />
+					<Child Name="textnodeInvoice45" Owner="{2B58A626-30CA-4B95-A446-DEFB4798075C}" />
 				</Child>
 				<Child Name="textboxName2" Owner="{CDAB938D-4DD1-41CB-BE32-3BC186A96F94}" />
 				<Child Name="buttonSearch2" Owner="{E66DF359-B41B-4093-8EE5-35E706916CBA}" />
@@ -19575,6 +20264,7 @@
 				</Child>
 				<Child Name="panelUpdatecommodity3" Owner="{B82ED356-5655-400B-93CF-72D423392D54}" />
 				<Child Name="Confirm" Owner="{D580E735-7BEF-4385-9397-40EE4E787E48}" />
+				<Child Name="panelTransactionsAreBeingLoaded" Owner="{F6D65E4A-FD02-4AA3-9B25-8CCD182FB509}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{04F3F450-5526-4092-96D2-21C0884F59D5}" />
 			<Child Name="pageMagayaDigitalFreightPortalHu" Owner="{C7ED2FC9-0D1F-40A0-87DF-C64B4F0237DC}">
@@ -19841,7 +20531,9 @@
 					<Child Name="TreeView" Owner="{84A140C2-C8FF-44E4-97A2-A76B2C0AAFC4}" />
 				</Child>
 			</Child>
-			<Child Name="wnd32768" Owner="{BC30839D-0B19-4061-8FD4-F681F8B2269C}" />
+			<Child Name="wnd" Owner="{BC30839D-0B19-4061-8FD4-F681F8B2269C}">
+				<Child Name="menuitemAdvanced" Owner="{87BF35D4-7988-43E2-8433-322112F9953B}" />
+			</Child>
 			<Child Name="wndCefBrowserWindow" Owner="{A8DDB9A1-DB0D-4E12-BC5B-C4A93FE9B21E}">
 				<Child Name="Chrome_WidgetWin_0" Owner="{AFEE01FD-7B63-4645-8BD5-98D2C0427784}">
 					<Child Name="page192168552063691ExtMagayaLtmC" Owner="{1B9A8D96-05EC-48B0-B1C4-1E38D5AED195}" />
@@ -19865,9 +20557,15 @@
 						</Child>
 					</Child>
 					<Child Name="page327702" Owner="{806E32D8-8C15-4F48-99FF-128F83AB35E5}">
-						<Child Name="ListView" Owner="{B241736E-8782-48B5-8F5E-93D67B1A760A}" />
+						<Child Name="ListView" Owner="{B241736E-8782-48B5-8F5E-93D67B1A760A}">
+							<Child Name="listitemFirst" Owner="{83A7094F-544D-48C8-B5E1-D06ED67BFAC9}" />
+						</Child>
 						<Child Name="page32770" Owner="{3EF37D24-FFBB-4713-88A8-4C2F0DBDD98C}">
-							<Child Name="toolbar" Owner="{49639792-31C1-4776-82E7-5470DC421337}" />
+							<Child Name="toolbar" Owner="{49639792-31C1-4776-82E7-5470DC421337}">
+								<Child Name="splitbuttonFilter" Owner="{87669AA5-9237-4E64-9B44-B0BA30572B31}">
+									<Child Name="dropdownbuttonOpen" Owner="{A17717B8-3FB7-4E86-8AC3-371D97525CE6}" />
+								</Child>
+							</Child>
 						</Child>
 					</Child>
 					<Child Name="AfxMDIFrame140u" Owner="{E67DE95E-4234-4A59-883E-DE78C457D077}">
@@ -19940,6 +20638,7 @@
 							</Child>
 							<Child Name="toolbar" Owner="{D37DA624-5AFD-4A37-9881-C1630089ADA7}" />
 						</Child>
+						<Child Name="ListView" Owner="{8E9F3D77-F9A7-4567-856A-7C8B5C017490}" />
 					</Child>
 					<Child Name="page327703" Owner="{D76BE3AF-D377-488B-8AA7-ACB5AAE4E132}">
 						<Child Name="ListView" Owner="{AFC6A8E7-35CA-4F68-A3A9-2C25AE8C264B}" />

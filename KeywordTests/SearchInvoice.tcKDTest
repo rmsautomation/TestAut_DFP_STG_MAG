@@ -120,7 +120,7 @@
 							</Values>
 						</Parameter>
 					</Parameters>
-					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.chrome2.pageMagayaQaDfp.sectionMyPortal.textnodeDate.textnode01162025.invoiceNumber;" />
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.chrome2.pageMagayaQaDfp.sectionMyPortal.invoiceNumber;" />
 				</Data>
 			</Operation>
 		</Children>
