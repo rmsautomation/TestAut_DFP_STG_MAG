@@ -70,7 +70,9 @@
 					<child name="TC_41_1307_MagayaToQWYK_InventoryItem" key="{6A1B620C-2623-4E5B-98F3-2C4B2DDE8561}" path="TC_41_1307_MagayaToQWYK_InventoryItem.tcKDTest" />
 					<child name="TC_42_1308_MagayaToQWYK_UpdateInvItem" key="{E4292F16-885D-4EA2-9504-EB064987E1BC}" path="TC_42_1308_MagayaToQWYK_UpdateInvItem.tcKDTest" />
 				</folder>
-				<folder name="PO" />
+				<folder name="PO">
+					<child name="TC_55_1875_58_1880MagayDFP_POWithAttchAutEv" key="{AFB77464-4830-4C17-9A60-97E30DF43405}" path="TC_55_1875_58_1880MagayDFP_POWithAttchAutEv.tcKDTest" />
+				</folder>
 				<folder name="Payment">
 					<child name="TC_51_1790_MagayaQWYK_CreatePayment" key="{E27EFBFE-CE5B-4DA3-B1AA-67961F637237}" path="TC_51_1790_MagayaQWYK_CreatePayment.tcKDTest" />
 					<child name="TC_52_1792_MagayaQWYKUpdatePayment" key="{49470BAE-20EF-404F-B836-DF9C4D46B6BD}" path="TC_52_1792_MagayaQWYKUpdatePayment.tcKDTest" />
@@ -216,6 +218,7 @@
 					</folder>
 					<folder name="PO">
 						<child name="SearchPOPortal" key="{5266C778-D775-4BD4-A049-3C7A54AC1A66}" path="SearchPOPortal.tcKDTest" />
+						<child name="VerifyPO_DFP" key="{C0FB051E-7F7E-489B-9A9B-B8BFFA1B6C00}" path="VerifyPO_DFP.tcKDTest" />
 					</folder>
 				</folder>
 			</folder>
