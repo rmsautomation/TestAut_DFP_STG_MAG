@@ -15,28 +15,12 @@
 		</Data>
 		<Children>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-				<Data Description="Clicks the %p1 item of the &apos;%n&apos; tree." Action="ClickItem">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Item" DefVarType="12" VarType="8" ValueType="6" ValueValue="|Maintenance" />
-						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
-							<Values IsEnum="True">
-								<Value Type="1" Value="0" Text="skNoShift" />
-								<Value Type="1" Value="8192" Text="skShift" />
-								<Value Type="1" Value="32768" Text="skAlt" />
-								<Value Type="1" Value="16384" Text="skCtrl" />
-							</Values>
-						</Parameter>
-					</Parameters>
-					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.ExpExpl.wndAfx.AfxMDIFrame140u.TreeView;" />
-				</Data>
-			</Operation>
-			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 				<Data Description="Expands the %p1 item of the &apos;%n&apos; tree." Action="ExpandItem">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="Item" DefVarType="12" VarType="8" ValueType="6" ValueValue="|Maintenance" />
 						<Parameter Name="Expand" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
 					</Parameters>
-					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.ExpExpl.wndAfx.AfxMDIFrame140u.TreeView;" />
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.ExpExpl.mainWindow.completePanel.TreeView;" />
 				</Data>
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
@@ -52,38 +36,29 @@
 							</Values>
 						</Parameter>
 					</Parameters>
-					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.ExpExpl.wndAfx.AfxMDIFrame140u.TreeView;" />
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.ExpExpl.mainWindow.completePanel.TreeView;" />
 				</Data>
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="FilterContact">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="name" DefVarType="8" DefValueType="6" DefValueValue="Aylin" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="nowContact" />
-					</Parameters>
-				</Data>
+				<Data Description="Runs a keyword test." TestName="Unfilter" />
 			</Operation>
-			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-				<Data Description="Clicks the %p2 subitem of the %p1 item of the &apos;%n&apos; list view with the right mouse button." Action="ClickItemR">
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="AdvancedFilter" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="AdvancedFilterBy">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Item" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="nowContact" />
-						<Parameter Name="SubItem" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0" />
-						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
-							<Values IsEnum="True">
-								<Value Type="1" Value="0" Text="skNoShift" />
-								<Value Type="1" Value="8192" Text="skShift" />
-								<Value Type="1" Value="32768" Text="skAlt" />
-								<Value Type="1" Value="16384" Text="skCtrl" />
-							</Values>
-						</Parameter>
+						<Parameter Name="FilterBy" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Name" />
+						<Parameter Name="Value" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="nowContact" />
+						<Parameter Name="Operator" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Contains" />
 					</Parameters>
-					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.ExpExpl.wndAfx.AfxMDIFrame140u.AfxFrameOrView140u.pageCustomers.ListView;" />
 				</Data>
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 				<Data Description="Clicks the &apos;%n&apos; object with the right mouse button." Action="ClickR">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="0" />
-						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="0" />
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="719" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="11" />
 						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
 							<Values IsEnum="True">
 								<Value Type="1" Value="0" Text="skNoShift" />
@@ -93,15 +68,12 @@
 							</Values>
 						</Parameter>
 					</Parameters>
-					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.ExpExpl.wnd;" />
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.ExpExpl.mainWindow.mainFrame.page327702.ListView.listitemFirst;" />
 				</Data>
 			</Operation>
-			<Operation Type="{CE294ABA-E13B-4B94-AFC8-FA8F4249123D}">
-				<Data Description="Moves the mouse cursor to the menu item specified and then simulates a single click." Action="Click" MenuType="2" PreferredMenu="PopupMenu">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Item" DefVarType="12" VarType="8" ValueType="6" ValueValue="Configure LiveTrack Access..." />
-					</Parameters>
-					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.ExpExpl.wndAfx;" />
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; control." Action="Click" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.ExpExpl.popupContext.menuitemConfigureLivetrackAccess;" />
 				</Data>
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
@@ -131,7 +103,7 @@
 							</Values>
 						</Parameter>
 					</Parameters>
-					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.ExpExpl.wndAfx.AfxMDIFrame140u.AfxFrameOrView140u.pageCustomers.page32770.toolbar;" />
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.ExpExpl.mainWindow.mainFrame.panelList.outToolbar.toolbar;" />
 				</Data>
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">

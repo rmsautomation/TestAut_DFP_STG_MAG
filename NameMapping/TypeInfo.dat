@@ -8157,8 +8157,8 @@
 			</FunctionDescriptions>
 		</Data>
 	</Child>
-	<Child Hash="1216439258" Key="{049BB2C9-00D5-42FA-B7FF-C6D6251FE249}">
-		<Data Properties="DC9CC7CF3AEG84B86B76F1A3A7DAFD1UFFFFFFFFFFFFFFFFV4LEZZY">
+	<Child Hash="1216439258" Key="{BD91983E-10C5-43AF-834F-060D7F5933D7}">
+		<Data Properties="4A0B83C01EBFA541B41B62214FCD7EC4UFFFFFFFFFFFFFFFFV4LEZZY">
 			<FunctionDescriptions>
 				<Child Name="Visible" Doc="Specifies whether an onscreen object is visible to users." IsBasic="True" Data="ZI4L2L4ZOBZN">
 					<ReturnValue Param0="11" />

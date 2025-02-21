@@ -10,6 +10,9 @@
 			</Extenders>
 		</Data>
 		<Children>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="GetAppName" Unit="GetAppName" />
+			</Operation>
 			<Operation Type="{66F32D5F-A5DB-420E-9CB4-3DB7CADE2692}">
 				<Data Description="Runs the &quot;ExpExpl&quot; tested application." TestedApp="ExpExpl">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
@@ -44,6 +47,7 @@
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 				<Data Description="Maximizes the &apos;%n&apos; window." Action="Maximize">
+					<CommonData WaitTimeout="40000" />
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.ExpExpl.mainWindow;" />
 				</Data>
 			</Operation>

@@ -10124,6 +10124,23 @@
 																<Value Value="Running applications" />
 															</Property>
 														</Properties>
+														<Children>
+															<Child Name="buttonMagayaCargoExplorer" Key="{11F57EB8-E375-44A9-8218-4843A3F02229}">
+																<Image FileName="-2066632714" Left="245" Top="0" Right="294" Bottom="40" />
+																<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Button" />
+																	</Property>
+																	<Property Name="Caption">
+																		<Value Value="Magaya Cargo Explorer" />
+																	</Property>
+																	<Property Name="ObjectGroupIndex">
+																		<Value Value="1" Type="0" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
 													</Child>
 												</Children>
 											</Child>
@@ -16780,6 +16797,23 @@
 												<Value Value="SysListView32" />
 											</Property>
 										</Properties>
+										<Children>
+											<Child Name="listitemAutomation" Key="{0FC42660-BD1D-4455-ABF7-18CF315DE483}">
+												<Image FileName="1185516377" Left="7" Top="31" Right="507" Bottom="52" />
+												<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="ListItem" />
+													</Property>
+													<Property Name="Caption">
+														<Value Value="automation" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
 									</Child>
 									<Child Name="btnOK" Key="{18F54034-9518-4445-B27B-D992418ABEA5}">
 										<Image FileName="-2048456889" Left="325" Top="493" Right="400" Bottom="516" />
@@ -17737,325 +17771,6 @@
 									</Child>
 								</Children>
 							</Child>
-							<Child Name="wndAfx" Key="{77FE39E4-1982-405C-A570-F8A49D2D6421}">
-								<Image FileName="822790402" Left="0" Top="0" Right="1440" Bottom="759" />
-								<TypeInfo Item0="{9C98C7D9-2584-4164-A792-C4233FF5BCD8}" />
-								<Properties>
-									<Property Name="WndClass">
-										<Value Value="Afx:00B60000:b*" />
-									</Property>
-								</Properties>
-								<Children>
-									<Child Name="AfxMDIFrame140u" Key="{255BDB80-933F-430A-8CCB-F9C1D9E4BA5F}">
-										<Image FileName="656033466" Left="0" Top="105" Right="1920" Bottom="1040" />
-										<Properties>
-											<Property Name="WndClass">
-												<Value Value="AfxMDIFrame140u" />
-											</Property>
-										</Properties>
-										<Children>
-											<Child Name="AfxFrameOrView140u" Key="{30D07576-FAB9-4B76-A840-28EFF2EE6DD6}">
-												<Image FileName="1754051133" Left="307" Top="107" Right="1920" Bottom="1038" />
-												<Properties>
-													<Property Name="WndClass">
-														<Value Value="AfxFrameOrView140u" />
-													</Property>
-												</Properties>
-												<Children>
-													<Child Name="AfxMDIFrame140u" Key="{12337075-26F8-4435-A928-30D01220B1E6}">
-														<Image FileName="1754051133" Left="307" Top="137" Right="1920" Bottom="1045" />
-														<Properties>
-															<Property Name="WndClass">
-																<Value Value="AfxMDIFrame140u" />
-															</Property>
-														</Properties>
-														<Children>
-															<Child Name="ListView" Key="{E4ADB599-0390-4BB1-B74B-864849391AF1}">
-																<Image FileName="1754051133" Left="307" Top="139" Right="1920" Bottom="1038" />
-																<TypeInfo Item0="{928C8AAB-0B93-48F5-A2F3-4FA094C2BF32}" />
-																<Properties>
-																	<Property Name="WndClass">
-																		<Value Value="SysListView32" />
-																	</Property>
-																</Properties>
-															</Child>
-														</Children>
-													</Child>
-													<Child Name="pageContacts" Key="{D7DE7FA4-8640-4899-AD28-8CB1FE7D05F1}">
-														<Image FileName="-1096830124" Left="307" Top="137" Right="1920" Bottom="1038" />
-														<Properties>
-															<Property Name="WndClass">
-																<Value Value="#32770" />
-															</Property>
-															<Property Name="WndCaption">
-																<Value Value="Contacts" />
-															</Property>
-														</Properties>
-														<Children>
-															<Child Name="page32770" Key="{D70F1CE5-E87C-4D3F-97FE-D9D79D9EBD6F}">
-																<Image FileName="-278458410" Left="307" Top="140" Right="1919" Bottom="171" />
-																<Properties>
-																	<Property Name="WndClass">
-																		<Value Value="#32770" />
-																	</Property>
-																	<Property Name="WndCaption">
-																		<Value Value="" />
-																	</Property>
-																	<Property Name="Index">
-																		<Value Value="2" Type="0" />
-																	</Property>
-																</Properties>
-																<Children>
-																	<Child Name="toolbar" Key="{4815AC61-B1F4-46FD-A6B9-7338AFF2E4F0}">
-																		<Image FileName="-278458410" Left="307" Top="140" Right="502" Bottom="170" />
-																		<TypeInfo Item0="{3AACBFC4-FDEA-43D6-B840-6F46B343C911}" />
-																		<Properties>
-																			<Property Name="WndClass">
-																				<Value Value="ToolbarWindow32" />
-																			</Property>
-																			<Property Name="WndCaption">
-																				<Value Value="" />
-																			</Property>
-																			<Property Name="Index">
-																				<Value Value="1" Type="0" />
-																			</Property>
-																		</Properties>
-																	</Child>
-																</Children>
-															</Child>
-															<Child Name="ListView" Key="{0B8CA02B-5693-46B7-89DE-A396F2F017B2}">
-																<Image FileName="1419648289" Left="315" Top="182" Right="1927" Bottom="1009" />
-																<TypeInfo Item0="{928C8AAB-0B93-48F5-A2F3-4FA094C2BF32}" />
-																<Properties>
-																	<Property Name="WndClass">
-																		<Value Value="SysListView32" />
-																	</Property>
-																</Properties>
-															</Child>
-														</Children>
-													</Child>
-													<Child Name="pageCustomers" Key="{50FEB95A-C685-4DD4-BA93-07661C10523A}">
-														<Image FileName="-2112627694" Left="315" Top="145" Right="1432" Bottom="749" />
-														<Properties>
-															<Property Name="WndClass">
-																<Value Value="#32770" />
-															</Property>
-															<Property Name="WndCaption">
-																<Value Value="Customers" />
-															</Property>
-														</Properties>
-														<Children>
-															<Child Name="page32770" Key="{6E5833FE-CCFD-4D78-B0BD-4AFA46730A9E}">
-																<Image FileName="-2112627694" Left="315" Top="148" Right="1431" Bottom="179" />
-																<Properties>
-																	<Property Name="WndClass">
-																		<Value Value="#32770" />
-																	</Property>
-																	<Property Name="WndCaption">
-																		<Value Value="" />
-																	</Property>
-																	<Property Name="Index">
-																		<Value Value="2" Type="0" />
-																	</Property>
-																</Properties>
-																<Children>
-																	<Child Name="toolbar" Key="{BAFBD670-4B6E-43FC-8A08-5D1BA826162F}">
-																		<Image FileName="-2112627694" Left="315" Top="148" Right="510" Bottom="178" />
-																		<TypeInfo Item0="{3AACBFC4-FDEA-43D6-B840-6F46B343C911}" />
-																		<Properties>
-																			<Property Name="WndClass">
-																				<Value Value="ToolbarWindow32" />
-																			</Property>
-																			<Property Name="WndCaption">
-																				<Value Value="" />
-																			</Property>
-																			<Property Name="Index">
-																				<Value Value="1" Type="0" />
-																			</Property>
-																		</Properties>
-																	</Child>
-																</Children>
-															</Child>
-															<Child Name="ListView" Key="{2DFA3C4E-DD2D-44CE-8CCE-FB20A5EEE295}">
-																<Image FileName="371811121" Left="315" Top="182" Right="1431" Bottom="693" />
-																<TypeInfo Item0="{928C8AAB-0B93-48F5-A2F3-4FA094C2BF32}" />
-																<Properties>
-																	<Property Name="WndClass">
-																		<Value Value="SysListView32" />
-																	</Property>
-																</Properties>
-															</Child>
-														</Children>
-													</Child>
-													<Child Name="AfxFrameOrView140u" Key="{6327D2E3-474F-4241-8B92-62A1A7B85615}">
-														<Image FileName="-1126318761" Left="315" Top="145" Right="1432" Bottom="749" />
-														<Properties>
-															<Property Name="WndClass">
-																<Value Value="AfxFrameOrView140u" />
-															</Property>
-														</Properties>
-														<Children>
-															<Child Name="page32770" Key="{3764B939-3C8E-48AA-8D5D-1B61DD8EE6FC}">
-																<Image FileName="-1126318761" Left="315" Top="145" Right="1432" Bottom="185" />
-																<Properties>
-																	<Property Name="WndClass">
-																		<Value Value="#32770" />
-																	</Property>
-																</Properties>
-																<Children>
-																	<Child Name="toolbar" Key="{EB2A5C0B-DDD6-4A29-84CF-A09856EF0F29}">
-																		<Image FileName="-1126318761" Left="320" Top="150" Right="1427" Bottom="184" />
-																		<TypeInfo Item0="{3AACBFC4-FDEA-43D6-B840-6F46B343C911}" />
-																		<Properties>
-																			<Property Name="WndClass">
-																				<Value Value="ToolbarWindow32" />
-																			</Property>
-																		</Properties>
-																	</Child>
-																</Children>
-															</Child>
-														</Children>
-													</Child>
-													<Child Name="page32770" Key="{B4CF2D97-F9FA-4EE5-A73F-0B5D04BA53A6}">
-														<Image FileName="-1334964018" Left="315" Top="145" Right="1928" Bottom="1046" />
-														<Properties>
-															<Property Name="WndClass">
-																<Value Value="#32770" />
-															</Property>
-															<Property Name="WndCaption">
-																<Value Value="Invoice List" />
-															</Property>
-														</Properties>
-														<Children>
-															<Child Name="page32770" Key="{FDF69E2E-E48E-44D7-ACEA-25CB7A18BF63}">
-																<Image FileName="-1334964018" Left="315" Top="148" Right="1927" Bottom="179" />
-																<Properties>
-																	<Property Name="WndClass">
-																		<Value Value="#32770" />
-																	</Property>
-																	<Property Name="WndCaption">
-																		<Value Value="" />
-																	</Property>
-																	<Property Name="Index">
-																		<Value Value="2" Type="0" />
-																	</Property>
-																</Properties>
-																<Children>
-																	<Child Name="toolbar" Key="{266B7C51-6BD3-478F-952D-4E944CE4E8B9}">
-																		<Image FileName="-1334964018" Left="315" Top="148" Right="558" Bottom="178" />
-																		<TypeInfo Item0="{3AACBFC4-FDEA-43D6-B840-6F46B343C911}" />
-																		<Properties>
-																			<Property Name="WndClass">
-																				<Value Value="ToolbarWindow32" />
-																			</Property>
-																			<Property Name="WndCaption">
-																				<Value Value="" />
-																			</Property>
-																			<Property Name="Index">
-																				<Value Value="1" Type="0" />
-																			</Property>
-																		</Properties>
-																	</Child>
-																</Children>
-															</Child>
-															<Child Name="ListView" Key="{F7C1E9AF-D453-4820-8D7A-2C51214AED17}">
-																<Image FileName="-1570755859" Left="315" Top="182" Right="1927" Bottom="1009" />
-																<TypeInfo Item0="{928C8AAB-0B93-48F5-A2F3-4FA094C2BF32}" />
-																<Properties>
-																	<Property Name="WndClass">
-																		<Value Value="SysListView32" />
-																	</Property>
-																</Properties>
-															</Child>
-														</Children>
-													</Child>
-												</Children>
-											</Child>
-											<Child Name="TreeView" Key="{84A140C2-C8FF-44E4-97A2-A76B2C0AAFC4}">
-												<Image FileName="656033466" Left="0" Top="107" Right="300" Bottom="1038" />
-												<TypeInfo Item0="{0FF1297C-23C3-4736-B17C-F093BBC9548C}" />
-												<Properties>
-													<Property Name="WndClass">
-														<Value Value="SysTreeView32" />
-													</Property>
-												</Properties>
-											</Child>
-										</Children>
-									</Child>
-								</Children>
-							</Child>
-							<Child Name="wnd32768" Key="{BC30839D-0B19-4061-8FD4-F681F8B2269C}">
-								<Image FileName="-86503562" Left="0" Top="0" Right="264" Bottom="495" />
-								<TypeInfo Item0="{A97AA19E-4C10-481F-A4F0-35AE1C017215}" />
-								<Properties>
-									<Property Name="WndClass">
-										<Value Value="#*" />
-									</Property>
-								</Properties>
-								<Children>
-									<Child Name="menuitemAdvanced" Key="{87BF35D4-7988-43E2-8433-322112F9953B}">
-										<Image FileName="682504391" Left="3" Top="25" Right="149" Bottom="47" />
-										<TypeInfo Item0="{049BB2C9-00D5-42FA-B7FF-C6D6251FE249}" />
-										<Properties>
-											<Property Name="ObjectType">
-												<Value Value="MenuItem" />
-											</Property>
-											<Property Name="Caption">
-												<Value Value="Advanced..." />
-											</Property>
-											<Property Name="ObjectGroupIndex">
-												<Value Value="1" Type="0" />
-											</Property>
-										</Properties>
-									</Child>
-									<Child Name="menuitemHistory" Key="{B276C911-24A8-4DB9-8FD0-30E6C229EC10}">
-										<Image FileName="2063135589" Left="3" Top="214" Right="328" Bottom="236" />
-										<TypeInfo Item0="{049BB2C9-00D5-42FA-B7FF-C6D6251FE249}" />
-										<Properties>
-											<Property Name="ObjectType">
-												<Value Value="MenuItem" />
-											</Property>
-											<Property Name="Caption">
-												<Value Value="History..." />
-											</Property>
-											<Property Name="ObjectGroupIndex">
-												<Value Value="1" Type="0" />
-											</Property>
-										</Properties>
-									</Child>
-									<Child Name="titlebar" Key="{25072A19-ADB4-4BE5-8D1C-8BC18B8B6FAC}">
-										<Image FileName="1880279639" Left="24" Top="3" Right="415" Bottom="31" />
-										<Properties>
-											<Property Name="ObjectType">
-												<Value Value="TitleBar" />
-											</Property>
-											<Property Name="ControlIndex">
-												<Value Value="0" Type="0" />
-											</Property>
-											<Property Name="ObjectGroupIndex">
-												<Value Value="1" Type="0" />
-											</Property>
-										</Properties>
-										<Children>
-											<Child Name="buttonClose" Key="{2C179741-F48D-4673-964B-FCA78C272A64}">
-												<Image FileName="1880279639" Left="382" Top="1" Right="416" Bottom="31" />
-												<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
-												<Properties>
-													<Property Name="ObjectType">
-														<Value Value="Button" />
-													</Property>
-													<Property Name="Caption">
-														<Value Value="Close" />
-													</Property>
-													<Property Name="ObjectGroupIndex">
-														<Value Value="1" Type="0" />
-													</Property>
-												</Properties>
-											</Child>
-										</Children>
-									</Child>
-								</Children>
-							</Child>
 							<Child Name="wndCefBrowserWindow" Key="{A8DDB9A1-DB0D-4E12-BC5B-C4A93FE9B21E}">
 								<Image FileName="-1064148481" Left="0" Top="0" Right="1440" Bottom="759" />
 								<Properties>
@@ -18107,8 +17822,8 @@
 								<Image FileName="1911214909" Left="0" Top="0" Right="1440" Bottom="759" />
 								<TypeInfo Item0="{9C98C7D9-2584-4164-A792-C4233FF5BCD8}" />
 								<Properties>
-									<Property Name="WndClass">
-										<Value Value="Afx*" />
+									<Property Name="WndCaption">
+										<Value Value="Magaya Supply Chain Solution - Postgress SQL II - User: Administrator (administrator)" />
 									</Property>
 								</Properties>
 								<Children>
@@ -18298,6 +18013,21 @@
 																						</Properties>
 																					</Child>
 																				</Children>
+																			</Child>
+																			<Child Name="buttonAdd" Key="{481CEA5E-1EA4-4BF4-BF57-5F346BE05354}">
+																				<Image FileName="856468096" Left="315" Top="148" Right="346" Bottom="178" />
+																				<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Button" />
+																					</Property>
+																					<Property Name="Caption">
+																						<Value Value="Add" />
+																					</Property>
+																					<Property Name="ObjectGroupIndex">
+																						<Value Value="1" Type="0" />
+																					</Property>
+																				</Properties>
 																			</Child>
 																		</Children>
 																	</Child>
@@ -19247,6 +18977,23 @@
 																				<Value Value="1" Type="0" />
 																			</Property>
 																		</Properties>
+																		<Children>
+																			<Child Name="buttonAdd" Key="{FBEBAA72-DB25-4493-9D20-ACB70CBC0BCB}">
+																				<Image FileName="27145565" Left="307" Top="140" Right="338" Bottom="170" />
+																				<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Button" />
+																					</Property>
+																					<Property Name="Caption">
+																						<Value Value="Add" />
+																					</Property>
+																					<Property Name="ObjectGroupIndex">
+																						<Value Value="1" Type="0" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
 																	</Child>
 																</Children>
 															</Child>
@@ -19293,6 +19040,21 @@
 															</Property>
 														</Properties>
 													</Child>
+													<Child Name="outlineitemContacts" Key="{5B3122F3-17BE-4C55-A934-4390226A90D9}">
+														<Image FileName="254010098" Left="60" Top="491" Right="111" Bottom="515" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="OutlineItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="Contacts" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
 												</Children>
 											</Child>
 										</Children>
@@ -19302,6 +19064,52 @@
 										<Properties>
 											<Property Name="WndClass">
 												<Value Value="ToolbarWindow32" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="popupContext" Key="{A313F976-5E28-4CA5-9343-4472C6EB2E3F}">
+								<Image FileName="1261046389" Left="0" Top="0" Right="264" Bottom="495" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Popup" />
+									</Property>
+									<Property Name="Caption">
+										<Value Value="Context" />
+									</Property>
+									<Property Name="ObjectGroupIndex">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="menuitemConfigureLivetrackAccess" Key="{B49C4607-2FDF-45C9-992D-9B686CF2D1EA}">
+										<Image FileName="1261046389" Left="3" Top="98" Right="261" Bottom="120" />
+										<TypeInfo Item0="{BD91983E-10C5-43AF-834F-060D7F5933D7}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="MenuItem" />
+											</Property>
+											<Property Name="Caption">
+												<Value Value="Configure LiveTrack Access..." />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="menuitemAdvanced" Key="{7094D12F-4612-496D-A753-0C8647707008}">
+										<Image FileName="682504391" Left="3" Top="25" Right="149" Bottom="47" />
+										<TypeInfo Item0="{BD91983E-10C5-43AF-834F-060D7F5933D7}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="MenuItem" />
+											</Property>
+											<Property Name="Caption">
+												<Value Value="Advanced..." />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
 											</Property>
 										</Properties>
 									</Child>
@@ -20388,7 +20196,9 @@
 			<Child Name="wndShell_TrayWnd" Owner="{910C0DAB-BCCB-4418-ABBD-27987DB9B5B5}">
 				<Child Name="ReBarWindow32" Owner="{1A09A9CD-1388-455C-933F-143F8CAD417D}">
 					<Child Name="MSTaskSwWClass" Owner="{C9E92BF9-9600-46FB-9659-38D279E030E8}">
-						<Child Name="MSTaskListWClass" Owner="{B402696C-764D-4148-B919-6A9C4730DB78}" />
+						<Child Name="MSTaskListWClass" Owner="{B402696C-764D-4148-B919-6A9C4730DB78}">
+							<Child Name="buttonMagayaCargoExplorer" Owner="{11F57EB8-E375-44A9-8218-4843A3F02229}" />
+						</Child>
 					</Child>
 				</Child>
 			</Child>
@@ -20966,7 +20776,9 @@
 					<Child Name="editPassword" Owner="{ACFD171D-87B4-421C-A441-0BAEBC1DC2A2}" />
 					<Child Name="checkEnableLiveTrackAccess" Owner="{301EBE9E-25AA-4CF1-81B3-382FA79393B9}" />
 				</Child>
-				<Child Name="ListView" Owner="{7911ED67-C00A-409C-9B9B-788B763A61E4}" />
+				<Child Name="ListView" Owner="{7911ED67-C00A-409C-9B9B-788B763A61E4}">
+					<Child Name="listitemAutomation" Owner="{0FC42660-BD1D-4455-ABF7-18CF315DE483}" />
+				</Child>
 				<Child Name="btnOK" Owner="{18F54034-9518-4445-B27B-D992418ABEA5}" />
 				<Child Name="btnAdd" Owner="{0AF557EB-9308-444A-B62D-1FBC38A3EB78}" />
 				<Child Name="btnOK2" Owner="{6344ECA5-7194-4DED-A160-31A796F2125C}" />
@@ -21049,46 +20861,6 @@
 				<Child Name="btnBack" Owner="{CE5F1B82-3C38-4330-9912-A8C1C491FB55}" />
 				<Child Name="btnClose" Owner="{AC8DD74A-AD59-4C51-B6F7-D8E4A5CEFC0F}" />
 			</Child>
-			<Child Name="wndAfx" Owner="{77FE39E4-1982-405C-A570-F8A49D2D6421}">
-				<Child Name="AfxMDIFrame140u" Owner="{255BDB80-933F-430A-8CCB-F9C1D9E4BA5F}">
-					<Child Name="AfxFrameOrView140u" Owner="{30D07576-FAB9-4B76-A840-28EFF2EE6DD6}">
-						<Child Name="AfxMDIFrame140u" Owner="{12337075-26F8-4435-A928-30D01220B1E6}">
-							<Child Name="ListView" Owner="{E4ADB599-0390-4BB1-B74B-864849391AF1}" />
-						</Child>
-						<Child Name="pageContacts" Owner="{D7DE7FA4-8640-4899-AD28-8CB1FE7D05F1}">
-							<Child Name="page32770" Owner="{D70F1CE5-E87C-4D3F-97FE-D9D79D9EBD6F}">
-								<Child Name="toolbar" Owner="{4815AC61-B1F4-46FD-A6B9-7338AFF2E4F0}" />
-							</Child>
-							<Child Name="ListView" Owner="{0B8CA02B-5693-46B7-89DE-A396F2F017B2}" />
-						</Child>
-						<Child Name="pageCustomers" Owner="{50FEB95A-C685-4DD4-BA93-07661C10523A}">
-							<Child Name="page32770" Owner="{6E5833FE-CCFD-4D78-B0BD-4AFA46730A9E}">
-								<Child Name="toolbar" Owner="{BAFBD670-4B6E-43FC-8A08-5D1BA826162F}" />
-							</Child>
-							<Child Name="ListView" Owner="{2DFA3C4E-DD2D-44CE-8CCE-FB20A5EEE295}" />
-						</Child>
-						<Child Name="AfxFrameOrView140u" Owner="{6327D2E3-474F-4241-8B92-62A1A7B85615}">
-							<Child Name="page32770" Owner="{3764B939-3C8E-48AA-8D5D-1B61DD8EE6FC}">
-								<Child Name="toolbar" Owner="{EB2A5C0B-DDD6-4A29-84CF-A09856EF0F29}" />
-							</Child>
-						</Child>
-						<Child Name="page32770" Owner="{B4CF2D97-F9FA-4EE5-A73F-0B5D04BA53A6}">
-							<Child Name="page32770" Owner="{FDF69E2E-E48E-44D7-ACEA-25CB7A18BF63}">
-								<Child Name="toolbar" Owner="{266B7C51-6BD3-478F-952D-4E944CE4E8B9}" />
-							</Child>
-							<Child Name="ListView" Owner="{F7C1E9AF-D453-4820-8D7A-2C51214AED17}" />
-						</Child>
-					</Child>
-					<Child Name="TreeView" Owner="{84A140C2-C8FF-44E4-97A2-A76B2C0AAFC4}" />
-				</Child>
-			</Child>
-			<Child Name="wnd" Owner="{BC30839D-0B19-4061-8FD4-F681F8B2269C}">
-				<Child Name="menuitemAdvanced" Owner="{87BF35D4-7988-43E2-8433-322112F9953B}" />
-				<Child Name="menuitemHistory" Owner="{B276C911-24A8-4DB9-8FD0-30E6C229EC10}" />
-				<Child Name="titlebar" Owner="{25072A19-ADB4-4BE5-8D1C-8BC18B8B6FAC}">
-					<Child Name="buttonClose" Owner="{2C179741-F48D-4673-964B-FCA78C272A64}" />
-				</Child>
-			</Child>
 			<Child Name="wndCefBrowserWindow" Owner="{A8DDB9A1-DB0D-4E12-BC5B-C4A93FE9B21E}">
 				<Child Name="Chrome_WidgetWin_0" Owner="{AFEE01FD-7B63-4645-8BD5-98D2C0427784}">
 					<Child Name="page192168552063691ExtMagayaLtmC" Owner="{1B9A8D96-05EC-48B0-B1C4-1E38D5AED195}" />
@@ -21096,10 +20868,11 @@
 				</Child>
 			</Child>
 			<Child Name="mainWindow" Owner="{FA800909-3509-429F-9291-86E86C56CDF0}">
-				<Child Name="AfxMDIFrame140u" Owner="{F875501F-514E-4FAB-B9D4-FA59842CD8D2}">
+				<Child Name="completePanel" Owner="{F875501F-514E-4FAB-B9D4-FA59842CD8D2}">
 					<Child Name="TreeView" Owner="{77461F1B-93C3-4036-B3C4-050032ACBFE5}">
 						<Child Name="outlineitemOperations" Owner="{9FB9EA19-D8D7-4B50-B07A-571FF292F33B}" />
 						<Child Name="outlineitemCommodityList" Owner="{ABE07072-4FC9-4298-99F2-F4F63F69484E}" />
+						<Child Name="outlineitemContacts" Owner="{5B3122F3-17BE-4C55-A934-4390226A90D9}" />
 					</Child>
 				</Child>
 				<Child Name="mainFrame" Owner="{C9DFA5BE-6887-4F72-A50E-BEE3562FAE70}">
@@ -21109,8 +20882,8 @@
 							<Child Name="toolbar" Owner="{8B85C92C-5DEC-49AA-B724-5184BCDC29E5}" />
 						</Child>
 					</Child>
-					<Child Name="AfxFrameOrView140u" Owner="{333F50B3-95D9-470F-BA06-3423765AD6AE}">
-						<Child Name="page32770" Owner="{9CD6E46F-6075-47A1-8CC3-D57B43C764B0}">
+					<Child Name="panelList" Owner="{333F50B3-95D9-470F-BA06-3423765AD6AE}">
+						<Child Name="outToolbar" Owner="{9CD6E46F-6075-47A1-8CC3-D57B43C764B0}">
 							<Child Name="toolbar" Owner="{99FA501B-A9E1-4445-A559-D7917D0ABDCD}" />
 						</Child>
 					</Child>
@@ -21123,6 +20896,7 @@
 								<Child Name="splitbuttonFilter" Owner="{87669AA5-9237-4E64-9B44-B0BA30572B31}">
 									<Child Name="dropdownbuttonOpen" Owner="{A17717B8-3FB7-4E86-8AC3-371D97525CE6}" />
 								</Child>
+								<Child Name="buttonAdd" Owner="{481CEA5E-1EA4-4BF4-BF57-5F346BE05354}" />
 							</Child>
 						</Child>
 					</Child>
@@ -21219,11 +20993,17 @@
 					<Child Name="pageContacts" Owner="{D9D608D5-3033-424A-9C31-851B8055ABB6}">
 						<Child Name="ListView" Owner="{6D2866CA-C73D-4689-BB62-5AD4196849F1}" />
 						<Child Name="page32770" Owner="{1B7BB3DF-BB06-47FE-802D-579E797C7195}">
-							<Child Name="toolbar" Owner="{02A62CC7-5CDF-4C8F-9EA0-9F09A7A9DC38}" />
+							<Child Name="toolbar" Owner="{02A62CC7-5CDF-4C8F-9EA0-9F09A7A9DC38}">
+								<Child Name="buttonAdd" Owner="{FBEBAA72-DB25-4493-9D20-ACB70CBC0BCB}" />
+							</Child>
 						</Child>
 					</Child>
 				</Child>
 				<Child Name="toolbar" Owner="{FCB9C945-C2EE-43FC-B451-F0B14354FA8E}" />
+			</Child>
+			<Child Name="popupContext" Owner="{A313F976-5E28-4CA5-9343-4472C6EB2E3F}">
+				<Child Name="menuitemConfigureLivetrackAccess" Owner="{B49C4607-2FDF-45C9-992D-9B686CF2D1EA}" />
+				<Child Name="menuitemAdvanced" Owner="{7094D12F-4612-496D-A753-0C8647707008}" />
 			</Child>
 		</Child>
 		<Child Name="SourceTree" Owner="{6D5084A7-EDE9-457F-AE23-A21E49DFD672}">

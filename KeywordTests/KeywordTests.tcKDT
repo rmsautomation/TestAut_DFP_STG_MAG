@@ -72,6 +72,7 @@
 				</folder>
 				<folder name="PO">
 					<child name="TC_55_1875_58_1880MagayDFP_POWithAttchAutEv" key="{AFB77464-4830-4C17-9A60-97E30DF43405}" path="TC_55_1875_58_1880MagayDFP_POWithAttchAutEv.tcKDTest" />
+					<child name="Tc_57_1873_MagayaToQWYK_UpdatePO" key="{DB640D92-32B1-4AD1-9116-95C78DF5FB8D}" path="Tc_57_1873_MagayaToQWYK_UpdatePO.tcKDTest" />
 				</folder>
 				<folder name="Payment">
 					<child name="TC_51_1790_MagayaQWYK_CreatePayment" key="{E27EFBFE-CE5B-4DA3-B1AA-67961F637237}" path="TC_51_1790_MagayaQWYK_CreatePayment.tcKDTest" />
@@ -254,7 +255,6 @@
 					<child name="EnabledUploadAttach" key="{14C24261-BD38-43F6-A1B3-8CB20151022E}" path="EnabledUploadAttach.tcKDTest" />
 				</folder>
 				<folder name="Filters">
-					<child name="FilterContact" key="{7318B72C-74D6-4B66-80C2-3FC06F1D8DCC}" path="FilterContact.tcKDTest" />
 					<child name="AdvancedFilterBy" key="{E2A6CF1A-9DDB-46BE-9228-3AA8DDAC081D}" path="AdvancedFilterBy.tcKDTest" />
 					<child name="Unfilter" key="{3252532B-A8DD-4C6E-87E7-CB0103FD6CBD}" path="Unfilter.tcKDTest" />
 					<child name="AdvancedFilter" key="{41D67DA6-2A8B-42F5-B276-C220521DDFC4}" path="AdvancedFilter.tcKDTest" />
