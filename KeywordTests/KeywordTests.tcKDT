@@ -77,6 +77,7 @@
 				</folder>
 				<folder name="CargoDetail">
 					<child name="TC_53_2058_CargoDetailRelatedToPO_WR_and_CR" key="{EC44A9FA-76BB-4E2A-A310-DDEFD8199B7D}" path="TC_53_2058_CargoDetailRelatedToPO_WR_and_CR.tcKDTest" />
+					<child name="TC_54_1931_CargoDetail_UpdateCD" key="{547D3113-B5BD-488C-9FB7-45059035A8B1}" path="TC_54_1931_CargoDetail_UpdateCD.tcKDTest" />
 				</folder>
 			</folder>
 		</folder>
@@ -211,6 +212,7 @@
 					</folder>
 					<folder name="CargoDetail">
 						<child name="SearchCargoDeatilVerifyLinked" key="{F72F8CDD-AAB1-4EDE-B12E-43E8392EF556}" path="SearchCargoDeatilVerifyLinked.tcKDTest" />
+						<child name="SearchCargoDetailVerifyUpdate" key="{83947BC0-4292-4665-B528-8B3749DF66E7}" path="SearchCargoDetailVerifyUpdate.tcKDTest" />
 					</folder>
 					<folder name="PO">
 						<child name="SearchPOPortal" key="{5266C778-D775-4BD4-A049-3C7A54AC1A66}" path="SearchPOPortal.tcKDTest" />
@@ -311,6 +313,7 @@
 					<child name="UpdateGeneralTabHouse" key="{853A20A1-7658-4C09-8BD4-B47B1976DAA6}" path="UpdateGeneralTabHouse.tcKDTest" />
 					<child name="UpdateCommodityHouse" key="{8F45D725-9EB0-45CD-BD2E-2770A9062FD3}" path="UpdateCommodityHouse.tcKDTest" />
 					<child name="UpdateCustomerPaymTab" key="{5BF0467E-4CD2-41F7-AB2D-59B70DEE2DA0}" path="UpdateCustomerPaymTab.tcKDTest" />
+					<child name="UpdateCommodityCargoDetailMag" key="{CC68D8ED-134C-4A39-A7BE-1CF0AFF13EAE}" path="UpdateCommodityCargoDetailMag.tcKDTest" />
 				</folder>
 				<folder name="SHIPMENTS">
 					<child name="VerifyShipmentCreated" key="{9171ACD9-41B5-4CF4-A5BA-0BB00CADAEE3}" path="VerifyShipmentCreated.tcKDTest" />

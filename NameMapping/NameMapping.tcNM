@@ -14936,15 +14936,15 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="panelPickup02192025" Key="{5B4DE151-2546-4863-8024-F4A523BDD21A}">
+									<Child Name="panelPickup" Key="{5B4DE151-2546-4863-8024-F4A523BDD21A}">
 										<Image FileName="-1513024189" Left="828" Top="457" Right="1088" Bottom="474" />
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//div[normalize-space()[starts-with(., &apos;Pickup:&apos;)]]" />
+												<Value Value="xpath=//div[contains(text(), &apos;Pickup:&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="xpath=//div[contains(text(), &apos;Pickup:&apos;)]" />
+												<Value Value="xpath=//div[normalize-space()[starts-with(., &apos;Pickup:&apos;)]]" />
 											</Selector>
 											<Selector>
 												<Value Value="//div[3]/div[contains(@class, &apos;small&apos;)]" />
@@ -15017,6 +15017,30 @@
 											</Selector>
 											<Selector>
 												<Value Value="//div[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell5" Key="{4AD31F96-E731-44CE-8BD8-520A82E2C3B8}">
+										<Image FileName="-713819093" Left="358" Top="518" Right="500" Bottom="558" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//td[normalize-space()=&apos;Box&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//td[contains(text(), &apos;Box&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell6" Key="{5773BA83-9058-421E-AF75-496B536903C0}">
+										<Image FileName="-713819093" Left="500" Top="518" Right="797" Bottom="558" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//td[normalize-space()=&apos;automationCargoDetailUpdatedDescription&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//td[contains(text(), &apos;automationCargoDetailUpdatedDescription&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -20573,6 +20597,8 @@
 					<Child Name="textnodeCargoRelease" Owner="{B49FB3D2-2904-4D69-A98B-E82BC97A9791}" />
 					<Child Name="textnodeWarehouseReceipt" Owner="{35196340-E4B3-4BAC-A813-279F066069A1}" />
 					<Child Name="textnodePickupOrder" Owner="{798C4C3A-D3CF-42F3-813B-CBD206975B0E}" />
+					<Child Name="boxField" Owner="{4AD31F96-E731-44CE-8BD8-520A82E2C3B8}" />
+					<Child Name="automationCargoCom" Owner="{5773BA83-9058-421E-AF75-496B536903C0}" />
 				</Child>
 				<Child Name="textnodeResults" Owner="{1CF6087C-57FF-4430-B9F1-800D8664F6B3}" />
 				<Child Name="panelRequestADifferentRate" Owner="{F00322FB-BB44-4EBC-A779-77467DCD493F}" />
