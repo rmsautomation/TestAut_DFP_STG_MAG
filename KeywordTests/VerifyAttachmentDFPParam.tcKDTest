@@ -99,6 +99,6 @@
 		</Children>
 	</TestData>
 	<Parameters Key="{EF9F78C2-D156-49E5-95EE-DB0334285463}">
-		<Parameter0 Name="attachment1" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="test" Description="" />
+		<Parameter0 Name="attachment1" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="test.jpg" Description="" />
 	</Parameters>
 </Root>

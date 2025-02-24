@@ -7073,6 +7073,9 @@
 														<Value Value="" />
 													</Selector>
 													<Selector>
+														<Value Value="" />
+													</Selector>
+													<Selector>
 														<Value Value="xpath=//button[.//div[@class=&apos;lms&apos; and contains(normalize-space(text()), &apos;Please confirm your email&apos;)]]" />
 													</Selector>
 													<Selector>
@@ -10137,6 +10140,21 @@
 																	</Property>
 																	<Property Name="ObjectGroupIndex">
 																		<Value Value="1" Type="0" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="buttonTestcomplete151RunningWind" Key="{BB4B2A54-6842-4675-88D6-8A6167BB7AE2}">
+																<Image FileName="1875848580" Left="441" Top="0" Right="490" Bottom="40" />
+																<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Button" />
+																	</Property>
+																	<Property Name="Caption">
+																		<Value Value="TestComplete 15 - 1 running window" />
+																	</Property>
+																	<Property Name="ObjectGroupIndex">
+																		<Value Value="2" Type="0" />
 																	</Property>
 																</Properties>
 															</Child>
@@ -17769,6 +17787,21 @@
 											</Property>
 										</Properties>
 									</Child>
+									<Child Name="buttonNo" Key="{5FE53F83-ECF8-4B23-9568-AA10C03BF89C}">
+										<Image FileName="2080176042" Left="280" Top="119" Right="355" Bottom="142" />
+										<TypeInfo Item0="{2E69653D-DE91-48BD-ABCA-C81B9D1229E9}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="Caption">
+												<Value Value="No" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="wndCefBrowserWindow" Key="{A8DDB9A1-DB0D-4E12-BC5B-C4A93FE9B21E}">
@@ -18993,6 +19026,21 @@
 																					</Property>
 																				</Properties>
 																			</Child>
+																			<Child Name="buttonDelete" Key="{603F6A0F-B3DA-409A-AE2E-D4460493EB7B}">
+																				<Image FileName="-927618811" Left="369" Top="140" Right="400" Bottom="170" />
+																				<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Button" />
+																					</Property>
+																					<Property Name="Caption">
+																						<Value Value="Delete" />
+																					</Property>
+																					<Property Name="ObjectGroupIndex">
+																						<Value Value="1" Type="0" />
+																					</Property>
+																				</Properties>
+																			</Child>
 																		</Children>
 																	</Child>
 																</Children>
@@ -20198,6 +20246,7 @@
 					<Child Name="MSTaskSwWClass" Owner="{C9E92BF9-9600-46FB-9659-38D279E030E8}">
 						<Child Name="MSTaskListWClass" Owner="{B402696C-764D-4148-B919-6A9C4730DB78}">
 							<Child Name="buttonMagayaCargoExplorer" Owner="{11F57EB8-E375-44A9-8218-4843A3F02229}" />
+							<Child Name="buttonTestcomplete151RunningWind" Owner="{BB4B2A54-6842-4675-88D6-8A6167BB7AE2}" />
 						</Child>
 					</Child>
 				</Child>
@@ -20860,6 +20909,7 @@
 				<Child Name="btnConfigure" Owner="{8CD004ED-4787-48D3-BA82-3C4D1E89EE2D}" />
 				<Child Name="btnBack" Owner="{CE5F1B82-3C38-4330-9912-A8C1C491FB55}" />
 				<Child Name="btnClose" Owner="{AC8DD74A-AD59-4C51-B6F7-D8E4A5CEFC0F}" />
+				<Child Name="buttonNo" Owner="{5FE53F83-ECF8-4B23-9568-AA10C03BF89C}" />
 			</Child>
 			<Child Name="wndCefBrowserWindow" Owner="{A8DDB9A1-DB0D-4E12-BC5B-C4A93FE9B21E}">
 				<Child Name="Chrome_WidgetWin_0" Owner="{AFEE01FD-7B63-4645-8BD5-98D2C0427784}">
@@ -20995,6 +21045,7 @@
 						<Child Name="page32770" Owner="{1B7BB3DF-BB06-47FE-802D-579E797C7195}">
 							<Child Name="toolbar" Owner="{02A62CC7-5CDF-4C8F-9EA0-9F09A7A9DC38}">
 								<Child Name="buttonAdd" Owner="{FBEBAA72-DB25-4493-9D20-ACB70CBC0BCB}" />
+								<Child Name="buttonDelete" Owner="{603F6A0F-B3DA-409A-AE2E-D4460493EB7B}" />
 							</Child>
 						</Child>
 					</Child>
