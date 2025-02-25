@@ -46,25 +46,48 @@
 					</Parameters>
 				</Data>
 			</Operation>
-			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
-				<Data Description="Posts an information message to the test log." MessageType="0">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="The Extension is UP" />
-						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
-						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
-							<Values IsEnum="True">
-								<Value Type="1" Value="100" Text="pmLowest" />
-								<Value Type="1" Value="200" Text="pmLower" />
-								<Value Type="1" Value="300" Text="pmNormal" />
-								<Value Type="1" Value="400" Text="pmHigher" />
-								<Value Type="1" Value="500" Text="pmHighest" />
-							</Values>
-						</Parameter>
-						<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
-						<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
-						<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
-					</Parameters>
+			<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+				<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+					<Root Type="1" Operator="0">
+						<Left DefVarType="0" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="Aliases.browser.pageSettings.textnode.Exists" />
+						<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="True" />
+					</Root>
 				</Data>
+				<Children>
+					<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+						<Data Description="Posts an information message to the test log." MessageType="0">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="The Extension is UP" />
+								<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+								<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+									<Values IsEnum="True">
+										<Value Type="1" Value="100" Text="pmLowest" />
+										<Value Type="1" Value="200" Text="pmLower" />
+										<Value Type="1" Value="300" Text="pmNormal" />
+										<Value Type="1" Value="400" Text="pmHigher" />
+										<Value Type="1" Value="500" Text="pmHighest" />
+									</Values>
+								</Parameter>
+								<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+								<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+								<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+							</Parameters>
+						</Data>
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{92F2155F-410E-4D93-B7B3-684BA934382B}">
+				<Data />
+				<Children>
+					<Operation Type="{792A19F3-4764-463F-B326-ECE40D9596DB}">
+						<Data Description="Stops running the project tests and posts the specified error string to the log.">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="CurrentTestOnly" DefVarType="0" DefValueType="7" DefValueValue="False" VarType="11" ValueType="7" ValueValue="False" />
+								<Parameter Name="ErrorMessage" DefVarType="0" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="The Extensions is DOWN" />
+							</Parameters>
+						</Data>
+					</Operation>
+				</Children>
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 				<Data Description="Closes the &apos;%n&apos; window." Action="Close">

@@ -11,92 +11,7 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{14D5C631-56F6-4DC7-B710-79070DB0D9C3}" version="14">
 		<children>
-			<testItem name="ProjectTestItem1" key="{9140AD2D-91BD-4AB6-AA29-736AE65D9111}" group="False" parallel="False" enabled="False" testMoniker="KDT\{730FAB02-7835-4E34-880E-645F59C3C6F0}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="ProjectTestItem2" key="{D3DD0535-68BA-4A32-A249-F6136F97F7C7}" group="False" parallel="False" enabled="False" testMoniker="KDT\{18AF2D26-47C1-46D3-8713-82D0F1002031}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="ProjectTestItem3" key="{54465214-99BA-4128-AC98-4752BC5FA95C}" group="False" parallel="False" enabled="False" testMoniker="KDT\{E8BFA9C1-1E97-4468-91AE-F59B8A11DA4B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="ProjectTestItem4" key="{103E259F-4DAD-44E7-8C5C-67269D5B346F}" group="False" parallel="False" enabled="False" testMoniker="KDT\{8EA8D539-E0BD-45BF-BDDB-99CE870F2A11}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="ProjectTestItem5" key="{40FB7856-A725-44B6-9021-4AE3A4246F49}" group="False" parallel="False" enabled="False" testMoniker="KDT\{A403A995-8EEA-4F08-9F50-64584A951137}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="ProjectTestItem6" key="{5DEDB976-5F14-47CB-8024-F7C19DBD7CE7}" group="False" parallel="False" enabled="False" testMoniker="KDT\{363C6EFB-1F56-4CB1-A2B0-A44EEFC68844}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="ProjectTestItem7" key="{C31464D4-E0FC-4610-B6EA-FF6D65632504}" group="False" parallel="False" enabled="False" testMoniker="KDT\{85DB1E13-9A32-4718-83A9-41246C6176EC}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="ProjectTestItem8" key="{8D69B705-B202-4BCE-8F57-419D66BFDA62}" group="False" parallel="False" enabled="False" testMoniker="KDT\{32170393-9904-4363-A43D-F0B938E6D1E2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="ProjectTestItem9" key="{35199841-CA0A-4260-8310-EB590CBAB4A1}" group="False" parallel="False" enabled="False" testMoniker="KDT\{AEFFEFB3-EFFC-4F5D-9B24-3A3E7741FDB6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="ProjectTestItem10" key="{94971917-0DCD-4C4A-B04F-71CCEE217003}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1F57ADB9-C34B-4DD6-A6D0-4D21FF764E12}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="ProjectTestItem11" key="{8EF3EC26-A7B4-4E06-A03C-BA29462B405E}" group="False" parallel="False" enabled="False" testMoniker="KDT\{DB659027-D1EC-4BC7-9C48-F7974326E62C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="ProjectTestItem12" key="{6A75FE0C-BF31-4786-9EAE-C71EC6518B06}" group="False" parallel="False" enabled="False" testMoniker="KDT\{2DEFE87B-71D0-4222-A69B-EC1A20902903}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="ProjectTestItem13" key="{8B845D8F-4EC0-475C-9A89-29DF5C9D1B88}" group="False" parallel="False" enabled="False" testMoniker="KDT\{B6EB28FE-C7B6-43E3-A08B-5209383F9AD3}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="ProjectTestItem14" key="{4DFB9741-3830-4542-8837-FB15BBED2786}" group="False" parallel="False" enabled="False" testMoniker="KDT\{330BA411-AB18-4BA7-83D6-FE66D3B2B574}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="ProjectTestItem15" key="{84DE6545-79E9-4472-9A78-142DA7AFD56B}" group="False" parallel="False" enabled="False" testMoniker="KDT\{0D85D1AA-1262-4403-BFD8-E4B56FD84B0C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="ProjectTestItem16" key="{63921C21-2588-4C8D-B633-9A976FD8268A}" group="False" parallel="False" enabled="False" testMoniker="KDT\{472D9703-4AC1-428D-BFCD-54D1CE0AD18A}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="ProjectTestItem17" key="{F9BA0A42-F068-43F0-86CD-4FD667B29709}" group="False" parallel="False" enabled="False" testMoniker="KDT\{C04A8737-EEF7-4268-8B6A-07DB5CF1A687}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="ProjectTestItem18" key="{AE9E3CBF-1A66-4866-B804-8FF395DE2FEE}" group="False" parallel="False" enabled="False" testMoniker="KDT\{0E2B9721-9FF6-4451-9B73-8FB023CA5199}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="VerifyExtensionISUp" key="{880BBFF5-39B0-4241-81D7-4B8F96DE0583}" group="False" parallel="False" enabled="True" testMoniker="KDT\{FB563706-692E-4CD1-AB21-C6F69C0DBCEF}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
@@ -990,7 +905,7 @@
 		<setting name="Playback_StopOnError" type="1" value="False" />
 		<setting name="Playback_StopOnObjectRecognitionError" type="1" value="False" />
 		<setting name="Playback_StopOnWarning" type="1" value="False" />
-		<setting name="Playback_TestItemMaxReRunCount" type="2" value="3" />
+		<setting name="Playback_TestItemMaxReRunCount" type="2" value="1" />
 		<setting name="Playback_UnexpectedWndHandling_ClickOnFocusedControl" type="1" value="True" />
 		<setting name="Playback_UnexpectedWndHandling_IgnoreUnexpectedWindow" type="1" value="False" />
 		<setting name="Playback_UnexpectedWndHandling_PressEnter" type="1" value="True" />
