@@ -13310,7 +13310,7 @@
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//li[3]/div/div[3]" />
+												<Value Value="xpath=//div[contains(@class, &apos;col-3&apos;) and normalize-space(text())=&apos;POUpdatedCommodity&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -13465,13 +13465,10 @@
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//h3[.=&apos;Inventory FEB05141158INVITEM&apos;]" />
+												<Value Value="xpath=//h3[contains(@class, &apos;font-weight-normal&apos;) and contains(normalize-space(text()), &apos;Pickup Order&apos;)]" />
 											</Selector>
 											<Selector>
 												<Value Value="//h3[contains(@class, &apos;font-weight-normal&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//h3" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -15242,6 +15239,67 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panel26updated" Key="{5D23B288-1EC0-4926-9D4F-987CD629DB4B}">
+										<Image FileName="538182821" Left="502" Top="443" Right="1622" Bottom="465" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=(//qwyk-pickup-orders-summary/div/div/div)[1]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDeliveredToConsignee" Key="{0A1496C2-2C60-41A7-A9BE-B2BBD0795B22}">
+										<Image FileName="-1537950576" Left="478" Top="525" Right="1646" Bottom="596" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Delivered to consignee&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-events-index/ul/li[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelDeliveredToConsignee" Key="{1D8DCFD8-B3C9-48B5-932E-510DC9AC41AC}">
+										<Image FileName="-1537950576" Left="502" Top="549" Right="855" Bottom="571" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[normalize-space(text())=&apos;Delivered to consignee&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[text()=&apos;Delivered to consignee&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeInlandFreight" Key="{10B118CD-7F79-46E1-9B61-668D3D5984AF}">
+										<Image FileName="-989504800" Left="478" Top="525" Right="1646" Bottom="564" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Inland Freight&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-charges-index/ul/li[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelInlandFreight" Key="{C8E68939-F3FD-4ED9-9841-32CEB97E28ED}">
+										<Image FileName="-989504800" Left="487" Top="533" Right="870" Bottom="555" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[contains(normalize-space(text()), &apos;Inland Freight&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/div/div[contains(@class, &apos;col-4&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{04F3F450-5526-4092-96D2-21C0884F59D5}">
@@ -16962,6 +17020,21 @@
 													</Property>
 													<Property Name="Caption">
 														<Value Value="New York" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="listitemCma" Key="{F3598E10-6CBA-40AD-B648-D29CBDC329E9}">
+												<Image FileName="-1630718995" Left="7" Top="31" Right="507" Bottom="52" />
+												<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="ListItem" />
+													</Property>
+													<Property Name="Caption">
+														<Value Value="CMA" />
 													</Property>
 													<Property Name="ObjectGroupIndex">
 														<Value Value="1" Type="0" />
@@ -19328,6 +19401,36 @@
 											</Property>
 										</Properties>
 									</Child>
+									<Child Name="menuitemAddCommodity" Key="{4C8AF293-FE01-47E0-929F-A4189039E570}">
+										<Image FileName="-1173794365" Left="3" Top="3" Right="185" Bottom="25" />
+										<TypeInfo Item0="{BD91983E-10C5-43AF-834F-060D7F5933D7}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="MenuItem" />
+											</Property>
+											<Property Name="Caption">
+												<Value Value="Add Commodity..." />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="menuitemIncomeCharge" Key="{BAF23CEE-E390-4990-BBD2-A7A5B13D0CBE}">
+										<Image FileName="-2045163372" Left="3" Top="3" Right="219" Bottom="25" />
+										<TypeInfo Item0="{BD91983E-10C5-43AF-834F-060D7F5933D7}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="MenuItem" />
+											</Property>
+											<Property Name="Caption">
+												<Value Value="Income Charge..." />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
 								</Children>
 							</Child>
 						</Children>
@@ -19753,7 +19856,6 @@
 						</Child>
 						<Child Name="textnodeTtAttachments1Zip" Owner="{94925534-5A85-4C8C-B42B-6A7D4FA0E563}">
 							<Child Name="panelTtAttachments1Zip" Owner="{31BD2380-3151-48A9-91A5-5FDAF83A7102}" />
-							<Child Name="panelRoundpriceupdatedXlsx" Owner="{27EA032C-99F3-4843-8190-C90645D9BE18}" />
 							<Child Name="panelRoundpriceupdatedXlsx2" Owner="{ED0F1003-7B5C-4DEF-A81E-57D5FFFAA2B1}" />
 						</Child>
 						<Child Name="textnode" Owner="{30C3EB8B-7FA1-4824-B888-9EBF6FD7E50C}">
@@ -19865,6 +19967,7 @@
 					<Child Name="panelOption12" Owner="{85C8B773-8E32-4CDC-A895-E1F54F69FC56}" />
 					<Child Name="panelQaautomationtests" Owner="{F308C0C0-C590-41EF-AD58-CD0C7421F070}" />
 					<Child Name="panelStringcustom" Owner="{4520835A-8D3D-4716-9634-ED3C7D111DDD}" />
+					<Child Name="panelRoundpriceupdatedXlsx" Owner="{27EA032C-99F3-4843-8190-C90645D9BE18}" />
 				</Child>
 				<Child Name="headerTopnavbar" Owner="{B3A52C5C-A7D6-4F6C-878A-5811B539461D}">
 					<Child Name="textnode3" Owner="{583B344A-0959-420B-A224-B268B79D61E3}">
@@ -20619,6 +20722,7 @@
 						<Child Name="textnodeAttachcommodityPdf" Owner="{A1E97E66-21E5-4BE3-9095-6F7E44FFD192}">
 							<Child Name="panelAttachcommodityPdf" Owner="{A51B132D-CFC8-4EC4-A0D4-7F03E1153F66}" />
 						</Child>
+						<Child Name="textnodeInlandFreight" Owner="{10B118CD-7F79-46E1-9B61-668D3D5984AF}" />
 					</Child>
 					<Child Name="panel2ponumber" Owner="{7AAA0410-12D2-4371-98DF-3E236CF6D829}" />
 					<Child Name="panelPronumberupdated" Owner="{9CD43A7A-E7DB-491E-A6C3-F037294E06F5}" />
@@ -20635,6 +20739,7 @@
 						<Child Name="textnodePickedUp" Owner="{E31C3756-8401-4CE0-98D7-CC1EA2312E40}">
 							<Child Name="panelPickedUp" Owner="{AC6169EA-5EA9-43BD-883F-044D4D32207B}" />
 						</Child>
+						<Child Name="textnodeDeliveredToConsignee" Owner="{0A1496C2-2C60-41A7-A9BE-B2BBD0795B22}" />
 					</Child>
 					<Child Name="panelWRThis" Owner="{7A1D020A-7645-4432-A830-6A5FA56B74A9}" />
 					<Child Name="panelDriversname" Owner="{9CE90E8F-F5A6-499B-8A9A-74BAA9819BC3}" />
@@ -20648,7 +20753,7 @@
 					<Child Name="panelFeb05141158invitem2" Owner="{40AA8853-BABA-47E8-A4BA-2D95C463B644}" />
 					<Child Name="panelPallet" Owner="{1B40DF55-8EEC-4778-A867-6F1A1A9A0124}" />
 					<Child Name="panelFreightAllKinds" Owner="{9A1D11B8-37FC-46FA-A316-194592989477}" />
-					<Child Name="textnode2" Owner="{B2DF9340-2698-4233-AACD-F44F2F82227D}" />
+					<Child Name="pickupOrder" Owner="{B2DF9340-2698-4233-AACD-F44F2F82227D}" />
 					<Child Name="cell3" Owner="{ABFDC696-249A-4738-B866-5EBA268D1654}" />
 					<Child Name="textnodeDefinition" Owner="{8D3B1A40-EC7B-48F9-B173-07AF0C2D295E}" />
 					<Child Name="panelInvDescript" Owner="{4C888A2F-86EF-4676-9DBE-CDA9DC55F347}" />
@@ -20713,6 +20818,9 @@
 					<Child Name="panel22" Owner="{C267D470-B611-4DA9-8319-9592727C3718}" />
 					<Child Name="panelBookingnumer" Owner="{CE80138A-595B-4B3B-A313-83E067B32E22}" />
 					<Child Name="panelDriversnameThis" Owner="{446C0949-FA4C-4764-8BEF-87F2F4BABD9E}" />
+					<Child Name="panelIDNumber" Owner="{5D23B288-1EC0-4926-9D4F-987CD629DB4B}" />
+					<Child Name="panelDeliveredToConsignee" Owner="{1D8DCFD8-B3C9-48B5-932E-510DC9AC41AC}" />
+					<Child Name="panelInlandFreight" Owner="{C8E68939-F3FD-4ED9-9841-32CEB97E28ED}" />
 				</Child>
 				<Child Name="textnodeResults" Owner="{1CF6087C-57FF-4430-B9F1-800D8664F6B3}" />
 				<Child Name="panelRequestADifferentRate" Owner="{F00322FB-BB44-4EBC-A779-77467DCD493F}" />
@@ -20844,7 +20952,7 @@
 				<Child Name="textnodeIssuedBy" Owner="{61D714AE-6BC8-4B69-A23E-EE2E8ABD0A84}">
 					<Child Name="panelIssuedBy" Owner="{68EF067C-45D1-4113-9815-1E07CC78D162}" />
 				</Child>
-				<Child Name="panelUpdatecommodity3" Owner="{B82ED356-5655-400B-93CF-72D423392D54}" />
+				<Child Name="panelUpdatecommodityPO" Owner="{B82ED356-5655-400B-93CF-72D423392D54}" />
 				<Child Name="Confirm" Owner="{D580E735-7BEF-4385-9397-40EE4E787E48}" />
 				<Child Name="panelTransactionsAreBeingLoaded" Owner="{F6D65E4A-FD02-4AA3-9B25-8CCD182FB509}" />
 				<Child Name="textnode38361ProductionAutomatio" Owner="{BF55E626-0472-4584-AF01-BADC3E2B63D7}" />
@@ -21007,6 +21115,7 @@
 					<Child Name="listitemAutomation" Owner="{0FC42660-BD1D-4455-ABF7-18CF315DE483}" />
 					<Child Name="listitemAircarrier" Owner="{35E7A18D-DE4C-4481-9BAF-8476CC80FB7C}" />
 					<Child Name="listitemNewYork" Owner="{6F680710-E431-443A-A0FF-C6EBAC584833}" />
+					<Child Name="listitemCma" Owner="{F3598E10-6CBA-40AD-B648-D29CBDC329E9}" />
 				</Child>
 				<Child Name="btnOK" Owner="{18F54034-9518-4445-B27B-D992418ABEA5}" />
 				<Child Name="btnAdd" Owner="{0AF557EB-9308-444A-B62D-1FBC38A3EB78}" />
@@ -21237,6 +21346,8 @@
 			<Child Name="popupContext" Owner="{A313F976-5E28-4CA5-9343-4472C6EB2E3F}">
 				<Child Name="menuitemConfigureLivetrackAccess" Owner="{B49C4607-2FDF-45C9-992D-9B686CF2D1EA}" />
 				<Child Name="menuitemAdvanced" Owner="{7094D12F-4612-496D-A753-0C8647707008}" />
+				<Child Name="menuitemAddCommodity" Owner="{4C8AF293-FE01-47E0-929F-A4189039E570}" />
+				<Child Name="menuitemIncomeCharge" Owner="{BAF23CEE-E390-4990-BBD2-A7A5B13D0CBE}" />
 			</Child>
 		</Child>
 		<Child Name="SourceTree" Owner="{6D5084A7-EDE9-457F-AE23-A21E49DFD672}">

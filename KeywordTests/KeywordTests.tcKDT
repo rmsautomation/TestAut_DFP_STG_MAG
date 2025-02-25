@@ -220,6 +220,7 @@
 					<folder name="PO">
 						<child name="SearchPOPortal" key="{5266C778-D775-4BD4-A049-3C7A54AC1A66}" path="SearchPOPortal.tcKDTest" />
 						<child name="VerifyPO_DFP" key="{C0FB051E-7F7E-489B-9A9B-B8BFFA1B6C00}" path="VerifyPO_DFP.tcKDTest" />
+						<child name="VerifyUpdatePODFP" key="{9A45C1D0-B1FA-44BA-A19F-C883B9415A78}" path="VerifyUpdatePODFP.tcKDTest" />
 					</folder>
 				</folder>
 			</folder>
@@ -359,6 +360,7 @@
 					<child name="CreatePOMagaya" key="{2059582F-A882-4851-AD20-F0FC98EA3BA2}" path="CreatePOMagaya.tcKDTest" />
 					<child name="SearchPOMagaya" key="{D4EA65EA-478A-40CF-9B79-A81841F73905}" path="SearchPOMagaya.tcKDTest" />
 					<child name="CreateWRFromPO" key="{6E7299D2-2F61-47E8-9A26-D6B93B94D2F6}" path="CreateWRFromPO.tcKDTest" />
+					<child name="UpdatePOMagaya" key="{F4C222A9-90D2-4969-8B29-144719C63FF3}" path="UpdatePOMagaya.tcKDTest" />
 				</folder>
 				<folder name="PAYMENT">
 					<child name="CreatePaymentMagaya" key="{76C8A581-A01B-42E0-96B8-D6A978E22C52}" path="CreatePaymentMagaya.tcKDTest" />
