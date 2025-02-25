@@ -15153,6 +15153,26 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnode1xOther4" Key="{B0D5DF62-4688-461F-9A2A-2104E49F3C77}">
+										<Image FileName="-982641255" Left="376" Top="442" Right="1746" Bottom="551" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Warehouse receipt: 70&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelUpdatecommodity5" Key="{BB4FBA42-27C4-45FA-86B4-65EB4ED968B7}">
+										<Image FileName="-982641255" Left="626" Top="466" Right="934" Bottom="488" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//qwyk-shipment-packages-view//qwyk-shipment-packages-list/ul/li[50]//div[contains(@class, &apos;text-truncate&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[50]/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{04F3F450-5526-4092-96D2-21C0884F59D5}">
@@ -16831,6 +16851,36 @@
 													</Property>
 												</Properties>
 											</Child>
+											<Child Name="listitemAircarrier" Key="{35E7A18D-DE4C-4481-9BAF-8476CC80FB7C}">
+												<Image FileName="704629186" Left="7" Top="31" Right="507" Bottom="52" />
+												<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="ListItem" />
+													</Property>
+													<Property Name="Caption">
+														<Value Value="AIRCarrier" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="listitemNewYork" Key="{6F680710-E431-443A-A0FF-C6EBAC584833}">
+												<Image FileName="-2126915615" Left="7" Top="31" Right="427" Bottom="48" />
+												<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="ListItem" />
+													</Property>
+													<Property Name="Caption">
+														<Value Value="New York" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
 										</Children>
 									</Child>
 									<Child Name="btnOK" Key="{18F54034-9518-4445-B27B-D992418ABEA5}">
@@ -18056,6 +18106,21 @@
 																					</Property>
 																					<Property Name="Caption">
 																						<Value Value="Add" />
+																					</Property>
+																					<Property Name="ObjectGroupIndex">
+																						<Value Value="1" Type="0" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																			<Child Name="buttonDelete" Key="{C20BCBF2-A73D-4643-9DE4-D1BE1E2490A7}">
+																				<Image FileName="-2080257872" Left="369" Top="140" Right="400" Bottom="170" />
+																				<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Button" />
+																					</Property>
+																					<Property Name="Caption">
+																						<Value Value="Delete" />
 																					</Property>
 																					<Property Name="ObjectGroupIndex">
 																						<Value Value="1" Type="0" />
@@ -20639,6 +20704,9 @@
 						<Child Name="textnode1xOther3" Owner="{642A80B8-61CD-4F5E-837F-4A8E4DAAB5AB}">
 							<Child Name="panelUpdatecommodity4" Owner="{FAC0BF6C-437A-4AC3-A1DF-4A215E74BA87}" />
 						</Child>
+						<Child Name="textnode1xOther4" Owner="{B0D5DF62-4688-461F-9A2A-2104E49F3C77}">
+							<Child Name="panelUpdatecommodity5" Owner="{BB4FBA42-27C4-45FA-86B4-65EB4ED968B7}" />
+						</Child>
 					</Child>
 					<Child Name="panelDescriptionOfGoodsUpdated" Owner="{A7730AB5-47D1-4F87-9E0D-79DC8135DD9F}" />
 					<Child Name="panelCollect" Owner="{F2D2EA4F-25C9-4CCD-A092-E49C270A55F4}" />
@@ -20827,6 +20895,8 @@
 				</Child>
 				<Child Name="ListView" Owner="{7911ED67-C00A-409C-9B9B-788B763A61E4}">
 					<Child Name="listitemAutomation" Owner="{0FC42660-BD1D-4455-ABF7-18CF315DE483}" />
+					<Child Name="listitemAircarrier" Owner="{35E7A18D-DE4C-4481-9BAF-8476CC80FB7C}" />
+					<Child Name="listitemNewYork" Owner="{6F680710-E431-443A-A0FF-C6EBAC584833}" />
 				</Child>
 				<Child Name="btnOK" Owner="{18F54034-9518-4445-B27B-D992418ABEA5}" />
 				<Child Name="btnAdd" Owner="{0AF557EB-9308-444A-B62D-1FBC38A3EB78}" />
@@ -20947,6 +21017,7 @@
 									<Child Name="dropdownbuttonOpen" Owner="{A17717B8-3FB7-4E86-8AC3-371D97525CE6}" />
 								</Child>
 								<Child Name="buttonAdd" Owner="{481CEA5E-1EA4-4BF4-BF57-5F346BE05354}" />
+								<Child Name="buttonDelete" Owner="{C20BCBF2-A73D-4643-9DE4-D1BE1E2490A7}" />
 							</Child>
 						</Child>
 					</Child>
