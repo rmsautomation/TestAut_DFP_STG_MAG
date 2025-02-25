@@ -7076,6 +7076,9 @@
 														<Value Value="" />
 													</Selector>
 													<Selector>
+														<Value Value="" />
+													</Selector>
+													<Selector>
 														<Value Value="xpath=//button[.//div[@class=&apos;lms&apos; and contains(normalize-space(text()), &apos;Please confirm your email&apos;)]]" />
 													</Selector>
 													<Selector>
@@ -9702,6 +9705,72 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="headerHubheader" Key="{D8A5C4C0-8F76-4242-A802-BA4B4FE3D8B8}">
+										<Image FileName="-641270272" Left="0" Top="121" Right="1920" Bottom="170" />
+										<Selectors>
+											<Selector>
+												<Value Value="#hubHeader" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;User: integrationdfp@gmail.com&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(@class, &apos;navbar&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHubnavbar" Key="{80EEB882-CEA4-4177-A5CA-8E22E64E95C9}">
+										<Image FileName="-641270272" Left="1778" Top="121" Right="1906" Bottom="170" />
+										<Selectors>
+											<Selector>
+												<Value Value="#hubNavbar" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;User: integrationdfp@gmail.com&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/ul[contains(@class, &apos;nav&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLogOut" Key="{C9809876-3537-40A3-8AF6-8F2E0EE5C369}">
+										<Image FileName="-641270272" Left="1670" Top="309" Right="1901" Bottom="342" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Log out&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;pn_id_1_6&apos;]/div/a[contains(@class, &apos;p-menuitem-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;pn_id_1_6&apos;]//a" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;hubHeader&apos;]//ul/p-menu//ul/li[@id=&apos;pn_id_1_6&apos;]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeLogOut" Key="{68C06061-1A88-41F5-A672-63D99F151F1C}">
+										<Image FileName="-641270272" Left="1710" Top="317" Right="1752" Bottom="332" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Log out&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-menu//ul/li[@id=&apos;pn_id_1_6&apos;]//a//span[contains(@class, &apos;ng-tns-c1201608176-0&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;pn_id_1_6&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-menu//ul/li[@id=&apos;pn_id_1_6&apos;]//a//span" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageMagayaDigitalFreightPortalHu6" Key="{59F1418C-E2FC-48E2-936B-349855225F6D}">
@@ -11116,10 +11185,10 @@
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
 											<Selector>
-												<Value Value="" />
+												<Value Value="xpath=//div[contains(normalize-space(text()), &apos;signed up for an account&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="xpath=//div[contains(normalize-space(text()), &apos;signed up for an account&apos;)]" />
+												<Value Value="" />
 											</Selector>
 											<Selector>
 												<Value Value="ngb-modal-window[contains(., &apos;Welcome to&apos;)]" />
@@ -16147,6 +16216,24 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnode" Key="{586D47BD-ED8D-4B48-9863-8F7532F20668}">
+										<Image FileName="-553250676" Left="1710" Top="317" Right="1752" Bottom="332" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Log out&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-menu//ul/li[@id=&apos;pn_id_1_6&apos;]//a//span[contains(@class, &apos;ng-tns-c1201608176-0&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;pn_id_1_6&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-menu//ul/li[@id=&apos;pn_id_1_6&apos;]//a//span" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageLogInMagayaDfp" Key="{84D3005C-26ED-43C6-8451-E3CD1C89FC64}">
@@ -19168,6 +19255,21 @@
 															</Property>
 														</Properties>
 													</Child>
+													<Child Name="outlineitemInvoiceList" Key="{6533FB14-780E-43D9-B3AD-B9FDA90F8D47}">
+														<Image FileName="-74812006" Left="60" Top="803" Right="123" Bottom="827" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="OutlineItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="Invoice List" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
 												</Children>
 											</Child>
 										</Children>
@@ -20268,6 +20370,13 @@
 				<Child Name="sectionGoodAfternoonAylin" Owner="{660EED69-1BF6-4EFE-AD85-E128D63CFD3F}">
 					<Child Name="textnodeHubhomepagewelcometitle" Owner="{C19DB9D7-281D-4232-8428-C766BC0EBC4B}" />
 				</Child>
+				<Child Name="headerHubheader" Owner="{D8A5C4C0-8F76-4242-A802-BA4B4FE3D8B8}">
+					<Child Name="textnodeHubnavbar" Owner="{80EEB882-CEA4-4177-A5CA-8E22E64E95C9}">
+						<Child Name="linkLogOut" Owner="{C9809876-3537-40A3-8AF6-8F2E0EE5C369}">
+							<Child Name="textnodeLogOut" Owner="{68C06061-1A88-41F5-A672-63D99F151F1C}" />
+						</Child>
+					</Child>
+				</Child>
 			</Child>
 			<Child Name="pageMagayaDigitalFreightPortalHu6" Owner="{59F1418C-E2FC-48E2-936B-349855225F6D}">
 				<Child Name="sectionSalesRadar" Owner="{86563773-BA11-4C47-B35F-6B9AAC900ADE}">
@@ -20827,6 +20936,7 @@
 						</Child>
 					</Child>
 				</Child>
+				<Child Name="textnode" Owner="{586D47BD-ED8D-4B48-9863-8F7532F20668}" />
 			</Child>
 			<Child Name="pageLogInMagayaDfp" Owner="{84D3005C-26ED-43C6-8451-E3CD1C89FC64}">
 				<Child Name="sectionWelcome" Owner="{57C25860-47D4-4A59-8AE1-382ED6B027F5}">
@@ -20993,6 +21103,7 @@
 						<Child Name="outlineitemOperations" Owner="{9FB9EA19-D8D7-4B50-B07A-571FF292F33B}" />
 						<Child Name="outlineitemCommodityList" Owner="{ABE07072-4FC9-4298-99F2-F4F63F69484E}" />
 						<Child Name="outlineitemContacts" Owner="{5B3122F3-17BE-4C55-A934-4390226A90D9}" />
+						<Child Name="outlineitemInvoiceList" Owner="{6533FB14-780E-43D9-B3AD-B9FDA90F8D47}" />
 					</Child>
 				</Child>
 				<Child Name="mainFrame" Owner="{C9DFA5BE-6887-4F72-A50E-BEE3562FAE70}">

@@ -35,8 +35,8 @@
 						</Data>
 					</Operation>
 					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-						<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.chrome2.pageMagayaDigitalFreightPortalHu3.headerHubheader.textnodeHubnavbar.textnodeHubnavbarprofileitem.buttonHubnavbarlogoutlistbutton;" />
+						<Data Description="Clicks the &apos;%n&apos; control." Action="Click" InvokeKind="-1" Initialized="True">
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageMagayaDigitalFreightPortalHu5.headerHubheader.textnodeHubnavbar.linkLogOut.textnodeLogOut;" />
 						</Data>
 					</Operation>
 				</Children>
