@@ -15206,16 +15206,7 @@
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//span[normalize-space(text())=&apos;Quantity: 10&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//span[.=&apos;Quantity: 10&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//qwyk-detail-card//qwyk-cargo-items-index/ul/li//span[contains(@class, &apos;ng-star-inserted&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//qwyk-detail-card//qwyk-cargo-items-index/ul/li//span" />
+												<Value Value="xpath=//span[contains(normalize-space(text()), &apos;Quantity:&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -15297,6 +15288,15 @@
 											</Selector>
 											<Selector>
 												<Value Value="//li[2]/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonDownloadPdf" Key="{71949A2F-4F8B-4916-9C7B-91BDA089CFF0}">
+										<Image FileName="439562856" Left="1552" Top="264" Right="1729" Bottom="296" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Download PDF&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -20708,7 +20708,6 @@
 							<Child Name="linkWarehouseReceipt" Owner="{030197B5-A106-4BB6-AAC4-9E6FABB7ACCB}" />
 							<Child Name="linkPickupOrder" Owner="{02DD07C6-CDC7-4AB5-BF00-4CA2F5D90D63}" />
 							<Child Name="linkCargoRelease" Owner="{B0439A6B-C2D6-4F15-A4A4-39A3F01FF0E5}" />
-							<Child Name="textnodeQuantity10" Owner="{B188261D-C259-4E25-941C-AC23B744258F}" />
 						</Child>
 						<Child Name="textnodeTest2Pdf" Owner="{30EF2002-3A6E-4468-9690-18F9249A2D17}">
 							<Child Name="panelTest2Pdf" Owner="{10E38149-E3E6-4458-9DCA-6965BDEB476C}" />
@@ -20769,6 +20768,7 @@
 					<Child Name="buttonDropdownbasic1" Owner="{0F07E515-0442-4096-85EC-5CFAC34CBE66}" />
 					<Child Name="buttonDropdownbasic12" Owner="{A5DF5F83-0DCC-4656-82DF-D7054A9233E3}">
 						<Child Name="buttonNewCargoRelease" Owner="{C6F9459A-9080-48D1-9ED5-EE3FC1B4BDD7}" />
+						<Child Name="buttonDownloadPdf" Owner="{71949A2F-4F8B-4916-9C7B-91BDA089CFF0}" />
 					</Child>
 					<Child Name="panel2" Owner="{EF36500D-03F5-45F1-95CA-1BBD2A8A1E47}" />
 					<Child Name="formWarehouseReceipt" Owner="{C82BB9A8-AB35-4314-9032-C67898DE41E2}">
@@ -20821,6 +20821,7 @@
 					<Child Name="panelIDNumber" Owner="{5D23B288-1EC0-4926-9D4F-987CD629DB4B}" />
 					<Child Name="panelDeliveredToConsignee" Owner="{1D8DCFD8-B3C9-48B5-932E-510DC9AC41AC}" />
 					<Child Name="panelInlandFreight" Owner="{C8E68939-F3FD-4ED9-9841-32CEB97E28ED}" />
+					<Child Name="textnodeQuantity" Owner="{B188261D-C259-4E25-941C-AC23B744258F}" />
 				</Child>
 				<Child Name="textnodeResults" Owner="{1CF6087C-57FF-4430-B9F1-800D8664F6B3}" />
 				<Child Name="panelRequestADifferentRate" Owner="{F00322FB-BB44-4EBC-A779-77467DCD493F}" />

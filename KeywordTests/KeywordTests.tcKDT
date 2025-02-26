@@ -73,6 +73,7 @@
 				<folder name="PO">
 					<child name="TC_55_1875_58_1880MagayDFP_POWithAttchAutEv" key="{AFB77464-4830-4C17-9A60-97E30DF43405}" path="TC_55_1875_58_1880MagayDFP_POWithAttchAutEv.tcKDTest" />
 					<child name="Tc_57_1873_MagayaToQWYK_UpdatePO" key="{DB640D92-32B1-4AD1-9116-95C78DF5FB8D}" path="Tc_57_1873_MagayaToQWYK_UpdatePO.tcKDTest" />
+					<child name="Tc_56_3353_DFP_POVerifyPDF" key="{B92BD096-BD92-477C-950D-F41D92AAF148}" path="Tc_56_3353_DFP_POVerifyPDF.tcKDTest" />
 				</folder>
 				<folder name="Payment">
 					<child name="TC_51_1790_MagayaQWYK_CreatePayment" key="{E27EFBFE-CE5B-4DA3-B1AA-67961F637237}" path="TC_51_1790_MagayaQWYK_CreatePayment.tcKDTest" />
@@ -221,6 +222,7 @@
 						<child name="SearchPOPortal" key="{5266C778-D775-4BD4-A049-3C7A54AC1A66}" path="SearchPOPortal.tcKDTest" />
 						<child name="VerifyPO_DFP" key="{C0FB051E-7F7E-489B-9A9B-B8BFFA1B6C00}" path="VerifyPO_DFP.tcKDTest" />
 						<child name="VerifyUpdatePODFP" key="{9A45C1D0-B1FA-44BA-A19F-C883B9415A78}" path="VerifyUpdatePODFP.tcKDTest" />
+						<child name="POQuantityDownloadPDF" key="{B1AAD44C-2C84-49CC-B718-3C7E3BC0A833}" path="POQuantityDownloadPDF.tcKDTest" />
 					</folder>
 				</folder>
 			</folder>
