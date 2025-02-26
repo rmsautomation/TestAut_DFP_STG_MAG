@@ -147,6 +147,70 @@ function openPDFCheckNotes() {
   }
 }
 
+//TC56 Verify commodityQuantity Variable
+
+function openLastDownloadedFileCommodityQuantity() {
+  Delay(10000); 
+
+  var fso = Sys.OleObject("Scripting.FileSystemObject");
+  var shell = Sys.OleObject("WScript.Shell");
+  var homeFolder = shell.ExpandEnvironmentStrings("%USERPROFILE%");
+  var downloadFolder = homeFolder + "\\Downloads";
+
+  if (!fso.FolderExists(downloadFolder)) {
+    Log.Error("❌ Downloads folder not found: " + downloadFolder);
+    return;
+  }
+
+  var folder = fso.GetFolder(downloadFolder);
+  var files = new Enumerator(folder.Files);
+
+  var latestFile = null;
+  var latestDate = new Date(0);
+
+  for (; !files.atEnd(); files.moveNext()) {
+    var file = files.item();
+    if (file.DateLastModified > latestDate) {
+      latestDate = file.DateLastModified;
+      latestFile = file;
+    }
+  }
+
+  if (!latestFile) {
+    Log.Warning("⚠️ No files found in the Downloads folder.");
+    return;
+  }
+
+  Log.Message("📂 Most recent file: " + latestFile.Name);
+
+  var pdfPath = downloadFolder + "\\" + latestFile.Name;
+
+  if (aqFileSystem.GetFileExtension(pdfPath).toLowerCase() !== "pdf") {
+    Log.Error("❌ The latest file is not a PDF.");
+    return;
+  }
+
+  shell.Run('"' + pdfPath + '"');
+  var contents = PDF.ConvertToText(pdfPath);
+  if (contents === "") {
+    Log.Error("❌ The PDF is empty or its content could not be extracted.");
+    return;
+  }
+  var commodityQuantity = Project.Variables.commodityQuantity;
+  if (!commodityQuantity || commodityQuantity.trim() === "") {
+    Log.Error("❌ Project.Variables.commodityQuantity is empty or undefined.");
+    return;
+  }
+  if (contents.indexOf(commodityQuantity) !== -1) {
+    Log.Message("✅ The PDF contains commodityQuantity: " + commodityQuantity);
+  } else {
+    Log.Error("❌ The PDF does NOT contain commodityQuantity: " + commodityQuantity);
+ 
+  }
+}
+
+
+
 
 
 
