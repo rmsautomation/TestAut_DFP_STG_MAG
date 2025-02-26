@@ -100,11 +100,6 @@
 				<Data Description="Runs a keyword test." TestName="CreateShipmentCompleteData" />
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="BookedQuoteAndVerifyShipment">
-					<CommonData Disabled="True" />
-				</Data>
-			</Operation>
-			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs a keyword test." TestName="AddAttachmentDFPShipment">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="attachmentName" DefVarType="8" DefValueType="6" DefValueValue="test.jpg" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="attachmentName" />
@@ -235,7 +230,7 @@
 						<Parameter Name="Item" DefVarType="12" VarType="8" ValueType="6" ValueValue="|Bookings" />
 						<Parameter Name="Expand" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
 					</Parameters>
-					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.ExpExpl.mainWindow.AfxMDIFrame140u.TreeView;" />
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.ExpExpl.mainWindow.completePanel.TreeView;" />
 				</Data>
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
@@ -251,7 +246,7 @@
 							</Values>
 						</Parameter>
 					</Parameters>
-					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.ExpExpl.mainWindow.AfxMDIFrame140u.TreeView;" />
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.ExpExpl.mainWindow.completePanel.TreeView;" />
 				</Data>
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
@@ -311,20 +306,6 @@
 				<Data Description="Delays the test execution for the specified time period.">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="10000" />
-						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
-					</Parameters>
-				</Data>
-			</Operation>
-			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="SearchShipmentMagaya">
-					<CommonData Disabled="True" />
-				</Data>
-			</Operation>
-			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
-				<Data Description="Delays the test execution for the specified time period.">
-					<CommonData Disabled="True" />
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="6000" />
 						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
 					</Parameters>
 				</Data>

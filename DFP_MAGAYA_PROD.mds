@@ -11,119 +11,34 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{14D5C631-56F6-4DC7-B710-79070DB0D9C3}" version="14">
 		<children>
-			<testItem name="ProjectTestItem1" key="{9140AD2D-91BD-4AB6-AA29-736AE65D9111}" group="False" parallel="False" enabled="True" testMoniker="KDT\{730FAB02-7835-4E34-880E-645F59C3C6F0}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="ProjectTestItem2" key="{D3DD0535-68BA-4A32-A249-F6136F97F7C7}" group="False" parallel="False" enabled="True" testMoniker="KDT\{18AF2D26-47C1-46D3-8713-82D0F1002031}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="ProjectTestItem3" key="{54465214-99BA-4128-AC98-4752BC5FA95C}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E8BFA9C1-1E97-4468-91AE-F59B8A11DA4B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="ProjectTestItem4" key="{103E259F-4DAD-44E7-8C5C-67269D5B346F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{8EA8D539-E0BD-45BF-BDDB-99CE870F2A11}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="ProjectTestItem5" key="{40FB7856-A725-44B6-9021-4AE3A4246F49}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A403A995-8EEA-4F08-9F50-64584A951137}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="ProjectTestItem6" key="{5DEDB976-5F14-47CB-8024-F7C19DBD7CE7}" group="False" parallel="False" enabled="True" testMoniker="KDT\{363C6EFB-1F56-4CB1-A2B0-A44EEFC68844}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="ProjectTestItem7" key="{C31464D4-E0FC-4610-B6EA-FF6D65632504}" group="False" parallel="False" enabled="True" testMoniker="KDT\{85DB1E13-9A32-4718-83A9-41246C6176EC}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="ProjectTestItem8" key="{8D69B705-B202-4BCE-8F57-419D66BFDA62}" group="False" parallel="False" enabled="True" testMoniker="KDT\{32170393-9904-4363-A43D-F0B938E6D1E2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="ProjectTestItem9" key="{35199841-CA0A-4260-8310-EB590CBAB4A1}" group="False" parallel="False" enabled="True" testMoniker="KDT\{AEFFEFB3-EFFC-4F5D-9B24-3A3E7741FDB6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="ProjectTestItem10" key="{94971917-0DCD-4C4A-B04F-71CCEE217003}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1F57ADB9-C34B-4DD6-A6D0-4D21FF764E12}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="ProjectTestItem11" key="{8EF3EC26-A7B4-4E06-A03C-BA29462B405E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{DB659027-D1EC-4BC7-9C48-F7974326E62C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="ProjectTestItem12" key="{6A75FE0C-BF31-4786-9EAE-C71EC6518B06}" group="False" parallel="False" enabled="True" testMoniker="KDT\{2DEFE87B-71D0-4222-A69B-EC1A20902903}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="ProjectTestItem13" key="{8B845D8F-4EC0-475C-9A89-29DF5C9D1B88}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B6EB28FE-C7B6-43E3-A08B-5209383F9AD3}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="ProjectTestItem14" key="{4DFB9741-3830-4542-8837-FB15BBED2786}" group="False" parallel="False" enabled="True" testMoniker="KDT\{330BA411-AB18-4BA7-83D6-FE66D3B2B574}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="ProjectTestItem15" key="{84DE6545-79E9-4472-9A78-142DA7AFD56B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0D85D1AA-1262-4403-BFD8-E4B56FD84B0C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="ProjectTestItem16" key="{63921C21-2588-4C8D-B633-9A976FD8268A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{472D9703-4AC1-428D-BFCD-54D1CE0AD18A}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="ProjectTestItem17" key="{F9BA0A42-F068-43F0-86CD-4FD667B29709}" group="False" parallel="False" enabled="True" testMoniker="KDT\{C04A8737-EEF7-4268-8B6A-07DB5CF1A687}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="ProjectTestItem18" key="{AE9E3CBF-1A66-4866-B804-8FF395DE2FEE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0E2B9721-9FF6-4451-9B73-8FB023CA5199}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="VerifyExtensionISUp" key="{880BBFF5-39B0-4241-81D7-4B8F96DE0583}" group="False" parallel="False" enabled="True" testMoniker="KDT\{FB563706-692E-4CD1-AB21-C6F69C0DBCEF}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 			<testItem name="TC_22_580_IntAuthentication" key="{FB042641-C7A8-4B89-A125-554CA6535CCD}" group="False" parallel="False" enabled="True" testMoniker="KDT\{60478CEE-BA1C-4091-A4EE-5B23196F560B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
-				<environments activeCloud="CBT" />
+				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 			<testItem name="TC_23_329_NewMagayaCustomer" key="{2D673ECE-CE52-4BCB-9FA5-23EADD952296}" group="False" parallel="False" enabled="True" testMoniker="KDT\{98009B64-E1F1-40A9-8423-8DAEB2CB2027}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
-				<environments activeCloud="CBT" />
+				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 			<testItem name="TC_24_1275_PortalNewUser" key="{24DCBE28-705B-447E-8803-44C62131D45E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{5D4133C7-D5AF-4C31-B9E5-8E587C823C4E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
-				<environments activeCloud="CBT" />
+				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 			<testItem name="TC_25_512_API_VerifyMapping" key="{CEA0F414-189B-4C12-B32E-95943BD7208C}" group="False" parallel="False" enabled="True" testMoniker="KDT\{5254CD41-32DB-4BD2-8F6B-B4591ACC5982}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
-				<environments activeCloud="CBT" />
+				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 			<testItem name="TC_26_553_DFPJPGToMagaya_ConvertShipment" key="{6B530845-D0C9-4AC7-B574-A310034B5067}" group="False" parallel="False" enabled="True" testMoniker="KDT\{7E1A95A4-E082-4CC0-B8AE-36BC5FC0C5DC}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
-				<environments activeCloud="CBT" />
+				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 			<testItem name="TC_27_840_858_28DFPToMagaya_UpdateBookingMagaya" key="{A98C65BF-23A8-4BCD-A3F8-6F1077F4A7DC}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B9318F03-93DF-4056-9620-86BF100B90A4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -133,7 +48,7 @@
 			</testItem>
 			<testItem name="TC_29_841_QWYKToMagayaShipmentSendAttcahment" key="{A5A4D791-2B89-40AE-8408-5BC0FA85A182}" group="False" parallel="False" enabled="True" testMoniker="KDT\{60527640-D17D-4B51-ADF2-BE473FE7FD0C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
-				<environments activeCloud="CBT" />
+				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 			<testItem name="TC_30_2244_AirShipment_UpdateMasterHouse" key="{5843A55B-CBD2-48B4-AA91-4EC23AAF6952}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A1E43289-1377-4413-BF9E-E994AF6EFB62}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -153,32 +68,32 @@
 			</testItem>
 			<testItem name="TC_33_924_MagayaToQWYK_UpdateWR" key="{A3949BD8-F936-4E47-8ACA-2D0813F5ED44}" group="False" parallel="False" enabled="True" testMoniker="KDT\{42CDDB5D-73C0-4DEA-9731-60A560DE93C4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
-				<environments activeCloud="CBT" />
+				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 			<testItem name="TC_35_1083_38_1087MagayaToDFP_InvoiceMagayaAttch" key="{78A863FC-A2B1-47A4-AF54-71B6D389B694}" group="False" parallel="False" enabled="True" testMoniker="KDT\{525454B4-50FE-4DC5-9E0E-D807136ACC2B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
-				<environments activeCloud="CBT" />
+				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 			<testItem name="TC_36_1084_37_1086MagayaToDFP_UpdateInvoiceEventAut" key="{7C6FB35B-4431-4BAD-A965-FB8D11BC3DD5}" group="False" parallel="False" enabled="True" testMoniker="KDT\{CE50E58C-421E-4736-A618-8CC800D450BA}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
-				<environments activeCloud="CBT" />
+				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 			<testItem name="TC_39_1089_DFP_AddAttachments_VerifyMagaya" key="{BE158CF4-E295-4D39-9DA0-61F056B19260}" group="False" parallel="False" enabled="True" testMoniker="KDT\{11677AF1-DAFD-4AF6-8469-90F8ED34E4D3}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
-				<environments activeCloud="CBT" />
+				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 			<testItem name="TC_40_1107_DFPReportsDownloadExcel" key="{83CA6241-789A-461E-A4F2-B8FFD75EDA61}" group="False" parallel="False" enabled="True" testMoniker="KDT\{9A5E4429-08F4-4761-9F0D-016BD166B659}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
-				<environments activeCloud="CBT" />
+				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 			<testItem name="TC_41_1307_MagayaToQWYK_InventoryItem" key="{BAF08005-2175-408B-88BF-1DD9F10DF056}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6A1B620C-2623-4E5B-98F3-2C4B2DDE8561}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
-				<environments activeCloud="CBT" />
+				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 			<testItem name="TC_42_1308_MagayaToQWYK_UpdateInvItem" key="{9DB525BB-6D77-4410-A963-05E1291E69EB}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E4292F16-885D-4EA2-9504-EB064987E1BC}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -193,7 +108,7 @@
 			</testItem>
 			<testItem name="TC_44_1594_47_1599MagayaToQWYK_UpdateCR" key="{702E0734-3435-42DF-A3F0-55B98D130F49}" group="False" parallel="False" enabled="True" testMoniker="KDT\{27E22D25-FAB3-4F08-B991-70BE03D923A3}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
-				<environments activeCloud="CBT" />
+				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 			<testItem name="TC_45_1612_QWYKToMagayaCR_Attachments" key="{2530CBEA-3FA1-4530-B768-C51F4B55609B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B7CC1575-30AD-4515-BA18-ECDBD3A3B05F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -208,17 +123,42 @@
 			</testItem>
 			<testItem name="TC_49_1967_SCS_DisableViewCRelease" key="{3CDD80AE-759B-4938-AC29-926BB51C6485}" group="False" parallel="False" enabled="True" testMoniker="KDT\{03B6608A-814B-4CD7-9937-2156409FB7F4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
-				<environments activeCloud="CBT" />
+				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 			<testItem name="TC_50_1978_SCSDisableCanSendAttachments" key="{B308BE27-E723-44EB-B3DD-07C3D5383B9C}" group="False" parallel="False" enabled="True" testMoniker="KDT\{2177A2E6-C6EC-477A-BE6A-04E500DBCD0C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
-				<environments activeCloud="CBT" />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_51_1790_MagayaQWYK_CreatePayment" key="{64D190CD-0495-44C1-A95D-015EA35C3A11}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E27EFBFE-CE5B-4DA3-B1AA-67961F637237}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_52_1792_MagayaQWYKUpdatePayment" key="{9C72EA6C-E22D-417A-9D4F-F00CEC3B25EF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{49470BAE-20EF-404F-B836-DF9C4D46B6BD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_53_2058_CargoDetailRelatedToPO_WR_and_CR" key="{160100AA-D3E4-484E-A351-5DE30716B701}" group="False" parallel="False" enabled="True" testMoniker="KDT\{EC44A9FA-76BB-4E2A-A310-DDEFD8199B7D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_54_1931_CargoDetail_UpdateCD" key="{B8EC7AB2-A212-4BC8-B0B2-09E9189E7B08}" group="False" parallel="False" enabled="True" testMoniker="KDT\{547D3113-B5BD-488C-9FB7-45059035A8B1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_55_1875_58_1880MagayDFP_POWithAttchAutEv" key="{C5CB6D7F-EBB8-44D7-81F5-EDEAF3CDADF3}" group="False" parallel="False" enabled="True" testMoniker="KDT\{AFB77464-4830-4C17-9A60-97E30DF43405}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 			<testItem name="CleanUpShipmentsMagaya" key="{F7426C96-7DDE-4F5B-A811-FE428C7EA3D2}" group="False" parallel="False" enabled="True" testMoniker="KDT\{808A3F47-1342-47A1-AE03-E6EE6CB25EE2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
-				<environments activeCloud="CBT" />
+				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 		</children>
@@ -375,6 +315,9 @@
 				</Variable>
 				<Variable Name="cargoID" Type="String" Local="False">
 					<DefValue />
+				</Variable>
+				<Variable Name="appName" Type="String" Local="False">
+					<DefValue StrValue="Magaya Supply Chain Solution - Postgress SQL II - User: Administrator (administrator)" />
 				</Variable>
 			</Items>
 		</data>
@@ -962,7 +905,7 @@
 		<setting name="Playback_StopOnError" type="1" value="False" />
 		<setting name="Playback_StopOnObjectRecognitionError" type="1" value="False" />
 		<setting name="Playback_StopOnWarning" type="1" value="False" />
-		<setting name="Playback_TestItemMaxReRunCount" type="2" value="3" />
+		<setting name="Playback_TestItemMaxReRunCount" type="2" value="1" />
 		<setting name="Playback_UnexpectedWndHandling_ClickOnFocusedControl" type="1" value="True" />
 		<setting name="Playback_UnexpectedWndHandling_IgnoreUnexpectedWindow" type="1" value="False" />
 		<setting name="Playback_UnexpectedWndHandling_PressEnter" type="1" value="True" />

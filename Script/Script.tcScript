@@ -10,12 +10,13 @@
 		<child name="FailTest" key="{C3C16629-725D-45F3-B2A9-9A05591636C0}" path="FailTest.js" />
 		<child name="VerifyAutomaticEventListView" key="{3682C70E-5484-4BC5-9ABA-DD79FF1A8DAB}" path="VerifyAutomaticEventListView.js" />
 		<child name="FindApproveElement" key="{CEF8B52D-0B64-435D-ACD6-5849BC673B56}" path="FindApproveElement.js" />
-		<child name="CloseMagaya" key="{B6CEE812-4D41-4571-AC2D-74FCBFDFE049}" path="CloseMagaya.js" />
+		<child name="CloseMagayaChrome" key="{B6CEE812-4D41-4571-AC2D-74FCBFDFE049}" path="CloseMagayaChrome.js" />
 		<child name="VerifyUploadDocInDFPListView" key="{1CC1C193-24CA-40AE-8F39-5BF5519C9961}" path="VerifyUploadDocInDFPListView.js" />
 		<child name="DownloadReportXLSX" key="{C0D54A33-FCFB-4BF1-B92D-3095C96EDD28}" path="DownloadReportXLSX.js" />
 		<child name="OpenExtension" key="{EB2B6E85-0796-45C1-9FE7-40A765AB1FB8}" path="OpenExtension.js" />
 		<child name="SaveCharge" key="{DBEB1BA6-0B28-4106-8973-BEF7757C1E0C}" path="SaveCharge.js" />
 		<child name="Charges" key="{36F11C1A-7A30-4C15-9518-581B72D6C4E3}" path="Charges.js" />
 		<child name="FilterDropdown" key="{972B9A53-D1A3-43A3-9776-1D4443C9C61A}" path="FilterDropdown.js" />
+		<child name="GetAppName" key="{1F3AB4F4-4071-4C8D-90CD-4E362B61F3D1}" path="GetAppName.js" />
 	</children>
 </Root>

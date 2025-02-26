@@ -22,12 +22,7 @@
 				</Data>
 			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs a script routine." TestName="closeExpExpl" Unit="CloseMagaya">
-					<CommonData Disabled="True" />
-				</Data>
-			</Operation>
-			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs a script routine." TestName="closeExpExplNew" Unit="CloseMagaya" />
+				<Data Description="Runs a script routine." TestName="closeExpExplNew" Unit="CloseMagayaChrome" />
 			</Operation>
 		</Children>
 	</TestData>
