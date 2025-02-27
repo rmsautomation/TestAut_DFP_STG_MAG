@@ -186,6 +186,7 @@
 						<child name="VerifyUpdateOnlyHouse" key="{80EB6386-88E1-4642-9881-9B375B6B1092}" path="VerifyUpdateOnlyHouse.tcKDTest" />
 						<child name="SearchMasterGoToHouse" key="{CA7D5D78-4BA2-4798-86A3-D175D5052962}" path="SearchMasterGoToHouse.tcKDTest" />
 						<child name="SearchMasterShipment" key="{85BDCF80-636A-4BA8-B3CB-E939E5270A10}" path="SearchMasterShipment.tcKDTest" />
+						<child name="SearchMasterVerifyCommodityGoHouse" key="{930D8672-587E-4C7F-98F2-0F9942CD2D38}" path="SearchMasterVerifyCommodityGoHouse.tcKDTest" />
 					</folder>
 					<folder name="UploadAttachment">
 						<child name="AddGenericAttachmentDFP" key="{BE765EEA-98FD-4045-B4CF-B56B377D05B4}" path="AddGenericAttachmentDFP.tcKDTest" />

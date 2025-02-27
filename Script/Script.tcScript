@@ -18,5 +18,6 @@
 		<child name="Charges" key="{36F11C1A-7A30-4C15-9518-581B72D6C4E3}" path="Charges.js" />
 		<child name="FilterDropdown" key="{972B9A53-D1A3-43A3-9776-1D4443C9C61A}" path="FilterDropdown.js" />
 		<child name="GetAppName" key="{1F3AB4F4-4071-4C8D-90CD-4E362B61F3D1}" path="GetAppName.js" />
+		<child name="VerifyWRInShipment" key="{8EC5E068-FC55-4B67-935B-DD52725047B7}" path="VerifyWRInShipment.js" />
 	</children>
 </Root>
