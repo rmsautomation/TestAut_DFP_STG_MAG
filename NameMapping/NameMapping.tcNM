@@ -8452,6 +8452,29 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnode1xOther" Key="{2409354C-E093-4489-95AA-1E49BE8C9CA1}">
+										<Image FileName="-2142069683" Left="355" Top="650" Right="1747" Bottom="714" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;1,203.91 cm x 235.00 cm x 239.19 cm&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelHouseupdateddescription" Key="{E733A651-9867-43C8-973E-C7773CD144BC}">
+										<Image FileName="-2142069683" Left="605" Top="672" Right="922" Bottom="691" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;houseUpdatedDescription&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-shipment-packages-view//qwyk-shipment-packages-list/ul/li[5]//div[contains(@class, &apos;text-truncate&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[5]/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageMagaya9" Key="{86480E91-9864-47C9-B9DF-E3A336A0E37E}">
@@ -10221,6 +10244,21 @@
 																	</Property>
 																	<Property Name="Caption">
 																		<Value Value="TestComplete 15 - 1 running window" />
+																	</Property>
+																	<Property Name="ObjectGroupIndex">
+																		<Value Value="2" Type="0" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="buttonMagayaCargoExplorer1Runnin" Key="{3D3CF1BB-9F61-4514-8195-A4896D694B36}">
+																<Image FileName="121693709" Left="245" Top="0" Right="294" Bottom="40" />
+																<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Button" />
+																	</Property>
+																	<Property Name="Caption">
+																		<Value Value="Magaya Cargo Explorer - 1 running window" />
 																	</Property>
 																	<Property Name="ObjectGroupIndex">
 																		<Value Value="2" Type="0" />
@@ -13843,9 +13881,6 @@
 											<Selector>
 												<Value Value="xpath=//a[contains(text(), &apos;Warehouse receipt:&apos;)]" />
 											</Selector>
-											<Selector>
-												<Value Value="//qwyk-shipment-packages-list/ul/li//a" />
-											</Selector>
 										</Selectors>
 									</Child>
 									<Child Name="textnodeWarehouseReceipt43" Key="{A5ECC639-B8D9-4BF4-9A1D-49629A46301E}">
@@ -15297,6 +15332,41 @@
 										<Selectors>
 											<Selector>
 												<Value Value="//button[contains(text(), &apos;Download PDF&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTotal" Key="{21E85212-799E-4801-8151-6208B2634948}">
+										<Image FileName="1268280980" Left="355" Top="833" Right="1747" Bottom="883" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Total&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;px-4&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelTotal" Key="{8CEEE465-6150-4D99-878A-6CB8567539B2}">
+										<Image FileName="1268280980" Left="363" Top="848" Right="592" Bottom="867" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Total&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;col-2&apos;)][contains(@class, &apos;font-weight-bold&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[9]/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel8PieceS" Key="{F750CBFB-5AC5-4466-9BD7-B860AE826170}">
+										<Image FileName="1268280980" Left="605" Top="848" Right="1151" Bottom="867" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[contains(normalize-space(text()), &apos;piece(s)&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -17230,6 +17300,21 @@
 															</Property>
 														</Properties>
 													</Child>
+													<Child Name="checkboxArrivalNoticeAirUnrated" Key="{2D9B4E57-E456-468E-9489-03C742E350F3}">
+														<Image FileName="1655902248" Left="32" Top="200" Right="582" Bottom="221" />
+														<TypeInfo Item0="{BD91983E-10C5-43AF-834F-060D7F5933D7}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="CheckBox" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="- Arrival Notice - Air - Unrated" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
 												</Children>
 											</Child>
 											<Child Name="Edit" Key="{8781365F-C9D1-4F91-A41F-59B51B524D62}">
@@ -19016,6 +19101,39 @@
 																				<Value Value="ToolbarWindow32" />
 																			</Property>
 																		</Properties>
+																		<Children>
+																			<Child Name="splitbuttonHouses" Key="{1FA30DDA-9CF6-42DB-93DE-BB554D12DDBF}">
+																				<Image FileName="689506396" Left="400" Top="304" Right="500" Bottom="358" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="SplitButton" />
+																					</Property>
+																					<Property Name="Caption">
+																						<Value Value="Houses" />
+																					</Property>
+																					<Property Name="ObjectGroupIndex">
+																						<Value Value="1" Type="0" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="dropdownbuttonOpen" Key="{4FA25597-B95C-4C33-841B-D4DB8A619E7B}">
+																						<Image FileName="689506396" Left="485" Top="304" Right="500" Bottom="358" />
+																						<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+																						<Properties>
+																							<Property Name="ObjectType">
+																								<Value Value="DropDownButton" />
+																							</Property>
+																							<Property Name="Caption">
+																								<Value Value="Open" />
+																							</Property>
+																							<Property Name="ObjectGroupIndex">
+																								<Value Value="1" Type="0" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
 																	</Child>
 																</Children>
 															</Child>
@@ -19425,6 +19543,21 @@
 											</Property>
 											<Property Name="Caption">
 												<Value Value="Income Charge..." />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="menuitemCreateHousesUsingTheWiza" Key="{0E6D9F00-2920-422F-A7C7-407B844CCA6E}">
+										<Image FileName="-387723145" Left="3" Top="25" Right="346" Bottom="47" />
+										<TypeInfo Item0="{BD91983E-10C5-43AF-834F-060D7F5933D7}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="MenuItem" />
+											</Property>
+											<Property Name="Caption">
+												<Value Value="Create Houses using the Wizard..." />
 											</Property>
 											<Property Name="ObjectGroupIndex">
 												<Value Value="1" Type="0" />
@@ -19935,7 +20068,6 @@
 					<Child Name="textnode1xContainerNos" Owner="{8AA27A34-FDF3-4EC5-8B32-98EF9F8FC0C1}">
 						<Child Name="textnode1xOther" Owner="{D509E8B3-CF23-47CF-B06C-BB29B5E6B390}">
 							<Child Name="panelUpdatecommodity" Owner="{7B99EA5E-ADD0-4CF4-AA6B-9D5BE74B33C7}" />
-							<Child Name="linkWarehouseReceipt43" Owner="{851E5509-754D-48DC-BF9B-4B02181756B7}" />
 						</Child>
 					</Child>
 					<Child Name="panelFAKUP" Owner="{8DD1203F-C0A4-4394-B153-4A2EB5F148DE}" />
@@ -19968,6 +20100,7 @@
 					<Child Name="panelQaautomationtests" Owner="{F308C0C0-C590-41EF-AD58-CD0C7421F070}" />
 					<Child Name="panelStringcustom" Owner="{4520835A-8D3D-4716-9634-ED3C7D111DDD}" />
 					<Child Name="panelRoundpriceupdatedXlsx" Owner="{27EA032C-99F3-4843-8190-C90645D9BE18}" />
+					<Child Name="linkWarehouseReceipt" Owner="{851E5509-754D-48DC-BF9B-4B02181756B7}" />
 				</Child>
 				<Child Name="headerTopnavbar" Owner="{B3A52C5C-A7D6-4F6C-878A-5811B539461D}">
 					<Child Name="textnode3" Owner="{583B344A-0959-420B-A224-B268B79D61E3}">
@@ -20314,6 +20447,9 @@
 							<Child Name="panelCartageFee3" Owner="{CF6F6C83-B52F-4780-8A9C-A048129D43FF}" />
 							<Child Name="panelAgentProfitShare" Owner="{BBE7B147-013C-47E5-A889-7815EB3A1381}" />
 						</Child>
+						<Child Name="textnode1xOther" Owner="{2409354C-E093-4489-95AA-1E49BE8C9CA1}">
+							<Child Name="panelHouseupdateddescription" Owner="{E733A651-9867-43C8-973E-C7773CD144BC}" />
+						</Child>
 					</Child>
 					<Child Name="textnodeName" Owner="{241AFD82-6F94-4E23-B3A3-30AADB891278}">
 						<Child Name="textnodeArrivedAtWarehouse" Owner="{D37A2DFA-721D-4985-8E1C-B18224295C53}">
@@ -20524,6 +20660,7 @@
 						<Child Name="MSTaskListWClass" Owner="{B402696C-764D-4148-B919-6A9C4730DB78}">
 							<Child Name="buttonMagayaCargoExplorer" Owner="{11F57EB8-E375-44A9-8218-4843A3F02229}" />
 							<Child Name="buttonTestcomplete151RunningWind" Owner="{BB4B2A54-6842-4675-88D6-8A6167BB7AE2}" />
+							<Child Name="buttonMagayaCargoExplorer1Runnin" Owner="{3D3CF1BB-9F61-4514-8195-A4896D694B36}" />
 						</Child>
 					</Child>
 				</Child>
@@ -20919,11 +21056,12 @@
 					<Child Name="panelNewYorkNy" Owner="{4F1D6C5C-9AC8-4EBF-96FF-F1730F819CCF}" />
 					<Child Name="panelRotterdamZh" Owner="{D3B2CB76-9FD2-4647-A52C-E42C89F74E25}" />
 					<Child Name="textnode1xOther2" Owner="{A84CF3FC-B566-4897-A350-9B42B877DA95}">
-						<Child Name="textnode1xOther3" Owner="{642A80B8-61CD-4F5E-837F-4A8E4DAAB5AB}">
-							<Child Name="panelUpdatecommodity4" Owner="{FAC0BF6C-437A-4AC3-A1DF-4A215E74BA87}" />
-						</Child>
+						<Child Name="textnode1xOther3" Owner="{642A80B8-61CD-4F5E-837F-4A8E4DAAB5AB}" />
 						<Child Name="textnode1xOther4" Owner="{B0D5DF62-4688-461F-9A2A-2104E49F3C77}">
 							<Child Name="panelUpdatecommodity5" Owner="{BB4FBA42-27C4-45FA-86B4-65EB4ED968B7}" />
+						</Child>
+						<Child Name="textnodeTotal" Owner="{21E85212-799E-4801-8151-6208B2634948}">
+							<Child Name="panelTotal" Owner="{8CEEE465-6150-4D99-878A-6CB8567539B2}" />
 						</Child>
 					</Child>
 					<Child Name="panelDescriptionOfGoodsUpdated" Owner="{A7730AB5-47D1-4F87-9E0D-79DC8135DD9F}" />
@@ -20939,6 +21077,8 @@
 					<Child Name="panelPaymentCreatedIn" Owner="{CF6DDDDC-971D-4C51-AE4E-AD78D6280669}" />
 					<Child Name="textnodeInvoice" Owner="{FB4AAE0A-66CC-474B-A162-63F1FD9B4CEB}" />
 					<Child Name="textnodePayment" Owner="{69558192-58D0-4F8E-B828-EE4C6CB47699}" />
+					<Child Name="panelPieceS" Owner="{F750CBFB-5AC5-4466-9BD7-B860AE826170}" />
+					<Child Name="panelUpdatecommodityHouse" Owner="{FAC0BF6C-437A-4AC3-A1DF-4A215E74BA87}" />
 				</Child>
 				<Child Name="textboxName2" Owner="{CDAB938D-4DD1-41CB-BE32-3BC186A96F94}" />
 				<Child Name="buttonSearch2" Owner="{E66DF359-B41B-4093-8EE5-35E706916CBA}" />
@@ -21135,6 +21275,7 @@
 				<Child Name="page327702" Owner="{D3966BD6-FAEE-4DD4-BD0E-01BDE952C12E}">
 					<Child Name="ListView" Owner="{21A7830C-D301-4C06-A469-604B8E81D2CF}">
 						<Child Name="Edit" Owner="{B99C7FD3-134E-430F-8BE0-498A76DDE6A8}" />
+						<Child Name="checkboxArrivalNoticeAirUnrated" Owner="{2D9B4E57-E456-468E-9489-03C742E350F3}" />
 					</Child>
 					<Child Name="EditApplyTo" Owner="{8781365F-C9D1-4F91-A41F-59B51B524D62}" />
 					<Child Name="cbxPickListCustomField" Owner="{D9729814-506D-4CD8-A789-3492CDA122B5}" />
@@ -21310,7 +21451,11 @@
 									<Child Name="Tree1" Owner="{51B23BF7-55C0-4A29-8746-5F63B917E38C}" />
 								</Child>
 							</Child>
-							<Child Name="toolbar" Owner="{D37DA624-5AFD-4A37-9881-C1630089ADA7}" />
+							<Child Name="toolbar" Owner="{D37DA624-5AFD-4A37-9881-C1630089ADA7}">
+								<Child Name="splitbuttonHouses" Owner="{1FA30DDA-9CF6-42DB-93DE-BB554D12DDBF}">
+									<Child Name="dropdownbuttonOpen" Owner="{4FA25597-B95C-4C33-841B-D4DB8A619E7B}" />
+								</Child>
+							</Child>
 						</Child>
 						<Child Name="ListView" Owner="{8E9F3D77-F9A7-4567-856A-7C8B5C017490}" />
 					</Child>
@@ -21349,6 +21494,7 @@
 				<Child Name="menuitemAdvanced" Owner="{7094D12F-4612-496D-A753-0C8647707008}" />
 				<Child Name="menuitemAddCommodity" Owner="{4C8AF293-FE01-47E0-929F-A4189039E570}" />
 				<Child Name="menuitemIncomeCharge" Owner="{BAF23CEE-E390-4990-BBD2-A7A5B13D0CBE}" />
+				<Child Name="menuitemCreateHousesUsingTheWiza" Owner="{0E6D9F00-2920-422F-A7C7-407B844CCA6E}" />
 			</Child>
 		</Child>
 		<Child Name="SourceTree" Owner="{6D5084A7-EDE9-457F-AE23-A21E49DFD672}">
