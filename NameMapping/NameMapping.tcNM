@@ -10250,6 +10250,21 @@
 																	</Property>
 																</Properties>
 															</Child>
+															<Child Name="buttonMagayaCargoExplorer1Runnin" Key="{3D3CF1BB-9F61-4514-8195-A4896D694B36}">
+																<Image FileName="121693709" Left="245" Top="0" Right="294" Bottom="40" />
+																<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Button" />
+																	</Property>
+																	<Property Name="Caption">
+																		<Value Value="Magaya Cargo Explorer - 1 running window" />
+																	</Property>
+																	<Property Name="ObjectGroupIndex">
+																		<Value Value="2" Type="0" />
+																	</Property>
+																</Properties>
+															</Child>
 														</Children>
 													</Child>
 												</Children>
@@ -20645,6 +20660,7 @@
 						<Child Name="MSTaskListWClass" Owner="{B402696C-764D-4148-B919-6A9C4730DB78}">
 							<Child Name="buttonMagayaCargoExplorer" Owner="{11F57EB8-E375-44A9-8218-4843A3F02229}" />
 							<Child Name="buttonTestcomplete151RunningWind" Owner="{BB4B2A54-6842-4675-88D6-8A6167BB7AE2}" />
+							<Child Name="buttonMagayaCargoExplorer1Runnin" Owner="{3D3CF1BB-9F61-4514-8195-A4896D694B36}" />
 						</Child>
 					</Child>
 				</Child>
