@@ -19734,6 +19734,51 @@
 															</Property>
 														</Properties>
 													</Child>
+													<Child Name="outlineitem84updated" Key="{7B9EB98D-3A5F-40C1-BC77-2ABFE1EF62EE}">
+														<Image FileName="991503363" Left="68" Top="619" Right="144" Bottom="643" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="OutlineItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="0A00380034005500500044004100540045004400" Type="7" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="outlineitem82" Key="{3F31D7B8-6CB0-44B8-89D4-D222D502417C}">
+														<Image FileName="1782990485" Left="68" Top="571" Right="84" Bottom="595" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="OutlineItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="82" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="outlineitem84updated2" Key="{E266AC24-6296-4735-B269-25427D914F46}">
+														<Image FileName="-1910697998" Left="68" Top="619" Right="136" Bottom="643" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="OutlineItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="84UPDATED" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
 												</Children>
 											</Child>
 										</Children>
@@ -21700,6 +21745,9 @@
 						<Child Name="outlineitemInvoiceList" Owner="{6533FB14-780E-43D9-B3AD-B9FDA90F8D47}" />
 						<Child Name="outlineitemIncomingShipments" Owner="{35BB82D0-8C33-4AA7-BB67-AEBC34E8AEAB}" />
 						<Child Name="outlineitemOutgoingShipments" Owner="{E1FF1788-F6DA-4F49-80FD-407D00483FA7}" />
+						<Child Name="outlineitem84updated" Owner="{7B9EB98D-3A5F-40C1-BC77-2ABFE1EF62EE}" />
+						<Child Name="outlineitem82" Owner="{3F31D7B8-6CB0-44B8-89D4-D222D502417C}" />
+						<Child Name="outlineitem84updated2" Owner="{E266AC24-6296-4735-B269-25427D914F46}" />
 					</Child>
 				</Child>
 				<Child Name="mainFrame" Owner="{C9DFA5BE-6887-4F72-A50E-BEE3562FAE70}">
