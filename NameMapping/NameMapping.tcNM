@@ -18571,6 +18571,23 @@
 																										<Value Value="2" Type="0" />
 																									</Property>
 																								</Properties>
+																								<Children>
+																									<Child Name="listitemTest" Key="{D622D407-448E-422A-A811-FD095C58C51A}">
+																										<Image FileName="1033646467" Left="330" Top="435" Right="1330" Bottom="452" />
+																										<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+																										<Properties>
+																											<Property Name="ObjectType">
+																												<Value Value="ListItem" />
+																											</Property>
+																											<Property Name="Caption">
+																												<Value Value="test" />
+																											</Property>
+																											<Property Name="ObjectGroupIndex">
+																												<Value Value="1" Type="0" />
+																											</Property>
+																										</Properties>
+																									</Child>
+																								</Children>
 																							</Child>
 																							<Child Name="btnAdd" Key="{48A48281-8D3E-47F5-A976-B453DBAD89CE}">
 																								<Image FileName="2036339643" Left="1541" Top="392" Right="1631" Bottom="415" />
@@ -21782,7 +21799,9 @@
 								<Child Name="page32770" Owner="{1670755D-39DC-40D2-87D7-73789979B70F}">
 									<Child Name="tbc" Owner="{5839D0E5-BBA8-46E0-8AFA-82785D9C9A7C}" />
 									<Child Name="pageAttachments" Owner="{130A4A32-83C1-4AF2-A40D-E20CED800A11}">
-										<Child Name="ListView" Owner="{5291C274-7F8E-451D-B99D-D0E0A17D0A25}" />
+										<Child Name="ListView" Owner="{5291C274-7F8E-451D-B99D-D0E0A17D0A25}">
+											<Child Name="listitemTest" Owner="{D622D407-448E-422A-A811-FD095C58C51A}" />
+										</Child>
 										<Child Name="btnAdd" Owner="{48A48281-8D3E-47F5-A976-B453DBAD89CE}" />
 									</Child>
 									<Child Name="pageGeneral" Owner="{F0254FA5-409F-4459-B0BF-CDB4512AEEE9}">
