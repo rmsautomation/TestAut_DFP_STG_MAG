@@ -11832,6 +11832,9 @@
 										<TypeInfo Item0="{24C0E777-B8D8-4CC2-9389-E293E7B1130F}" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=//td[normalize-space()=&apos;open&apos;]" />
+											</Selector>
+											<Selector>
 												<Value Value="//td[contains(text(), &apos;2025-01-16T15:27:22+00:00&apos;)]" />
 											</Selector>
 										</Selectors>
@@ -15370,6 +15373,24 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="cell7" Key="{B395DA81-BF4D-4678-92A7-E5B67FE58EA3}">
+										<Image FileName="1871566135" Left="581" Top="619" Right="765" Bottom="655" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[contains(text(), &apos;02/15/2025&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell8" Key="{9D1C9026-AEFE-492F-B7C9-2DD0EEBA2227}">
+										<Image FileName="2094545807" Left="213" Top="655" Right="397" Bottom="691" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[contains(text(), &apos;TEST&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{04F3F450-5526-4092-96D2-21C0884F59D5}">
@@ -17315,6 +17336,81 @@
 															</Property>
 														</Properties>
 													</Child>
+													<Child Name="listitemRoundpriceupdated" Key="{17C12977-5D71-40D6-B3E9-09AAAF43CB77}">
+														<Image FileName="-1387201604" Left="31" Top="97" Right="1031" Bottom="114" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="ListItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="RoundPriceUpdated" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="listitemTest" Key="{96A5BE63-2E93-48AC-B8CB-4705CA908FA7}">
+														<Image FileName="1098776415" Left="31" Top="114" Right="1031" Bottom="131" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="ListItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="test" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="listitemTest1" Key="{D3A48895-5C4C-4E99-AE18-C76122BB94D6}">
+														<Image FileName="533411029" Left="31" Top="131" Right="1031" Bottom="148" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="ListItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="test1" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="listitemTest2" Key="{D6751D9C-F978-44CC-91CB-B6AFBF0CDBD2}">
+														<Image FileName="-1363871473" Left="31" Top="148" Right="1031" Bottom="165" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="ListItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="test2" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="listitemTestingAttachments" Key="{08776096-CD23-47BE-82D8-EAF6A865E448}">
+														<Image FileName="-97315299" Left="31" Top="165" Right="1031" Bottom="182" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="ListItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="Testing Attachments" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
 												</Children>
 											</Child>
 											<Child Name="Edit" Key="{8781365F-C9D1-4F91-A41F-59B51B524D62}">
@@ -18097,6 +18193,37 @@
 											</Property>
 										</Properties>
 									</Child>
+									<Child Name="titlebar" Key="{9B66015C-3101-4F7E-9DAA-807544073242}">
+										<Image FileName="2095161265" Left="24" Top="3" Right="568" Bottom="31" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="TitleBar" />
+											</Property>
+											<Property Name="ControlIndex">
+												<Value Value="0" Type="0" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="buttonClose" Key="{EA9EFE83-7B54-4C38-89AC-701797C74BA2}">
+												<Image FileName="2095161265" Left="535" Top="1" Right="569" Bottom="31" />
+												<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Button" />
+													</Property>
+													<Property Name="Caption">
+														<Value Value="Close" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="wndCefBrowserWindow" Key="{A8DDB9A1-DB0D-4E12-BC5B-C4A93FE9B21E}">
@@ -18444,6 +18571,23 @@
 																										<Value Value="2" Type="0" />
 																									</Property>
 																								</Properties>
+																								<Children>
+																									<Child Name="listitemTest" Key="{D622D407-448E-422A-A811-FD095C58C51A}">
+																										<Image FileName="1033646467" Left="330" Top="435" Right="1330" Bottom="452" />
+																										<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+																										<Properties>
+																											<Property Name="ObjectType">
+																												<Value Value="ListItem" />
+																											</Property>
+																											<Property Name="Caption">
+																												<Value Value="test" />
+																											</Property>
+																											<Property Name="ObjectGroupIndex">
+																												<Value Value="1" Type="0" />
+																											</Property>
+																										</Properties>
+																									</Child>
+																								</Children>
 																							</Child>
 																							<Child Name="btnAdd" Key="{48A48281-8D3E-47F5-A976-B453DBAD89CE}">
 																								<Image FileName="2036339643" Left="1541" Top="392" Right="1631" Bottom="415" />
@@ -19145,6 +19289,98 @@
 																		<Value Value="SysListView32" />
 																	</Property>
 																</Properties>
+																<Children>
+																	<Child Name="listitemReceivedElectronically" Key="{861E5215-354D-4D2E-91F2-9EA773BECD5F}">
+																		<Image FileName="516622094" Left="315" Top="171" Right="1911" Bottom="190" />
+																		<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="ListItem" />
+																			</Property>
+																			<Property Name="Caption">
+																				<Value Value="Received Electronically" />
+																			</Property>
+																			<Property Name="ObjectGroupIndex">
+																				<Value Value="1" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																	<Child Name="listitemShipment72" Key="{DE6D0F3C-06B4-4542-8504-2BBBEE77839B}">
+																		<Image FileName="-683393232" Left="315" Top="209" Right="1911" Bottom="228" />
+																		<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="ListItem" />
+																			</Property>
+																			<Property Name="ObjectGroupIndex">
+																				<Value Value="1" Type="0" />
+																			</Property>
+																			<Property Name="Id">
+																				<Value Value="0" Type="0" />
+																			</Property>
+																			<Property Name="Name">
+																				<Value Value="" />
+																			</Property>
+																			<Property Name="Visible">
+																				<Value Value="True" Type="6" />
+																			</Property>
+																			<Property Name="VisibleOnScreen">
+																				<Value Value="True" Type="6" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																	<Child Name="listitemReceivedElectronically2" Key="{067C0126-1731-4FBA-A890-9A098BB7C3B1}">
+																		<Image FileName="-1403712883" Left="315" Top="190" Right="1911" Bottom="209" />
+																		<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="ListItem" />
+																			</Property>
+																			<Property Name="Caption">
+																				<Value Value="Received Electronically" />
+																			</Property>
+																			<Property Name="ObjectGroupIndex">
+																				<Value Value="2" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																	<Child Name="listitemShipment103" Key="{BD85BF3A-AE4E-40EA-AEA1-B8CE17276567}">
+																		<Image FileName="-1852028839" Left="315" Top="171" Right="1911" Bottom="190" />
+																		<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="ListItem" />
+																			</Property>
+																			<Property Name="Caption">
+																				<Value Value="SHIPMENT103" />
+																			</Property>
+																			<Property Name="ObjectGroupIndex">
+																				<Value Value="1" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																	<Child Name="listitemShipment105" Key="{BB5FFB27-85A0-4443-A8FC-7D940F876C1B}">
+																		<Image FileName="793648296" Left="315" Top="209" Right="1911" Bottom="228" />
+																		<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="ListItem" />
+																			</Property>
+																			<Property Name="ObjectGroupIndex">
+																				<Value Value="1" Type="0" />
+																			</Property>
+																			<Property Name="ControlIndex">
+																				<Value Value="3" Type="0" />
+																			</Property>
+																			<Property Name="Id">
+																				<Value Value="2" Type="0" />
+																			</Property>
+																			<Property Name="ControlIndexInGroup">
+																				<Value Value="2" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
 															</Child>
 														</Children>
 													</Child>
@@ -19461,6 +19697,105 @@
 															</Property>
 														</Properties>
 													</Child>
+													<Child Name="outlineitemIncomingShipments" Key="{35BB82D0-8C33-4AA7-BB67-AEBC34E8AEAB}">
+														<Image FileName="-676762888" Left="49" Top="427" Right="163" Bottom="451" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="OutlineItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="Incoming Shipments" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+															<Property Name="Id">
+																<Value Value="0" Type="0" />
+															</Property>
+															<Property Name="Name">
+																<Value Value="" />
+															</Property>
+															<Property Name="Visible">
+																<Value Value="True" Type="6" />
+															</Property>
+															<Property Name="VisibleOnScreen">
+																<Value Value="True" Type="6" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="outlineitemOutgoingShipments" Key="{E1FF1788-F6DA-4F49-80FD-407D00483FA7}">
+														<Image FileName="-1870158217" Left="49" Top="451" Right="163" Bottom="475" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="OutlineItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="Outgoing Shipments" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+															<Property Name="Id">
+																<Value Value="0" Type="0" />
+															</Property>
+															<Property Name="Name">
+																<Value Value="" />
+															</Property>
+															<Property Name="Visible">
+																<Value Value="True" Type="6" />
+															</Property>
+															<Property Name="VisibleOnScreen">
+																<Value Value="True" Type="6" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="outlineitem84updated" Key="{7B9EB98D-3A5F-40C1-BC77-2ABFE1EF62EE}">
+														<Image FileName="991503363" Left="68" Top="619" Right="144" Bottom="643" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="OutlineItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="0A00380034005500500044004100540045004400" Type="7" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="outlineitem82" Key="{3F31D7B8-6CB0-44B8-89D4-D222D502417C}">
+														<Image FileName="1782990485" Left="68" Top="571" Right="84" Bottom="595" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="OutlineItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="82" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="outlineitem84updated2" Key="{E266AC24-6296-4735-B269-25427D914F46}">
+														<Image FileName="-1910697998" Left="68" Top="619" Right="136" Bottom="643" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="OutlineItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="84UPDATED" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
 												</Children>
 											</Child>
 										</Children>
@@ -19558,6 +19893,66 @@
 											</Property>
 											<Property Name="Caption">
 												<Value Value="Create Houses using the Wizard..." />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="menuitemSelectAll" Key="{CC24758D-B035-43F9-8D53-80CA5649431B}">
+										<Image FileName="-978664120" Left="3" Top="91" Right="150" Bottom="113" />
+										<TypeInfo Item0="{BD91983E-10C5-43AF-834F-060D7F5933D7}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="MenuItem" />
+											</Property>
+											<Property Name="Caption">
+												<Value Value="Select All" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="menuitemDelete" Key="{5817E809-145D-4E13-AE80-A2F52985E6D5}">
+										<Image FileName="2064928125" Left="3" Top="69" Right="150" Bottom="91" />
+										<TypeInfo Item0="{BD91983E-10C5-43AF-834F-060D7F5933D7}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="MenuItem" />
+											</Property>
+											<Property Name="Caption">
+												<Value Value="Delete" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="menuitemHistory" Key="{D07511E7-B7DB-45B4-B327-996FB191C9CC}">
+										<Image FileName="2063135589" Left="3" Top="214" Right="328" Bottom="236" />
+										<TypeInfo Item0="{BD91983E-10C5-43AF-834F-060D7F5933D7}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="MenuItem" />
+											</Property>
+											<Property Name="Caption">
+												<Value Value="History..." />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="menuitemCreateShipment" Key="{9D52591A-3686-4336-BF0A-895ACD13D310}">
+										<Image FileName="1490780824" Left="3" Top="281" Right="234" Bottom="303" />
+										<TypeInfo Item0="{BD91983E-10C5-43AF-834F-060D7F5933D7}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="MenuItem" />
+											</Property>
+											<Property Name="Caption">
+												<Value Value="Create Shipment..." />
 											</Property>
 											<Property Name="ObjectGroupIndex">
 												<Value Value="1" Type="0" />
@@ -20047,7 +20442,7 @@
 					<Child Name="panelUpdatedoption2" Owner="{7184CA6E-32D3-482B-9345-43065344C814}" />
 					<Child Name="panelStringupdated" Owner="{A641E478-9F01-43B8-93BD-B0995FEA7824}" />
 					<Child Name="panel2000" Owner="{CDF288E1-1330-45A7-8A4E-6006C9E375DA}" />
-					<Child Name="cell2" Owner="{20788EDB-B3C7-4F08-8DEE-D1F09B6B9DD0}" />
+					<Child Name="invoiceCell" Owner="{20788EDB-B3C7-4F08-8DEE-D1F09B6B9DD0}" />
 					<Child Name="cell" Owner="{9E29A69E-55F3-4A63-8E99-7534902C749E}" />
 					<Child Name="cell22" Owner="{36DF0A43-5983-4691-9AAD-09B47FDFF357}" />
 					<Child Name="cell3" Owner="{C55D7A72-E97B-4731-92E8-B524ED6C3715}" />
@@ -20959,6 +21354,8 @@
 					<Child Name="panelDeliveredToConsignee" Owner="{1D8DCFD8-B3C9-48B5-932E-510DC9AC41AC}" />
 					<Child Name="panelInlandFreight" Owner="{C8E68939-F3FD-4ED9-9841-32CEB97E28ED}" />
 					<Child Name="textnodeQuantity" Owner="{B188261D-C259-4E25-941C-AC23B744258F}" />
+					<Child Name="cell7" Owner="{B395DA81-BF4D-4678-92A7-E5B67FE58EA3}" />
+					<Child Name="cell8" Owner="{9D1C9026-AEFE-492F-B7C9-2DD0EEBA2227}" />
 				</Child>
 				<Child Name="textnodeResults" Owner="{1CF6087C-57FF-4430-B9F1-800D8664F6B3}" />
 				<Child Name="panelRequestADifferentRate" Owner="{F00322FB-BB44-4EBC-A779-77467DCD493F}" />
@@ -21276,6 +21673,11 @@
 					<Child Name="ListView" Owner="{21A7830C-D301-4C06-A469-604B8E81D2CF}">
 						<Child Name="Edit" Owner="{B99C7FD3-134E-430F-8BE0-498A76DDE6A8}" />
 						<Child Name="checkboxArrivalNoticeAirUnrated" Owner="{2D9B4E57-E456-468E-9489-03C742E350F3}" />
+						<Child Name="listitemRoundpriceupdated" Owner="{17C12977-5D71-40D6-B3E9-09AAAF43CB77}" />
+						<Child Name="listitemTest" Owner="{96A5BE63-2E93-48AC-B8CB-4705CA908FA7}" />
+						<Child Name="listitemTest1" Owner="{D3A48895-5C4C-4E99-AE18-C76122BB94D6}" />
+						<Child Name="listitemTest2" Owner="{D6751D9C-F978-44CC-91CB-B6AFBF0CDBD2}" />
+						<Child Name="listitemTestingAttachments" Owner="{08776096-CD23-47BE-82D8-EAF6A865E448}" />
 					</Child>
 					<Child Name="EditApplyTo" Owner="{8781365F-C9D1-4F91-A41F-59B51B524D62}" />
 					<Child Name="cbxPickListCustomField" Owner="{D9729814-506D-4CD8-A789-3492CDA122B5}" />
@@ -21341,6 +21743,9 @@
 				<Child Name="btnBack" Owner="{CE5F1B82-3C38-4330-9912-A8C1C491FB55}" />
 				<Child Name="btnClose" Owner="{AC8DD74A-AD59-4C51-B6F7-D8E4A5CEFC0F}" />
 				<Child Name="buttonNo" Owner="{5FE53F83-ECF8-4B23-9568-AA10C03BF89C}" />
+				<Child Name="titlebar" Owner="{9B66015C-3101-4F7E-9DAA-807544073242}">
+					<Child Name="buttonClose" Owner="{EA9EFE83-7B54-4C38-89AC-701797C74BA2}" />
+				</Child>
 			</Child>
 			<Child Name="wndCefBrowserWindow" Owner="{A8DDB9A1-DB0D-4E12-BC5B-C4A93FE9B21E}">
 				<Child Name="Chrome_WidgetWin_0" Owner="{AFEE01FD-7B63-4645-8BD5-98D2C0427784}">
@@ -21355,6 +21760,11 @@
 						<Child Name="outlineitemCommodityList" Owner="{ABE07072-4FC9-4298-99F2-F4F63F69484E}" />
 						<Child Name="outlineitemContacts" Owner="{5B3122F3-17BE-4C55-A934-4390226A90D9}" />
 						<Child Name="outlineitemInvoiceList" Owner="{6533FB14-780E-43D9-B3AD-B9FDA90F8D47}" />
+						<Child Name="outlineitemIncomingShipments" Owner="{35BB82D0-8C33-4AA7-BB67-AEBC34E8AEAB}" />
+						<Child Name="outlineitemOutgoingShipments" Owner="{E1FF1788-F6DA-4F49-80FD-407D00483FA7}" />
+						<Child Name="outlineitem84updated" Owner="{7B9EB98D-3A5F-40C1-BC77-2ABFE1EF62EE}" />
+						<Child Name="outlineitem82" Owner="{3F31D7B8-6CB0-44B8-89D4-D222D502417C}" />
+						<Child Name="outlineitem84updated2" Owner="{E266AC24-6296-4735-B269-25427D914F46}" />
 					</Child>
 				</Child>
 				<Child Name="mainFrame" Owner="{C9DFA5BE-6887-4F72-A50E-BEE3562FAE70}">
@@ -21389,7 +21799,9 @@
 								<Child Name="page32770" Owner="{1670755D-39DC-40D2-87D7-73789979B70F}">
 									<Child Name="tbc" Owner="{5839D0E5-BBA8-46E0-8AFA-82785D9C9A7C}" />
 									<Child Name="pageAttachments" Owner="{130A4A32-83C1-4AF2-A40D-E20CED800A11}">
-										<Child Name="ListView" Owner="{5291C274-7F8E-451D-B99D-D0E0A17D0A25}" />
+										<Child Name="ListView" Owner="{5291C274-7F8E-451D-B99D-D0E0A17D0A25}">
+											<Child Name="listitemTest" Owner="{D622D407-448E-422A-A811-FD095C58C51A}" />
+										</Child>
 										<Child Name="btnAdd" Owner="{48A48281-8D3E-47F5-A976-B453DBAD89CE}" />
 									</Child>
 									<Child Name="pageGeneral" Owner="{F0254FA5-409F-4459-B0BF-CDB4512AEEE9}">
@@ -21457,7 +21869,13 @@
 								</Child>
 							</Child>
 						</Child>
-						<Child Name="ListView" Owner="{8E9F3D77-F9A7-4567-856A-7C8B5C017490}" />
+						<Child Name="ListView" Owner="{8E9F3D77-F9A7-4567-856A-7C8B5C017490}">
+							<Child Name="listitemReceivedElectronically" Owner="{861E5215-354D-4D2E-91F2-9EA773BECD5F}" />
+							<Child Name="listitemShipment" Owner="{DE6D0F3C-06B4-4542-8504-2BBBEE77839B}" />
+							<Child Name="listitemReceivedElectronically2" Owner="{067C0126-1731-4FBA-A890-9A098BB7C3B1}" />
+							<Child Name="listitemShipment103" Owner="{BD85BF3A-AE4E-40EA-AEA1-B8CE17276567}" />
+							<Child Name="listitemShipment105" Owner="{BB5FFB27-85A0-4443-A8FC-7D940F876C1B}" />
+						</Child>
 					</Child>
 					<Child Name="page327703" Owner="{D76BE3AF-D377-488B-8AA7-ACB5AAE4E132}">
 						<Child Name="ListView" Owner="{AFC6A8E7-35CA-4F68-A3A9-2C25AE8C264B}" />
@@ -21495,6 +21913,10 @@
 				<Child Name="menuitemAddCommodity" Owner="{4C8AF293-FE01-47E0-929F-A4189039E570}" />
 				<Child Name="menuitemIncomeCharge" Owner="{BAF23CEE-E390-4990-BBD2-A7A5B13D0CBE}" />
 				<Child Name="menuitemCreateHousesUsingTheWiza" Owner="{0E6D9F00-2920-422F-A7C7-407B844CCA6E}" />
+				<Child Name="menuitemSelectAll" Owner="{CC24758D-B035-43F9-8D53-80CA5649431B}" />
+				<Child Name="menuitemDelete" Owner="{5817E809-145D-4E13-AE80-A2F52985E6D5}" />
+				<Child Name="menuitemHistory" Owner="{D07511E7-B7DB-45B4-B327-996FB191C9CC}" />
+				<Child Name="menuitemCreateShipment" Owner="{9D52591A-3686-4336-BF0A-895ACD13D310}" />
 			</Child>
 		</Child>
 		<Child Name="SourceTree" Owner="{6D5084A7-EDE9-457F-AE23-A21E49DFD672}">
@@ -21504,5 +21926,6 @@
 				</Child>
 			</Child>
 		</Child>
+		<Child Name="listitemShipmentTest" Owner="{DE6D0F3C-06B4-4542-8504-2BBBEE77839B}" />
 	</LogicalNodes>
 </Root>
