@@ -14,9 +14,16 @@
 			</Extenders>
 		</Data>
 		<Children>
+			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+				<Data Description="Delays the test execution for the specified time period.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="2000" />
+						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+					</Parameters>
+				</Data>
+			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs a keyword test." TestName="UpdateAttachment">
-					<CommonData Disabled="True" />
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="attachmentName" DefVarType="8" DefValueType="6" DefValueValue="RoundPriceUpdated.xlsx" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="attachmentName" />
 					</Parameters>
@@ -75,7 +82,7 @@
 						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="6" />
 						<Parameter Name="Value" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="Project.Variables.shipmentName + &quot;UPDATED&quot;" />
 						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
-						<Parameter Name="MessageType" DefVarType="3" DefValueType="1" DefValueValue="2" VarType="3" ValueType="1" ValueValue="2" />
+						<Parameter Name="MessageType" DefVarType="3" DefValueType="1" DefValueValue="2" VarType="3" ValueType="1" ValueValue="3" />
 					</Parameters>
 				</Data>
 			</Operation>
