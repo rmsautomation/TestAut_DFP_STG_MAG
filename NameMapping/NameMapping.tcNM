@@ -19902,6 +19902,21 @@
 															</Property>
 														</Properties>
 													</Child>
+													<Child Name="outlineitemOutgoingShipments2" Key="{42135985-E663-4F55-BE82-321DE8334615}">
+														<Image FileName="-1085691252" Left="49" Top="451" Right="163" Bottom="475" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="OutlineItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="Outgoing Shipments" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
 												</Children>
 											</Child>
 										</Children>
@@ -21879,6 +21894,7 @@
 						<Child Name="outlineitem84updated2" Owner="{E266AC24-6296-4735-B269-25427D914F46}" />
 						<Child Name="outlineitemShipment" Owner="{B988F2C8-311C-48DF-B3F7-ABE236E58681}" />
 						<Child Name="outlineitemShipmentName" Owner="{DB900F18-06CE-4486-BFEF-8CFACE2B25B7}" />
+						<Child Name="outlineitemOutgoingShipments2" Owner="{42135985-E663-4F55-BE82-321DE8334615}" />
 					</Child>
 				</Child>
 				<Child Name="mainFrame" Owner="{C9DFA5BE-6887-4F72-A50E-BEE3562FAE70}">
