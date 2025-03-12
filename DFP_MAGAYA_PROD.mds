@@ -344,6 +344,9 @@
 				<Variable Name="masterPiecesUpdated" Type="String" Local="False">
 					<DefValue />
 				</Variable>
+				<Variable Name="shipmentSearch" Type="String" Local="False">
+					<DefValue />
+				</Variable>
 			</Items>
 		</data>
 	</variables>
