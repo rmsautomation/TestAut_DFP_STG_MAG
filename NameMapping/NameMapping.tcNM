@@ -15391,6 +15391,70 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeMilestones" Key="{17BFDE70-95C0-4709-84EF-E714AA52CA5C}">
+										<Image FileName="85789664" Left="1443" Top="369" Right="1770" Bottom="407" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Milestones&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;tablist&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;p-tabview-nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//p-tabview//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkPnId47HeaderAction" Key="{FD9AFF72-AF74-456A-8E50-2FBADE4B923F}">
+										<Image FileName="85789664" Left="1443" Top="369" Right="1536" Bottom="408" />
+										<Selectors>
+											<Selector>
+												<Value Value="#pn_id_47_header_action" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;Milestones&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a[@role=&apos;tab&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a[contains(@class, &apos;p-element&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-tabview//ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vgImg" Key="{7CB7BBAD-96E7-45FC-BFC4-0718A063E973}">
+										<Image FileName="85789664" Left="1449" Top="698" Right="1475" Bottom="719" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//qwyk-shipment-timeline-events-list-item[5]//fa-icon/*[name()=&apos;svg&apos;][@role=&apos;img&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-shipment-timeline-events-list-item[5]//fa-icon/*[name()=&apos;svg&apos;][contains(@class, &apos;svg-inline--fa&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;pn_id_47_content&apos;]//qwyk-shipment-timeline-events-list-item[5]//fa-icon/*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-shipment-timeline-events-list-item[5]//fa-icon/*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelArrived" Key="{E33315C7-8C66-4B5A-AE1A-A111A001CD2D}">
+										<Image FileName="85789664" Left="1495" Top="692" Right="1559" Bottom="709" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//span[contains(@class, &apos;badge&apos;) and contains(@class, &apos;badge-secondary&apos;) and contains(text(), &apos;Arrived&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{04F3F450-5526-4092-96D2-21C0884F59D5}">
@@ -21518,6 +21582,12 @@
 					<Child Name="textnodePayment" Owner="{69558192-58D0-4F8E-B828-EE4C6CB47699}" />
 					<Child Name="panelPieceS" Owner="{F750CBFB-5AC5-4466-9BD7-B860AE826170}" />
 					<Child Name="panelUpdatecommodityHouse" Owner="{FAC0BF6C-437A-4AC3-A1DF-4A215E74BA87}" />
+					<Child Name="textnodeMilestones" Owner="{17BFDE70-95C0-4709-84EF-E714AA52CA5C}">
+						<Child Name="linkPnId47HeaderAction" Owner="{FD9AFF72-AF74-456A-8E50-2FBADE4B923F}">
+							<Child Name="vgImg" Owner="{7CB7BBAD-96E7-45FC-BFC4-0718A063E973}" />
+						</Child>
+					</Child>
+					<Child Name="panelArrived" Owner="{E33315C7-8C66-4B5A-AE1A-A111A001CD2D}" />
 				</Child>
 				<Child Name="textboxName2" Owner="{CDAB938D-4DD1-41CB-BE32-3BC186A96F94}" />
 				<Child Name="buttonSearch2" Owner="{E66DF359-B41B-4093-8EE5-35E706916CBA}" />
