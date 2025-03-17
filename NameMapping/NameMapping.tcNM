@@ -17475,6 +17475,81 @@
 															</Property>
 														</Properties>
 													</Child>
+													<Child Name="listitemAttachdfp" Key="{6772AECE-F764-4BA2-972E-6384C9DAB0BD}">
+														<Image FileName="1885659538" Left="31" Top="97" Right="1031" Bottom="114" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="ListItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="attachDFP" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="listitemCsvdfp" Key="{41863AD4-44CD-4E1B-A988-166CF8C83C43}">
+														<Image FileName="1071947223" Left="31" Top="114" Right="1031" Bottom="131" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="ListItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="CSVDFP" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="listitemDocdfp" Key="{1EBA4F10-76F9-4F7B-A2B3-799317DDC471}">
+														<Image FileName="-513958059" Left="31" Top="131" Right="1031" Bottom="148" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="ListItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="DOCDFP" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="listitemMsgdfp" Key="{234BB31B-6C3F-4802-93B8-CA6DB021958D}">
+														<Image FileName="1901457529" Left="31" Top="148" Right="1031" Bottom="165" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="ListItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="MSGDFP" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="listitemXlsdfp" Key="{A4ED6D66-14A7-46FA-9189-4E2D8AAB8D65}">
+														<Image FileName="-808601553" Left="31" Top="199" Right="1031" Bottom="216" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="ListItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="XLSDFP" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
 												</Children>
 											</Child>
 											<Child Name="Edit" Key="{8781365F-C9D1-4F91-A41F-59B51B524D62}">
@@ -21805,6 +21880,11 @@
 						<Child Name="listitemTest1" Owner="{D3A48895-5C4C-4E99-AE18-C76122BB94D6}" />
 						<Child Name="listitemTest2" Owner="{D6751D9C-F978-44CC-91CB-B6AFBF0CDBD2}" />
 						<Child Name="listitemTestingAttachments" Owner="{08776096-CD23-47BE-82D8-EAF6A865E448}" />
+						<Child Name="listitemAttachdfp" Owner="{6772AECE-F764-4BA2-972E-6384C9DAB0BD}" />
+						<Child Name="listitemCsvdfp" Owner="{41863AD4-44CD-4E1B-A988-166CF8C83C43}" />
+						<Child Name="listitemDocdfp" Owner="{1EBA4F10-76F9-4F7B-A2B3-799317DDC471}" />
+						<Child Name="listitemMsgdfp" Owner="{234BB31B-6C3F-4802-93B8-CA6DB021958D}" />
+						<Child Name="listitemXlsdfp" Owner="{A4ED6D66-14A7-46FA-9189-4E2D8AAB8D65}" />
 					</Child>
 					<Child Name="EditApplyTo" Owner="{8781365F-C9D1-4F91-A41F-59B51B524D62}" />
 					<Child Name="cbxPickListCustomField" Owner="{D9729814-506D-4CD8-A789-3492CDA122B5}" />
