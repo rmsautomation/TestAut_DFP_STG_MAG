@@ -346,6 +346,7 @@
 					<child name="CreateWR" key="{06D0D3E6-BAD2-4545-822B-C43C2655AB79}" path="CreateWR.tcKDTest" />
 					<child name="SearchWRMagaya" key="{DF022064-CBDE-49A7-9F61-727C20BE1297}" path="SearchWRMagaya.tcKDTest" />
 					<child name="UpdateWRMagaya" key="{BF14F826-D12F-40F0-A127-17542F8F5B3A}" path="UpdateWRMagaya.tcKDTest" />
+					<child name="CreateWRUsingInventory" key="{C0C1DB87-97D3-4B1B-B682-8F51D3369762}" path="CreateWRUsingInventory.tcKDTest" />
 				</folder>
 				<folder name="CRelease">
 					<child name="CreateCR" key="{D2349511-D014-4D05-86EA-698F01ECFAEA}" path="CreateCR.tcKDTest" />

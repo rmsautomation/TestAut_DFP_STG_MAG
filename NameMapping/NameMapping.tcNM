@@ -13434,6 +13434,12 @@
 												<Value Value="#part_number" />
 											</Selector>
 											<Selector>
+												<Value Value="xpath=//input[@id=&apos;part_number&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//input[@formcontrolname=&apos;part_number&apos;]" />
+											</Selector>
+											<Selector>
 												<Value Value="//input[@name=&apos;part_number&apos;]" />
 											</Selector>
 											<Selector>
@@ -13520,6 +13526,9 @@
 											<Selector>
 												<Value Value="//td[contains(text(), &apos;Pallet&apos;)]" />
 											</Selector>
+											<Selector>
+												<Value Value="xpath=//td[contains(text(), &apos;Package&apos;)]" />
+											</Selector>
 										</Selectors>
 									</Child>
 									<Child Name="textnodeDefinition" Key="{8D3B1A40-EC7B-48F9-B173-07AF0C2D295E}">
@@ -13567,9 +13576,6 @@
 										<Selectors>
 											<Selector>
 												<Value Value="xpath=//div[contains(text(), &apos;INVITEM&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div/div/div/div/div/div/div" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -15608,6 +15614,70 @@
 										<Selectors>
 											<Selector>
 												<Value Value="xpath=//div[normalize-space(text())=&apos;JSON_MAGAYA.json&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode240" Key="{8DC28A32-96BE-4FE7-99DC-52A4E4AD735B}">
+										<Image FileName="322326437" Left="533" Top="442" Right="1586" Bottom="503" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;240&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;list-group-item-action&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeOnHand" Key="{53D1501A-562F-4C41-A03F-6756624D2B2D}">
+										<Image FileName="322326437" Left="608" Top="461" Right="693" Bottom="482" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//qwyk-warehouse-receipt-status-badge/span[contains(@class, &apos;p-element&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-warehouse-receipt-status-badge/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeOnHand2" Key="{27666246-D97B-4B2B-89F3-684C16B503C5}">
+										<Image FileName="714116379" Left="526" Top="485" Right="1577" Bottom="571" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;On Hand&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;p-4&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel100xPackage" Key="{D85B7B96-916D-479D-8818-4BADA06A97B0}">
+										<Image FileName="714116379" Left="707" Top="506" Right="966" Bottom="525" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[normalize-space(text())=&apos;100x Package&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelOnHand" Key="{A4F86560-F039-43F0-9710-65616E2376F9}">
+										<Image FileName="714116379" Left="534" Top="506" Right="706" Bottom="525" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;On Hand&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePnId75Badge" Key="{3E4CCFDA-C2FD-4E06-95C9-BB985A7E9919}">
+										<Image FileName="-1873975424" Left="645" Top="270" Right="685" Bottom="294" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//span[contains(@class, &apos;p-badge&apos;) and text()=&apos;100&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -17751,6 +17821,21 @@
 															</Property>
 														</Properties>
 													</Child>
+													<Child Name="listitemOnHand" Key="{72729289-3D49-45D7-8C78-DEA15B37E622}">
+														<Image FileName="-175194250" Left="26" Top="93" Right="906" Bottom="114" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="ListItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="On Hand" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
 												</Children>
 											</Child>
 											<Child Name="Edit" Key="{8781365F-C9D1-4F91-A41F-59B51B524D62}">
@@ -18727,6 +18812,23 @@
 																				<Value Value="ToolbarWindow32" />
 																			</Property>
 																		</Properties>
+																		<Children>
+																			<Child Name="buttonAdd" Key="{005EEB71-52DB-492D-BAB9-3F0B05A4AE71}">
+																				<Image FileName="-868332103" Left="356" Top="150" Right="387" Bottom="180" />
+																				<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Button" />
+																					</Property>
+																					<Property Name="Caption">
+																						<Value Value="Add" />
+																					</Property>
+																					<Property Name="ObjectGroupIndex">
+																						<Value Value="1" Type="0" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
 																	</Child>
 																</Children>
 															</Child>
@@ -20208,6 +20310,36 @@
 															</Property>
 														</Properties>
 													</Child>
+													<Child Name="outlineitemWarehouseReceipts" Key="{CB5D2745-2E2B-4EA4-A80F-0291147C717D}">
+														<Image FileName="1686372483" Left="68" Top="379" Right="178" Bottom="403" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="OutlineItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="Warehouse Receipts" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="outlineitemWarehouseReceiptList" Key="{3CF32B01-DD0E-4C6B-98C4-C6035DA0533C}">
+														<Image FileName="1925799298" Left="68" Top="403" Right="194" Bottom="427" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="OutlineItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="Warehouse Receipt List" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
 												</Children>
 											</Child>
 										</Children>
@@ -21570,6 +21702,7 @@
 							<Child Name="panelTotalItems" Owner="{6469915B-A624-4074-A5CF-6A9B881D9472}" />
 						</Child>
 						<Child Name="masterShipment" Owner="{F52A3D37-886E-45BD-BBF1-00142CBA7CDA}" />
+						<Child Name="textnode240" Owner="{8DC28A32-96BE-4FE7-99DC-52A4E4AD735B}" />
 					</Child>
 					<Child Name="navSummary" Owner="{C8696F25-3634-4C15-A892-C03649DF7443}">
 						<Child Name="linkOffers" Owner="{088EEB6E-7896-419C-8AFC-D8E8F863286B}" />
@@ -21675,6 +21808,9 @@
 						<Child Name="textnodeTxtMagayaTxt" Owner="{24F5731A-2207-4949-81F3-3D5B532DF464}" />
 						<Child Name="textnodeXmlMagayaXml" Owner="{A70AAB6C-0FED-49E9-9ADC-528D05DE7225}" />
 						<Child Name="textnodeJsonMagayaJson" Owner="{34593E2C-60EF-4133-88FE-254E3B5793CA}" />
+						<Child Name="textnodeOnHand2" Owner="{27666246-D97B-4B2B-89F3-684C16B503C5}">
+							<Child Name="panelOnHand" Owner="{A4F86560-F039-43F0-9710-65616E2376F9}" />
+						</Child>
 					</Child>
 					<Child Name="panel2ponumber" Owner="{7AAA0410-12D2-4371-98DF-3E236CF6D829}" />
 					<Child Name="panelPronumberupdated" Owner="{9CD43A7A-E7DB-491E-A6C3-F037294E06F5}" />
@@ -21697,9 +21833,7 @@
 					<Child Name="panelDriversname" Owner="{9CE90E8F-F5A6-499B-8A9A-74BAA9819BC3}" />
 					<Child Name="panel12updated" Owner="{26E0FC49-FB27-4A41-9F8F-E7AB78E96463}" />
 					<Child Name="panelDriversnameupdated" Owner="{6BDD74C5-4787-4ECE-830E-9587CA8CDD8F}" />
-					<Child Name="formDownload" Owner="{79517F3E-63FE-40D2-8FAB-9E58BCFE594D}">
-						<Child Name="textboxPartNumber" Owner="{F8233A28-53FD-4B19-B70B-FBB03F5E926F}" />
-					</Child>
+					<Child Name="formDownload" Owner="{79517F3E-63FE-40D2-8FAB-9E58BCFE594D}" />
 					<Child Name="panelManufacturer" Owner="{5FEBB1BA-C0C5-49A8-85ED-7A1F4B94FE84}" />
 					<Child Name="panelFeb05141158invitem" Owner="{F4AB00FB-B50A-4DDF-93C8-D32D8555FA75}" />
 					<Child Name="panelFeb05141158invitem2" Owner="{40AA8853-BABA-47E8-A4BA-2D95C463B644}" />
@@ -21786,6 +21920,10 @@
 					<Child Name="panelTxtMagayaTxt" Owner="{7D67E420-9882-4A40-B5A4-D78F6837B401}" />
 					<Child Name="panelXmlMagayaXml" Owner="{C1326EB4-8269-4CAA-AA2B-4C37540C3469}" />
 					<Child Name="panelJsonMagayaJson" Owner="{4537F494-2A6A-49E4-B679-DE0D3BA8D6BC}" />
+					<Child Name="textnodePieces" Owner="{3E4CCFDA-C2FD-4E06-95C9-BB985A7E9919}" />
+					<Child Name="textboxPartNumber" Owner="{F8233A28-53FD-4B19-B70B-FBB03F5E926F}" />
+					<Child Name="textnodeOnHand" Owner="{53D1501A-562F-4C41-A03F-6756624D2B2D}" />
+					<Child Name="panel100xPackage" Owner="{D85B7B96-916D-479D-8818-4BADA06A97B0}" />
 				</Child>
 				<Child Name="textnodeResults" Owner="{1CF6087C-57FF-4430-B9F1-800D8664F6B3}" />
 				<Child Name="panelRequestADifferentRate" Owner="{F00322FB-BB44-4EBC-A779-77467DCD493F}" />
@@ -22122,6 +22260,7 @@
 						<Child Name="listitemXmlMagaya" Owner="{35A9A2B1-54B2-4CD8-B6B3-E70C282AF2EA}" />
 						<Child Name="listitemJsonMagaya" Owner="{7A5FE4DC-D00D-42A6-B724-292C0FABF4B2}" />
 						<Child Name="listitemTxtMagaya" Owner="{832ABB8B-8756-41BE-9403-E181AC411345}" />
+						<Child Name="listitemOnHand" Owner="{72729289-3D49-45D7-8C78-DEA15B37E622}" />
 					</Child>
 					<Child Name="EditApplyTo" Owner="{8781365F-C9D1-4F91-A41F-59B51B524D62}" />
 					<Child Name="cbxPickListCustomField" Owner="{D9729814-506D-4CD8-A789-3492CDA122B5}" />
@@ -22213,6 +22352,8 @@
 						<Child Name="outlineitemShipment" Owner="{B988F2C8-311C-48DF-B3F7-ABE236E58681}" />
 						<Child Name="outlineitemShipmentName" Owner="{DB900F18-06CE-4486-BFEF-8CFACE2B25B7}" />
 						<Child Name="outlineitemOutgoingShipments2" Owner="{42135985-E663-4F55-BE82-321DE8334615}" />
+						<Child Name="outlineitemWarehouseReceipts" Owner="{CB5D2745-2E2B-4EA4-A80F-0291147C717D}" />
+						<Child Name="outlineitemWarehouseReceiptList" Owner="{3CF32B01-DD0E-4C6B-98C4-C6035DA0533C}" />
 					</Child>
 				</Child>
 				<Child Name="mainFrame" Owner="{C9DFA5BE-6887-4F72-A50E-BEE3562FAE70}">
@@ -22224,7 +22365,9 @@
 					</Child>
 					<Child Name="panelList" Owner="{333F50B3-95D9-470F-BA06-3423765AD6AE}">
 						<Child Name="outToolbar" Owner="{9CD6E46F-6075-47A1-8CC3-D57B43C764B0}">
-							<Child Name="toolbar" Owner="{99FA501B-A9E1-4445-A559-D7917D0ABDCD}" />
+							<Child Name="toolbar" Owner="{99FA501B-A9E1-4445-A559-D7917D0ABDCD}">
+								<Child Name="buttonAdd" Owner="{005EEB71-52DB-492D-BAB9-3F0B05A4AE71}" />
+							</Child>
 						</Child>
 					</Child>
 					<Child Name="page327702" Owner="{806E32D8-8C15-4F48-99FF-128F83AB35E5}">
