@@ -15391,6 +15391,226 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeMilestones" Key="{17BFDE70-95C0-4709-84EF-E714AA52CA5C}">
+										<Image FileName="85789664" Left="1443" Top="369" Right="1770" Bottom="407" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Milestones&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;tablist&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;p-tabview-nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//p-tabview//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkPnId47HeaderAction" Key="{FD9AFF72-AF74-456A-8E50-2FBADE4B923F}">
+										<Image FileName="85789664" Left="1443" Top="369" Right="1536" Bottom="408" />
+										<Selectors>
+											<Selector>
+												<Value Value="#pn_id_47_header_action" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;Milestones&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a[@role=&apos;tab&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a[contains(@class, &apos;p-element&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-tabview//ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vgImg" Key="{7CB7BBAD-96E7-45FC-BFC4-0718A063E973}">
+										<Image FileName="85789664" Left="1449" Top="698" Right="1475" Bottom="719" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//qwyk-shipment-timeline-events-list-item[5]//fa-icon/*[name()=&apos;svg&apos;][@role=&apos;img&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-shipment-timeline-events-list-item[5]//fa-icon/*[name()=&apos;svg&apos;][contains(@class, &apos;svg-inline--fa&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;pn_id_47_content&apos;]//qwyk-shipment-timeline-events-list-item[5]//fa-icon/*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-shipment-timeline-events-list-item[5]//fa-icon/*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelArrived" Key="{E33315C7-8C66-4B5A-AE1A-A111A001CD2D}">
+										<Image FileName="85789664" Left="1495" Top="692" Right="1559" Bottom="709" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//span[contains(@class, &apos;badge&apos;) and contains(@class, &apos;badge-secondary&apos;) and contains(text(), &apos;Arrived&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeXlsdfpXlsx" Key="{E7600397-F6CA-4352-B86A-AFAD0230EADD}">
+										<Image FileName="805970316" Left="355" Top="553" Right="1748" Bottom="637" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;XLSDFP.xlsx&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelXlsdfpXlsx" Key="{A911D9AF-7307-4472-8CC5-824B90ED7D99}">
+										<Image FileName="805970316" Left="376" Top="575" Right="808" Bottom="594" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[normalize-space(text())=&apos;XLSDFP.xlsx&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDocdfpDocx" Key="{440766F2-405D-4909-AE7B-9C08495FE3C8}">
+										<Image FileName="704375218" Left="355" Top="636" Right="1748" Bottom="720" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;DOCDFP.docx&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelDocdfpDocx" Key="{3CE708E6-ED93-4116-9A34-CC307AA3BAE4}">
+										<Image FileName="704375218" Left="376" Top="658" Right="808" Bottom="677" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[normalize-space(text())=&apos;DOCDFP.docx&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMsgdfpMsg" Key="{493D50B9-6144-400E-8FFF-1736FC13CD04}">
+										<Image FileName="1913398423" Left="355" Top="720" Right="1748" Bottom="804" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;MSGDFP.msg&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelMsgdfpMsg" Key="{AA018F05-0792-4FD6-A952-616EAF64D64B}">
+										<Image FileName="1913398423" Left="376" Top="742" Right="808" Bottom="761" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[normalize-space(text())=&apos;MSGDFP.msg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTest1Png" Key="{29690FF2-0869-4AD6-B523-6329A8479091}">
+										<Image FileName="-1751771793" Left="355" Top="804" Right="1748" Bottom="947" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;test1.png&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelTest1Png" Key="{13FDB291-2BE1-4E99-983B-52318C7C674C}">
+										<Image FileName="-1751771793" Left="376" Top="855" Right="808" Bottom="874" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[normalize-space(text())=&apos;test1.png&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCsvdfpCsv" Key="{AF49105C-79AB-4392-AB80-AEBC2CA6F9B9}">
+										<Image FileName="603244489" Left="355" Top="546" Right="1748" Bottom="630" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;CSVDFP.csv&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelCsvdfpCsv" Key="{CA5A8A8C-EAEA-4C5F-8CE8-70CDB2FD30B8}">
+										<Image FileName="603244489" Left="376" Top="568" Right="808" Bottom="587" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[normalize-space(text())=&apos;CSVDFP.csv&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAttachdfpPdf" Key="{66695E83-8CAC-4CF2-92B2-FC9003DBB904}">
+										<Image FileName="-1487115628" Left="355" Top="629" Right="1748" Bottom="713" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;attachDFP.pdf&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelAttachdfpPdf" Key="{4E01FFD5-1EBD-4718-92EC-556B17D93776}">
+										<Image FileName="-1487115628" Left="376" Top="651" Right="808" Bottom="670" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[normalize-space(text())=&apos;attachDFP.pdf&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTxtMagayaTxt" Key="{24F5731A-2207-4949-81F3-3D5B532DF464}">
+										<Image FileName="-1485427534" Left="355" Top="469" Right="1748" Bottom="553" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;TXT_MAGAYA.txt&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-shipment-attachments-view/qwyk-shipment-attachments-list//ul/li[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelTxtMagayaTxt" Key="{7D67E420-9882-4A40-B5A4-D78F6837B401}">
+										<Image FileName="-1485427534" Left="376" Top="491" Right="808" Bottom="510" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[normalize-space(text())=&apos;TXT_MAGAYA.txt&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeXmlMagayaXml" Key="{A70AAB6C-0FED-49E9-9ADC-528D05DE7225}">
+										<Image FileName="1543878333" Left="355" Top="553" Right="1748" Bottom="637" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;XML_MAGAYA.xml&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelXmlMagayaXml" Key="{C1326EB4-8269-4CAA-AA2B-4C37540C3469}">
+										<Image FileName="1543878333" Left="376" Top="575" Right="808" Bottom="594" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[normalize-space(text())=&apos;XML_MAGAYA.xml&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeJsonMagayaJson" Key="{34593E2C-60EF-4133-88FE-254E3B5793CA}">
+										<Image FileName="117421826" Left="355" Top="636" Right="1748" Bottom="720" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;JSON_MAGAYA.json&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelJsonMagayaJson" Key="{4537F494-2A6A-49E4-B679-DE0D3BA8D6BC}">
+										<Image FileName="117421826" Left="376" Top="658" Right="808" Bottom="677" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[normalize-space(text())=&apos;JSON_MAGAYA.json&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{04F3F450-5526-4092-96D2-21C0884F59D5}">
@@ -17411,6 +17631,126 @@
 															</Property>
 														</Properties>
 													</Child>
+													<Child Name="listitemAttachdfp" Key="{6772AECE-F764-4BA2-972E-6384C9DAB0BD}">
+														<Image FileName="1885659538" Left="31" Top="97" Right="1031" Bottom="114" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="ListItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="attachDFP" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="listitemCsvdfp" Key="{41863AD4-44CD-4E1B-A988-166CF8C83C43}">
+														<Image FileName="1071947223" Left="31" Top="114" Right="1031" Bottom="131" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="ListItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="CSVDFP" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="listitemDocdfp" Key="{1EBA4F10-76F9-4F7B-A2B3-799317DDC471}">
+														<Image FileName="-513958059" Left="31" Top="131" Right="1031" Bottom="148" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="ListItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="DOCDFP" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="listitemMsgdfp" Key="{234BB31B-6C3F-4802-93B8-CA6DB021958D}">
+														<Image FileName="1901457529" Left="31" Top="148" Right="1031" Bottom="165" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="ListItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="MSGDFP" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="listitemXlsdfp" Key="{A4ED6D66-14A7-46FA-9189-4E2D8AAB8D65}">
+														<Image FileName="-808601553" Left="31" Top="199" Right="1031" Bottom="216" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="ListItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="XLSDFP" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="listitemXmlMagaya" Key="{35A9A2B1-54B2-4CD8-B6B3-E70C282AF2EA}">
+														<Image FileName="1618846936" Left="31" Top="165" Right="1031" Bottom="182" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="ListItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="XML_MAGAYA" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="listitemJsonMagaya" Key="{7A5FE4DC-D00D-42A6-B724-292C0FABF4B2}">
+														<Image FileName="-1581347571" Left="31" Top="182" Right="1031" Bottom="199" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="ListItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="JSON_MAGAYA" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="listitemTxtMagaya" Key="{832ABB8B-8756-41BE-9403-E181AC411345}">
+														<Image FileName="535791254" Left="31" Top="199" Right="1031" Bottom="216" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="ListItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="TXT_MAGAYA" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
 												</Children>
 											</Child>
 											<Child Name="Edit" Key="{8781365F-C9D1-4F91-A41F-59B51B524D62}">
@@ -18010,6 +18350,21 @@
 													</Property>
 												</Properties>
 											</Child>
+											<Child Name="checkboxInternal" Key="{B39FAAE5-F13A-48EA-80D8-581F434EF7B9}">
+												<Image FileName="-1593950542" Left="1094" Top="307" Right="1180" Bottom="323" />
+												<TypeInfo Item0="{E783EDF6-04F3-48DC-9D46-FCBCF5DC6156}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="CheckBox" />
+													</Property>
+													<Property Name="Caption">
+														<Value Value="Internal" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
 										</Children>
 									</Child>
 									<Child Name="DUIViewWndClassName" Key="{8CFE8719-36E7-4C75-8374-906D68EE0277}">
@@ -18581,6 +18936,21 @@
 																											</Property>
 																											<Property Name="Caption">
 																												<Value Value="test" />
+																											</Property>
+																											<Property Name="ObjectGroupIndex">
+																												<Value Value="1" Type="0" />
+																											</Property>
+																										</Properties>
+																									</Child>
+																									<Child Name="listitemTest2" Key="{8C3ED96A-17F6-4388-85F1-A4F75443EEEB}">
+																										<Image FileName="-1738740073" Left="330" Top="452" Right="1330" Bottom="469" />
+																										<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+																										<Properties>
+																											<Property Name="ObjectType">
+																												<Value Value="ListItem" />
+																											</Property>
+																											<Property Name="Caption">
+																												<Value Value="test2" />
 																											</Property>
 																											<Property Name="ObjectGroupIndex">
 																												<Value Value="1" Type="0" />
@@ -19790,6 +20160,48 @@
 															</Property>
 															<Property Name="Caption">
 																<Value Value="84UPDATED" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="outlineitem119" Key="{B988F2C8-311C-48DF-B3F7-ABE236E58681}">
+														<Image FileName="-1420560100" Left="60" Top="851" Right="82" Bottom="875" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="OutlineItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value PropertyType="1" LocalVariable="shipmentName" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="outlineitem126updated" Key="{DB900F18-06CE-4486-BFEF-8CFACE2B25B7}">
+														<Image FileName="-1247578356" Left="68" Top="931" Right="150" Bottom="955" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="OutlineItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value PropertyType="1" LocalVariable="shipmentSearch" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="outlineitemOutgoingShipments2" Key="{42135985-E663-4F55-BE82-321DE8334615}">
+														<Image FileName="-1085691252" Left="49" Top="451" Right="163" Bottom="475" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="OutlineItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="Outgoing Shipments" />
 															</Property>
 															<Property Name="ObjectGroupIndex">
 																<Value Value="1" Type="0" />
@@ -21254,6 +21666,15 @@
 							<Child Name="panelAttachcommodityPdf" Owner="{A51B132D-CFC8-4EC4-A0D4-7F03E1153F66}" />
 						</Child>
 						<Child Name="textnodeInlandFreight" Owner="{10B118CD-7F79-46E1-9B61-668D3D5984AF}" />
+						<Child Name="textnodeXlsdfpXlsx" Owner="{E7600397-F6CA-4352-B86A-AFAD0230EADD}" />
+						<Child Name="textnodeDocdfpDocx" Owner="{440766F2-405D-4909-AE7B-9C08495FE3C8}" />
+						<Child Name="textnodeMsgdfpMsg" Owner="{493D50B9-6144-400E-8FFF-1736FC13CD04}" />
+						<Child Name="textnodeTest1Png" Owner="{29690FF2-0869-4AD6-B523-6329A8479091}" />
+						<Child Name="textnodeCsvdfpCsv" Owner="{AF49105C-79AB-4392-AB80-AEBC2CA6F9B9}" />
+						<Child Name="textnodeAttachdfpPdf" Owner="{66695E83-8CAC-4CF2-92B2-FC9003DBB904}" />
+						<Child Name="textnodeTxtMagayaTxt" Owner="{24F5731A-2207-4949-81F3-3D5B532DF464}" />
+						<Child Name="textnodeXmlMagayaXml" Owner="{A70AAB6C-0FED-49E9-9ADC-528D05DE7225}" />
+						<Child Name="textnodeJsonMagayaJson" Owner="{34593E2C-60EF-4133-88FE-254E3B5793CA}" />
 					</Child>
 					<Child Name="panel2ponumber" Owner="{7AAA0410-12D2-4371-98DF-3E236CF6D829}" />
 					<Child Name="panelPronumberupdated" Owner="{9CD43A7A-E7DB-491E-A6C3-F037294E06F5}" />
@@ -21356,6 +21777,15 @@
 					<Child Name="textnodeQuantity" Owner="{B188261D-C259-4E25-941C-AC23B744258F}" />
 					<Child Name="cell7" Owner="{B395DA81-BF4D-4678-92A7-E5B67FE58EA3}" />
 					<Child Name="cell8" Owner="{9D1C9026-AEFE-492F-B7C9-2DD0EEBA2227}" />
+					<Child Name="panelXlsdfpXlsx" Owner="{A911D9AF-7307-4472-8CC5-824B90ED7D99}" />
+					<Child Name="panelDocdfpDocx" Owner="{3CE708E6-ED93-4116-9A34-CC307AA3BAE4}" />
+					<Child Name="panelMsgdfpMsg" Owner="{AA018F05-0792-4FD6-A952-616EAF64D64B}" />
+					<Child Name="panelTest1Png" Owner="{13FDB291-2BE1-4E99-983B-52318C7C674C}" />
+					<Child Name="panelCsvdfpCsv" Owner="{CA5A8A8C-EAEA-4C5F-8CE8-70CDB2FD30B8}" />
+					<Child Name="panelAttachdfpPdf" Owner="{4E01FFD5-1EBD-4718-92EC-556B17D93776}" />
+					<Child Name="panelTxtMagayaTxt" Owner="{7D67E420-9882-4A40-B5A4-D78F6837B401}" />
+					<Child Name="panelXmlMagayaXml" Owner="{C1326EB4-8269-4CAA-AA2B-4C37540C3469}" />
+					<Child Name="panelJsonMagayaJson" Owner="{4537F494-2A6A-49E4-B679-DE0D3BA8D6BC}" />
 				</Child>
 				<Child Name="textnodeResults" Owner="{1CF6087C-57FF-4430-B9F1-800D8664F6B3}" />
 				<Child Name="panelRequestADifferentRate" Owner="{F00322FB-BB44-4EBC-A779-77467DCD493F}" />
@@ -21476,6 +21906,12 @@
 					<Child Name="textnodePayment" Owner="{69558192-58D0-4F8E-B828-EE4C6CB47699}" />
 					<Child Name="panelPieceS" Owner="{F750CBFB-5AC5-4466-9BD7-B860AE826170}" />
 					<Child Name="panelUpdatecommodityHouse" Owner="{FAC0BF6C-437A-4AC3-A1DF-4A215E74BA87}" />
+					<Child Name="textnodeMilestones" Owner="{17BFDE70-95C0-4709-84EF-E714AA52CA5C}">
+						<Child Name="linkPnId47HeaderAction" Owner="{FD9AFF72-AF74-456A-8E50-2FBADE4B923F}">
+							<Child Name="vgImg" Owner="{7CB7BBAD-96E7-45FC-BFC4-0718A063E973}" />
+						</Child>
+					</Child>
+					<Child Name="panelArrived" Owner="{E33315C7-8C66-4B5A-AE1A-A111A001CD2D}" />
 				</Child>
 				<Child Name="textboxName2" Owner="{CDAB938D-4DD1-41CB-BE32-3BC186A96F94}" />
 				<Child Name="buttonSearch2" Owner="{E66DF359-B41B-4093-8EE5-35E706916CBA}" />
@@ -21678,6 +22114,14 @@
 						<Child Name="listitemTest1" Owner="{D3A48895-5C4C-4E99-AE18-C76122BB94D6}" />
 						<Child Name="listitemTest2" Owner="{D6751D9C-F978-44CC-91CB-B6AFBF0CDBD2}" />
 						<Child Name="listitemTestingAttachments" Owner="{08776096-CD23-47BE-82D8-EAF6A865E448}" />
+						<Child Name="listitemAttachdfp" Owner="{6772AECE-F764-4BA2-972E-6384C9DAB0BD}" />
+						<Child Name="listitemCsvdfp" Owner="{41863AD4-44CD-4E1B-A988-166CF8C83C43}" />
+						<Child Name="listitemDocdfp" Owner="{1EBA4F10-76F9-4F7B-A2B3-799317DDC471}" />
+						<Child Name="listitemMsgdfp" Owner="{234BB31B-6C3F-4802-93B8-CA6DB021958D}" />
+						<Child Name="listitemXlsdfp" Owner="{A4ED6D66-14A7-46FA-9189-4E2D8AAB8D65}" />
+						<Child Name="listitemXmlMagaya" Owner="{35A9A2B1-54B2-4CD8-B6B3-E70C282AF2EA}" />
+						<Child Name="listitemJsonMagaya" Owner="{7A5FE4DC-D00D-42A6-B724-292C0FABF4B2}" />
+						<Child Name="listitemTxtMagaya" Owner="{832ABB8B-8756-41BE-9403-E181AC411345}" />
 					</Child>
 					<Child Name="EditApplyTo" Owner="{8781365F-C9D1-4F91-A41F-59B51B524D62}" />
 					<Child Name="cbxPickListCustomField" Owner="{D9729814-506D-4CD8-A789-3492CDA122B5}" />
@@ -21724,6 +22168,7 @@
 				<Child Name="pageAttachments" Owner="{50C16BA8-622B-4AC6-B923-0D12723A9ACA}">
 					<Child Name="btnAdd" Owner="{8EC8F38A-0D51-4D09-89FA-3A80ECC1854D}" />
 					<Child Name="btnSelectDevice" Owner="{E85F3E55-D786-4F1E-BC9B-CEEA6D5D2B8B}" />
+					<Child Name="checkboxInternal" Owner="{B39FAAE5-F13A-48EA-80D8-581F434EF7B9}" />
 				</Child>
 				<Child Name="DUIViewWndClassName" Owner="{8CFE8719-36E7-4C75-8374-906D68EE0277}">
 					<Child Name="Explorer_Pane" Owner="{3BC30AF5-1529-4E8F-8950-86599768C8ED}">
@@ -21765,6 +22210,9 @@
 						<Child Name="outlineitem84updated" Owner="{7B9EB98D-3A5F-40C1-BC77-2ABFE1EF62EE}" />
 						<Child Name="outlineitem82" Owner="{3F31D7B8-6CB0-44B8-89D4-D222D502417C}" />
 						<Child Name="outlineitem84updated2" Owner="{E266AC24-6296-4735-B269-25427D914F46}" />
+						<Child Name="outlineitemShipment" Owner="{B988F2C8-311C-48DF-B3F7-ABE236E58681}" />
+						<Child Name="outlineitemShipmentName" Owner="{DB900F18-06CE-4486-BFEF-8CFACE2B25B7}" />
+						<Child Name="outlineitemOutgoingShipments2" Owner="{42135985-E663-4F55-BE82-321DE8334615}" />
 					</Child>
 				</Child>
 				<Child Name="mainFrame" Owner="{C9DFA5BE-6887-4F72-A50E-BEE3562FAE70}">
@@ -21801,6 +22249,7 @@
 									<Child Name="pageAttachments" Owner="{130A4A32-83C1-4AF2-A40D-E20CED800A11}">
 										<Child Name="ListView" Owner="{5291C274-7F8E-451D-B99D-D0E0A17D0A25}">
 											<Child Name="listitemTest" Owner="{D622D407-448E-422A-A811-FD095C58C51A}" />
+											<Child Name="listitemTest2" Owner="{8C3ED96A-17F6-4388-85F1-A4F75443EEEB}" />
 										</Child>
 										<Child Name="btnAdd" Owner="{48A48281-8D3E-47F5-A976-B453DBAD89CE}" />
 									</Child>
