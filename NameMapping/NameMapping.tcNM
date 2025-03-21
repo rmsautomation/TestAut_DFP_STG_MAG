@@ -19431,6 +19431,23 @@
 																								<Value Value="ToolbarWindow32" />
 																							</Property>
 																						</Properties>
+																						<Children>
+																							<Child Name="buttonAdd" Key="{E7E0A54A-E146-49CF-9966-49C24C9357A2}">
+																								<Image FileName="24093421" Left="1696" Top="381" Right="1757" Bottom="411" />
+																								<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+																								<Properties>
+																									<Property Name="ObjectType">
+																										<Value Value="Button" />
+																									</Property>
+																									<Property Name="Caption">
+																										<Value Value="Add" />
+																									</Property>
+																									<Property Name="ObjectGroupIndex">
+																										<Value Value="1" Type="0" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																						</Children>
 																					</Child>
 																					<Child Name="page32770" Key="{8E3DE5FA-650A-4F32-BF75-3F75E2B2DBCA}">
 																						<Image FileName="-1375371927" Left="317" Top="381" Right="1620" Bottom="1024" />
@@ -22417,7 +22434,9 @@
 									<Child Name="pageNotes" Owner="{61601D22-A0A0-47AF-B8A6-CEE170F6A6BC}">
 										<Child Name="Edit" Owner="{2D0D0901-5649-4CE9-8B94-7F08010CCADE}" />
 									</Child>
-									<Child Name="toolbar" Owner="{BCF91EBC-F3FD-400E-8F6C-FFD8ABBA8A6D}" />
+									<Child Name="toolbar" Owner="{BCF91EBC-F3FD-400E-8F6C-FFD8ABBA8A6D}">
+										<Child Name="buttonAdd" Owner="{E7E0A54A-E146-49CF-9966-49C24C9357A2}" />
+									</Child>
 									<Child Name="page32770" Owner="{8E3DE5FA-650A-4F32-BF75-3F75E2B2DBCA}">
 										<Child Name="editTextShipperRef" Owner="{57CB867F-861D-4721-AE93-EFF15647B74E}" />
 										<Child Name="editCnsigneeRef" Owner="{4D0D79AE-A42C-45CD-AE6B-7E6F596BB74A}" />
