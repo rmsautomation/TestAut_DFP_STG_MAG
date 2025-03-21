@@ -29,7 +29,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.qwykportals.com/" />
+										<Value Value="https://*.qwykportals.com/" />
 									</Property>
 								</Properties>
 								<Children>
@@ -621,7 +621,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.qwykportals.com/quotations/*" />
+										<Value Value="https://*.qwykportals.com/quotations/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -1019,7 +1019,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.qwykportals.com/quotations/list" />
+										<Value Value="https://*.qwykportals.com/quotations/list" />
 									</Property>
 								</Properties>
 								<Children>
@@ -1071,7 +1071,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.qwykportals.com/quotations/new" />
+										<Value Value="https://*.qwykportals.com/quotations/new" />
 									</Property>
 								</Properties>
 								<Children>
@@ -1707,7 +1707,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.qwykportals.com/quotations/*" />
+										<Value Value="https://*.qwykportals.com/quotations/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -1876,7 +1876,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.qwykportals.com/quotations/*" />
+										<Value Value="https://*.qwykportals.com/quotations/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -1934,7 +1934,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.qwykportals.com/quotations/*" />
+										<Value Value="https://*.qwykportals.com/quotations/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -2059,7 +2059,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.qwykportals.com/quotations/*" />
+										<Value Value="https://*.qwykportals.com/quotations/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -4974,12 +4974,6 @@
 											<Selector>
 												<Value Value="//div[.=&apos;RoundPriceUpdated.xlsx&apos;]" />
 											</Selector>
-											<Selector>
-												<Value Value="//qwyk-shipment-attachments-view/qwyk-shipment-attachments-list//ul/li[2]//div[contains(@class, &apos;font-weight-bold&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//li[2]/div/div/div" />
-											</Selector>
 										</Selectors>
 									</Child>
 									<Child Name="textnodeShipments3" Key="{0DA5E75B-EA8A-48D9-B6E7-810F6454F9A0}">
@@ -6937,7 +6931,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qadfp.qwykportals.com/quotation/*" />
+										<Value Value="https://*.qwykportals.com/quotation/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -6983,7 +6977,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qadfp.qwykportals.com/quotation/*" />
+										<Value Value="https://*.qwykportals.com/quotation/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -7101,7 +7095,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.qwykportals.com/quotations/list" />
+										<Value Value="https://*.qwykportals.com/quotations/list" />
 									</Property>
 								</Properties>
 								<Children>
@@ -7337,7 +7331,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qadfp.qwykportals.com/my-portal/quotations" />
+										<Value Value="https://*.qwykportals.com/my-portal/quotations" />
 									</Property>
 								</Properties>
 								<Children>
@@ -8485,7 +8479,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qadfp.qwykportals.com/quotation/*" />
+										<Value Value="https://*.qwykportals.com/quotation/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -8511,7 +8505,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qadfp.qwykportals.com/quotation/*" />
+										<Value Value="https://*.qwykportals.com/quotation/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -8576,7 +8570,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qadfp.qwykportals.com/quotation/*" />
+										<Value Value="https://*.qwykportals.com/quotation/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -8733,7 +8727,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qadfp.qwykportals.com/my-portal/shipments/*" />
+										<Value Value="https://*.qwykportals.com/my-portal/shipments/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -8950,7 +8944,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qadfp.qwykportals.com/my-portal/shipments/*" />
+										<Value Value="https://*.qwykportals.com/my-portal/shipments/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -8996,7 +8990,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.qwykportals.com/shipments/list" />
+										<Value Value="https://*.qwykportals.com/shipments/list" />
 									</Property>
 								</Properties>
 								<Children>
@@ -9433,7 +9427,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.qwykportals.com/user/profile" />
+										<Value Value="https://*.qwykportals.com/user/profile" />
 									</Property>
 								</Properties>
 								<Children>
@@ -9501,7 +9495,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.qwykportals.com/quotations/list" />
+										<Value Value="https://*.qwykportals.com/quotations/list" />
 									</Property>
 								</Properties>
 								<Children>
@@ -9597,7 +9591,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.qwykportals.com/administration/portal-users" />
+										<Value Value="https://*.qwykportals.com/administration/portal-users" />
 									</Property>
 								</Properties>
 								<Children>
@@ -9626,7 +9620,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.qwykportals.com/" />
+										<Value Value="https://*.qwykportals.com/" />
 									</Property>
 								</Properties>
 								<Children>
@@ -9804,7 +9798,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.qwykportals.com/radar/sales" />
+										<Value Value="https://*.qwykportals.com/radar/sales" />
 									</Property>
 								</Properties>
 								<Children>
@@ -9999,7 +9993,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.qwykportals.com/radar" />
+										<Value Value="https://*.qwykportals.com/radar" />
 									</Property>
 								</Properties>
 								<Children>
@@ -10348,7 +10342,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qadfp.qwykportals.com/" />
+										<Value Value="https://*.qwykportals.com/" />
 									</Property>
 								</Properties>
 								<Children>
@@ -10413,7 +10407,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qadfp.qwykportals.com/my-portal/dashboard*" />
+										<Value Value="https://*.qwykportals.com/my-portal/dashboard*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -11649,12 +11643,6 @@
 										<Selectors>
 											<Selector>
 												<Value Value="xpath=//div[contains(normalize-space(text()), &apos;RoundPriceUpdated.xlsx&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[.=&apos;RoundPriceUpdated.xlsx&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//li[2]/div/div/div" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -15701,7 +15689,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.qwykportals.com/shipments/list" />
+										<Value Value="https://*.qwykportals.com/shipments/list" />
 									</Property>
 								</Properties>
 								<Children>
@@ -16494,7 +16482,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.qwykportals.com/quotations/9d5ab2bc-b5bd-44ef-b534-1d9d9881fb75/offers/new" />
+										<Value Value="https://*.qwykportals.com/quotations/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -16525,7 +16513,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.qwykportals.com/" />
+										<Value Value="https://*.qwykportals.com/" />
 									</Property>
 								</Properties>
 								<Children>
@@ -20944,9 +20932,7 @@
 							<Child Name="panelSecuritySurcharge" Owner="{95701EAE-D2F6-4C4F-BFD3-7F6364BAA3F5}" />
 							<Child Name="panel1000" Owner="{0B5A88C7-710B-4B45-A7B1-1356632C5A7F}" />
 						</Child>
-						<Child Name="textnodeRoundpriceupdatedXlsx" Owner="{F49ACA2D-D26E-4078-AC3B-05DF68759DB9}">
-							<Child Name="panelRoundpriceupdatedXlsx" Owner="{6406C219-276E-4611-B3F3-FA0A79A444ED}" />
-						</Child>
+						<Child Name="textnodeRoundpriceupdatedXlsx" Owner="{F49ACA2D-D26E-4078-AC3B-05DF68759DB9}" />
 						<Child Name="textnodeCarrier" Owner="{8E5F87C3-D86D-4DA9-8C87-0395534B3A4E}">
 							<Child Name="panelMsc" Owner="{5237AAAA-8C4C-425B-8608-1E223E2C4F5D}" />
 							<Child Name="panelCma" Owner="{6322E1B1-8EE7-4151-ACB7-5B578E22531D}" />
@@ -21040,6 +21026,7 @@
 					<Child Name="panelStringcustom" Owner="{4520835A-8D3D-4716-9634-ED3C7D111DDD}" />
 					<Child Name="panelRoundpriceupdatedXlsx" Owner="{27EA032C-99F3-4843-8190-C90645D9BE18}" />
 					<Child Name="linkWarehouseReceipt" Owner="{851E5509-754D-48DC-BF9B-4B02181756B7}" />
+					<Child Name="panelRoundpriceupdatedXlsx_new" Owner="{6406C219-276E-4611-B3F3-FA0A79A444ED}" />
 				</Child>
 				<Child Name="headerTopnavbar" Owner="{B3A52C5C-A7D6-4F6C-878A-5811B539461D}">
 					<Child Name="textnode3" Owner="{583B344A-0959-420B-A224-B268B79D61E3}">
