@@ -188,11 +188,11 @@
 						<child name="SearchMasterShipment" key="{85BDCF80-636A-4BA8-B3CB-E939E5270A10}" path="SearchMasterShipment.tcKDTest" />
 						<child name="SearchMasterVerifyCommodityGoHouse" key="{930D8672-587E-4C7F-98F2-0F9942CD2D38}" path="SearchMasterVerifyCommodityGoHouse.tcKDTest" />
 						<child name="VerifyDFPAllAttachmentsToShInMagayaCommodity" key="{17DBF916-E652-4C8A-9312-5FE4ACD150EE}" path="VerifyDFPAllAttachmentsToShInMagayaCommodity.tcKDTest" />
-						<child name="VerifyAllTypeAttachDFP" key="{DB4F4353-29E1-4EFB-A9AC-08ED3EE8312F}" path="VerifyAllTypeAttachDFP.tcKDTest" />
 					</folder>
 					<folder name="UploadAttachment">
 						<child name="AddGenericAttachmentDFP" key="{BE765EEA-98FD-4045-B4CF-B56B377D05B4}" path="AddGenericAttachmentDFP.tcKDTest" />
 						<child name="AddAttachmentDFPShipment" key="{F0672EB0-95CC-40C5-84BE-586446818437}" path="AddAttachmentDFPShipment.tcKDTest" />
+						<child name="VerifyAllTypeAttachDFP" key="{DB4F4353-29E1-4EFB-A9AC-08ED3EE8312F}" path="VerifyAllTypeAttachDFP.tcKDTest" />
 					</folder>
 					<folder name="WR">
 						<child name="SearchWR" key="{9EAA9378-8908-4A42-AF97-807EDE71CF4A}" path="SearchWR.tcKDTest" />
