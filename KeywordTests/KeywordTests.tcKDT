@@ -188,6 +188,7 @@
 						<child name="SearchMasterShipment" key="{85BDCF80-636A-4BA8-B3CB-E939E5270A10}" path="SearchMasterShipment.tcKDTest" />
 						<child name="SearchMasterVerifyCommodityGoHouse" key="{930D8672-587E-4C7F-98F2-0F9942CD2D38}" path="SearchMasterVerifyCommodityGoHouse.tcKDTest" />
 						<child name="VerifyDFPAllAttachmentsToShInMagayaCommodity" key="{17DBF916-E652-4C8A-9312-5FE4ACD150EE}" path="VerifyDFPAllAttachmentsToShInMagayaCommodity.tcKDTest" />
+						<child name="VerifyAllTypeAttachDFP" key="{DB4F4353-29E1-4EFB-A9AC-08ED3EE8312F}" path="VerifyAllTypeAttachDFP.tcKDTest" />
 					</folder>
 					<folder name="UploadAttachment">
 						<child name="AddGenericAttachmentDFP" key="{BE765EEA-98FD-4045-B4CF-B56B377D05B4}" path="AddGenericAttachmentDFP.tcKDTest" />
@@ -284,6 +285,7 @@
 					<child name="AddAttachments" key="{1CE4471D-8C2C-485A-855D-0D2D16B9F0EA}" path="AddAttachments.tcKDTest" />
 					<child name="AddAttachmentShipment" key="{4019B9A7-8F1E-4944-8F84-F834D09F9C7F}" path="AddAttachmentShipment.tcKDTest" />
 					<child name="AddAttachmentCommodity" key="{C70BEFEE-4AA7-4EB8-80E0-7C5BEE986703}" path="AddAttachmentCommodity.tcKDTest" />
+					<child name="AddAllTypeAttachmentsMagaya" key="{E238EDD9-B6A6-4B19-8AA8-138890A4BBED}" path="AddAllTypeAttachmentsMagaya.tcKDTest" />
 				</folder>
 				<folder name="LiveTrack">
 					<child name="ApproveInvoice" key="{1586C607-B365-4ABE-AE7E-A73DFF9C239D}" path="ApproveInvoice.tcKDTest" />

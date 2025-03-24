@@ -8469,6 +8469,70 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodePnId51List" Key="{87E0F7EF-A08D-493E-9DC7-485C4E5F9628}">
+										<Image FileName="2079307116" Left="1515" Top="819" Right="1569" Bottom="913" />
+										<Selectors>
+											<Selector>
+												<Value Value="#pn_id_51_list" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;10&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;listbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;p-dropdown-items&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode50" Key="{BEA4CB60-56BE-4E63-B51B-C5A0105D5A00}">
+										<Image FileName="2079307116" Left="1515" Top="882" Right="1569" Bottom="913" />
+										<Selectors>
+											<Selector>
+												<Value Value="#pn_id_51_2" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[.=&apos;50&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@aria-label=&apos;50&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[3]/li[@role=&apos;option&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[3]/li[contains(@class, &apos;p-ripple&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[3]/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode502" Key="{8E6B672B-B001-437C-8026-AE9321995614}">
+										<Image FileName="2079307116" Left="1527" Top="888" Right="1541" Bottom="905" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//span[normalize-space(text())=&apos;50&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[.=&apos;50&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[3]/li/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;pn_id_51_2&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[3]/li/span" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageMagaya9" Key="{86480E91-9864-47C9-B9DF-E3A336A0E37E}">
@@ -12474,7 +12538,7 @@
 												<Value Value="//div[contains(text(), &apos;Attachments&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//a[3]/div" />
+												<Value Value="xpath=//a[contains(normalize-space(.), &apos;Attachments&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -21159,7 +21223,6 @@
 						<Child Name="panelFcaFreeCarrier" Owner="{6C85CF2A-33E8-4F1A-A2BB-A636974E6CDB}" />
 						<Child Name="textnode2" Owner="{DE1C8780-6F6E-4266-8B97-6C0C21C22312}" />
 						<Child Name="panelUsdUnitedStatesDollar" Owner="{7A782D6B-4605-423D-AF82-DDFC964752DB}" />
-						<Child Name="textnode3" Owner="{6E692D5C-7DC8-4BEB-B284-234DE4F9A24C}" />
 						<Child Name="textnodePrId12List" Owner="{447983F7-9E74-4D65-B5EF-A6BF4FCC014B}">
 							<Child Name="textnodeObjectObject" Owner="{5748B09D-EEDC-49A7-B696-2EC3E30FB5F3}" />
 						</Child>
@@ -21215,6 +21278,7 @@
 					<Child Name="panelTellUsALittleMoreAbout" Owner="{211FAA35-DD93-4F6F-89CC-44D4368353FB}" />
 					<Child Name="buttonCreateYourAccount" Owner="{A7D0B100-0D65-4D54-ADF6-8275186D61B7}" />
 				</Child>
+				<Child Name="textnodePagination" Owner="{6E692D5C-7DC8-4BEB-B284-234DE4F9A24C}" />
 			</Child>
 			<Child Name="pageMagaya4" Owner="{8EA526EC-3C37-4C58-A4C2-B974543CEAF1}">
 				<Child Name="navDashboard" Owner="{059688CF-BF87-4919-9DB0-001F5898B360}">
@@ -21427,6 +21491,11 @@
 					<Child Name="buttonUpload" Owner="{34480C3E-585E-4B50-8F5B-81DF6D4D75E6}" />
 				</Child>
 				<Child Name="panelAttachments" Owner="{AAE58638-FBB1-4895-AF83-615ED6947CB2}" />
+				<Child Name="textnodePnId51List" Owner="{87E0F7EF-A08D-493E-9DC7-485C4E5F9628}">
+					<Child Name="textnode50" Owner="{BEA4CB60-56BE-4E63-B51B-C5A0105D5A00}">
+						<Child Name="textnode502" Owner="{8E6B672B-B001-437C-8026-AE9321995614}" />
+					</Child>
+				</Child>
 			</Child>
 			<Child Name="pageMagaya9" Owner="{86480E91-9864-47C9-B9DF-E3A336A0E37E}" />
 			<Child Name="pageMagaya10" Owner="{A1AF1ACC-2F72-438F-9EA2-887E61CB0504}">
