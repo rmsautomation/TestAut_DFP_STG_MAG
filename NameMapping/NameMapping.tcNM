@@ -4761,12 +4761,6 @@
 											<Selector>
 												<Value Value="xpath=//div[normalize-space(text())=&apos;Arrived at destination&apos;]" />
 											</Selector>
-											<Selector>
-												<Value Value="//li[2]/div/div/div" />
-											</Selector>
-											<Selector>
-												<Value Value="xpath=//div[contains(normalize-space(text()), &apos;PRONumberUpdated&apos;)]" />
-											</Selector>
 										</Selectors>
 									</Child>
 									<Child Name="textnodeSecuritySurcharge" Key="{41B1B7B3-9E98-4D3B-AB10-25FAA24F6A52}">
@@ -8536,6 +8530,83 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeTotal" Key="{8608896B-A077-4C56-B036-9531D9398DA8}">
+										<Image FileName="104821712" Left="526" Top="940" Right="1577" Bottom="990" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Total&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;bg-light&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel252Pieces" Key="{FE3D733F-9E4A-4C3C-B61B-A08E036C76BA}">
+										<Image FileName="104821712" Left="720" Top="955" Right="952" Bottom="974" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;252 pieces&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[12]/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vg" Key="{3ABCE504-EC90-43BA-81C5-9825BD93B104}">
+										<Image FileName="1965344808" Left="1545" Top="1000" Right="1559" Bottom="1014" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[name()=&apos;svg&apos;][contains(@class, &apos;p-dropdown-trigger-icon&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;pn_id_6&apos;]//*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//chevrondownicon/*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode503" Key="{FF606131-E084-47C9-8E75-F8D4CB9BE15F}">
+										<Image FileName="-2001691350" Left="1527" Top="964" Right="1541" Bottom="981" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;50&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[3]/li/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;pn_id_6_2&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[3]/li/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelMyPortal" Key="{1BF22C64-9B3A-4570-AC33-2724FF1DDE37}">
+										<Image FileName="-2106223437" Left="198" Top="-3690" Right="1905" Bottom="1830" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;min-vh-100&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-warehouse-receipt-details/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonPagePage" Key="{E80BC087-31A1-4F64-A51D-3D98C062DAA3}">
+										<Image FileName="394320744" Left="1405" Top="991" Right="1439" Bottom="1025" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span/button[5]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageMagaya9" Key="{86480E91-9864-47C9-B9DF-E3A336A0E37E}">
@@ -11683,9 +11754,6 @@
 											</Selector>
 											<Selector>
 												<Value Value="//div[text()=&apos;In Transit&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//li[2]/div/div/div" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -19789,6 +19857,38 @@
 																										<Value Value="List1" />
 																									</Property>
 																								</Properties>
+																								<Children>
+																									<Child Name="listitemLoaded" Key="{74179583-E38F-48A1-9EC2-9C4E9CE4842B}">
+																										<Image FileName="195042364" Left="330" Top="439" Right="1210" Bottom="460" />
+																										<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+																										<Properties>
+																											<Property Name="ObjectType">
+																												<Value Value="ListItem" />
+																											</Property>
+																											<Property Name="Caption">
+																												<Value Value="Loaded" />
+																											</Property>
+																											<Property Name="ObjectGroupIndex">
+																												<Value Value="2" Type="0" />
+																											</Property>
+																										</Properties>
+																									</Child>
+																									<Child Name="listitemLoaded2" Key="{15C248FE-F97E-4BD3-B6C1-A4B8653BBFF9}">
+																										<Image FileName="-211528013" Left="330" Top="418" Right="1210" Bottom="439" />
+																										<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+																										<Properties>
+																											<Property Name="ObjectType">
+																												<Value Value="ListItem" />
+																											</Property>
+																											<Property Name="Caption">
+																												<Value Value="Loaded" />
+																											</Property>
+																											<Property Name="ObjectGroupIndex">
+																												<Value Value="1" Type="0" />
+																											</Property>
+																										</Properties>
+																									</Child>
+																								</Children>
 																							</Child>
 																						</Children>
 																					</Child>
@@ -21074,7 +21174,6 @@
 					<Child Name="textnodeName" Owner="{D8DE7926-F7A3-494D-8411-63CBDC844D1B}">
 						<Child Name="textnodeInTransit" Owner="{9E5460EC-3195-4DC4-B2E0-DD27D1B577B0}">
 							<Child Name="panelInTransit" Owner="{2A7E0356-575C-4796-9C65-69D2D88BCB42}" />
-							<Child Name="panelArrivedAtDestination" Owner="{BF88E782-994D-493E-8AF5-459B586887A4}" />
 						</Child>
 					</Child>
 					<Child Name="textnodeOpen" Owner="{702E521E-D019-4B39-8EF9-49960ADB61E5}" />
@@ -21153,6 +21252,7 @@
 					<Child Name="panelRoundpriceupdatedXlsx" Owner="{27EA032C-99F3-4843-8190-C90645D9BE18}" />
 					<Child Name="linkWarehouseReceipt" Owner="{851E5509-754D-48DC-BF9B-4B02181756B7}" />
 					<Child Name="panelRoundpriceupdatedXlsx_new" Owner="{6406C219-276E-4611-B3F3-FA0A79A444ED}" />
+					<Child Name="panelArrivedAtDestination" Owner="{BF88E782-994D-493E-8AF5-459B586887A4}" />
 				</Child>
 				<Child Name="headerTopnavbar" Owner="{B3A52C5C-A7D6-4F6C-878A-5811B539461D}">
 					<Child Name="textnode3" Owner="{583B344A-0959-420B-A224-B268B79D61E3}">
@@ -21502,6 +21602,7 @@
 						<Child Name="textnode1xOther" Owner="{2409354C-E093-4489-95AA-1E49BE8C9CA1}">
 							<Child Name="panelHouseupdateddescription" Owner="{E733A651-9867-43C8-973E-C7773CD144BC}" />
 						</Child>
+						<Child Name="textnodeTotal" Owner="{8608896B-A077-4C56-B036-9531D9398DA8}" />
 					</Child>
 					<Child Name="textnodeName" Owner="{241AFD82-6F94-4E23-B3A3-30AADB891278}">
 						<Child Name="textnodeArrivedAtWarehouse" Owner="{D37A2DFA-721D-4985-8E1C-B18224295C53}">
@@ -21522,6 +21623,9 @@
 							<Child Name="panelAirupdated" Owner="{5ED07A97-5040-4FEF-B6A0-0EC096425B4C}" />
 						</Child>
 					</Child>
+					<Child Name="vg" Owner="{3ABCE504-EC90-43BA-81C5-9825BD93B104}" />
+					<Child Name="panelMyPortal2" Owner="{1BF22C64-9B3A-4570-AC33-2724FF1DDE37}" />
+					<Child Name="buttonPagePage" Owner="{E80BC087-31A1-4F64-A51D-3D98C062DAA3}" />
 				</Child>
 				<Child Name="navDashboard" Owner="{A7A0574D-C40C-4FF1-9DD2-0A240712F5C3}">
 					<Child Name="textnodeShipments" Owner="{81EF3BC1-6296-4BD3-9962-04A64D0A202D}">
@@ -21542,6 +21646,8 @@
 					</Child>
 				</Child>
 				<Child Name="linkAttachments" Owner="{CF6F8A29-344A-47DB-B1AC-0DFEE016BF93}" />
+				<Child Name="textnode503" Owner="{FF606131-E084-47C9-8E75-F8D4CB9BE15F}" />
+				<Child Name="panel252Pieces" Owner="{FE3D733F-9E4A-4C3C-B61B-A08E036C76BA}" />
 			</Child>
 			<Child Name="pageMagaya9" Owner="{86480E91-9864-47C9-B9DF-E3A336A0E37E}" />
 			<Child Name="pageMagaya10" Owner="{A1AF1ACC-2F72-438F-9EA2-887E61CB0504}">
@@ -22573,7 +22679,10 @@
 										<Child Name="btnAdd" Owner="{C6551156-E294-4799-98EC-6A8A11AC1119}" />
 									</Child>
 									<Child Name="pageCommodities" Owner="{51FF909F-E443-4A0D-B54C-8C40A703A619}">
-										<Child Name="List1" Owner="{41B6A409-72C6-4969-88ED-734C4C25AB28}" />
+										<Child Name="List1" Owner="{41B6A409-72C6-4969-88ED-734C4C25AB28}">
+											<Child Name="listitemLoaded" Owner="{74179583-E38F-48A1-9EC2-9C4E9CE4842B}" />
+											<Child Name="listitemLoaded2" Owner="{15C248FE-F97E-4BD3-B6C1-A4B8653BBFF9}" />
+										</Child>
 									</Child>
 									<Child Name="Tree1" Owner="{51B23BF7-55C0-4A29-8746-5F63B917E38C}" />
 								</Child>
