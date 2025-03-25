@@ -15736,6 +15736,15 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panel251Pieces" Key="{0E42A57D-BF03-4444-8167-46EA7072B2F9}">
+										<Image FileName="337300388" Left="720" Top="955" Right="952" Bottom="974" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;251 pieces&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{04F3F450-5526-4092-96D2-21C0884F59D5}">
@@ -17887,6 +17896,24 @@
 																<Value Value="On Hand" />
 															</Property>
 															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="listitemArriving" Key="{1EBCC281-5692-4EE7-B9FC-48D31422FCAD}">
+														<Image FileName="-218051872" Left="26" Top="93" Right="1106" Bottom="114" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="ListItem" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+															<Property Name="Id">
+																<Value Value="0" Type="0" />
+															</Property>
+															<Property Name="ControlIndex">
 																<Value Value="1" Type="0" />
 															</Property>
 														</Properties>
@@ -20575,6 +20602,21 @@
 											</Property>
 										</Properties>
 									</Child>
+									<Child Name="menuitemAddCopies" Key="{CC00DBAC-C71B-45D7-AF29-56ABBB9D7EA8}">
+										<Image FileName="687685001" Left="3" Top="32" Right="328" Bottom="54" />
+										<TypeInfo Item0="{BD91983E-10C5-43AF-834F-060D7F5933D7}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="MenuItem" />
+											</Property>
+											<Property Name="Caption">
+												<Value Value="Add Copies..." />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
 								</Children>
 							</Child>
 						</Children>
@@ -22127,6 +22169,7 @@
 						</Child>
 					</Child>
 					<Child Name="panelArrived" Owner="{E33315C7-8C66-4B5A-AE1A-A111A001CD2D}" />
+					<Child Name="panel251Pieces" Owner="{0E42A57D-BF03-4444-8167-46EA7072B2F9}" />
 				</Child>
 				<Child Name="textboxName2" Owner="{CDAB938D-4DD1-41CB-BE32-3BC186A96F94}" />
 				<Child Name="buttonSearch2" Owner="{E66DF359-B41B-4093-8EE5-35E706916CBA}" />
@@ -22338,6 +22381,7 @@
 						<Child Name="listitemJsonMagaya" Owner="{7A5FE4DC-D00D-42A6-B724-292C0FABF4B2}" />
 						<Child Name="listitemTxtMagaya" Owner="{832ABB8B-8756-41BE-9403-E181AC411345}" />
 						<Child Name="listitemOnHand" Owner="{72729289-3D49-45D7-8C78-DEA15B37E622}" />
+						<Child Name="listitemArriving" Owner="{1EBCC281-5692-4EE7-B9FC-48D31422FCAD}" />
 					</Child>
 					<Child Name="EditApplyTo" Owner="{8781365F-C9D1-4F91-A41F-59B51B524D62}" />
 					<Child Name="cbxPickListCustomField" Owner="{D9729814-506D-4CD8-A789-3492CDA122B5}" />
@@ -22588,6 +22632,7 @@
 				<Child Name="menuitemDelete" Owner="{5817E809-145D-4E13-AE80-A2F52985E6D5}" />
 				<Child Name="menuitemHistory" Owner="{D07511E7-B7DB-45B4-B327-996FB191C9CC}" />
 				<Child Name="menuitemCreateShipment" Owner="{9D52591A-3686-4336-BF0A-895ACD13D310}" />
+				<Child Name="menuitemAddCopies" Owner="{CC00DBAC-C71B-45D7-AF29-56ABBB9D7EA8}" />
 			</Child>
 		</Child>
 		<Child Name="SourceTree" Owner="{6D5084A7-EDE9-457F-AE23-A21E49DFD672}">
