@@ -193,6 +193,7 @@
 						<child name="AddGenericAttachmentDFP" key="{BE765EEA-98FD-4045-B4CF-B56B377D05B4}" path="AddGenericAttachmentDFP.tcKDTest" />
 						<child name="AddAttachmentDFPShipment" key="{F0672EB0-95CC-40C5-84BE-586446818437}" path="AddAttachmentDFPShipment.tcKDTest" />
 						<child name="VerifyAllTypeAttachDFP" key="{DB4F4353-29E1-4EFB-A9AC-08ED3EE8312F}" path="VerifyAllTypeAttachDFP.tcKDTest" />
+						<child name="AddAllTypeAttachDFP" key="{13E3848F-1260-4886-9DFA-37198C27ECC5}" path="AddAllTypeAttachDFP.tcKDTest" />
 					</folder>
 					<folder name="WR">
 						<child name="SearchWR" key="{9EAA9378-8908-4A42-AF97-807EDE71CF4A}" path="SearchWR.tcKDTest" />
@@ -286,6 +287,7 @@
 					<child name="AddAttachmentShipment" key="{4019B9A7-8F1E-4944-8F84-F834D09F9C7F}" path="AddAttachmentShipment.tcKDTest" />
 					<child name="AddAttachmentCommodity" key="{C70BEFEE-4AA7-4EB8-80E0-7C5BEE986703}" path="AddAttachmentCommodity.tcKDTest" />
 					<child name="AddAllTypeAttachmentsMagaya" key="{E238EDD9-B6A6-4B19-8AA8-138890A4BBED}" path="AddAllTypeAttachmentsMagaya.tcKDTest" />
+					<child name="VerifyAllAttachInMagaya" key="{197C9FED-E2EB-43CC-9472-5366B72B4ABA}" path="VerifyAllAttachInMagaya.tcKDTest" />
 				</folder>
 				<folder name="LiveTrack">
 					<child name="ApproveInvoice" key="{1586C607-B365-4ABE-AE7E-A73DFF9C239D}" path="ApproveInvoice.tcKDTest" />

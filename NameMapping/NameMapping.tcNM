@@ -8022,6 +8022,9 @@
 										<Image FileName="807255996" Left="599" Top="298" Right="735" Bottom="338" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=//a[contains(@class, &apos;nav-link&apos;) and contains(., &apos;Attachments&apos;)]" />
+											</Selector>
+											<Selector>
 												<Value Value="//a[contains(., &apos;Attachments&apos;)]" />
 											</Selector>
 										</Selectors>
@@ -21496,6 +21499,7 @@
 						<Child Name="textnode502" Owner="{8E6B672B-B001-437C-8026-AE9321995614}" />
 					</Child>
 				</Child>
+				<Child Name="linkAttachments" Owner="{CF6F8A29-344A-47DB-B1AC-0DFEE016BF93}" />
 			</Child>
 			<Child Name="pageMagaya9" Owner="{86480E91-9864-47C9-B9DF-E3A336A0E37E}" />
 			<Child Name="pageMagaya10" Owner="{A1AF1ACC-2F72-438F-9EA2-887E61CB0504}">
