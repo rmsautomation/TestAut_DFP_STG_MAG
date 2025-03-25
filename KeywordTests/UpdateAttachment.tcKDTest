@@ -33,6 +33,9 @@
 					</Parameters>
 				</Data>
 			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="AddAllTypeAttachmentsMagaya" />
+			</Operation>
 		</Children>
 	</TestData>
 	<Parameters Key="{97A8CF85-12C8-4C95-9F43-79EF6719882A}">
