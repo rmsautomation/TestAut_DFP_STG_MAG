@@ -15051,18 +15051,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="vg" Key="{775BBA3E-C8BA-4067-9A51-829D11196906}">
+									<Child Name="page6" Key="{775BBA3E-C8BA-4067-9A51-829D11196906}">
 										<Image FileName="675067217" Left="1444" Top="312" Right="1460" Bottom="328" />
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[2]//p-dropdown//chevrondownicon/*[name()=&apos;svg&apos;][contains(@class, &apos;p-dropdown-trigger-icon&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[@id=&apos;pn_id_9&apos;]//chevrondownicon/*[name()=&apos;svg&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[2]//p-dropdown//div[@role=&apos;button&apos;]/chevrondownicon/*[name()=&apos;svg&apos;]" />
+												<Value Value="xpath=//span/button[6]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -15810,6 +15804,95 @@
 										<Selectors>
 											<Selector>
 												<Value Value="//div[text()=&apos;251 pieces&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vg3" Key="{916BC6C9-B8AE-4CE4-A144-63E7C521C981}">
+										<Image FileName="-1015377519" Left="1545" Top="1000" Right="1559" Bottom="1014" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[name()=&apos;svg&apos;][contains(@class, &apos;p-dropdown-trigger-icon&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;pn_id_21&apos;]//*[name()=&apos;svg&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//chevrondownicon/*[name()=&apos;svg&apos;]" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode50" Key="{11508055-811C-40E7-8094-2BB3D132C1AF}">
+										<Image FileName="1874367382" Left="1527" Top="964" Right="1541" Bottom="981" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;50&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[3]/li/span[contains(@class, &apos;ng-star-inserted&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;pn_id_21_2&apos;]/span" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[3]/li/span" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonPagePage" Key="{E868C3C3-636A-4C2F-B96C-F5C3C2B36968}">
+										<Image FileName="89120042" Left="1405" Top="991" Right="1439" Bottom="1025" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span/button[5]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelMyPortal" Key="{B6959C25-1CD0-43C6-A091-9148CAFB7EC6}">
+										<Image FileName="-1676127246" Left="198" Top="161" Right="1905" Bottom="1080" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;min-vh-100&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-pickup-orders-details/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeArriving" Key="{BB4E4341-25B1-40CA-9624-51A5593211A2}">
+										<Image FileName="-1676127246" Left="526" Top="587" Right="1577" Bottom="689" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;25.40 cm x 25.40 cm x 25.40 cm&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel1xBag" Key="{9630AB2D-B008-427E-8EB4-D528AF172975}">
+										<Image FileName="-1676127246" Left="707" Top="608" Right="966" Bottom="627" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;1x Bag&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelQuantity20" Key="{B06584F6-7F5D-470A-A64C-5E7B68F5067C}">
+										<Image FileName="-1676127246" Left="707" Top="628" Right="966" Bottom="659" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;POUPDATED&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonLastPage" Key="{88B9CFAC-F293-4617-AB21-7CB0597332B7}">
+										<Image FileName="-1070142429" Left="1473" Top="991" Right="1507" Bottom="1025" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;p-paginator-last&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -22036,6 +22119,10 @@
 						<Child Name="textnodeOnHand2" Owner="{27666246-D97B-4B2B-89F3-684C16B503C5}">
 							<Child Name="panelOnHand" Owner="{A4F86560-F039-43F0-9710-65616E2376F9}" />
 						</Child>
+						<Child Name="textnodeArriving" Owner="{BB4E4341-25B1-40CA-9624-51A5593211A2}">
+							<Child Name="panel1xBag" Owner="{9630AB2D-B008-427E-8EB4-D528AF172975}" />
+							<Child Name="panelQuantity20" Owner="{B06584F6-7F5D-470A-A64C-5E7B68F5067C}" />
+						</Child>
 					</Child>
 					<Child Name="panel2ponumber" Owner="{7AAA0410-12D2-4371-98DF-3E236CF6D829}" />
 					<Child Name="panelPronumberupdated" Owner="{9CD43A7A-E7DB-491E-A6C3-F037294E06F5}" />
@@ -22114,7 +22201,7 @@
 					<Child Name="invoiceNumber" Owner="{23E69437-4195-46B7-84C3-2CC1FC6D052D}" />
 					<Child Name="paymentMoney" Owner="{B3E29D1C-FF40-4921-837E-634ACE0E6923}" />
 					<Child Name="formStatus" Owner="{B3AA6190-0B4F-4DBD-9A9F-BE8E6113E7D4}">
-						<Child Name="vg" Owner="{775BBA3E-C8BA-4067-9A51-829D11196906}" />
+						<Child Name="page6" Owner="{775BBA3E-C8BA-4067-9A51-829D11196906}" />
 						<Child Name="panelSearch" Owner="{7C535E37-2FBC-44C1-9BB5-A7AC3B523A2F}" />
 						<Child Name="buttonReset" Owner="{29E07396-C73F-4999-A517-92B88C7962B3}" />
 						<Child Name="panelDropdownTrigger" Owner="{4EE8943D-F0E4-4CEA-815D-68AE9A098303}" />
@@ -22149,6 +22236,11 @@
 					<Child Name="textboxPartNumber" Owner="{F8233A28-53FD-4B19-B70B-FBB03F5E926F}" />
 					<Child Name="textnodeOnHand" Owner="{53D1501A-562F-4C41-A03F-6756624D2B2D}" />
 					<Child Name="panel100xPackage" Owner="{D85B7B96-916D-479D-8818-4BADA06A97B0}" />
+					<Child Name="vg3" Owner="{916BC6C9-B8AE-4CE4-A144-63E7C521C981}" />
+					<Child Name="buttonPagePage" Owner="{E868C3C3-636A-4C2F-B96C-F5C3C2B36968}" />
+					<Child Name="panelMyPortal" Owner="{B6959C25-1CD0-43C6-A091-9148CAFB7EC6}" />
+					<Child Name="page6" Owner="{775BBA3E-C8BA-4067-9A51-829D11196906}" />
+					<Child Name="buttonLastPage" Owner="{88B9CFAC-F293-4617-AB21-7CB0597332B7}" />
 				</Child>
 				<Child Name="textnodeResults" Owner="{1CF6087C-57FF-4430-B9F1-800D8664F6B3}" />
 				<Child Name="panelRequestADifferentRate" Owner="{F00322FB-BB44-4EBC-A779-77467DCD493F}" />
@@ -22298,6 +22390,7 @@
 				<Child Name="panelWarehouseReceipt" Owner="{DB3F0245-61EA-4774-9442-E3727909C9B3}" />
 				<Child Name="vg2" Owner="{A7B2C736-DB35-4E74-B5CA-3ADD472859FF}" />
 				<Child Name="cargoOption_new" Owner="{D605A313-8E7F-400C-8EA2-6F166B57FF3B}" />
+				<Child Name="textnode50" Owner="{11508055-811C-40E7-8094-2BB3D132C1AF}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{04F3F450-5526-4092-96D2-21C0884F59D5}" />
 			<Child Name="pageMagayaDigitalFreightPortalHu" Owner="{C7ED2FC9-0D1F-40A0-87DF-C64B4F0237DC}">
