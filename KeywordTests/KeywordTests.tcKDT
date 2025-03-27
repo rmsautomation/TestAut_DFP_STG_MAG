@@ -371,6 +371,7 @@
 					<child name="SearchPOMagaya" key="{D4EA65EA-478A-40CF-9B79-A81841F73905}" path="SearchPOMagaya.tcKDTest" />
 					<child name="CreateWRFromPO" key="{6E7299D2-2F61-47E8-9A26-D6B93B94D2F6}" path="CreateWRFromPO.tcKDTest" />
 					<child name="UpdatePOMagaya" key="{F4C222A9-90D2-4969-8B29-144719C63FF3}" path="UpdatePOMagaya.tcKDTest" />
+					<child name="CreatePOMagaya1Comm" key="{451E0834-03C0-4497-9730-CEC1A5D3076B}" path="CreatePOMagaya1Comm.tcKDTest" />
 				</folder>
 				<folder name="PAYMENT">
 					<child name="CreatePaymentMagaya" key="{76C8A581-A01B-42E0-96B8-D6A978E22C52}" path="CreatePaymentMagaya.tcKDTest" />

@@ -17675,6 +17675,21 @@
 													</Property>
 												</Properties>
 											</Child>
+											<Child Name="checkboxArriving" Key="{A1D9F44E-DC01-4528-B732-7D728137D682}">
+												<Image FileName="968890577" Left="19" Top="62" Right="829" Bottom="83" />
+												<TypeInfo Item0="{BD91983E-10C5-43AF-834F-060D7F5933D7}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="CheckBox" />
+													</Property>
+													<Property Name="Caption">
+														<Value Value="Arriving" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
 										</Children>
 									</Child>
 									<Child Name="btnOK" Key="{18F54034-9518-4445-B27B-D992418ABEA5}">
@@ -22618,6 +22633,7 @@
 					<Child Name="listitemAircarrier" Owner="{35E7A18D-DE4C-4481-9BAF-8476CC80FB7C}" />
 					<Child Name="listitemNewYork" Owner="{6F680710-E431-443A-A0FF-C6EBAC584833}" />
 					<Child Name="listitemCma" Owner="{F3598E10-6CBA-40AD-B648-D29CBDC329E9}" />
+					<Child Name="checkboxArriving" Owner="{A1D9F44E-DC01-4528-B732-7D728137D682}" />
 				</Child>
 				<Child Name="btnOK" Owner="{18F54034-9518-4445-B27B-D992418ABEA5}" />
 				<Child Name="btnAdd" Owner="{0AF557EB-9308-444A-B62D-1FBC38A3EB78}" />

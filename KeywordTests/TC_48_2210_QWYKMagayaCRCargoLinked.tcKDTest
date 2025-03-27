@@ -14,7 +14,12 @@
 				<Data Description="Runs a keyword test." TestName="LoginMagaya" />
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="CreatePOMagaya" />
+				<Data Description="Runs a keyword test." TestName="CreatePOMagaya1Comm" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="CreatePOMagaya">
+					<CommonData Disabled="True" />
+				</Data>
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs a keyword test." TestName="SearchPOMagaya">
