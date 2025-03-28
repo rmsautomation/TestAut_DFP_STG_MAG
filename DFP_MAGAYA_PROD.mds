@@ -51,11 +51,6 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_30_2244_AirShipment_UpdateMasterHouse" key="{5843A55B-CBD2-48B4-AA91-4EC23AAF6952}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A1E43289-1377-4413-BF9E-E994AF6EFB62}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
 			<testItem name="TC_31_859_MagayaToQWYKAddAutomaticEvent" key="{A8D52608-7B10-42F0-986D-1E5500A978D2}" group="False" parallel="False" enabled="True" testMoniker="KDT\{4122FF95-EB70-476C-B487-F5A1C4C7EC8F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
@@ -162,6 +157,11 @@
 				<children />
 			</testItem>
 			<testItem name="Tc_57_1873_MagayaToQWYK_UpdatePO" key="{ED9B42BB-39CD-4D75-9803-BDA2E62D92F9}" group="False" parallel="False" enabled="True" testMoniker="KDT\{DB640D92-32B1-4AD1-9116-95C78DF5FB8D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_30_2244_AirShipment_UpdateMasterHouse" key="{5843A55B-CBD2-48B4-AA91-4EC23AAF6952}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A1E43289-1377-4413-BF9E-E994AF6EFB62}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
