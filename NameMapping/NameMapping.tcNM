@@ -10435,6 +10435,21 @@
 																	</Property>
 																</Properties>
 															</Child>
+															<Child Name="buttonExpexplShortcut1RunningWin" Key="{82264C74-BA22-4B73-B263-AF6DCB478224}">
+																<Image FileName="1630837129" Left="392" Top="0" Right="441" Bottom="40" />
+																<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Button" />
+																	</Property>
+																	<Property Name="Caption">
+																		<Value Value="ExpExpl - Shortcut - 1 running window" />
+																	</Property>
+																	<Property Name="ObjectGroupIndex">
+																		<Value Value="2" Type="0" />
+																	</Property>
+																</Properties>
+															</Child>
 														</Children>
 													</Child>
 												</Children>
@@ -20705,6 +20720,21 @@
 															</Property>
 														</Properties>
 													</Child>
+													<Child Name="outlineitemCargoReleaseList" Key="{25CCA6DB-A161-4796-9C46-1ACF0D9CFC39}">
+														<Image FileName="506102082" Left="68" Top="475" Right="167" Bottom="499" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="OutlineItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="Cargo Release List" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
 												</Children>
 											</Child>
 										</Children>
@@ -21791,7 +21821,7 @@
 					</Child>
 					<Child Name="vg" Owner="{3ABCE504-EC90-43BA-81C5-9825BD93B104}" />
 					<Child Name="panelMyPortal2" Owner="{1BF22C64-9B3A-4570-AC33-2724FF1DDE37}" />
-					<Child Name="buttonPagePage" Owner="{E80BC087-31A1-4F64-A51D-3D98C062DAA3}" />
+					<Child Name="buttonPage5" Owner="{E80BC087-31A1-4F64-A51D-3D98C062DAA3}" />
 				</Child>
 				<Child Name="navDashboard" Owner="{A7A0574D-C40C-4FF1-9DD2-0A240712F5C3}">
 					<Child Name="textnodeShipments" Owner="{81EF3BC1-6296-4BD3-9962-04A64D0A202D}">
@@ -21994,6 +22024,7 @@
 							<Child Name="buttonMagayaCargoExplorer" Owner="{11F57EB8-E375-44A9-8218-4843A3F02229}" />
 							<Child Name="buttonTestcomplete151RunningWind" Owner="{BB4B2A54-6842-4675-88D6-8A6167BB7AE2}" />
 							<Child Name="buttonMagayaCargoExplorer1Runnin" Owner="{3D3CF1BB-9F61-4514-8195-A4896D694B36}" />
+							<Child Name="buttonExpexplShortcut1RunningWin" Owner="{82264C74-BA22-4B73-B263-AF6DCB478224}" />
 						</Child>
 					</Child>
 				</Child>
@@ -22763,6 +22794,7 @@
 						<Child Name="outlineitemWarehouseReceipts" Owner="{CB5D2745-2E2B-4EA4-A80F-0291147C717D}" />
 						<Child Name="outlineitemWarehouseReceiptList" Owner="{3CF32B01-DD0E-4C6B-98C4-C6035DA0533C}" />
 						<Child Name="outlineitemInvoices" Owner="{66E9BAD4-DB71-4B54-A26E-EFA8B8088B15}" />
+						<Child Name="outlineitemCargoReleaseList" Owner="{25CCA6DB-A161-4796-9C46-1ACF0D9CFC39}" />
 					</Child>
 				</Child>
 				<Child Name="mainFrame" Owner="{C9DFA5BE-6887-4F72-A50E-BEE3562FAE70}">
