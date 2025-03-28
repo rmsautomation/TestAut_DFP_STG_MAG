@@ -11531,10 +11531,10 @@
 												<Value Value="//button[.=&apos;Search&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="//ngb-modal-window[@role=&apos;dialog&apos;]//qwyk-search-magaya-entity-modal//qwyk-search-magaya-entity-list//button[contains(@class, &apos;btn&apos;)]" />
+												<Value Value="//ngb-modal-window[@role=&apos;dialog&apos;]//qwyk-search-magaya-entity-modal//qwyk-search-magaya-entity-list//button[contains(@class, &apos;btn&apos;)]" Enabled="False" />
 											</Selector>
 											<Selector>
-												<Value Value="//ngb-modal-window[@role=&apos;dialog&apos;]//qwyk-search-magaya-entity-modal//qwyk-search-magaya-entity-list//button" />
+												<Value Value="//ngb-modal-window[@role=&apos;dialog&apos;]//qwyk-search-magaya-entity-modal//qwyk-search-magaya-entity-list//button" Enabled="False" />
 											</Selector>
 										</Selectors>
 									</Child>
