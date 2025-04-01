@@ -18,9 +18,18 @@
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs a keyword test." TestName="CreateWR">
+					<CommonData Disabled="True" />
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="attachmentJPG" DefVarType="8" DefValueType="6" DefValueValue="test.jpg" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="attachJPG" />
 						<Parameter Name="attachmentPDF" DefVarType="8" DefValueType="6" DefValueValue="test2.pdf" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="attachPDF" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="CreateWRNoAttachMagaya">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="attachmentJPG" DefVarType="8" DefValueType="6" DefValueValue="test.jpg" VarType="8" ValueType="6" ValueValue="test.jpg" />
+						<Parameter Name="attachmentPDF" DefVarType="8" DefValueType="6" DefValueValue="test2.pdf" VarType="8" ValueType="6" ValueValue="test2.pdf" />
 					</Parameters>
 				</Data>
 			</Operation>
@@ -35,7 +44,7 @@
 			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
 				<Data Description="Delays the test execution for the specified time period.">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="180000" />
+						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="200000" />
 						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
 					</Parameters>
 				</Data>
