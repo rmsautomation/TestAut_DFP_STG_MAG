@@ -20735,6 +20735,21 @@
 															</Property>
 														</Properties>
 													</Child>
+													<Child Name="outlineitemAccounting" Key="{B600D191-C9AA-49C8-878C-094F1D4E1580}">
+														<Image FileName="-2070886870" Left="41" Top="371" Right="107" Bottom="395" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="OutlineItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="Accounting" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
 												</Children>
 											</Child>
 										</Children>
@@ -22795,6 +22810,7 @@
 						<Child Name="outlineitemWarehouseReceiptList" Owner="{3CF32B01-DD0E-4C6B-98C4-C6035DA0533C}" />
 						<Child Name="outlineitemInvoices" Owner="{66E9BAD4-DB71-4B54-A26E-EFA8B8088B15}" />
 						<Child Name="outlineitemCargoReleaseList" Owner="{25CCA6DB-A161-4796-9C46-1ACF0D9CFC39}" />
+						<Child Name="outlineitemAccounting" Owner="{B600D191-C9AA-49C8-878C-094F1D4E1580}" />
 					</Child>
 				</Child>
 				<Child Name="mainFrame" Owner="{C9DFA5BE-6887-4F72-A50E-BEE3562FAE70}">
