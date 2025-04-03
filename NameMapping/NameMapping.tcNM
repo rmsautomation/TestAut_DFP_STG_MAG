@@ -5027,6 +5027,21 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeArrived" Key="{A9791F4B-F97D-47F8-BD39-B8EC93920E18}">
+										<Image FileName="-721021938" Left="511" Top="379" Right="596" Bottom="403" />
+										<TypeInfo Item0="{8A34ED57-033C-4E01-B624-E540D7FA56BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;Arrived&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-shipments-list//qwyk-shipments-list-item//span[contains(@class, &apos;status-badge&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-shipments-list//qwyk-shipments-list-item//span" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageMagaya2" Key="{962F081A-A9C4-4922-9DDD-2149A776D766}">
@@ -5303,10 +5318,10 @@
 												<Value Value="//span[contains(text(), &apos;Booked&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//qwyk-shipment-view-header//span[contains(@class, &apos;badge&apos;)]" />
+												<Value Value="//qwyk-shipment-view-header//span[contains(@class, &apos;badge&apos;)]" Enabled="False" />
 											</Selector>
 											<Selector>
-												<Value Value="//qwyk-shipment-view-header//span" />
+												<Value Value="//qwyk-shipment-view-header//span" Enabled="False" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -21464,6 +21479,7 @@
 					<Child Name="panelRoundpriceupdatedXlsx_new" Owner="{6406C219-276E-4611-B3F3-FA0A79A444ED}" />
 					<Child Name="panelArrivedAtDestination" Owner="{BF88E782-994D-493E-8AF5-459B586887A4}" />
 					<Child Name="panelTtAttachments1Zip" Owner="{31BD2380-3151-48A9-91A5-5FDAF83A7102}" />
+					<Child Name="textnodeArrived" Owner="{A9791F4B-F97D-47F8-BD39-B8EC93920E18}" />
 				</Child>
 				<Child Name="headerTopnavbar" Owner="{B3A52C5C-A7D6-4F6C-878A-5811B539461D}">
 					<Child Name="textnode3" Owner="{583B344A-0959-420B-A224-B268B79D61E3}">
