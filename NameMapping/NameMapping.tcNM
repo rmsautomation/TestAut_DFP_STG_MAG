@@ -5318,10 +5318,10 @@
 												<Value Value="//span[contains(text(), &apos;Booked&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//qwyk-shipment-view-header//span[contains(@class, &apos;badge&apos;)]" />
+												<Value Value="//qwyk-shipment-view-header//span[contains(@class, &apos;badge&apos;)]" Enabled="False" />
 											</Selector>
 											<Selector>
-												<Value Value="//qwyk-shipment-view-header//span" />
+												<Value Value="//qwyk-shipment-view-header//span" Enabled="False" />
 											</Selector>
 										</Selectors>
 									</Child>
