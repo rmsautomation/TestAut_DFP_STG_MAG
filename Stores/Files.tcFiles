@@ -52,5 +52,8 @@
 		<child name="XML_MAGAYA_xml" key="{176D9BFC-BDFA-445B-B641-8C686AC37224}">
 			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="XML_MAGAYA_xml" ID="{176D9BFC-BDFA-445B-B641-8C686AC37224}" FileName="Files\XML_MAGAYA.xml" Update="False" />
 		</child>
+		<child name="cleanRegistryMagaya_bat" key="{2B3F6670-1C3C-4888-9D4A-FE4816D9731F}">
+			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="cleanRegistryMagaya_bat" ID="{2B3F6670-1C3C-4888-9D4A-FE4816D9731F}" FileName="Files\cleanRegistryMagaya.bat" Update="False" />
+		</child>
 	</children>
 </Root>

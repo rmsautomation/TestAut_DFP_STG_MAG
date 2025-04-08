@@ -339,6 +339,7 @@
 					<child name="SearchHouseShipmentMagaya" key="{7BBD7264-F1ED-4029-BC49-A23F9D70D742}" path="SearchHouseShipmentMagaya.tcKDTest" />
 					<child name="CleanUpShipmentsMagaya" key="{808A3F47-1342-47A1-AE03-E6EE6CB25EE2}" path="CleanUpShipmentsMagaya.tcKDTest" />
 					<child name="AddAttachmentCommodityLevelSHMagaya" key="{DE4EB8B5-7044-4AD1-A815-A3A02C2ABA62}" path="AddAttachmentCommodityLevelSHMagaya.tcKDTest" />
+					<child name="CleanRegistryMagaya" key="{0C675A37-3537-43A8-A297-AD23AFE6DEFD}" path="CleanRegistryMagaya.tcKDTest" />
 				</folder>
 				<folder name="BOOKING">
 					<child name="VerifyBookingInfo" key="{FBA58F6C-6FC0-4AFB-9E3B-B41DDF153243}" path="VerifyBookingInfo.tcKDTest" />
