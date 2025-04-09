@@ -207,13 +207,13 @@
 		<data Version="4">
 			<Items>
 				<Variable Name="url_Environment" Type="String" Local="False">
-					<DefValue StrValue="https://hub.qwykportals.com/" />
+					<DefValue StrValue="https://hub1.qwykportals.com/" />
 				</Variable>
 				<Variable Name="quote_id" Type="String" Local="False">
 					<DefValue />
 				</Variable>
 				<Variable Name="url_EnvironmentPortal" Type="String" Local="False">
-					<DefValue StrValue="https://magaya-qadfp.qwykportals.com/" />
+					<DefValue StrValue="https://magaya-qadfp.new-cluster.qwykportals.com/ " />
 				</Variable>
 				<Variable Name="notification" Type="String" Local="False">
 					<DefValue />
