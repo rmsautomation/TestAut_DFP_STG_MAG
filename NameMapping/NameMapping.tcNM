@@ -18705,6 +18705,33 @@
 												<Value Value="SysTabControl32" />
 											</Property>
 										</Properties>
+										<Children>
+											<Child Name="spinbox" Key="{5AA68BEE-CD37-42C5-AED9-DA3F1B4454BB}">
+												<Image FileName="-800620609" Left="528" Top="39" Right="562" Bottom="56" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="msctls_updown32" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="buttonLess" Key="{04D06D67-6D1E-4621-BF00-18B8960024F3}">
+														<Image FileName="-800620609" Left="545" Top="39" Right="562" Bottom="56" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="Less" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
 									</Child>
 									<Child Name="pageEvents" Key="{2A93253C-8A13-41A0-84B7-D986DE5F7558}">
 										<Image FileName="-732361992" Left="18" Top="60" Right="641" Bottom="567" />
@@ -22770,7 +22797,11 @@
 					<Child Name="check2" Owner="{E5712288-1DF1-4A08-9CDB-60A21689063E}" />
 					<Child Name="RICHEDIT" Owner="{E2AA9D2E-691B-41E7-AB4D-9593844BBD9B}" />
 				</Child>
-				<Child Name="tbcAccountingTransaction" Owner="{8E0B9DB8-20F6-4640-9618-B6DE55578D37}" />
+				<Child Name="tbcAccountingTransaction" Owner="{8E0B9DB8-20F6-4640-9618-B6DE55578D37}">
+					<Child Name="spinbox" Owner="{5AA68BEE-CD37-42C5-AED9-DA3F1B4454BB}">
+						<Child Name="buttonLess" Owner="{04D06D67-6D1E-4621-BF00-18B8960024F3}" />
+					</Child>
+				</Child>
 				<Child Name="pageEvents" Owner="{2A93253C-8A13-41A0-84B7-D986DE5F7558}">
 					<Child Name="btnAdd" Owner="{571DCCDC-A361-4FD4-899E-9178AEFCE248}" />
 				</Child>
