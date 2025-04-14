@@ -18231,6 +18231,23 @@
 														<Value Value="1" Type="0" />
 													</Property>
 												</Properties>
+												<Children>
+													<Child Name="text" Key="{D2450E53-2895-4F74-B789-31F10DEC3F03}">
+														<Image FileName="-1476029762" Left="-669" Top="-216" Right="-602" Bottom="-201" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Text" />
+															</Property>
+															<Property Name="ControlIndex">
+																<Value Value="0" Type="0" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
 											</Child>
 											<Child Name="cbxBooleanCustomField" Key="{6F6C8CB8-405A-4AEC-B627-07DF83E73F88}">
 												<Image FileName="-752042707" Left="26" Top="247" Right="263" Bottom="268" />
@@ -22760,7 +22777,9 @@
 						<Child Name="listitemPdfdfp" Owner="{6F2A0E91-BB1E-4E48-B236-EA2558A0E6D0}" />
 					</Child>
 					<Child Name="EditApplyTo" Owner="{8781365F-C9D1-4F91-A41F-59B51B524D62}" />
-					<Child Name="cbxPickListCustomField" Owner="{D9729814-506D-4CD8-A789-3492CDA122B5}" />
+					<Child Name="cbxPickListCustomField" Owner="{D9729814-506D-4CD8-A789-3492CDA122B5}">
+						<Child Name="text" Owner="{D2450E53-2895-4F74-B789-31F10DEC3F03}" />
+					</Child>
 					<Child Name="cbxBooleanCustomField" Owner="{6F6C8CB8-405A-4AEC-B627-07DF83E73F88}">
 						<Child Name="Edit" Owner="{5CB66279-695D-4558-AB12-E0200D58A0C2}" />
 					</Child>
