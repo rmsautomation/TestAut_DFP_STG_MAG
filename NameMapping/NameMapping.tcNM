@@ -8159,13 +8159,16 @@
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=//div[normalize-space(text()) = &apos;- Arrival Notice - Air - Unrated.pdf&apos;]" />
+											</Selector>
+											<Selector>
 												<Value Value="//div[.=&apos;- Arrival Notice - Air - Unrated.pdf&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="//qwyk-shipment-attachments-view/qwyk-shipment-attachments-list//ul/li[3]//div[contains(@class, &apos;font-weight-bold&apos;)]" />
+												<Value Value="//qwyk-shipment-attachments-view/qwyk-shipment-attachments-list//ul/li[3]//div[contains(@class, &apos;font-weight-bold&apos;)]" Enabled="False" />
 											</Selector>
 											<Selector>
-												<Value Value="//li[3]/div/div/div" />
+												<Value Value="//li[3]/div/div/div" Enabled="False" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -9169,6 +9172,40 @@
 										<Selectors>
 											<Selector>
 												<Value Value="//div[contains(text(), &apos;Quote: QUO-00687&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDescription" Key="{BB5BF93D-EDEE-45DB-B9CD-1039AADFF41E}">
+										<Image FileName="358241632" Left="355" Top="439" Right="1748" Bottom="641" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Description&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;list-group&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-shipment-attachments-view/qwyk-shipment-attachments-list//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeArrivalNoticeAir" Key="{607861E8-FCBB-437F-A783-CD29ACC37866}">
+										<Image FileName="358241632" Left="355" Top="473" Right="1748" Bottom="557" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;- Arrival Notice - Air - Unrated.pdf&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-shipment-attachments-view/qwyk-shipment-attachments-list//ul/li[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelArrivalNoticeAir" Key="{E051376D-844B-4FF5-BA9B-3C5300F0500F}">
+										<Image FileName="358241632" Left="376" Top="515" Right="808" Bottom="534" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//qwyk-shipment-attachments-view/qwyk-shipment-attachments-list//ul/li[2]//div[2]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -18231,6 +18268,23 @@
 														<Value Value="1" Type="0" />
 													</Property>
 												</Properties>
+												<Children>
+													<Child Name="text" Key="{D2450E53-2895-4F74-B789-31F10DEC3F03}">
+														<Image FileName="-1476029762" Left="-669" Top="-216" Right="-602" Bottom="-201" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Text" />
+															</Property>
+															<Property Name="ControlIndex">
+																<Value Value="0" Type="0" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
 											</Child>
 											<Child Name="cbxBooleanCustomField" Key="{6F6C8CB8-405A-4AEC-B627-07DF83E73F88}">
 												<Image FileName="-752042707" Left="26" Top="247" Right="263" Bottom="268" />
@@ -21835,9 +21889,7 @@
 						<Child Name="textnodeBookedQuotationPdf" Owner="{2985BFA2-ED8D-4FEE-9A71-941AB42A75B2}">
 							<Child Name="panelBookedQuotationPdf" Owner="{031C0E90-5439-4C4C-829E-6F22F6FF9448}" />
 						</Child>
-						<Child Name="textnodeArrivalNoticeAir" Owner="{9B7F85EB-1AF8-4BAC-8C52-08DF979389A6}">
-							<Child Name="panelArrivalNoticeAir" Owner="{AB424EE8-0514-43FD-BF15-B4D064A2C674}" />
-						</Child>
+						<Child Name="textnodeArrivalNoticeAir" Owner="{9B7F85EB-1AF8-4BAC-8C52-08DF979389A6}" />
 						<Child Name="textnodeArrivedAtDestination" Owner="{6976A626-7D6C-4D44-AB94-8C34C8023551}">
 							<Child Name="panelArrivedAtDestination" Owner="{7281CF56-9256-49DB-8F73-00D88C3BC8BE}" />
 						</Child>
@@ -21880,6 +21932,7 @@
 					<Child Name="vg" Owner="{3ABCE504-EC90-43BA-81C5-9825BD93B104}" />
 					<Child Name="panelMyPortal2" Owner="{1BF22C64-9B3A-4570-AC33-2724FF1DDE37}" />
 					<Child Name="buttonPage5" Owner="{E80BC087-31A1-4F64-A51D-3D98C062DAA3}" />
+					<Child Name="panelArrivalNoticeAir" Owner="{AB424EE8-0514-43FD-BF15-B4D064A2C674}" />
 				</Child>
 				<Child Name="navDashboard" Owner="{A7A0574D-C40C-4FF1-9DD2-0A240712F5C3}">
 					<Child Name="textnodeShipments" Owner="{81EF3BC1-6296-4BD3-9962-04A64D0A202D}">
@@ -21945,6 +21998,11 @@
 				<Child Name="sectionQwyk" Owner="{EB35A582-D3AF-47F8-83B8-F75512D43521}">
 					<Child Name="panelQuoteQuo00687" Owner="{22028277-B289-4E82-9026-2330DFDFF4F8}" />
 					<Child Name="panelQuoteQuo006872" Owner="{59D60B06-40B8-43BA-B3B9-4261E089BB3F}" />
+					<Child Name="textnodeDescription" Owner="{BB5BF93D-EDEE-45DB-B9CD-1039AADFF41E}">
+						<Child Name="textnodeArrivalNoticeAir" Owner="{607861E8-FCBB-437F-A783-CD29ACC37866}">
+							<Child Name="panelArrivalNoticeAir" Owner="{E051376D-844B-4FF5-BA9B-3C5300F0500F}" />
+						</Child>
+					</Child>
 				</Child>
 			</Child>
 			<Child Name="pageMagayaDigitalFreightPortalHu2" Owner="{D9AFFA3E-8D45-474A-A5C6-9F42BBEB0142}">
@@ -22760,7 +22818,9 @@
 						<Child Name="listitemPdfdfp" Owner="{6F2A0E91-BB1E-4E48-B236-EA2558A0E6D0}" />
 					</Child>
 					<Child Name="EditApplyTo" Owner="{8781365F-C9D1-4F91-A41F-59B51B524D62}" />
-					<Child Name="cbxPickListCustomField" Owner="{D9729814-506D-4CD8-A789-3492CDA122B5}" />
+					<Child Name="cbxPickListCustomField" Owner="{D9729814-506D-4CD8-A789-3492CDA122B5}">
+						<Child Name="text" Owner="{D2450E53-2895-4F74-B789-31F10DEC3F03}" />
+					</Child>
 					<Child Name="cbxBooleanCustomField" Owner="{6F6C8CB8-405A-4AEC-B627-07DF83E73F88}">
 						<Child Name="Edit" Owner="{5CB66279-695D-4558-AB12-E0200D58A0C2}" />
 					</Child>
