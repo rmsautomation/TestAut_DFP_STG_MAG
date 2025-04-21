@@ -55,5 +55,8 @@
 		<child name="cleanRegistryMagaya_bat" key="{2B3F6670-1C3C-4888-9D4A-FE4816D9731F}">
 			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="cleanRegistryMagaya_bat" ID="{2B3F6670-1C3C-4888-9D4A-FE4816D9731F}" FileName="Files\cleanRegistryMagaya.bat" Update="False" />
 		</child>
+		<child name="closeExpExpl_bat" key="{6272B52C-8EA2-49A6-AF32-FE514CCE898F}">
+			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="closeExpExpl_bat" ID="{6272B52C-8EA2-49A6-AF32-FE514CCE898F}" FileName="Files\closeExpExpl.bat" Update="False" />
+		</child>
 	</children>
 </Root>

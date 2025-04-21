@@ -14,6 +14,7 @@
 				<eventInfo infoTLBVer="version.dll" infoGUID="{4C03E9F2-BB22-4E21-B2E7-E51B754FCBBA}" infoID="1610743810" infoControlName="General Events" infoEventName="OnLogWarning" infoEventRealName="OnLogWarning" infoDescription="Occurs when a warning message is posted to the test log." />
 				<handlerInfo handlerName="Hooks_OnLogError" handlerMoniker="{B6CEE812-4D41-4571-AC2D-74FCBFDFE049}Hooks_OnLogError" handlerEventName="OnLogError" handlerRealIID="{4C03E9F2-BB22-4E21-B2E7-E51B754FCBBA}" handlerRealDispID="1610743811" />
 				<handlerInfo handlerName="Event_OnLogWarning" handlerMoniker="{747AA951-16F5-4825-9D81-16C136E6A454}Event_OnLogWarning" handlerEventName="OnLogWarning" handlerRealIID="{4C03E9F2-BB22-4E21-B2E7-E51B754FCBBA}" handlerRealDispID="1610743810" />
+				<handlerInfo handlerName="Hooks_OnStartTestCase" handlerMoniker="{3969DDB8-657A-4F11-84E4-1272E4A1BA31}Hooks_OnStartTestCase" handlerEventName="OnStartTestCase" handlerRealIID="{F5856842-4323-49FD-B806-36E22179EF8A}" handlerRealDispID="1610743810" />
 			</config>
 			<testData />
 			<data />
