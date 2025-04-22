@@ -20,6 +20,6 @@
 		<child name="GetAppName" key="{1F3AB4F4-4071-4C8D-90CD-4E362B61F3D1}" path="GetAppName.js" />
 		<child name="VerifyWRInShipment" key="{8EC5E068-FC55-4B67-935B-DD52725047B7}" path="VerifyWRInShipment.js" />
 		<child name="CleanRegistryMagaya" key="{CC1BB863-7EBC-489C-9F6E-5752A2DCE0DD}" path="CleanRegistryMagaya.js" />
-		<child name="RunBat" key="{3969DDB8-657A-4F11-84E4-1272E4A1BA31}" path="RunBat.js" />
+		<child name="RunBatCloseExplorer" key="{3969DDB8-657A-4F11-84E4-1272E4A1BA31}" path="RunBatCloseExplorer.js" />
 	</children>
 </Root>
