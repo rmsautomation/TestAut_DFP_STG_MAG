@@ -384,6 +384,9 @@
 					<child name="SearchCommodityMagaya" key="{649E680C-7A9E-4202-B679-D414F2497A03}" path="SearchCommodityMagaya.tcKDTest" />
 					<child name="Copy250Commodities" key="{BCFADF9F-4A85-427B-BB1B-A17D10D90B47}" path="Copy250Commodities.tcKDTest" />
 				</folder>
+				<folder name="CleanUp">
+					<child name="CloseExplorer" key="{CB98C311-B602-466A-8764-5D0D9695A6AF}" path="CloseExplorer.tcKDTest" />
+				</folder>
 			</folder>
 		</folder>
 		<folder name="Hooks">
