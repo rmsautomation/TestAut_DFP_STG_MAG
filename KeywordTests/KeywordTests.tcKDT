@@ -242,9 +242,10 @@
 				<child name="LogoutPOrtal" key="{01D2BD45-4D0E-4889-8568-907B69F0354F}" path="LogoutPOrtal.tcKDTest" />
 				<child name="LogoutHubINT" key="{25D0890C-B454-41D7-B6FC-632037AF3906}" path="LogoutHubINT.tcKDTest" />
 				<child name="LoginHubNoInt" key="{9EE31A61-3C5D-4E09-9C85-092D509FEFE8}" path="LoginHubNoInt.tcKDTest" />
-				<child name="loginPortal38361" key="{8BBFFEE1-C2F0-41BD-B110-76772825E0F8}" path="loginPortal38361.tcKDTest" />
+				<child name="loginPortal38442" key="{8BBFFEE1-C2F0-41BD-B110-76772825E0F8}" path="loginPortal38442.tcKDTest" />
 				<child name="VerifyLoginDFP" key="{1520FDEB-454E-4A56-A3F3-07344FFB3C84}" path="VerifyLoginDFP.tcKDTest" />
-				<child name="LoginHub38361" key="{C654C456-CAFD-4735-A74A-B369706F4D2E}" path="LoginHub38361.tcKDTest" />
+				<child name="LoginHub38442" key="{C654C456-CAFD-4735-A74A-B369706F4D2E}" path="LoginHub38442.tcKDTest" />
+				<child name="Login38442OnlyUserPass" key="{706479D4-AB39-4CA2-9975-616CFB417FC3}" path="Login38442OnlyUserPass.tcKDTest" />
 			</folder>
 			<folder name="Magaya">
 				<folder name="Loginlogout">

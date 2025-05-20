@@ -5798,10 +5798,10 @@
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//form/qwyk-quotation-request-cargo-group/form/div//ng-select//span[contains(@class, &apos;ng-arrow-wrapper&apos;)]" />
+												<Value Value="//ng-select/div/span" />
 											</Selector>
 											<Selector>
-												<Value Value="//ng-select/div/span" />
+												<Value Value="//form/qwyk-quotation-request-cargo-group/form/div//ng-select//span[contains(@class, &apos;ng-arrow-wrapper&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -10379,7 +10379,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://appgw.magaya.net/38361/ext/magaya/ltm/settings" />
+										<Value Value="https://appgw.magaya.net/38442/ext/magaya/ltm/settings" />
 									</Property>
 								</Properties>
 								<Children>
@@ -11565,13 +11565,16 @@
 										<TypeInfo Item0="{FE3BBF2D-62CE-4222-9079-8A4579DCFAC4}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//ngb-modal-window[@role=&apos;dialog&apos;]//qwyk-search-magaya-entity-modal//qwyk-search-magaya-entity-list//input[@type=&apos;text&apos;]" />
+												<Value Value="xpath=//input[@placeholder=&apos;Search by name&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="//ngb-modal-window[@role=&apos;dialog&apos;]//qwyk-search-magaya-entity-modal//qwyk-search-magaya-entity-list//input[contains(@class, &apos;form-control&apos;)]" />
+												<Value Value="//ngb-modal-window[@role=&apos;dialog&apos;]//qwyk-search-magaya-entity-modal//qwyk-search-magaya-entity-list//input[@type=&apos;text&apos;]" Enabled="False" />
 											</Selector>
 											<Selector>
-												<Value Value="//ngb-modal-window[@role=&apos;dialog&apos;]//qwyk-search-magaya-entity-modal//qwyk-search-magaya-entity-list//input" />
+												<Value Value="//ngb-modal-window[@role=&apos;dialog&apos;]//qwyk-search-magaya-entity-modal//qwyk-search-magaya-entity-list//input[contains(@class, &apos;form-control&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//ngb-modal-window[@role=&apos;dialog&apos;]//qwyk-search-magaya-entity-modal//qwyk-search-magaya-entity-list//input" Enabled="False" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -12098,16 +12101,16 @@
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[contains(text(), &apos;AAUTOMATION16JAN&apos;)]" />
+												<Value Value="xpath=//div[contains(text(), &apos;00AAUTOMATIONMAY&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//div[@role=&apos;option&apos;]" />
+												<Value Value="//div[@role=&apos;option&apos;]" Enabled="False" />
 											</Selector>
 											<Selector>
-												<Value Value="//div[contains(@class, &apos;ng-option&apos;)]" />
+												<Value Value="//div[contains(@class, &apos;ng-option&apos;)]" Enabled="False" />
 											</Selector>
 											<Selector>
-												<Value Value="//ng-dropdown-panel[@role=&apos;listbox&apos;]/div/div/div" />
+												<Value Value="//ng-dropdown-panel[@role=&apos;listbox&apos;]/div/div/div" Enabled="False" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -17757,6 +17760,21 @@
 													</Property>
 												</Properties>
 											</Child>
+											<Child Name="listitemLosAngeles" Key="{7D2BCDB7-9C89-4930-B7E6-CB0306A8BBE1}">
+												<Image FileName="-1190959" Left="7" Top="31" Right="157" Bottom="48" />
+												<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="ListItem" />
+													</Property>
+													<Property Name="Caption">
+														<Value Value="Los Angeles" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
 										</Children>
 									</Child>
 									<Child Name="btnOK" Key="{18F54034-9518-4445-B27B-D992418ABEA5}">
@@ -21077,9 +21095,7 @@
 		<Child Name="browser" Owner="{36C38D32-567F-4488-86CB-0DBA1E686909}">
 			<Child Name="pageMagayaDigitalFreightPortalHu" Owner="{60A9BCC7-27CF-43A4-8831-47044D77AABB}">
 				<Child Name="sectionGoodAfternoonAylin" Owner="{43A7AB89-4225-4038-AA11-B4CA7D5A7072}">
-					<Child Name="textnodeHubhomepagewelcomesubtit" Owner="{3DC365A9-6A16-4508-82E9-22DDAD7C99E2}">
-						<Child Name="textnodeHubhomepagewelcomesubtit2" Owner="{284B32C7-FB56-40B7-B874-B0C2111D599F}" />
-					</Child>
+					<Child Name="textnodeHubhomepagewelcomesubtit" Owner="{3DC365A9-6A16-4508-82E9-22DDAD7C99E2}" />
 					<Child Name="textnodeOcean" Owner="{ABC7491D-6DDB-40BC-AD3D-941AF7DA14D0}">
 						<Child Name="textnodeAir" Owner="{17BE16D3-1010-4CAB-98E9-60FD7A10C22A}" />
 					</Child>
@@ -21116,6 +21132,7 @@
 						</Child>
 					</Child>
 				</Child>
+				<Child Name="textnodeHubhomepagewelcomesubtit2" Owner="{284B32C7-FB56-40B7-B874-B0C2111D599F}" />
 			</Child>
 			<Child Name="page" Owner="{CC2F3E0C-DA4A-4BC1-A54C-3921544886C5}" />
 			<Child Name="BrowserWindow" Owner="{3DDCEB4F-7353-4398-B213-FE6E3B05B9C5}" />
@@ -21672,7 +21689,6 @@
 							<Child Name="panelConsignee" Owner="{430B2F0D-C5D9-478A-9F05-0D749BAE36E7}" />
 							<Child Name="textnodeBuyer" Owner="{BE7E06E1-9400-4801-B9FB-8E117309130B}" />
 						</Child>
-						<Child Name="textnode" Owner="{E5347173-4E37-4EB9-864F-B7F7BB555028}" />
 						<Child Name="panelFcaFreeCarrier" Owner="{6C85CF2A-33E8-4F1A-A2BB-A636974E6CDB}" />
 						<Child Name="textnode2" Owner="{DE1C8780-6F6E-4266-8B97-6C0C21C22312}" />
 						<Child Name="panelUsdUnitedStatesDollar" Owner="{7A782D6B-4605-423D-AF82-DDFC964752DB}" />
@@ -21732,6 +21748,7 @@
 					<Child Name="buttonCreateYourAccount" Owner="{A7D0B100-0D65-4D54-ADF6-8275186D61B7}" />
 				</Child>
 				<Child Name="textnodePagination" Owner="{6E692D5C-7DC8-4BEB-B284-234DE4F9A24C}" />
+				<Child Name="textnode" Owner="{E5347173-4E37-4EB9-864F-B7F7BB555028}" />
 			</Child>
 			<Child Name="pageMagaya4" Owner="{8EA526EC-3C37-4C58-A4C2-B974543CEAF1}">
 				<Child Name="navDashboard" Owner="{059688CF-BF87-4919-9DB0-001F5898B360}">
@@ -22277,7 +22294,7 @@
 					<Child Name="panelAutomation" Owner="{42AA065E-046F-4E27-BE19-059FF4FDDEED}" />
 					<Child Name="formPredefinedRange" Owner="{BC15F421-742F-40C9-B8AB-3C63B97C309F}">
 						<Child Name="textnode" Owner="{D795C37C-9A6F-4C5B-B576-7095D76B52F1}" />
-						<Child Name="panelAautomation16jan" Owner="{5EB84134-62CD-4850-A6F6-171F764B8FAF}" />
+						<Child Name="panel00AAUTOMATIONMAY" Owner="{5EB84134-62CD-4850-A6F6-171F764B8FAF}" />
 					</Child>
 					<Child Name="buttonDownloadToExcel" Owner="{0C7B2B80-54F7-4E14-8895-76E7CEF4EBBB}" />
 					<Child Name="formOceanFclLosAngelesTo" Owner="{65045238-277E-4150-9A07-6BBFE9F70A4F}">
@@ -22384,7 +22401,6 @@
 					<Child Name="panelFeb05141158invitem2" Owner="{40AA8853-BABA-47E8-A4BA-2D95C463B644}" />
 					<Child Name="panelPallet" Owner="{1B40DF55-8EEC-4778-A867-6F1A1A9A0124}" />
 					<Child Name="panelFreightAllKinds" Owner="{9A1D11B8-37FC-46FA-A316-194592989477}" />
-					<Child Name="pickupOrder" Owner="{B2DF9340-2698-4233-AACD-F44F2F82227D}" />
 					<Child Name="cell3" Owner="{ABFDC696-249A-4738-B866-5EBA268D1654}" />
 					<Child Name="textnodeDefinition" Owner="{8D3B1A40-EC7B-48F9-B173-07AF0C2D295E}" />
 					<Child Name="panelInvDescript" Owner="{4C888A2F-86EF-4676-9DBE-CDA9DC55F347}" />
@@ -22624,6 +22640,7 @@
 				<Child Name="vg2" Owner="{A7B2C736-DB35-4E74-B5CA-3ADD472859FF}" />
 				<Child Name="cargoOption_new" Owner="{D605A313-8E7F-400C-8EA2-6F166B57FF3B}" />
 				<Child Name="textnode50" Owner="{11508055-811C-40E7-8094-2BB3D132C1AF}" />
+				<Child Name="pickupOrder" Owner="{B2DF9340-2698-4233-AACD-F44F2F82227D}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{04F3F450-5526-4092-96D2-21C0884F59D5}" />
 			<Child Name="pageMagayaDigitalFreightPortalHu" Owner="{C7ED2FC9-0D1F-40A0-87DF-C64B4F0237DC}">
@@ -22781,6 +22798,7 @@
 					<Child Name="listitemNewYork" Owner="{6F680710-E431-443A-A0FF-C6EBAC584833}" />
 					<Child Name="listitemCma" Owner="{F3598E10-6CBA-40AD-B648-D29CBDC329E9}" />
 					<Child Name="checkboxArriving" Owner="{A1D9F44E-DC01-4528-B732-7D728137D682}" />
+					<Child Name="listitemLosAngeles" Owner="{7D2BCDB7-9C89-4930-B7E6-CB0306A8BBE1}" />
 				</Child>
 				<Child Name="btnOK" Owner="{18F54034-9518-4445-B27B-D992418ABEA5}" />
 				<Child Name="btnAdd" Owner="{0AF557EB-9308-444A-B62D-1FBC38A3EB78}" />

@@ -17,11 +17,6 @@
 				<Data Description="Runs a keyword test." TestName="CreatePOMagaya1Comm" />
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="CreatePOMagaya">
-					<CommonData Disabled="True" />
-				</Data>
-			</Operation>
-			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs a keyword test." TestName="SearchPOMagaya">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="poID" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="poID" />
@@ -70,9 +65,9 @@
 				</Data>
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="loginPortal38361">
+				<Data Description="Runs a keyword test." TestName="loginPortal38442">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="username" DefVarType="8" DefValueType="6" DefValueValue="aylinannia" VarType="8" ValueType="6" ValueValue="aylinannia" />
+						<Parameter Name="username" DefVarType="8" DefValueType="6" DefValueValue="aylinannia_stg" VarType="8" ValueType="6" ValueValue="aylinannia_stg" />
 					</Parameters>
 				</Data>
 			</Operation>
