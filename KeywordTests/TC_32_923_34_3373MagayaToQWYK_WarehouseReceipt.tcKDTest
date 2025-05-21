@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="" Key="{4707ED99-06B0-4C42-8D3D-76D23AAA6070}" Tags="@todayTest" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="" Key="{4707ED99-06B0-4C42-8D3D-76D23AAA6070}" Tags="@todayTest @s8TC_32_36_42_51" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps>

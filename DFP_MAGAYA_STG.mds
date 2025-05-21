@@ -86,7 +86,7 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_33_924_MagayaToQWYK_UpdateWR" key="{A3949BD8-F936-4E47-8ACA-2D0813F5ED44}" group="False" parallel="False" enabled="True" testMoniker="KDT\{42CDDB5D-73C0-4DEA-9731-60A560DE93C4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_33_924_MagayaToQWYK_UpdateWR" key="{A3949BD8-F936-4E47-8ACA-2D0813F5ED44}" group="False" parallel="False" enabled="False" testMoniker="KDT\{42CDDB5D-73C0-4DEA-9731-60A560DE93C4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
@@ -96,7 +96,7 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_36_1084_37_1086MagayaToDFP_UpdateInvoiceEventAut" key="{7C6FB35B-4431-4BAD-A965-FB8D11BC3DD5}" group="False" parallel="False" enabled="True" testMoniker="KDT\{CE50E58C-421E-4736-A618-8CC800D450BA}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_36_1084_37_1086MagayaToDFP_UpdateInvoiceEventAut" key="{7C6FB35B-4431-4BAD-A965-FB8D11BC3DD5}" group="False" parallel="False" enabled="False" testMoniker="KDT\{CE50E58C-421E-4736-A618-8CC800D450BA}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
@@ -186,12 +186,12 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="CleanRegistryMagaya_5" key="{1C6E98FD-311D-426B-B7F7-2E6F782C1205}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0C675A37-3537-43A8-A297-AD23AFE6DEFD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
+			<testItem name="CleanRegistryMagaya_5" key="{1C6E98FD-311D-426B-B7F7-2E6F782C1205}" group="False" parallel="False" enabled="False" testMoniker="KDT\{0C675A37-3537-43A8-A297-AD23AFE6DEFD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_30_2244_AirShipment_UpdateMasterHouse" key="{5843A55B-CBD2-48B4-AA91-4EC23AAF6952}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A1E43289-1377-4413-BF9E-E994AF6EFB62}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_30_2244_AirShipment_UpdateMasterHouse" key="{5843A55B-CBD2-48B4-AA91-4EC23AAF6952}" group="False" parallel="False" enabled="False" testMoniker="KDT\{A1E43289-1377-4413-BF9E-E994AF6EFB62}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
