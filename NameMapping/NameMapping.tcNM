@@ -4324,6 +4324,9 @@
 										<TypeInfo Item0="{0FA95922-5259-4B01-B64E-97A6A4C4FF60}" />
 										<Selectors>
 											<Selector>
+												<Value Value="" />
+											</Selector>
+											<Selector>
 												<Value Value="xpath=//a[contains(@class, &apos;nav-link&apos;) and contains(@class, &apos;btn&apos;) and contains(@class, &apos;btn-outline-secondary&apos;) and contains(@class, &apos;text-white&apos;) and text() = &apos;Sign in&apos;]" />
 											</Selector>
 											<Selector>
@@ -12048,6 +12051,9 @@
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=//a[normalize-space(text())=&apos;Invoices&apos;]" />
+											</Selector>
+											<Selector>
 												<Value Value="//li[7]/ul/li[3]/a[contains(@class, &apos;nav-link&apos;)]" />
 											</Selector>
 											<Selector>
@@ -16004,6 +16010,52 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeCargoReleases2" Key="{8C492F91-42BA-415B-942F-E4DA44B3BFD4}">
+										<Image FileName="-1646634180" Left="0" Top="532" Right="219" Bottom="823" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[8]/ul[contains(@class, &apos;nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;navSidebar&apos;]//li[8]/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[8]/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeInvoices3" Key="{824D4C11-141A-48C3-A0A2-1C6FAE50B14C}">
+										<Image FileName="-1646634180" Left="0" Top="574" Right="219" Bottom="616" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[8]/ul/li[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkInvoices3" Key="{7E37C56E-F19C-40ED-9282-5EEAB97905FA}">
+										<Image FileName="-1646634180" Left="0" Top="574" Right="219" Bottom="616" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[8]/ul/li[3]/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//li[contains(@class, &apos;routerlinkactive&apos;)]/a[normalize-space(text())=&apos;Invoices&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//a[@class=&apos;nav-link&apos; and normalize-space(text())=&apos;Invoices&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//a[normalize-space(text())=&apos;Invoices&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;navSidebar&apos;]//li[8]/ul/li[3]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[8]/ul/li[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{04F3F450-5526-4092-96D2-21C0884F59D5}">
@@ -17772,6 +17824,21 @@
 													</Property>
 													<Property Name="ObjectGroupIndex">
 														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="listitemLosAngeles2" Key="{DDBCA710-1E65-4942-A5F5-3F9D7B323346}">
+												<Image FileName="787754444" Left="7" Top="48" Right="157" Bottom="65" />
+												<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="ListItem" />
+													</Property>
+													<Property Name="Caption">
+														<Value Value="Los Angeles" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="2" Type="0" />
 													</Property>
 												</Properties>
 											</Child>
@@ -20876,6 +20943,37 @@
 											</Property>
 										</Properties>
 									</Child>
+									<Child Name="titlebar" Key="{B07227BC-B3AF-4EF2-811F-848C72408420}">
+										<Image FileName="-1613810598" Left="24" Top="3" Right="1432" Bottom="31" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="TitleBar" />
+											</Property>
+											<Property Name="ControlIndex">
+												<Value Value="0" Type="0" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="buttonMaximize" Key="{37B7F215-F108-44BE-9799-A73CEDD4AEF6}">
+												<Image FileName="-1613810598" Left="1340" Top="1" Right="1386" Bottom="31" />
+												<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Button" />
+													</Property>
+													<Property Name="Caption">
+														<Value Value="Maximize" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="popupContext" Key="{A313F976-5E28-4CA5-9343-4472C6EB2E3F}">
@@ -22220,9 +22318,7 @@
 						</Child>
 					</Child>
 					<Child Name="textnodeCargoReleases" Owner="{F7A8C036-2135-49A2-A4FF-A4A1ED02CDA6}">
-						<Child Name="textnodeInvoices2" Owner="{51084998-A632-42D8-97A5-670A094E9985}">
-							<Child Name="linkInvoices2" Owner="{C48AC127-8365-4C7F-A0DD-DEEE79FC19E7}" />
-						</Child>
+						<Child Name="textnodeInvoices2" Owner="{51084998-A632-42D8-97A5-670A094E9985}" />
 					</Child>
 					<Child Name="textnodeShipments" Owner="{38223AAC-A94F-4051-8299-99C672BB27B3}">
 						<Child Name="paymentMoney" Owner="{B3E29D1C-FF40-4921-837E-634ACE0E6923}">
@@ -22242,6 +22338,9 @@
 						<Child Name="linkInventory" Owner="{7E7C5001-1E4B-4535-9BB2-DF7319691AC2}" />
 						<Child Name="linkCargoDetail" Owner="{E4BB9B1A-E73E-473A-9F81-C2B9659FD89A}" />
 						<Child Name="linkPickupOrders" Owner="{792DD977-7446-469E-BA5B-5299FF9BDBA6}" />
+					</Child>
+					<Child Name="textnodeCargoReleases2" Owner="{8C492F91-42BA-415B-942F-E4DA44B3BFD4}">
+						<Child Name="textnodeInvoices3" Owner="{824D4C11-141A-48C3-A0A2-1C6FAE50B14C}" />
 					</Child>
 				</Child>
 				<Child Name="formSignInToYourAccount" Owner="{720798BF-2F2C-4541-918C-5048F15094FC}">
@@ -22577,7 +22676,6 @@
 					<Child Name="textnodeHawb42" Owner="{19EAC997-5C1C-4EB1-8D1D-66DB846FC079}">
 						<Child Name="textnodeHawb43" Owner="{224449F1-B201-4692-B610-28D396278917}">
 							<Child Name="panelHawb42" Owner="{F312D553-99B0-46B2-A64C-F480EAD04EF2}" />
-							<Child Name="panelBooked" Owner="{B5D1E285-9F71-4EDC-922F-BAE348EC784B}" />
 						</Child>
 					</Child>
 					<Child Name="textnodeLosAngeles" Owner="{0417E0D0-CD4A-4012-A0B0-41D848F083F0}" />
@@ -22641,6 +22739,9 @@
 				<Child Name="cargoOption_new" Owner="{D605A313-8E7F-400C-8EA2-6F166B57FF3B}" />
 				<Child Name="textnode50" Owner="{11508055-811C-40E7-8094-2BB3D132C1AF}" />
 				<Child Name="pickupOrder" Owner="{B2DF9340-2698-4233-AACD-F44F2F82227D}" />
+				<Child Name="linkInvoices2" Owner="{C48AC127-8365-4C7F-A0DD-DEEE79FC19E7}" />
+				<Child Name="selectInvoices" Owner="{7E37C56E-F19C-40ED-9282-5EEAB97905FA}" />
+				<Child Name="selectHouse" Owner="{B5D1E285-9F71-4EDC-922F-BAE348EC784B}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{04F3F450-5526-4092-96D2-21C0884F59D5}" />
 			<Child Name="pageMagayaDigitalFreightPortalHu" Owner="{C7ED2FC9-0D1F-40A0-87DF-C64B4F0237DC}">
@@ -22799,6 +22900,7 @@
 					<Child Name="listitemCma" Owner="{F3598E10-6CBA-40AD-B648-D29CBDC329E9}" />
 					<Child Name="checkboxArriving" Owner="{A1D9F44E-DC01-4528-B732-7D728137D682}" />
 					<Child Name="listitemLosAngeles" Owner="{7D2BCDB7-9C89-4930-B7E6-CB0306A8BBE1}" />
+					<Child Name="listitemLosAngeles2" Owner="{DDBCA710-1E65-4942-A5F5-3F9D7B323346}" />
 				</Child>
 				<Child Name="btnOK" Owner="{18F54034-9518-4445-B27B-D992418ABEA5}" />
 				<Child Name="btnAdd" Owner="{0AF557EB-9308-444A-B62D-1FBC38A3EB78}" />
@@ -23085,6 +23187,9 @@
 					</Child>
 				</Child>
 				<Child Name="toolbar" Owner="{FCB9C945-C2EE-43FC-B451-F0B14354FA8E}" />
+				<Child Name="titlebar" Owner="{B07227BC-B3AF-4EF2-811F-848C72408420}">
+					<Child Name="buttonMaximize" Owner="{37B7F215-F108-44BE-9799-A73CEDD4AEF6}" />
+				</Child>
 			</Child>
 			<Child Name="popupContext" Owner="{A313F976-5E28-4CA5-9343-4472C6EB2E3F}">
 				<Child Name="menuitemConfigureLivetrackAccess" Owner="{B49C4607-2FDF-45C9-992D-9B686CF2D1EA}" />
