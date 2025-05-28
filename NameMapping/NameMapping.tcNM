@@ -5036,6 +5036,15 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panelBooked" Key="{C4215ADF-532B-4235-A3D5-D0871A4D9986}">
+										<Image FileName="-619253010" Left="1658" Top="503" Right="1733" Bottom="551" />
+										<TypeInfo Item0="{8A34ED57-033C-4E01-B624-E540D7FA56BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li/div[contains(@class, &apos;badge&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageMagaya2" Key="{962F081A-A9C4-4922-9DDD-2149A776D766}">
@@ -21677,6 +21686,7 @@
 					<Child Name="textnodeMagaya" Owner="{333603DD-0DF2-4C7E-8D47-D3885D1A0991}" />
 				</Child>
 				<Child Name="singInPortal" Owner="{36557946-1DFF-4A98-A715-7C4FF154867B}" />
+				<Child Name="panelBooked" Owner="{C4215ADF-532B-4235-A3D5-D0871A4D9986}" />
 			</Child>
 			<Child Name="pageMagaya2" Owner="{962F081A-A9C4-4922-9DDD-2149A776D766}">
 				<Child Name="sectionMyPortal" Owner="{561F2180-A20F-4062-B0D3-E6B7F9724AFD}">
