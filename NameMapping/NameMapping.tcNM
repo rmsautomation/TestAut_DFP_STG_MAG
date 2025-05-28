@@ -4324,16 +4324,7 @@
 										<TypeInfo Item0="{0FA95922-5259-4B01-B64E-97A6A4C4FF60}" />
 										<Selectors>
 											<Selector>
-												<Value Value="" />
-											</Selector>
-											<Selector>
 												<Value Value="xpath=//a[contains(@class, &apos;nav-link&apos;) and contains(@class, &apos;btn&apos;) and contains(@class, &apos;btn-outline-secondary&apos;) and contains(@class, &apos;text-white&apos;) and text() = &apos;Sign in&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="" />
-											</Selector>
-											<Selector>
-												<Value Value="" />
 											</Selector>
 											<Selector>
 												<Value Value="//h1/button[contains(@class, &apos;btn&apos;)]" />
@@ -21683,10 +21674,9 @@
 							<Child Name="buttonNotifications" Owner="{D4C73D71-66CF-4D9F-8EC3-24760E578F8C}" />
 						</Child>
 					</Child>
-					<Child Name="textnodeMagaya" Owner="{333603DD-0DF2-4C7E-8D47-D3885D1A0991}">
-						<Child Name="singInPortal" Owner="{36557946-1DFF-4A98-A715-7C4FF154867B}" />
-					</Child>
+					<Child Name="textnodeMagaya" Owner="{333603DD-0DF2-4C7E-8D47-D3885D1A0991}" />
 				</Child>
+				<Child Name="singInPortal" Owner="{36557946-1DFF-4A98-A715-7C4FF154867B}" />
 			</Child>
 			<Child Name="pageMagaya2" Owner="{962F081A-A9C4-4922-9DDD-2149A776D766}">
 				<Child Name="sectionMyPortal" Owner="{561F2180-A20F-4062-B0D3-E6B7F9724AFD}">
