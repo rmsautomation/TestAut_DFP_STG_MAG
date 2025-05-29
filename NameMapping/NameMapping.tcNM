@@ -16056,6 +16056,36 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnode1To1Of" Key="{F6E2459A-7A35-4F6C-9E3A-73564783728B}">
+										<Image FileName="-911751283" Left="1144" Top="519" Right="1338" Bottom="534" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;1 to 1 of&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;small&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-cargo-releases-index//qwyk-pagination/p-paginator//span" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode1Of1" Key="{7F96F872-6196-4ABD-8788-3BA497CE9105}">
+										<Image FileName="-911751283" Left="1337" Top="506" Right="1388" Bottom="544" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//span[contains(@class, &apos;p-paginator-current&apos;) and contains(@class, &apos;ng-star-inserted&apos;) and text()=&apos;1 of 1&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[.=&apos;1 of 1&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-paginator/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{04F3F450-5526-4092-96D2-21C0884F59D5}">
@@ -22589,6 +22619,8 @@
 					<Child Name="panelMyPortal" Owner="{B6959C25-1CD0-43C6-A091-9148CAFB7EC6}" />
 					<Child Name="page6" Owner="{775BBA3E-C8BA-4067-9A51-829D11196906}" />
 					<Child Name="buttonLastPage" Owner="{88B9CFAC-F293-4617-AB21-7CB0597332B7}" />
+					<Child Name="textnode1To1Of" Owner="{F6E2459A-7A35-4F6C-9E3A-73564783728B}" />
+					<Child Name="textnode1Of1" Owner="{7F96F872-6196-4ABD-8788-3BA497CE9105}" />
 				</Child>
 				<Child Name="textnodeResults" Owner="{1CF6087C-57FF-4430-B9F1-800D8664F6B3}" />
 				<Child Name="panelRequestADifferentRate" Owner="{F00322FB-BB44-4EBC-A779-77467DCD493F}" />
