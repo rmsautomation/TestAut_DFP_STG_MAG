@@ -16086,6 +16086,96 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeAttachments" Key="{313660C4-B623-49E1-BAA6-8D0A4D7D16E6}">
+										<Image FileName="-1760872609" Left="503" Top="387" Right="1623" Bottom="411" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h5[.=&apos;Attachments&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h5[contains(@class, &apos;font-weight-normal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h5" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelCreated" Key="{730BD3C8-15BE-47AD-B8E4-414B76FFEEBB}">
+										<Image FileName="-1760872609" Left="1254" Top="443" Right="1446" Bottom="465" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Created&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelFilename" Key="{259EFCC5-56A9-4B6D-9296-944C1F90AC9E}">
+										<Image FileName="-1760872609" Left="488" Top="443" Right="1255" Bottom="465" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Filename&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCargoItems" Key="{5F7522B5-3D4D-4033-AD32-A63FEAB0E320}">
+										<Image FileName="-919707007" Left="503" Top="387" Right="612" Bottom="411" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//h5[normalize-space(.)=&apos;Cargo Items&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h5[.=&apos;Cargo Items&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h5[contains(@class, &apos;font-weight-normal&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//h5" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelStatus" Key="{50948E8E-C849-4779-B6FD-88E86680182C}">
+										<Image FileName="-919707007" Left="488" Top="443" Right="680" Bottom="465" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Status&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelDescription" Key="{8F99CC16-D88E-4586-99DD-7919E4C3737D}">
+										<Image FileName="-919707007" Left="967" Top="443" Right="1255" Bottom="465" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Description&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode1To10Of" Key="{78871A7F-DCD9-479C-BB28-FF0FB518D657}">
+										<Image FileName="1190963441" Left="971" Top="998" Right="1170" Bottom="1013" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;1 to 10 of&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;small&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-detail-card//qwyk-cargo-items-index/qwyk-pagination/p-paginator//span" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{04F3F450-5526-4092-96D2-21C0884F59D5}">
@@ -22028,7 +22118,6 @@
 							<Child Name="panelTracking" Owner="{9B2825AD-BAF5-4AB3-93E1-AE50C7DD83EA}" />
 						</Child>
 						<Child Name="linkAttachments" Owner="{CF6F8A29-344A-47DB-B1AC-0DFEE016BF93}" />
-						<Child Name="linkCargo" Owner="{D2E01EAD-0E5D-4564-AD84-959FC46B4D6F}" />
 					</Child>
 					<Child Name="textnodeDescription" Owner="{0DEC9E87-E0C6-4736-B1D0-31919833CFC6}">
 						<Child Name="textnodeBookedQuotationPdf" Owner="{2985BFA2-ED8D-4FEE-9A71-941AB42A75B2}">
@@ -22078,6 +22167,7 @@
 					<Child Name="panelMyPortal2" Owner="{1BF22C64-9B3A-4570-AC33-2724FF1DDE37}" />
 					<Child Name="buttonPage5" Owner="{E80BC087-31A1-4F64-A51D-3D98C062DAA3}" />
 					<Child Name="panelArrivalNoticeAir" Owner="{AB424EE8-0514-43FD-BF15-B4D064A2C674}" />
+					<Child Name="linkCargo" Owner="{D2E01EAD-0E5D-4564-AD84-959FC46B4D6F}" />
 				</Child>
 				<Child Name="navDashboard" Owner="{A7A0574D-C40C-4FF1-9DD2-0A240712F5C3}">
 					<Child Name="textnodeShipments" Owner="{81EF3BC1-6296-4BD3-9962-04A64D0A202D}">
@@ -22459,6 +22549,10 @@
 					<Child Name="textnodeDescription" Owner="{F0B3F747-7F36-492F-A8F5-0ECBB287D29A}">
 						<Child Name="textnodeDescription2" Owner="{4B0687C4-320D-497C-AD9E-61EE3370971A}">
 							<Child Name="cartageFee" Owner="{DD58D394-00C0-41F7-9C92-C3232272E673}" />
+							<Child Name="panelCreated" Owner="{730BD3C8-15BE-47AD-B8E4-414B76FFEEBB}" />
+							<Child Name="panelFilename" Owner="{259EFCC5-56A9-4B6D-9296-944C1F90AC9E}" />
+							<Child Name="panelStatus" Owner="{50948E8E-C849-4779-B6FD-88E86680182C}" />
+							<Child Name="panelDescription" Owner="{8F99CC16-D88E-4586-99DD-7919E4C3737D}" />
 						</Child>
 						<Child Name="textnodePending" Owner="{1A8152F4-FF75-4400-8871-1E776A13B3B2}">
 							<Child Name="panelAutomationcommodity" Owner="{0463A415-976B-4D6C-B02F-A4647F64FDA1}" />
@@ -22621,6 +22715,9 @@
 					<Child Name="buttonLastPage" Owner="{88B9CFAC-F293-4617-AB21-7CB0597332B7}" />
 					<Child Name="textnode1To1Of" Owner="{F6E2459A-7A35-4F6C-9E3A-73564783728B}" />
 					<Child Name="textnode1Of1" Owner="{7F96F872-6196-4ABD-8788-3BA497CE9105}" />
+					<Child Name="textnodeAttachments" Owner="{313660C4-B623-49E1-BAA6-8D0A4D7D16E6}" />
+					<Child Name="textnodeCargoItems" Owner="{5F7522B5-3D4D-4033-AD32-A63FEAB0E320}" />
+					<Child Name="textnode1To10Of" Owner="{78871A7F-DCD9-479C-BB28-FF0FB518D657}" />
 				</Child>
 				<Child Name="textnodeResults" Owner="{1CF6087C-57FF-4430-B9F1-800D8664F6B3}" />
 				<Child Name="panelRequestADifferentRate" Owner="{F00322FB-BB44-4EBC-A779-77467DCD493F}" />
