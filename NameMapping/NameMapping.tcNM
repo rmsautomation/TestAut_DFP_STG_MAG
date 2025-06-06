@@ -4069,7 +4069,7 @@
 												<Value Value="//button[.=&apos;Search&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="//button[contains(@class, &apos;btn-secondary&apos;)]" />
+												<Value Value="//button[contains(@class, &apos;btn-secondary&apos;)]" Enabled="False" />
 											</Selector>
 										</Selectors>
 									</Child>
