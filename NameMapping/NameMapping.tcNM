@@ -4069,7 +4069,7 @@
 												<Value Value="//button[.=&apos;Search&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="//button[contains(@class, &apos;btn-secondary&apos;)]" />
+												<Value Value="//button[contains(@class, &apos;btn-secondary&apos;)]" Enabled="False" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -16082,7 +16082,7 @@
 												<Value Value="//span[.=&apos;1 of 1&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="//p-paginator/div/span" />
+												<Value Value="//p-paginator/div/span" Enabled="False" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -16173,6 +16173,21 @@
 											</Selector>
 											<Selector>
 												<Value Value="//qwyk-detail-card//qwyk-cargo-items-index/qwyk-pagination/p-paginator//span" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vg" Key="{2DDB3218-1F46-4CB3-A30C-92A4E31F1642}">
+										<Image FileName="-1106443148" Left="1612" Top="997" Right="1628" Bottom="1013" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//qwyk-pagination/p-paginator//p-dropdown//chevrondownicon/*[name()=&apos;svg&apos;][contains(@class, &apos;p-dropdown-trigger-icon&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;pn_id_300&apos;]//*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-pagination/p-paginator//p-dropdown//chevrondownicon/*[name()=&apos;svg&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -22718,6 +22733,7 @@
 					<Child Name="textnodeAttachments" Owner="{313660C4-B623-49E1-BAA6-8D0A4D7D16E6}" />
 					<Child Name="textnodeCargoItems" Owner="{5F7522B5-3D4D-4033-AD32-A63FEAB0E320}" />
 					<Child Name="textnode1To10Of" Owner="{78871A7F-DCD9-479C-BB28-FF0FB518D657}" />
+					<Child Name="vg" Owner="{2DDB3218-1F46-4CB3-A30C-92A4E31F1642}" />
 				</Child>
 				<Child Name="textnodeResults" Owner="{1CF6087C-57FF-4430-B9F1-800D8664F6B3}" />
 				<Child Name="panelRequestADifferentRate" Owner="{F00322FB-BB44-4EBC-A779-77467DCD493F}" />
