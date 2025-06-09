@@ -11033,7 +11033,10 @@
 												<Value Value="xpath=//span[contains(text(), &apos;Master&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="xpath=(//div[contains(@class, &apos;h4&apos;) and contains(@class, &apos;text-truncate&apos;)])[2]" />
+												<Value Value="xpath=//span[contains(text(), &apos;Booked&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=(//div[contains(@class, &apos;h4&apos;) and contains(@class, &apos;text-truncate&apos;)])[2]" Enabled="False" />
 											</Selector>
 										</Selectors>
 									</Child>
