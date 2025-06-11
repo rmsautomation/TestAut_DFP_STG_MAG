@@ -16209,6 +16209,275 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeArriving2" Key="{8AAB03B9-2803-464F-AC51-12C428660C85}">
+										<Image FileName="-1081701533" Left="479" Top="211" Right="1647" Bottom="324" />
+										<Selectors>
+											<Selector>
+												<Value Value="//qwyk-cargo-items-index/ul/li[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeQuantity102" Key="{EFA24788-3051-4830-AE6A-65B1FB0BA3C3}">
+										<Image FileName="-1081701533" Left="694" Top="258" Right="755" Bottom="272" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//qwyk-detail-card//qwyk-cargo-items-index/ul/li[3]//span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-detail-card//qwyk-cargo-items-index/ul/li[3]//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode38442DfpstagMagayaprodAu" Key="{EEFC774A-2633-4307-A630-9ABD84849646}">
+										<Image FileName="-1081701533" Left="0" Top="-306" Right="1905" Bottom="1340" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//body[contains(., &apos;38442-dfpStag-magayaprod-automation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkRefresh" Key="{60D8F837-096D-4A56-8692-345969E95280}">
+										<Image FileName="-1944252983" Left="1137" Top="998" Right="1171" Bottom="1013" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;refresh&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-cargo-items-index/qwyk-pagination/p-paginator//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonPagePage2" Key="{F1D60133-1855-4024-BF02-46307F9EB81F}">
+										<Image FileName="-684266740" Left="1305" Top="986" Right="1343" Bottom="1024" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;p-highlight&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[2]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonPagePage3" Key="{1138058F-BC06-4686-8016-7682A41E2C2D}">
+										<Image FileName="-1946523290" Left="1343" Top="986" Right="1381" Bottom="1024" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[2]/button[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonPagePage4" Key="{119951A7-B411-4FA4-8332-97F9390E8E38}">
+										<Image FileName="1864597790" Left="1380" Top="986" Right="1418" Bottom="1024" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[2]/button[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonPagePage5" Key="{92418425-DB50-4878-963A-35320D2FC716}">
+										<Image FileName="50658536" Left="1418" Top="986" Right="1456" Bottom="1024" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[2]/button[4]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonNextPage" Key="{A8B0FBCC-B6DE-4E8E-8992-14064B751549}">
+										<Image FileName="-1914719689" Left="1493" Top="986" Right="1531" Bottom="1024" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;p-paginator-next&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeRowsPerPage" Key="{617328B2-3F6C-4B04-A11F-48581A1CF733}">
+										<Image FileName="-1554019443" Left="1578" Top="987" Right="1600" Bottom="1023" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;10&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[@role=&apos;combobox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;p-element&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;pn_id_262&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdown/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonDownload" Key="{A5D206D9-FB80-4753-942E-B4FA6DAC724D}">
+										<Image FileName="-113769740" Left="1577" Top="19" Right="1623" Bottom="57" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@aria-describedby=(//ngb-tooltip-window[.=&apos;Download&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-detail-card//qwyk-attachments-index/ul/li//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePdfdfpPdf" Key="{9B49D56D-AC8D-4B50-AF2B-8AD79F0382D0}">
+										<Image FileName="1218787329" Left="479" Top="85" Right="1647" Bottom="178" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;PDFDFP.pdf&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonPreview" Key="{129EC2D9-1D71-482B-9E7B-63096C528F99}">
+										<Image FileName="1218787329" Left="1533" Top="112" Right="1577" Bottom="150" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@aria-describedby=(//ngb-tooltip-window[.=&apos;Preview&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-detail-card//qwyk-attachments-index/ul/li[3]//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonDownload2" Key="{D489CDB6-0C2D-4D3B-B31A-C99CFE4AF392}">
+										<Image FileName="-677923760" Left="1577" Top="112" Right="1623" Bottom="150" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@aria-describedby=(//ngb-tooltip-window[.=&apos;Download&apos;]/@id)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="button" Key="{E8C3968F-D479-47E3-91F8-631904CB31DB}">
+										<Image FileName="-205912352" Left="1577" Top="205" Right="1623" Bottom="243" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@aria-describedby=(//ngb-tooltip-window[.=&apos;Download&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-detail-card//qwyk-attachments-index/ul/li[4]//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonDownload3" Key="{897817EA-FE9F-49D1-9689-EF55BAA6D927}">
+										<Image FileName="-1645995436" Left="1577" Top="299" Right="1623" Bottom="337" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@aria-describedby=(//ngb-tooltip-window[.=&apos;Download&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-detail-card//qwyk-attachments-index/ul/li[5]//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonDownload4" Key="{FBCEE3D2-3100-48F7-8BF1-8E51E2178DE2}">
+										<Image FileName="1323371739" Left="1577" Top="392" Right="1623" Bottom="430" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@aria-describedby=(//ngb-tooltip-window[.=&apos;Download&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-detail-card//qwyk-attachments-index/ul/li[6]//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="button2" Key="{C42062F9-4B29-4145-9F32-AE448B79D2A9}">
+										<Image FileName="-690046619" Left="1577" Top="486" Right="1623" Bottom="524" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@aria-describedby=(//ngb-tooltip-window[.=&apos;Download&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-detail-card//qwyk-attachments-index/ul/li[7]//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonDownload5" Key="{42087063-4AA9-4C33-8E11-C597AA7E3BF5}">
+										<Image FileName="-1893773168" Left="1577" Top="579" Right="1623" Bottom="617" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@aria-describedby=(//ngb-tooltip-window[.=&apos;Download&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-detail-card//qwyk-attachments-index/ul/li[8]//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonDownload6" Key="{34687DA0-376A-451B-9A78-2924D1DEE455}">
+										<Image FileName="1324065392" Left="1577" Top="672" Right="1623" Bottom="710" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@aria-describedby=(//ngb-tooltip-window[.=&apos;Download&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-detail-card//qwyk-attachments-index/ul/li[9]//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeShipments3" Key="{7DE6FF0C-76A2-4213-889A-CB1B53E7912E}">
+										<Image FileName="731863514" Left="383" Top="86" Right="648" Bottom="131" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Shipments&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/ul[contains(@class, &apos;list-unstyled&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;topNavbar&apos;]//div/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeQuotations" Key="{8A58B1BD-6BB8-40F0-86B1-083EECFC378B}">
+										<Image FileName="731863514" Left="487" Top="86" Right="593" Bottom="131" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Quotations&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonQuotations" Key="{B77FB765-A547-4B3F-B1DB-2F945C88B504}">
+										<Image FileName="731863514" Left="490" Top="94" Right="589" Bottom="125" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Quotations&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul/li[2]/button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;topNavbar&apos;]//ul/li[2]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul/li[2]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{04F3F450-5526-4092-96D2-21C0884F59D5}">
@@ -22659,21 +22928,42 @@
 							<Child Name="panelAttachcommodityPdf" Owner="{A51B132D-CFC8-4EC4-A0D4-7F03E1153F66}" />
 						</Child>
 						<Child Name="textnodeInlandFreight" Owner="{10B118CD-7F79-46E1-9B61-668D3D5984AF}" />
-						<Child Name="textnodeXlsdfpXlsx" Owner="{E7600397-F6CA-4352-B86A-AFAD0230EADD}" />
-						<Child Name="textnodeDocdfpDocx" Owner="{440766F2-405D-4909-AE7B-9C08495FE3C8}" />
-						<Child Name="textnodeMsgdfpMsg" Owner="{493D50B9-6144-400E-8FFF-1736FC13CD04}" />
+						<Child Name="textnodeXlsdfpXlsx" Owner="{E7600397-F6CA-4352-B86A-AFAD0230EADD}">
+							<Child Name="buttonDownload" Owner="{A5D206D9-FB80-4753-942E-B4FA6DAC724D}" />
+						</Child>
+						<Child Name="textnodeDocdfpDocx" Owner="{440766F2-405D-4909-AE7B-9C08495FE3C8}">
+							<Child Name="buttonDownload4" Owner="{FBCEE3D2-3100-48F7-8BF1-8E51E2178DE2}" />
+						</Child>
+						<Child Name="textnodeMsgdfpMsg" Owner="{493D50B9-6144-400E-8FFF-1736FC13CD04}">
+							<Child Name="buttonDownload3" Owner="{897817EA-FE9F-49D1-9689-EF55BAA6D927}" />
+						</Child>
 						<Child Name="textnodeTest1Png" Owner="{29690FF2-0869-4AD6-B523-6329A8479091}" />
-						<Child Name="textnodeCsvdfpCsv" Owner="{AF49105C-79AB-4392-AB80-AEBC2CA6F9B9}" />
+						<Child Name="textnodeCsvdfpCsv" Owner="{AF49105C-79AB-4392-AB80-AEBC2CA6F9B9}">
+							<Child Name="button2" Owner="{C42062F9-4B29-4145-9F32-AE448B79D2A9}" />
+						</Child>
 						<Child Name="textnodeAttachdfpPdf" Owner="{66695E83-8CAC-4CF2-92B2-FC9003DBB904}" />
-						<Child Name="textnodeTxtMagayaTxt" Owner="{24F5731A-2207-4949-81F3-3D5B532DF464}" />
-						<Child Name="textnodeXmlMagayaXml" Owner="{A70AAB6C-0FED-49E9-9ADC-528D05DE7225}" />
-						<Child Name="textnodeJsonMagayaJson" Owner="{34593E2C-60EF-4133-88FE-254E3B5793CA}" />
+						<Child Name="textnodeTxtMagayaTxt" Owner="{24F5731A-2207-4949-81F3-3D5B532DF464}">
+							<Child Name="button" Owner="{E8C3968F-D479-47E3-91F8-631904CB31DB}" />
+						</Child>
+						<Child Name="textnodeXmlMagayaXml" Owner="{A70AAB6C-0FED-49E9-9ADC-528D05DE7225}">
+							<Child Name="buttonDownload5" Owner="{42087063-4AA9-4C33-8E11-C597AA7E3BF5}" />
+						</Child>
+						<Child Name="textnodeJsonMagayaJson" Owner="{34593E2C-60EF-4133-88FE-254E3B5793CA}">
+							<Child Name="buttonDownload6" Owner="{34687DA0-376A-451B-9A78-2924D1DEE455}" />
+						</Child>
 						<Child Name="textnodeOnHand2" Owner="{27666246-D97B-4B2B-89F3-684C16B503C5}">
 							<Child Name="panelOnHand" Owner="{A4F86560-F039-43F0-9710-65616E2376F9}" />
 						</Child>
 						<Child Name="textnodeArriving" Owner="{BB4E4341-25B1-40CA-9624-51A5593211A2}">
 							<Child Name="panel1xBag" Owner="{9630AB2D-B008-427E-8EB4-D528AF172975}" />
 							<Child Name="panelQuantity20" Owner="{B06584F6-7F5D-470A-A64C-5E7B68F5067C}" />
+						</Child>
+						<Child Name="textnodeArriving2" Owner="{8AAB03B9-2803-464F-AC51-12C428660C85}">
+							<Child Name="textnodeQuantity102" Owner="{EFA24788-3051-4830-AE6A-65B1FB0BA3C3}" />
+						</Child>
+						<Child Name="textnodePdfdfpPdf" Owner="{9B49D56D-AC8D-4B50-AF2B-8AD79F0382D0}">
+							<Child Name="buttonPreview" Owner="{129EC2D9-1D71-482B-9E7B-63096C528F99}" />
+							<Child Name="buttonDownload2" Owner="{D489CDB6-0C2D-4D3B-B31A-C99CFE4AF392}" />
 						</Child>
 					</Child>
 					<Child Name="panel2ponumber" Owner="{7AAA0410-12D2-4371-98DF-3E236CF6D829}" />
@@ -22798,6 +23088,13 @@
 					<Child Name="textnodeCargoItems" Owner="{5F7522B5-3D4D-4033-AD32-A63FEAB0E320}" />
 					<Child Name="textnode1To10Of" Owner="{78871A7F-DCD9-479C-BB28-FF0FB518D657}" />
 					<Child Name="vg" Owner="{2DDB3218-1F46-4CB3-A30C-92A4E31F1642}" />
+					<Child Name="linkRefresh" Owner="{60D8F837-096D-4A56-8692-345969E95280}" />
+					<Child Name="buttonPagePage2" Owner="{F1D60133-1855-4024-BF02-46307F9EB81F}" />
+					<Child Name="buttonPagePage3" Owner="{1138058F-BC06-4686-8016-7682A41E2C2D}" />
+					<Child Name="buttonPagePage4" Owner="{119951A7-B411-4FA4-8332-97F9390E8E38}" />
+					<Child Name="buttonPagePage5" Owner="{92418425-DB50-4878-963A-35320D2FC716}" />
+					<Child Name="buttonNextPage" Owner="{A8B0FBCC-B6DE-4E8E-8992-14064B751549}" />
+					<Child Name="textnodeRowsPerPage" Owner="{617328B2-3F6C-4B04-A11F-48581A1CF733}" />
 				</Child>
 				<Child Name="textnodeResults" Owner="{1CF6087C-57FF-4430-B9F1-800D8664F6B3}" />
 				<Child Name="panelRequestADifferentRate" Owner="{F00322FB-BB44-4EBC-A779-77467DCD493F}" />
@@ -22820,6 +23117,11 @@
 					<Child Name="textnodeJ" Owner="{A40A37CB-DAA6-455E-B899-C93E91306B96}">
 						<Child Name="textnodeJ2" Owner="{B77D2FEF-6609-4947-B639-BAFCCB430D3C}">
 							<Child Name="buttonJ" Owner="{E346FEE1-40DF-40DA-A784-F16ABB4C3E93}" />
+						</Child>
+					</Child>
+					<Child Name="textnodeShipments3" Owner="{7DE6FF0C-76A2-4213-889A-CB1B53E7912E}">
+						<Child Name="textnodeQuotations" Owner="{8A58B1BD-6BB8-40F0-86B1-083EECFC378B}">
+							<Child Name="buttonQuotations" Owner="{B77FB765-A547-4B3F-B1DB-2F945C88B504}" />
 						</Child>
 					</Child>
 				</Child>
@@ -22951,6 +23253,7 @@
 				<Child Name="linkInvoices2" Owner="{C48AC127-8365-4C7F-A0DD-DEEE79FC19E7}" />
 				<Child Name="selectInvoices" Owner="{7E37C56E-F19C-40ED-9282-5EEAB97905FA}" />
 				<Child Name="selectHouse" Owner="{B5D1E285-9F71-4EDC-922F-BAE348EC784B}" />
+				<Child Name="textnode38442DfpstagMagayaprodAu" Owner="{EEFC774A-2633-4307-A630-9ABD84849646}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{04F3F450-5526-4092-96D2-21C0884F59D5}" />
 			<Child Name="pageMagayaDigitalFreightPortalHu" Owner="{C7ED2FC9-0D1F-40A0-87DF-C64B4F0237DC}">
