@@ -14276,6 +14276,9 @@
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=//span[contains(@class, &apos;font-weight-bold&apos;) and contains(normalize-space(.), &apos;HAW&apos;)]" />
+											</Selector>
+											<Selector>
 												<Value Value="//div[contains(@class, &apos;badge&apos;)]" />
 											</Selector>
 											<Selector>
