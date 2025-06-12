@@ -38,7 +38,7 @@
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs a keyword test." TestName="Login38442OnlyUserPass">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="username" DefVarType="8" DefValueType="6" DefValueValue="aylinannia_stg" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="nowContact" />
+						<Parameter Name="username" DefVarType="8" DefValueType="6" DefValueValue="aylinannia_stg" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="nowTC23" />
 					</Parameters>
 				</Data>
 			</Operation>
@@ -67,7 +67,7 @@
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs a keyword test." TestName="loginPortal38442">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="username" DefVarType="8" DefValueType="6" DefValueValue="aylinannia" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="Project.Variables.nowContact + &quot;con&quot;" />
+						<Parameter Name="username" DefVarType="8" DefValueType="6" DefValueValue="aylinannia" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="Project.Variables.nowTC23 + &quot;con&quot;" />
 					</Parameters>
 				</Data>
 			</Operation>
@@ -94,10 +94,28 @@
 				<Data Description="Runs a keyword test." TestName="LoginMagaya" />
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="DeleteContact" />
+				<Data Description="Runs a keyword test." TestName="DeleteContactParameters">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="contact" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="nowTC23" />
+					</Parameters>
+				</Data>
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="DeleteCustomer" />
+				<Data Description="Runs a keyword test." TestName="DeleteContact">
+					<CommonData Disabled="True" />
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="DeleteCustomerParameters">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="contact" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="nowTC23" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="DeleteCustomer">
+					<CommonData Disabled="True" />
+				</Data>
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs a keyword test." TestName="LogoutMagaya" />

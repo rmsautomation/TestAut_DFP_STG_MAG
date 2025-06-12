@@ -261,6 +261,8 @@
 					<child name="EnableViewCRContact" key="{B33C137D-B3A3-441A-A7B5-7ECACAA81FFE}" path="EnableViewCRContact.tcKDTest" />
 					<child name="DisabledUploadAttch" key="{1C026E62-62E8-40B9-B529-32C161E2215D}" path="DisabledUploadAttch.tcKDTest" />
 					<child name="EnabledUploadAttach" key="{14C24261-BD38-43F6-A1B3-8CB20151022E}" path="EnabledUploadAttach.tcKDTest" />
+					<child name="DeleteContactParameters" key="{CD540E7E-31D8-4A4D-90AF-7461256874E5}" path="DeleteContactParameters.tcKDTest" />
+					<child name="DeleteCustomerParameters" key="{65593837-893F-4C6C-97BC-29203B125521}" path="DeleteCustomerParameters.tcKDTest" />
 				</folder>
 				<folder name="Filters">
 					<child name="AdvancedFilterBy" key="{E2A6CF1A-9DDB-46BE-9228-3AA8DDAC081D}" path="AdvancedFilterBy.tcKDTest" />
