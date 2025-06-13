@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="" Key="{978CB22E-351B-41B8-80DD-A29AE5FB2352}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="" Key="{E1DCDAAE-93B0-4B07-A309-F5096265F10D}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps>
@@ -60,7 +60,7 @@
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 				<Data Description="Sets the text %p1 in the &apos;%n&apos; text editor." Action="SetText">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Text" DefVarType="8" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="Project.Variables.nowContact + &quot;@yopmail.com&quot;" />
+						<Parameter Name="Text" DefVarType="8" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="KeywordTests.CreateYopmailParameters.Parameters.username + &quot;@yopmail.com&quot;" />
 					</Parameters>
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageYopmailDisposableEmailAddres.formF.textboxLogin;" />
 				</Data>
@@ -80,5 +80,7 @@
 			</Operation>
 		</Children>
 	</TestData>
-	<Parameters Key="{269844EB-32B5-4E74-B2DE-D61B2032D607}" />
+	<Parameters Key="{3B31ED46-42C1-452F-A8A6-1B52B0A94CD0}">
+		<Parameter0 Name="username" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+	</Parameters>
 </Root>

@@ -234,6 +234,8 @@
 				<child name="VerifyQuoteEmail" key="{2141D23D-F9D7-42DC-A4C4-1CF16C23B1A2}" path="VerifyQuoteEmail.tcKDTest" />
 				<child name="CreateYopmail" key="{ECA8917A-71CC-4012-AD69-6FB6E43E726A}" path="CreateYopmail.tcKDTest" />
 				<child name="VerifyEmailConfirmation" key="{ACBB1A0A-2975-4EEA-A2F2-4C41155C548F}" path="VerifyEmailConfirmation.tcKDTest" />
+				<child name="CreateYopmailParameters" key="{CCB361B0-0EB1-42E5-9768-0AB0A6B5D1C6}" path="CreateYopmailParameters.tcKDTest" />
+				<child name="VerifyEmailConfirmationParameters" key="{02EE2BAC-46B6-44B3-90A3-3E1F0DAF370D}" path="VerifyEmailConfirmationParameters.tcKDTest" />
 			</folder>
 			<folder name="LoginAndLogout">
 				<child name="LoginHUB" key="{4ED58886-D55E-4D76-A5DC-13B0CF155C59}" path="LoginHUB.tcKDTest" />
