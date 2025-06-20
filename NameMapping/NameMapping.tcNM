@@ -4324,6 +4324,9 @@
 										<TypeInfo Item0="{0FA95922-5259-4B01-B64E-97A6A4C4FF60}" />
 										<Selectors>
 											<Selector>
+												<Value Value="" />
+											</Selector>
+											<Selector>
 												<Value Value="xpath=//a[contains(@class, &apos;nav-link&apos;) and contains(@class, &apos;btn&apos;) and contains(@class, &apos;btn-outline-secondary&apos;) and contains(@class, &apos;text-white&apos;) and text() = &apos;Sign in&apos;]" />
 											</Selector>
 											<Selector>
@@ -5718,10 +5721,10 @@
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//ngb-modal-window[@role=&apos;dialog&apos;]//div[contains(@class, &apos;ng-star-inserted&apos;)]/div/ul/li/div[contains(@class, &apos;ng-star-inserted&apos;)]" />
+												<Value Value="//div[.=&apos;Shanghai Pt&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="//div[.=&apos;Shanghai Pt&apos;]" />
+												<Value Value="//ngb-modal-window[@role=&apos;dialog&apos;]//div[contains(@class, &apos;ng-star-inserted&apos;)]/div/ul/li/div[contains(@class, &apos;ng-star-inserted&apos;)]" />
 											</Selector>
 											<Selector>
 												<Value Value="//p-overlay//ul/li/div" />
@@ -8666,6 +8669,53 @@
 											</Selector>
 											<Selector>
 												<Value Value="//div[@role=&apos;dialog&apos;]/div/qwyk-simple-modal/div/h5" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formSignInToYourAccount" Key="{67463454-1EED-487D-9B3A-E378337B4CC2}">
+										<Image FileName="-956830545" Left="1008" Top="412" Right="1506" Bottom="715" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//qwyk-login-modal//qwyk-login-form/form[contains(@class, &apos;pt-1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//qwyk-login-modal//qwyk-login-form/form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxUsername" Key="{4FBB69D6-A526-492F-8B9F-AD333F86A5D4}">
+										<Image FileName="-956830545" Left="1008" Top="485" Right="1506" Bottom="527" />
+										<TypeInfo Item0="{FE3BBF2D-62CE-4222-9079-8A4579DCFAC4}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//qwyk-login-modal//qwyk-login-form/form//input[@name=&apos;username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//qwyk-login-modal//qwyk-login-form/form//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//qwyk-login-modal//qwyk-login-form/form/div/input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//qwyk-login-modal//qwyk-login-form/form/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{B15915D5-FF10-45B7-BCD9-8C90366F5FC8}">
+										<Image FileName="538287060" Left="1008" Top="572" Right="1506" Bottom="614" />
+										<TypeInfo Item0="{FE3BBF2D-62CE-4222-9079-8A4579DCFAC4}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//qwyk-login-modal//qwyk-login-form/form//input[@name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//qwyk-login-modal//qwyk-login-form/form//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//qwyk-login-modal//qwyk-login-form/form/div[2]/input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//qwyk-login-modal//qwyk-login-form/form/div[2]/input" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -16529,6 +16579,32 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="formSignInToYourAccount3" Key="{66847C6D-56E6-4DDC-9BA8-92D3E5355014}">
+										<Image FileName="322245690" Left="1008" Top="412" Right="1506" Bottom="715" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//qwyk-login-modal//qwyk-login-form/form[contains(@class, &apos;pt-1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//qwyk-login-modal//qwyk-login-form/form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSignIn3" Key="{9881EC59-5F5A-4971-9E64-AC1E311F3007}">
+										<Image FileName="322245690" Left="1008" Top="630" Right="1506" Bottom="668" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//qwyk-login-modal//qwyk-login-form/form//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//qwyk-login-modal//qwyk-login-form/form/div[3]/button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//qwyk-login-modal//qwyk-login-form/form/div[3]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{04F3F450-5526-4092-96D2-21C0884F59D5}">
@@ -22592,6 +22668,10 @@
 					<Child Name="textnode504" Owner="{3D0AA72D-6FE3-4479-A2E1-2D020001865F}" />
 				</Child>
 				<Child Name="textnodeTermsAndRemarks" Owner="{1DA20D0A-27D1-418F-AAEA-CD2C03F547D6}" />
+				<Child Name="formSignInToYourAccount" Owner="{67463454-1EED-487D-9B3A-E378337B4CC2}">
+					<Child Name="textboxUsername" Owner="{4FBB69D6-A526-492F-8B9F-AD333F86A5D4}" />
+					<Child Name="passwordboxPassword" Owner="{B15915D5-FF10-45B7-BCD9-8C90366F5FC8}" />
+				</Child>
 			</Child>
 			<Child Name="pageMagaya9" Owner="{86480E91-9864-47C9-B9DF-E3A336A0E37E}" />
 			<Child Name="pageMagaya10" Owner="{A1AF1ACC-2F72-438F-9EA2-887E61CB0504}">
@@ -23309,6 +23389,8 @@
 				<Child Name="selectInvoices" Owner="{7E37C56E-F19C-40ED-9282-5EEAB97905FA}" />
 				<Child Name="selectHouse" Owner="{B5D1E285-9F71-4EDC-922F-BAE348EC784B}" />
 				<Child Name="textnode38442DfpstagMagayaprodAu" Owner="{EEFC774A-2633-4307-A630-9ABD84849646}" />
+				<Child Name="formSignInToYourAccount3" Owner="{66847C6D-56E6-4DDC-9BA8-92D3E5355014}" />
+				<Child Name="buttonSignIn3" Owner="{9881EC59-5F5A-4971-9E64-AC1E311F3007}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{04F3F450-5526-4092-96D2-21C0884F59D5}" />
 			<Child Name="pageMagayaDigitalFreightPortalHu" Owner="{C7ED2FC9-0D1F-40A0-87DF-C64B4F0237DC}">

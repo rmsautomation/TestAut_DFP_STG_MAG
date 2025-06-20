@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{AE3E34B8-5332-4B13-9EBA-BB78D89E326E}" />
+	<data key="{AE3E34B8-5332-4B13-9EBA-BB78D89E326E}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45828.9058912037" objectName="Aliases.browser.pageMagaya8.sectionMyPortal.vg" objectLeft="570" objectTop="616" objectRight="586" objectBottom="632" clickPointX="575" clickPointY="622" imageFileName="tcvi1490434468278520.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45828.9059259259" objectName="Aliases.browser.pageMagaya3.formIAmThe.formIAmThe2.textnodePrId12List.textnodeObjectObject" objectLeft="460" objectTop="680" objectRight="588" objectBottom="715" clickPointX="519" clickPointY="698" imageFileName="tcvi1490437593278523.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
 </Root>
