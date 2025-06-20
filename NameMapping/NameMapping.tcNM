@@ -4327,6 +4327,9 @@
 												<Value Value="xpath=//a[contains(@class, &apos;nav-link&apos;) and contains(@class, &apos;btn&apos;) and contains(@class, &apos;btn-outline-secondary&apos;) and contains(@class, &apos;text-white&apos;) and text() = &apos;Sign in&apos;]" />
 											</Selector>
 											<Selector>
+												<Value Value="" />
+											</Selector>
+											<Selector>
 												<Value Value="//h1/button[contains(@class, &apos;btn&apos;)]" />
 											</Selector>
 											<Selector>
@@ -5567,10 +5570,10 @@
 										<TypeInfo Item0="{FE3BBF2D-62CE-4222-9079-8A4579DCFAC4}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//input[@role=&apos;searchbox&apos;]" />
+												<Value Value="//input[@type=&apos;text&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="//input[@type=&apos;text&apos;]" />
+												<Value Value="//input[@role=&apos;searchbox&apos;]" />
 											</Selector>
 											<Selector>
 												<Value Value="//input[contains(@class, &apos;p-element&apos;)]" />
@@ -5851,6 +5854,9 @@
 										<Image FileName="785731413" Left="571" Top="631" Right="585" Bottom="639" />
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
+											<Selector>
+												<Value Value="xpath=(//chevrondownicon[contains(@class, &apos;p-icon-wrapper&apos;)])[2]" />
+											</Selector>
 											<Selector>
 												<Value Value="//p-dropdown//chevrondownicon/*[name()=&apos;svg&apos;]/*[name()=&apos;path&apos;]" />
 											</Selector>
@@ -8648,6 +8654,21 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeTermsAndRemarks" Key="{1DA20D0A-27D1-418F-AAEA-CD2C03F547D6}">
+										<Image FileName="-945809122" Left="265" Top="148" Right="440" Bottom="178" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h5[.=&apos;Terms and remarks&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h5[contains(@class, &apos;modal-title&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/qwyk-simple-modal/div/h5" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageMagaya9" Key="{86480E91-9864-47C9-B9DF-E3A336A0E37E}">
@@ -8893,6 +8914,18 @@
 											</Selector>
 											<Selector>
 												<Value Value="//form/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonCancel" Key="{AFC88C65-5958-4D16-A8A5-467CB0B4A35A}">
+										<Image FileName="-2025467641" Left="1544" Top="944" Right="1636" Bottom="992" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Cancel&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;dismiss&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -12171,10 +12204,10 @@
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
 											<Selector>
-												<Value Value="#ngb-nav-1" />
+												<Value Value="//a[contains(text(), &apos;References&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//a[contains(text(), &apos;References&apos;)]" />
+												<Value Value="#ngb-nav-1" />
 											</Selector>
 											<Selector>
 												<Value Value="//li[2]/a[@role=&apos;tab&apos;]" />
@@ -12264,10 +12297,10 @@
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
 											<Selector>
-												<Value Value="#ngb-nav-2" />
+												<Value Value="//a[contains(text(), &apos;Shipment Parties&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//a[contains(text(), &apos;Shipment Parties&apos;)]" />
+												<Value Value="#ngb-nav-2" />
 											</Selector>
 											<Selector>
 												<Value Value="//li[3]/a[@role=&apos;tab&apos;]" />
@@ -12398,10 +12431,10 @@
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
 											<Selector>
-												<Value Value="#ngb-nav-3" />
+												<Value Value="//a[contains(text(), &apos;Cargo Details&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//a[contains(text(), &apos;Cargo Details&apos;)]" />
+												<Value Value="#ngb-nav-3" />
 											</Selector>
 											<Selector>
 												<Value Value="//ul[@role=&apos;tablist&apos;]/li[4]/a[@role=&apos;tab&apos;]" />
@@ -12472,10 +12505,10 @@
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
 											<Selector>
-												<Value Value="#ngb-nav-4" />
+												<Value Value="//a[contains(text(), &apos;Terms &amp; Requirements&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//a[contains(text(), &apos;Terms &amp; Requirements&apos;)]" />
+												<Value Value="#ngb-nav-4" />
 											</Selector>
 											<Selector>
 												<Value Value="//li[5]/a[@role=&apos;tab&apos;]" />
@@ -16460,6 +16493,39 @@
 											</Selector>
 											<Selector>
 												<Value Value="//ul/li[2]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textarea2" Key="{75A7D166-D6E9-47E3-9166-2D292012747A}">
+										<Image FileName="-1971886823" Left="700" Top="534" Right="1633" Bottom="644" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form//div[@id=&apos;terms-requirements&apos;]//textarea[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;terms-requirements&apos;]//textarea" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div[@id=&apos;terms-requirements&apos;]//textarea" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonPdf" Key="{9258160D-DC13-4778-A957-FBFDD43DC9AD}">
+										<Image FileName="1084673879" Left="1550" Top="181" Right="1647" Bottom="219" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;PDF&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-pickup-orders-details//qwyk-pickup-orders-header//qwyk-downloadable-drop-down//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-pickup-orders-details//qwyk-pickup-orders-header//qwyk-downloadable-drop-down//button" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -22525,6 +22591,7 @@
 				<Child Name="textnodePnId21List" Owner="{0BE1B2D9-1734-4DE2-9C18-B3B9654F2BE9}">
 					<Child Name="textnode504" Owner="{3D0AA72D-6FE3-4479-A2E1-2D020001865F}" />
 				</Child>
+				<Child Name="textnodeTermsAndRemarks" Owner="{1DA20D0A-27D1-418F-AAEA-CD2C03F547D6}" />
 			</Child>
 			<Child Name="pageMagaya9" Owner="{86480E91-9864-47C9-B9DF-E3A336A0E37E}" />
 			<Child Name="pageMagaya10" Owner="{A1AF1ACC-2F72-438F-9EA2-887E61CB0504}">
@@ -22550,6 +22617,7 @@
 					<Child Name="textareaRemarks" Owner="{A64371FD-BEF5-4898-A024-F9EA9878C65B}" />
 					<Child Name="buttonSend" Owner="{4725AA41-9E77-45E1-BC80-55F8ACB5D4D7}" />
 				</Child>
+				<Child Name="buttonCancel" Owner="{AFC88C65-5958-4D16-A8A5-467CB0B4A35A}" />
 			</Child>
 			<Child Name="pageMagaya12" Owner="{56964D95-B7E6-4EAE-ABC7-9313122DC3C1}">
 				<Child Name="sectionQwyk" Owner="{C7CD19DB-3DA4-41BD-AE46-F7DD31F1D08C}">
@@ -22876,6 +22944,7 @@
 					</Child>
 					<Child Name="formDraft" Owner="{BE7ABB56-9DC0-473C-A1A6-80CA62511C61}">
 						<Child Name="textboxName3" Owner="{7CDAFE58-5B1C-4A18-9303-CAFA290076FC}" />
+						<Child Name="textarea2" Owner="{75A7D166-D6E9-47E3-9166-2D292012747A}" />
 					</Child>
 					<Child Name="textnodeUpdated" Owner="{0AA4C1E3-B7A8-408A-A61B-2D1B48B3E5A1}" />
 					<Child Name="textnodeDescription" Owner="{F0B3F747-7F36-492F-A8F5-0ECBB287D29A}">
@@ -23080,6 +23149,7 @@
 					<Child Name="buttonPagePage5" Owner="{92418425-DB50-4878-963A-35320D2FC716}" />
 					<Child Name="buttonNextPage" Owner="{A8B0FBCC-B6DE-4E8E-8992-14064B751549}" />
 					<Child Name="textnodeRowsPerPage" Owner="{617328B2-3F6C-4B04-A11F-48581A1CF733}" />
+					<Child Name="buttonPdf" Owner="{9258160D-DC13-4778-A957-FBFDD43DC9AD}" />
 				</Child>
 				<Child Name="textnodeResults" Owner="{1CF6087C-57FF-4430-B9F1-800D8664F6B3}" />
 				<Child Name="panelRequestADifferentRate" Owner="{F00322FB-BB44-4EBC-A779-77467DCD493F}" />
