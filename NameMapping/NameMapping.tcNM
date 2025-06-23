@@ -12484,9 +12484,6 @@
 												<Value Value="//a[contains(text(), &apos;Cargo Details&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="#ngb-nav-3" />
-											</Selector>
-											<Selector>
 												<Value Value="//ul[@role=&apos;tablist&apos;]/li[4]/a[@role=&apos;tab&apos;]" />
 											</Selector>
 											<Selector>
@@ -12556,9 +12553,6 @@
 										<Selectors>
 											<Selector>
 												<Value Value="//a[contains(text(), &apos;Terms &amp; Requirements&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="#ngb-nav-4" />
 											</Selector>
 											<Selector>
 												<Value Value="//li[5]/a[@role=&apos;tab&apos;]" />
