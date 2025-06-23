@@ -12484,9 +12484,6 @@
 												<Value Value="//a[contains(text(), &apos;Cargo Details&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="#ngb-nav-3" />
-											</Selector>
-											<Selector>
 												<Value Value="//ul[@role=&apos;tablist&apos;]/li[4]/a[@role=&apos;tab&apos;]" />
 											</Selector>
 											<Selector>
@@ -12556,9 +12553,6 @@
 										<Selectors>
 											<Selector>
 												<Value Value="//a[contains(text(), &apos;Terms &amp; Requirements&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="#ngb-nav-4" />
 											</Selector>
 											<Selector>
 												<Value Value="//li[5]/a[@role=&apos;tab&apos;]" />
@@ -16602,6 +16596,21 @@
 											</Selector>
 											<Selector>
 												<Value Value="//div[@role=&apos;dialog&apos;]//qwyk-login-modal//qwyk-login-form/form/div[3]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vg4" Key="{5DAC1068-6915-4A48-94CF-14155F111A9D}">
+										<Image FileName="1934697111" Left="1612" Top="997" Right="1628" Bottom="1013" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//qwyk-pagination/p-paginator//p-dropdown[2]//chevrondownicon/*[name()=&apos;svg&apos;][contains(@class, &apos;p-dropdown-trigger-icon&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;pn_id_134&apos;]//*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-pagination/p-paginator//p-dropdown[2]//chevrondownicon/*[name()=&apos;svg&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -23230,6 +23239,7 @@
 					<Child Name="buttonNextPage" Owner="{A8B0FBCC-B6DE-4E8E-8992-14064B751549}" />
 					<Child Name="textnodeRowsPerPage" Owner="{617328B2-3F6C-4B04-A11F-48581A1CF733}" />
 					<Child Name="buttonPdf" Owner="{9258160D-DC13-4778-A957-FBFDD43DC9AD}" />
+					<Child Name="vg4" Owner="{5DAC1068-6915-4A48-94CF-14155F111A9D}" />
 				</Child>
 				<Child Name="textnodeResults" Owner="{1CF6087C-57FF-4430-B9F1-800D8664F6B3}" />
 				<Child Name="panelRequestADifferentRate" Owner="{F00322FB-BB44-4EBC-A779-77467DCD493F}" />
