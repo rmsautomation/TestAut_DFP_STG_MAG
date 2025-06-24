@@ -4324,13 +4324,7 @@
 										<TypeInfo Item0="{0FA95922-5259-4B01-B64E-97A6A4C4FF60}" />
 										<Selectors>
 											<Selector>
-												<Value Value="" />
-											</Selector>
-											<Selector>
 												<Value Value="xpath=//a[contains(@class, &apos;nav-link&apos;) and contains(@class, &apos;btn&apos;) and contains(@class, &apos;btn-outline-secondary&apos;) and contains(@class, &apos;text-white&apos;) and text() = &apos;Sign in&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="" />
 											</Selector>
 											<Selector>
 												<Value Value="//h1/button[contains(@class, &apos;btn&apos;)]" />
