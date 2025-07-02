@@ -20980,6 +20980,21 @@
 																			</Property>
 																		</Properties>
 																	</Child>
+																	<Child Name="listitemShipment206" Key="{4AF5B29A-FB20-4732-BB94-4D7B4D8F9DDF}">
+																		<Image FileName="-1659139603" Left="315" Top="323" Right="1911" Bottom="342" />
+																		<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="ListItem" />
+																			</Property>
+																			<Property Name="Caption">
+																				<Value Value="SHIPMENT*" />
+																			</Property>
+																			<Property Name="ObjectGroupIndex">
+																				<Value Value="1" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
 																</Children>
 															</Child>
 														</Children>
@@ -23811,6 +23826,7 @@
 							<Child Name="listitemReceivedElectronically2" Owner="{067C0126-1731-4FBA-A890-9A098BB7C3B1}" />
 							<Child Name="listitemShipment103" Owner="{BD85BF3A-AE4E-40EA-AEA1-B8CE17276567}" />
 							<Child Name="listitemShipment105" Owner="{BB5FFB27-85A0-4443-A8FC-7D940F876C1B}" />
+							<Child Name="listitemShipmentList" Owner="{4AF5B29A-FB20-4732-BB94-4D7B4D8F9DDF}" />
 						</Child>
 					</Child>
 					<Child Name="page327703" Owner="{D76BE3AF-D377-488B-8AA7-ACB5AAE4E132}">
