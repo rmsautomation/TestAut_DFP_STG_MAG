@@ -10712,7 +10712,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://*.qwykportals.com/my-portal/dashboard*" />
+										<Value Value="https://*.qwykportals.com*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -10758,18 +10758,18 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="buttonA" Key="{984F3ED0-3E49-407E-BFA7-600C207C0DAE}">
+									<Child Name="dropdownWH" Key="{984F3ED0-3E49-407E-BFA7-600C207C0DAE}">
 										<Image FileName="-1402069505" Left="1850" Top="134" Right="1909" Bottom="168" />
 										<TypeInfo Item0="{0FA95922-5259-4B01-B64E-97A6A4C4FF60}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[2]/ul/li[2]/button[contains(@class, &apos;btn&apos;)]" />
+												<Value Value="xpath=//p-dropdown[.//span[text()=&apos;Parent&apos;]]" />
 											</Selector>
 											<Selector>
-												<Value Value="//header[@id=&apos;topNavbar&apos;]//div[2]/ul/li[2]/button" />
+												<Value Value="//header[@id=&apos;topNavbar&apos;]//div[2]/ul/li[2]/button" Enabled="False" />
 											</Selector>
 											<Selector>
-												<Value Value="//div[2]/ul/li[2]/button" />
+												<Value Value="//div[2]/ul/li[2]/button" Enabled="False" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -15282,6 +15282,9 @@
 										<Image FileName="-1883739972" Left="1446" Top="303" Right="1484" Bottom="338" />
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
+											<Selector>
+												<Value Value="xpath=//p-dropdown[.//span[text()=&apos;Parent&apos;]]" />
+											</Selector>
 											<Selector>
 												<Value Value="//form//div[2]//p-dropdown//div[@role=&apos;button&apos;]" />
 											</Selector>
@@ -23701,7 +23704,7 @@
 				<Child Name="headerTopnavbar" Owner="{C2667DC4-DCF5-40F8-82CA-28539F18D451}">
 					<Child Name="textnodeA" Owner="{A04AAED2-D931-4EAA-8D8F-4F84CD9EBF38}">
 						<Child Name="textnodeA2" Owner="{9EA260DF-EDF1-47BD-9063-69B652C92D4B}">
-							<Child Name="buttonA" Owner="{984F3ED0-3E49-407E-BFA7-600C207C0DAE}" />
+							<Child Name="dropdownWH" Owner="{984F3ED0-3E49-407E-BFA7-600C207C0DAE}" />
 						</Child>
 					</Child>
 				</Child>
@@ -23998,7 +24001,6 @@
 						<Child Name="page6" Owner="{775BBA3E-C8BA-4067-9A51-829D11196906}" />
 						<Child Name="panelSearch" Owner="{7C535E37-2FBC-44C1-9BB5-A7AC3B523A2F}" />
 						<Child Name="buttonReset" Owner="{29E07396-C73F-4999-A517-92B88C7962B3}" />
-						<Child Name="panelDropdownTrigger" Owner="{4EE8943D-F0E4-4CEA-815D-68AE9A098303}" />
 					</Child>
 					<Child Name="textnodeYourCargoDetail" Owner="{A03FBEC3-D242-44EE-BEE6-21E697353183}" />
 					<Child Name="commodityName" Owner="{71DA3E13-859F-4302-AD93-59A63D4AA22B}" />
@@ -24212,6 +24214,7 @@
 				<Child Name="textnode38442DfpstagMagayaprodAu" Owner="{EEFC774A-2633-4307-A630-9ABD84849646}" />
 				<Child Name="formSignInToYourAccount3" Owner="{66847C6D-56E6-4DDC-9BA8-92D3E5355014}" />
 				<Child Name="buttonSignIn3" Owner="{9881EC59-5F5A-4971-9E64-AC1E311F3007}" />
+				<Child Name="panelDropdownTrigger" Owner="{4EE8943D-F0E4-4CEA-815D-68AE9A098303}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{04F3F450-5526-4092-96D2-21C0884F59D5}" />
 			<Child Name="pageMagayaDigitalFreightPortalHu" Owner="{C7ED2FC9-0D1F-40A0-87DF-C64B4F0237DC}">
