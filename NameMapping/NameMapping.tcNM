@@ -16623,6 +16623,24 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="vg5" Key="{7FEDA6A5-6D87-4251-BA1B-E859FC796AF3}">
+										<Image FileName="448056749" Left="1446" Top="278" Right="1462" Bottom="294" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]//p-dropdown//chevrondownicon/*[name()=&apos;svg&apos;][contains(@class, &apos;p-dropdown-trigger-icon&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//p-dropdown[.//span[text()=&apos;Parent&apos;]]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;pn_id_16&apos;]//*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//p-dropdown//chevrondownicon/*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{04F3F450-5526-4092-96D2-21C0884F59D5}">
@@ -24184,6 +24202,7 @@
 					<Child Name="panelArrived" Owner="{E33315C7-8C66-4B5A-AE1A-A111A001CD2D}" />
 					<Child Name="panel251Pieces" Owner="{0E42A57D-BF03-4444-8167-46EA7072B2F9}" />
 					<Child Name="panelBunkerSurcharge" Owner="{63E5EFAC-D814-4F4F-9FBF-D074B22C84B1}" />
+					<Child Name="vg5" Owner="{7FEDA6A5-6D87-4251-BA1B-E859FC796AF3}" />
 				</Child>
 				<Child Name="textboxName2" Owner="{CDAB938D-4DD1-41CB-BE32-3BC186A96F94}" />
 				<Child Name="buttonSearch2" Owner="{E66DF359-B41B-4093-8EE5-35E706916CBA}" />
