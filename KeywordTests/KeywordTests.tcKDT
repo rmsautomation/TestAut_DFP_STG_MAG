@@ -276,10 +276,11 @@
 				<folder name="EXTENSIONAPI">
 					<child name="VerifyExtensionISUp" key="{FB563706-692E-4CD1-AB21-C6F69C0DBCEF}" path="VerifyExtensionISUp.tcKDTest" />
 					<child name="ChargeMapping" key="{6771542E-2A2E-47C2-AEE4-7B7C65E98FA1}" path="ChargeMapping.tcKDTest" />
-					<child name="VerifyMappingChargesPortal" key="{D6AA2BA9-E477-4C79-8368-FAA86D104E88}" path="VerifyMappingChargesPortal.tcKDTest" />
+					<child name="CreateShipmentForMapping" key="{D6AA2BA9-E477-4C79-8368-FAA86D104E88}" path="CreateShipmentForMapping.tcKDTest" />
 					<child name="CreateMappingEEI" key="{65030BF5-D1E5-473A-802C-AB006CBD8559}" path="CreateMappingEEI.tcKDTest" />
 					<child name="CreateMappingAirFreigth" key="{419CF232-D813-4AF0-8523-777A38C2465A}" path="CreateMappingAirFreigth.tcKDTest" />
 					<child name="TestingMap" key="{430935FE-8742-4DFA-8CA6-1144BD0E1FC5}" path="TestingMap.tcKDTest" />
+					<child name="VerifyMappingPortal" key="{07F8CA5E-2607-4EC9-A994-C3DD96ED23A1}" path="VerifyMappingPortal.tcKDTest" />
 				</folder>
 				<folder name="INVOICES">
 					<child name="CreateInvoice" key="{2506CFDB-944C-43D9-9619-3732189CE569}" path="CreateInvoice.tcKDTest" />
