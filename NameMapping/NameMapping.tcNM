@@ -22838,6 +22838,21 @@
 																	</Property>
 																</Properties>
 															</Child>
+															<Child Name="outlineitemWarehouseReceiptList" Key="{37F37C18-6748-4207-8D12-0A08BF0346E3}">
+																<Image FileName="-912455598" Left="68" Top="435" Right="214" Bottom="459" />
+																<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="OutlineItem" />
+																	</Property>
+																	<Property Name="Caption">
+																		<Value Value="Warehouse Receipt List" />
+																	</Property>
+																	<Property Name="ObjectGroupIndex">
+																		<Value Value="1" Type="0" />
+																	</Property>
+																</Properties>
+															</Child>
 														</Children>
 													</Child>
 												</Children>
@@ -25248,6 +25263,7 @@
 							<Child Name="outlineitemOutgoingShipments" Owner="{CFCA74CC-29A0-4999-91D3-749F88783FE1}" />
 							<Child Name="outlineitemShipment227updated" Owner="{23C24046-51E8-43AD-9A9F-2B56B55629A0}" />
 							<Child Name="outlineitemHawb116updated" Owner="{C718B3B2-08B5-4412-A7FC-17AD85C78067}" />
+							<Child Name="outlineitemWarehouseReceiptList" Owner="{37F37C18-6748-4207-8D12-0A08BF0346E3}" />
 						</Child>
 					</Child>
 				</Child>

@@ -371,6 +371,8 @@
 					<child name="UpdateWRMagaya" key="{BF14F826-D12F-40F0-A127-17542F8F5B3A}" path="UpdateWRMagaya.tcKDTest" />
 					<child name="CreateWRUsingInventory" key="{C0C1DB87-97D3-4B1B-B682-8F51D3369762}" path="CreateWRUsingInventory.tcKDTest" />
 					<child name="CreateWRNoAttachMagaya" key="{30858982-F197-404C-A3FA-D3653C3003FF}" path="CreateWRNoAttachMagaya.tcKDTest" />
+					<child name="GoToWHList" key="{7FB383DB-4EF2-40D5-B5C5-FEA2E61A145E}" path="GoToWHList.tcKDTest" />
+					<child name="PressAddWHButton" key="{0DEEEAA8-088D-4BF4-89F5-2C74B18D855E}" path="PressAddWHButton.tcKDTest" />
 				</folder>
 				<folder name="CRelease">
 					<child name="CreateCR" key="{D2349511-D014-4D05-86EA-698F01ECFAEA}" path="CreateCR.tcKDTest" />
