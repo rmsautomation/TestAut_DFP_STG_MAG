@@ -5045,6 +5045,51 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeInvoices" Key="{9A92E370-7DE6-47D7-A51E-0542363D2D42}">
+										<Image FileName="1914287880" Left="8" Top="512" Right="227" Bottom="595" />
+										<TypeInfo Item0="{8A34ED57-033C-4E01-B624-E540D7FA56BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Invoices&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[7]/ul[contains(@class, &apos;nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;navSidebar&apos;]//li[7]/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[7]/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePayments" Key="{4A7C35C8-8686-49EA-BF43-FBDD984CBA33}">
+										<Image FileName="1914287880" Left="8" Top="554" Right="227" Bottom="596" />
+										<TypeInfo Item0="{8A34ED57-033C-4E01-B624-E540D7FA56BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[7]/ul/li[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkPayments" Key="{A67B9A47-1D37-4B51-92CE-997EB8A6620F}">
+										<Image FileName="1914287880" Left="8" Top="554" Right="227" Bottom="596" />
+										<TypeInfo Item0="{D3C2C6BB-DEEA-4DE3-92D1-6A940332AFCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Payments&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[7]/ul/li[3]/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;navSidebar&apos;]//li[7]/ul/li[3]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[7]/ul/li[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageMagaya2" Key="{962F081A-A9C4-4922-9DDD-2149A776D766}">
@@ -16641,6 +16686,24 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="buttonCreate" Key="{6AE1FEEB-A3CE-4604-AB2A-21C2E3C3F02D}">
+										<Image FileName="-237929256" Left="1557" Top="241" Right="1648" Bottom="279" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Create&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-cargo-releases-index//qwyk-cargo-releases-index-header//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{04F3F450-5526-4092-96D2-21C0884F59D5}">
@@ -19688,6 +19751,47 @@
 														<Value Value="1" Type="0" />
 													</Property>
 												</Properties>
+											</Child>
+											<Child Name="toolbar" Key="{E30B6B11-306B-41CC-871C-C227CA036DEE}">
+												<Image FileName="1626455933" Left="602" Top="489" Right="664" Bottom="522" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="ToolbarWindow32" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="splitbuttonFilter" Key="{F5AE67C2-9121-4011-9509-8091469C08BE}">
+														<Image FileName="1626455933" Left="602" Top="489" Right="648" Bottom="519" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="SplitButton" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="Filter" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="dropdownbuttonOpen" Key="{E5AD38BC-4156-4394-BB17-89603E322EF0}">
+																<Image FileName="1626455933" Left="633" Top="489" Right="648" Bottom="519" />
+																<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="DropDownButton" />
+																	</Property>
+																	<Property Name="Caption">
+																		<Value Value="Open" />
+																	</Property>
+																	<Property Name="ObjectGroupIndex">
+																		<Value Value="1" Type="0" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
 											</Child>
 										</Children>
 									</Child>
@@ -23768,6 +23872,11 @@
 					<Child Name="linkNotifications" Owner="{98F2F6BB-E98A-4A47-87ED-79111691A771}">
 						<Child Name="textnode45" Owner="{E68F365C-9898-4DD1-8B98-1568B2FF501F}" />
 					</Child>
+					<Child Name="textnodeInvoices" Owner="{9A92E370-7DE6-47D7-A51E-0542363D2D42}">
+						<Child Name="textnodePayments" Owner="{4A7C35C8-8686-49EA-BF43-FBDD984CBA33}">
+							<Child Name="linkPayments" Owner="{A67B9A47-1D37-4B51-92CE-997EB8A6620F}" />
+						</Child>
+					</Child>
 				</Child>
 			</Child>
 			<Child Name="pageMagaya3" Owner="{78BC1E93-79ED-4600-85D7-71C598836EE8}">
@@ -24681,6 +24790,7 @@
 					<Child Name="textnodeRowsPerPage" Owner="{617328B2-3F6C-4B04-A11F-48581A1CF733}" />
 					<Child Name="buttonPdf" Owner="{9258160D-DC13-4778-A957-FBFDD43DC9AD}" />
 					<Child Name="vg4" Owner="{5DAC1068-6915-4A48-94CF-14155F111A9D}" />
+					<Child Name="buttonCreate" Owner="{6AE1FEEB-A3CE-4604-AB2A-21C2E3C3F02D}" />
 				</Child>
 				<Child Name="textnodeResults" Owner="{1CF6087C-57FF-4430-B9F1-800D8664F6B3}" />
 				<Child Name="panelRequestADifferentRate" Owner="{F00322FB-BB44-4EBC-A779-77467DCD493F}" />
@@ -25097,6 +25207,11 @@
 					<Child Name="check2" Owner="{E5712288-1DF1-4A08-9CDB-60A21689063E}" />
 					<Child Name="RICHEDIT" Owner="{E2AA9D2E-691B-41E7-AB4D-9593844BBD9B}" />
 					<Child Name="buttonFind" Owner="{557B2EAB-2647-4BC7-9C4D-A97337FB13C3}" />
+					<Child Name="toolbar" Owner="{E30B6B11-306B-41CC-871C-C227CA036DEE}">
+						<Child Name="splitbuttonFilter" Owner="{F5AE67C2-9121-4011-9509-8091469C08BE}">
+							<Child Name="dropdownbuttonOpen" Owner="{E5AD38BC-4156-4394-BB17-89603E322EF0}" />
+						</Child>
+					</Child>
 				</Child>
 				<Child Name="tbcAccountingTransaction" Owner="{8E0B9DB8-20F6-4640-9618-B6DE55578D37}">
 					<Child Name="spinbox" Owner="{5AA68BEE-CD37-42C5-AED9-DA3F1B4454BB}">
