@@ -19114,6 +19114,21 @@
 															</Property>
 														</Properties>
 													</Child>
+													<Child Name="listitemTest782Kb" Key="{516E01C5-0239-4BD9-862D-D0071E8C61BD}">
+														<Image FileName="-925968589" Left="277" Top="196" Right="399" Bottom="296" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="ListItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="test (7.82 KB)" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
 												</Children>
 											</Child>
 											<Child Name="Edit" Key="{8781365F-C9D1-4F91-A41F-59B51B524D62}">
@@ -25025,6 +25040,7 @@
 						<Child Name="listitemAttachdfp6583Kb" Owner="{4ECC107E-06E4-4F15-8A32-3E8822B00CFB}" />
 						<Child Name="listitemTest26583Kb" Owner="{26D96BC6-D0FC-4412-9AF8-DD209891C922}" />
 						<Child Name="listitemTestingAttachments1173Kb" Owner="{725E4E5D-16AD-4E80-B03F-37A9F654A5FE}" />
+						<Child Name="listitemTest782Kb" Owner="{516E01C5-0239-4BD9-862D-D0071E8C61BD}" />
 					</Child>
 					<Child Name="EditApplyTo" Owner="{8781365F-C9D1-4F91-A41F-59B51B524D62}" />
 					<Child Name="cbxPickListCustomField" Owner="{D9729814-506D-4CD8-A789-3492CDA122B5}">
