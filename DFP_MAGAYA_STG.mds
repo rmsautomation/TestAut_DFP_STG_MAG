@@ -353,6 +353,9 @@
 				<Variable Name="nowTC24" Type="String" Local="False">
 					<DefValue />
 				</Variable>
+				<Variable Name="shipmentMapping" Type="String" Local="False">
+					<DefValue />
+				</Variable>
 			</Items>
 		</data>
 	</variables>

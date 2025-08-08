@@ -22815,11 +22815,11 @@
 																	<Property Name="ObjectType">
 																		<Value Value="OutlineItem" />
 																	</Property>
-																	<Property Name="Caption">
-																		<Value PropertyType="1" LocalVariable="shipmentName" />
-																	</Property>
 																	<Property Name="ObjectGroupIndex">
 																		<Value Value="1" Type="0" />
+																	</Property>
+																	<Property Name="Name">
+																		<Value PropertyType="1" LocalVariable="shipmentMapping" />
 																	</Property>
 																</Properties>
 															</Child>
