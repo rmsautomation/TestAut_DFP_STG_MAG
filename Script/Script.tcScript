@@ -22,5 +22,6 @@
 		<child name="CleanRegistryMagaya" key="{CC1BB863-7EBC-489C-9F6E-5752A2DCE0DD}" path="CleanRegistryMagaya.js" />
 		<child name="RunBatCloseExplorer" key="{3969DDB8-657A-4F11-84E4-1272E4A1BA31}" path="RunBatCloseExplorer.js" />
 		<child name="ClickOnOutgoingSH" key="{EB75E0D2-7A4F-4006-9834-DA51E5C8148A}" path="ClickOnOutgoingSH.js" />
+		<child name="ResizeViewShipment" key="{CBCA0B62-BF78-484F-92CC-217D19E492B9}" path="ResizeViewShipment.js" />
 	</children>
 </Root>

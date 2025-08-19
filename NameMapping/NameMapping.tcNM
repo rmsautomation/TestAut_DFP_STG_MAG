@@ -22075,6 +22075,36 @@
 																					</Child>
 																				</Children>
 																			</Child>
+																			<Child Name="dialog" Key="{2B01DF9B-2FB4-4B18-A103-B5BC5D0E80ED}">
+																				<Image FileName="590426413" Left="297" Top="352" Right="1915" Bottom="1034" />
+																				<TypeInfo Item0="{5C197842-8880-426D-8B5A-C497362FAE51}" />
+																				<Properties>
+																					<Property Name="WndClass">
+																						<Value Value="#32770" />
+																					</Property>
+																					<Property Name="WndCaption">
+																						<Value Value="" />
+																					</Property>
+																					<Property Name="Index">
+																						<Value Value="1" Type="0" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																			<Child Name="propertypage" Key="{0134E992-AAC3-48F2-930E-F8845009E5FD}">
+																				<Image FileName="-208177632" Left="1918" Top="352" Right="1920" Bottom="1034" />
+																				<TypeInfo Item0="{5C197842-8880-426D-8B5A-C497362FAE51}" />
+																				<Properties>
+																					<Property Name="WndClass">
+																						<Value Value="#32770" />
+																					</Property>
+																					<Property Name="WndCaption">
+																						<Value Value="" />
+																					</Property>
+																					<Property Name="Index">
+																						<Value Value="2" Type="0" />
+																					</Property>
+																				</Properties>
+																			</Child>
 																		</Children>
 																	</Child>
 																	<Child Name="toolbar" Key="{D37DA624-5AFD-4A37-9881-C1630089ADA7}">
@@ -25546,6 +25576,8 @@
 									</Child>
 									<Child Name="Tree1" Owner="{51B23BF7-55C0-4A29-8746-5F63B917E38C}" />
 								</Child>
+								<Child Name="dialog" Owner="{2B01DF9B-2FB4-4B18-A103-B5BC5D0E80ED}" />
+								<Child Name="propertypage" Owner="{0134E992-AAC3-48F2-930E-F8845009E5FD}" />
 							</Child>
 							<Child Name="toolbar" Owner="{D37DA624-5AFD-4A37-9881-C1630089ADA7}">
 								<Child Name="splitbuttonHouses" Owner="{1FA30DDA-9CF6-42DB-93DE-BB554D12DDBF}">
