@@ -65,6 +65,14 @@
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.ExpExpl.dlg.tbcAccountingTransaction;" />
 				</Data>
 			</Operation>
+			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+				<Data Description="Delays the test execution for the specified time period.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="5000" />
+						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+					</Parameters>
+				</Data>
+			</Operation>
 			<Operation Type="{5156EB31-13EC-472C-B819-9EC8D4E9E546}">
 				<Data Action="Click" TBlockIntType="0">
 					<CommonData WaitTimeout="100000" />
