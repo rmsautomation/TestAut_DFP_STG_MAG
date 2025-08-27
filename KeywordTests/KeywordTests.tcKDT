@@ -253,6 +253,7 @@
 				<folder name="Loginlogout">
 					<child name="LoginMagaya" key="{84D4BD85-0590-4194-90CD-10C1FB2D5D75}" path="LoginMagaya.tcKDTest" />
 					<child name="LogoutMagaya" key="{C80C0471-91CA-40BC-814C-CCB6263EFA1B}" path="LogoutMagaya.tcKDTest" />
+					<child name="VerifyMagaya_Version" key="{A0618399-CED9-4C6B-AB8F-39A66D337235}" path="VerifyMagaya_Version.tcKDTest" />
 				</folder>
 				<folder name="Maintenance">
 					<child name="AddContactNoEmail" key="{A64378D5-8F0C-4DEE-9AF2-C6FFECBEB08C}" path="AddContactNoEmail.tcKDTest" />
