@@ -6583,6 +6583,9 @@
 										<TypeInfo Item0="{FE3BBF2D-62CE-4222-9079-8A4579DCFAC4}" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=//input[@id=&apos;email&apos;]" />
+											</Selector>
+											<Selector>
 												<Value Value="#email" />
 											</Selector>
 											<Selector>
