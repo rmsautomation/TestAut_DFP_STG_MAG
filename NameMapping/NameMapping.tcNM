@@ -5090,6 +5090,27 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panelTest2Pdf3" Key="{0FEBCD36-4B43-4BBE-A3AE-BAB9EBB09DD7}">
+										<Image FileName="285070221" Left="268" Top="659" Right="598" Bottom="676" />
+										<TypeInfo Item0="{8A34ED57-033C-4E01-B624-E540D7FA56BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//qwyk-detail-card//qwyk-attachments-index/ul/li[3]//div[contains(@class, &apos;small&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{3C982DB6-1B87-4524-AA02-D1D67EB4F2C2}">
+										<Image FileName="-122776328" Left="1308" Top="579" Right="1322" Bottom="587" />
+										<TypeInfo Item0="{8A34ED57-033C-4E01-B624-E540D7FA56BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;pn_id_71&apos;]//*[name()=&apos;path&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-paginator//p-dropdown[2]//chevrondownicon/*[name()=&apos;svg&apos;]/*[name()=&apos;path&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageMagaya2" Key="{962F081A-A9C4-4922-9DDD-2149A776D766}">
@@ -16707,6 +16728,15 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panel4" Key="{8780643E-A3BC-4B69-B689-8153A3D9F9F6}">
+										<Image FileName="-919201528" Left="809" Top="604" Right="1049" Bottom="626" />
+										<TypeInfo Item0="{8A34ED57-033C-4E01-B624-E540D7FA56BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;ShipmentGuidSHIPMENT290&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{04F3F450-5526-4092-96D2-21C0884F59D5}">
@@ -23914,6 +23944,8 @@
 					<Child Name="panelArrivedAtDestination" Owner="{BF88E782-994D-493E-8AF5-459B586887A4}" />
 					<Child Name="panelTtAttachments1Zip" Owner="{31BD2380-3151-48A9-91A5-5FDAF83A7102}" />
 					<Child Name="textnodeArrived" Owner="{A9791F4B-F97D-47F8-BD39-B8EC93920E18}" />
+					<Child Name="textnode2" Owner="{3C982DB6-1B87-4524-AA02-D1D67EB4F2C2}" />
+					<Child Name="panel4" Owner="{8780643E-A3BC-4B69-B689-8153A3D9F9F6}" />
 				</Child>
 				<Child Name="headerTopnavbar" Owner="{B3A52C5C-A7D6-4F6C-878A-5811B539461D}">
 					<Child Name="textnode3" Owner="{583B344A-0959-420B-A224-B268B79D61E3}">
@@ -23925,6 +23957,7 @@
 				</Child>
 				<Child Name="singInPortal" Owner="{36557946-1DFF-4A98-A715-7C4FF154867B}" />
 				<Child Name="panelBooked" Owner="{C4215ADF-532B-4235-A3D5-D0871A4D9986}" />
+				<Child Name="panelTest2Pdf3" Owner="{0FEBCD36-4B43-4BBE-A3AE-BAB9EBB09DD7}" />
 			</Child>
 			<Child Name="pageMagaya2" Owner="{962F081A-A9C4-4922-9DDD-2149A776D766}">
 				<Child Name="sectionMyPortal" Owner="{561F2180-A20F-4062-B0D3-E6B7F9724AFD}">
