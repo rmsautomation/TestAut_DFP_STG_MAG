@@ -5095,7 +5095,10 @@
 										<TypeInfo Item0="{8A34ED57-033C-4E01-B624-E540D7FA56BB}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//qwyk-detail-card//qwyk-attachments-index/ul/li[3]//div[contains(@class, &apos;small&apos;)]" />
+												<Value Value="xpath=//div[@class=&apos;small&apos; and normalize-space(text())=&apos;test2.pdf&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-detail-card//qwyk-attachments-index/ul/li[3]//div[contains(@class, &apos;small&apos;)]" Enabled="False" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -5108,6 +5111,21 @@
 											</Selector>
 											<Selector>
 												<Value Value="//p-paginator//p-dropdown[2]//chevrondownicon/*[name()=&apos;svg&apos;]/*[name()=&apos;path&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vg" Key="{4C1B69AD-1617-4CAA-88EF-CABBE36B185B}">
+										<Image FileName="638990774" Left="1307" Top="606" Right="1323" Bottom="622" />
+										<TypeInfo Item0="{DD735953-DA22-46DB-B545-080BAF06CFEE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//qwyk-pagination/p-paginator//p-dropdown[2]//chevrondownicon/*[name()=&apos;svg&apos;][contains(@class, &apos;p-dropdown-trigger-icon&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;pn_id_50&apos;]//*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-pagination/p-paginator//p-dropdown[2]//chevrondownicon/*[name()=&apos;svg&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -23946,6 +23964,7 @@
 					<Child Name="textnodeArrived" Owner="{A9791F4B-F97D-47F8-BD39-B8EC93920E18}" />
 					<Child Name="textnode2" Owner="{3C982DB6-1B87-4524-AA02-D1D67EB4F2C2}" />
 					<Child Name="panel4" Owner="{8780643E-A3BC-4B69-B689-8153A3D9F9F6}" />
+					<Child Name="vg" Owner="{4C1B69AD-1617-4CAA-88EF-CABBE36B185B}" />
 				</Child>
 				<Child Name="headerTopnavbar" Owner="{B3A52C5C-A7D6-4F6C-878A-5811B539461D}">
 					<Child Name="textnode3" Owner="{583B344A-0959-420B-A224-B268B79D61E3}">
