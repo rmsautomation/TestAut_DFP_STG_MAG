@@ -13904,10 +13904,10 @@
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//td[contains(text(), &apos;Pallet&apos;)]" />
+												<Value Value="xpath=//td[contains(text(), &apos;Package&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="xpath=//td[contains(text(), &apos;Package&apos;)]" />
+												<Value Value="//td[contains(text(), &apos;Pallet&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -13973,10 +13973,10 @@
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=(//div[contains(normalize-space(.), &apos;NotesInventoryItem&apos;)])[8]" />
+												<Value Value="xpath=//div[contains(normalize-space(.), &apos;NotesInventoryItem&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="xpath=//div[contains(normalize-space(.), &apos;NotesInventoryItem&apos;)]" />
+												<Value Value="xpath=(//div[contains(normalize-space(.), &apos;NotesInventoryItem&apos;)])[8]" />
 											</Selector>
 											<Selector>
 												<Value Value="xpath=//div[.=&apos;NotesInventoryItemUpdated&apos;]" />
@@ -16752,6 +16752,15 @@
 										<Selectors>
 											<Selector>
 												<Value Value="//div[.=&apos;ShipmentGuidSHIPMENT290&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell9" Key="{8C1F3162-54E0-4DAA-8FD5-B1FC3BFCB95D}">
+										<Image FileName="-1302019812" Left="322" Top="467" Right="423" Bottom="510" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//tr[contains(@class,&apos;warehouse-receipt-row&apos;)]/td[3]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -24932,6 +24941,7 @@
 					<Child Name="buttonPdf" Owner="{9258160D-DC13-4778-A957-FBFDD43DC9AD}" />
 					<Child Name="vg4" Owner="{5DAC1068-6915-4A48-94CF-14155F111A9D}" />
 					<Child Name="buttonCreate" Owner="{6AE1FEEB-A3CE-4604-AB2A-21C2E3C3F02D}" />
+					<Child Name="cellWR" Owner="{8C1F3162-54E0-4DAA-8FD5-B1FC3BFCB95D}" />
 				</Child>
 				<Child Name="textnodeResults" Owner="{1CF6087C-57FF-4430-B9F1-800D8664F6B3}" />
 				<Child Name="panelRequestADifferentRate" Owner="{F00322FB-BB44-4EBC-A779-77467DCD493F}" />
